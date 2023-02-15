@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+/*************************************************************************************
+                                      　グローバル設定
+*************************************************************************************/
+html {
+    overflow-x: hidden;
+    font-size: 62.5%;
+    height: calc( var(--vh) * 100 );
+    height: -webkit-fill-available;
+}
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #333;
+    position: relative;
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+    -webkit-text-size-adjust: 100%;
+}
+body.fixed {
+    position: fixed!important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: calc( var(--vh) * 100 );
+    min-height: -webkit-fill-available;
+    height: calc( var(--vh) * 100 );
+}
+p{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2;
+    letter-spacing: 0;
+}
+.sp{
+    display: block;
+}
+.tab{
+    display: none;
+}
+.pc{
+    display: none;
+}
+.pc2{
+    display: none;
+}
+
+main {
+    padding-top: 60px;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width:768px){
+.sp{
+    display: none;
+}
+.tab{
+    display: block;
+}
+.pc{
+    display: none;
+}
+.pc2{
+    display: none;
+}
+}
+
+@media screen and (min-width:960px){
+.sp{
+    display: none;
+}
+.tab{
+    display: none;
+}
+.pc{
+    display: block;
+}
+.pc2{
+    display: none;
+}
+main {
+  padding-top: 0px;
+}
+}
