@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: index
+Template Name: front-page
 */
 ?>
 <?php get_header(); ?>
