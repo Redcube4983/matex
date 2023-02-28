@@ -153,6 +153,7 @@ Template Name: index
                 <h3>Quality/<br class="pc">Environmental</h3>
                 <p>質を高め、環境負荷を低減。</p>
                 <h4>品質・環境への取り組み</h4>
+                <h4>品質・環境への取り組み</h4>
                 </a>
             </li>
         </ul>
