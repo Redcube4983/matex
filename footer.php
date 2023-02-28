@@ -60,7 +60,7 @@
     <p class="tel">TEL.03-3844-0808</p><p class="fax">FAX.03-3844-4109</p>
     </div>
 </address>
-<div id="copyright"><p class="copyright">© 2022 MATEX Co., Ltd. All rights reserved.</p></div>
+<div id="copyright"><p class="copyright">© <?php echo date_i18n('Y'); ?> MATEX Co., Ltd. All rights reserved.</p></div>
 </footer>
 
 
