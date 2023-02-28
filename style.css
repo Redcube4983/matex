@@ -38,6 +38,8 @@ sup {
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
@@ -89,6 +91,8 @@ q:after {
 blockquote,
 q {
   -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
   hyphens: none;
   quotes: none;
 }
@@ -246,7 +250,6 @@ p {
 
 main {
   padding-top: 60px;
-  overflow-x: hidden;
 }
 
 @media screen and (min-width: 768px) {
