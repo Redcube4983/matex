@@ -15,7 +15,7 @@
     <ul class="footer-sitemap">
         <li class="single"><h3><a href="#">TOP</a></h3></li>
         <li class="parent">
-            <h3><a href="#">企業情報</a><div class="arrow"></div></h3>
+            <h3><a href="/infomation/">企業情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="#">代表メッセージ</a></h4></li>
                 <li class="gran-child"><h4><a href="#">会社概要</a></h4></li>

@@ -38,6 +38,8 @@ sup {
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
@@ -89,6 +91,8 @@ q:after {
 blockquote,
 q {
   -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
   hyphens: none;
   quotes: none;
 }
@@ -522,8 +526,7 @@ header {
     width: calc(100% - 60px);
     height: 60px;
     padding: 0 30px;
-    -webkit-backdrop-filter: saturate(180%) blur(10px);
-            backdrop-filter: saturate(180%) blur(10px);
+    backdrop-filter: saturate(180%) blur(10px);
     background: rgba(255, 255, 255, 0.5);
   }
   #header-left {
