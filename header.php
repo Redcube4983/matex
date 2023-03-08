@@ -42,7 +42,7 @@
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a href="#">事業情報</a><div class="arrow"></div></h3>
+            <h3><a href="/infomation/">事業情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="#">販売/納品体制</a></h4></li>
                 <li class="gran-child"><h4><a href="#">生産体制</a></h4></li>
@@ -53,18 +53,7 @@
         <li class="global-nav parent">
             <h3><a href="#">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="#">マテックスとは</a></h4></li>
-                <li class="gran-child"><h4><a href="#">社員紹介</a></h4></li>
-                <li class="gran-child"><h4><a href="#">スタッフ紹介</a></h4></li>
-                <li class="gran-child"><h4><a href="#">募集要項</a></h4></li>
-            </ul>
-        </li>
-        <li class="global-nav single">
-            <h3><a href="#">お問い合わせ</a></h3>
-        </li>
-        <li class="global-nav other">
-            <h3><a href="#">個人情報保護方針</a></h3>
-        </li>
+            VbvLSDhSA5FAc </li>
         <li class="global-nav other">
             <h3><a href="#">サイトのご利用について</a></h3>
         </li>
