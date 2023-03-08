@@ -42,7 +42,7 @@
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a href="/infomation/">事業情報</a><div class="arrow"></div></h3>
+            <h3><a href="/">事業情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="#">販売/納品体制</a></h4></li>
                 <li class="gran-child"><h4><a href="#">生産体制</a></h4></li>
