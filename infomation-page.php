@@ -9,11 +9,12 @@ Template Name: infomation-page
     <div class="topTtlInner">
         <div class="topImg"><img src="" alt="トップ背景画像"></div>
         <div class="ttlWrap">
-            <h2 class="enttl">About us</h2>  
+            <span class="enTtl">About us</span>
+            <h1 class="jpTtl">企業情報</h1>
         </div>
     </div>
 </div>
-<div id="bcList">
+<div id="panNavi">
     <ul class="list">
         <li>
             <a href="/">TOP</a>
@@ -23,6 +24,6 @@ Template Name: infomation-page
         </li>
     </ul>
 </div>
-
+    
 </main>
 <?php get_footer(); ?>
