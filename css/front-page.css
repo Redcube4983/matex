@@ -70,8 +70,7 @@ body [data-page-id=top] .mask-container {
 #main-visual img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   vertical-align: bottom;
   position: relative;
 }
@@ -83,8 +82,7 @@ body [data-page-id=top] .mask-container {
   #main-visual img {
     width: 100%;
     height: auto;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     vertical-align: bottom;
     position: relative;
   }
@@ -333,8 +331,7 @@ body [data-page-id=top] .mask-container {
 .movie-image-inner img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   vertical-align: bottom;
   min-height: 300px;
 }
@@ -744,10 +741,8 @@ body [data-page-id=top] .mask-container {
   width: 100%;
   height: 100%;
   vertical-align: bottom;
-  -o-object-position: center;
-     object-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-position: center;
+  object-fit: cover;
   mix-blend-mode: multiply;
 }
 
