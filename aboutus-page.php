@@ -45,7 +45,7 @@ Template Name: aboutus
     <section class="messageInner">
         <div class="contents content1">
             <div class="cintentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-sp.jpg" alt="企業情報画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-pc.jpg" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -62,7 +62,7 @@ Template Name: aboutus
         </div>
         <div class="contents content2">
             <div class="cintentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-sp.jpg" alt="企業情報画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-pc.jpg" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -79,7 +79,7 @@ Template Name: aboutus
         </div>
         <div class="contents content1">
             <div class="cintentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-sp.jpg" alt="企業情報画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-pc.jpg" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -96,7 +96,7 @@ Template Name: aboutus
         </div>
         <div class="contents content2">
             <div class="cintentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-sp.jpg" alt="企業情報画像4">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-pc.jpg" alt="企業情報画像4">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
