@@ -38,7 +38,7 @@ Template Name: aboutus
     <section class="messageInner">
         <div class="contents content1">
             <div class="cintentImg">
-                <img src="/images/infomation/info-img01" alt="企業情報画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01.jpg" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
