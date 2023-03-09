@@ -3,3 +3,13 @@
 @use '../common/css/Layout/main';
 @use '../common/css/Component/bntton';
 
+#topTtlWrap .topTtlInner {
+    position: relative;
+    .ttlWrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  }
+  

@@ -14,7 +14,6 @@ Template Name: aboutus
                     <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 2x">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
-<!--            <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg" alt="トップ背景画像">-->
         </div>
         <div class="ttlWrap">
             <span class="enTtl">About us</span>

@@ -1,4 +1,14 @@
 /* CSS Document */
 .contents {
   width: 100%;
+}
+
+#topTtlWrap .topTtlInner {
+  position: relative;
+}
+#topTtlWrap .topTtlInner .ttlWrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=page-aboutus.css.map */
