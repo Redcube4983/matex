@@ -8,7 +8,7 @@ Template Name: aboutus
 <div id="body">
 <div id="topTtlWrap">
     <div class="topTtlInner">
-        <div class="topImg"><img src="" alt="トップ背景画像"></div>
+        <div class="topImg"><img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top.jpg" alt="トップ背景画像"></div>
         <div class="ttlWrap">
             <span class="enTtl">About us</span>
             <h1 class="jpTtl">企業情報</h1>
@@ -55,7 +55,7 @@ Template Name: aboutus
         </div>
         <div class="contents content2">
             <div class="cintentImg">
-                <img src="" alt="企業情報画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02.jpg" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -72,7 +72,7 @@ Template Name: aboutus
         </div>
         <div class="contents content1">
             <div class="cintentImg">
-                <img src="" alt="企業情報画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03.jpg" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -89,7 +89,7 @@ Template Name: aboutus
         </div>
         <div class="contents content2">
             <div class="cintentImg">
-                <img src="" alt="企業情報画像4">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04.jpg" alt="企業情報画像4">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
