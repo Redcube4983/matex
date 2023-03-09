@@ -38,7 +38,7 @@ Template Name: infomation
     <section class="messageInner">
         <div class="contents content1">
             <div class="cintentImg">
-                <img src="" alt="企業情報画像1">
+                <img src="/images/infomation/info-img01" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
