@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutus.css" class="css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
