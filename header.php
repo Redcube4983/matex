@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <?php wp_head(); ?>
 </head>
 
@@ -33,7 +33,7 @@
     <ul id="global-nav">
         <li class="global-nav single"><h3><a href="#">TOP</a></h3></li>
         <li class="global-nav parent">
-            <h3><a href="/infomation-page">企業情報</a><div class="arrow"></div></h3>
+            <h3><a href="#">企業情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="#">代表メッセージ</a></h4></li>
                 <li class="gran-child"><h4><a href="#">会社概要</a></h4></li>
@@ -42,7 +42,7 @@
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a href="/">事業情報</a><div class="arrow"></div></h3>
+            <h3><a href="#">事業情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="#">販売/納品体制</a></h4></li>
                 <li class="gran-child"><h4><a href="#">生産体制</a></h4></li>
@@ -53,8 +53,20 @@
         <li class="global-nav parent">
             <h3><a href="#">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
-            VbvLSDhSA5FAc </li>
+                <li class="gran-child"><h4><a href="#">マテックスとは</a></h4></li>
+                <li class="gran-child"><h4><a href="#">社員紹介</a></h4></li>
+                <li class="gran-child"><h4><a href="#">スタッフ紹介</a></h4></li>
+                <li class="gran-child"><h4><a href="#">募集要項</a></h4></li>
+            </ul>
+        </li>
+        <li class="global-nav single">
+            <h3><a href="#">お問い合わせ</a></h3>
+        </li>
         <li class="global-nav other">
+            <h3><a href="#">個人情報保護方針</a></h3>
+        </li>
+        <li class="global-nav other">
+            <h3><a href="#">サイトのご利用について</a></h3>
             <h3><a href="#">サイトのご利用について</a></h3>
         </li>
     </ul>
