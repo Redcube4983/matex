@@ -38,7 +38,7 @@ Template Name: infomation
     <section class="messageInner">
         <div class="contents content1">
             <div class="cintentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/infomation/info-img01.jpg" alt="企業情報画像1">
+                <img src="/images/infomation/info-img01" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -55,7 +55,7 @@ Template Name: infomation
         </div>
         <div class="contents content2">
             <div class="cintentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/infomation/info-img02.jpg" alt="企業情報画像2">
+                <img src="" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -72,7 +72,7 @@ Template Name: infomation
         </div>
         <div class="contents content1">
             <div class="cintentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/infomation/info-img03.jpg" alt="企業情報画像3">
+                <img src="" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -89,7 +89,7 @@ Template Name: infomation
         </div>
         <div class="contents content2">
             <div class="cintentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/infomation/info-img04.jpg" alt="企業情報画像4">
+                <img src="" alt="企業情報画像4">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">

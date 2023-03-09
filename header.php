@@ -33,7 +33,7 @@
     <ul id="global-nav">
         <li class="global-nav single"><h3><a href="#">TOP</a></h3></li>
         <li class="global-nav parent">
-            <h3><a href="<?php echo get_template_directory_uri(); ?>/infomation-page.php">企業情報</a><div class="arrow"></div></h3>
+            <h3><a href="#">企業情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="#">代表メッセージ</a></h4></li>
                 <li class="gran-child"><h4><a href="#">会社概要</a></h4></li>
