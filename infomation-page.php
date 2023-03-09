@@ -66,7 +66,7 @@ Template Name: infomation
                     <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="" class="moreButton">more</a>
                 </div>
             </div>
         </div>
