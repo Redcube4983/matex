@@ -6,9 +6,18 @@
 #topTtlWrap .topTtlInner {
   position: relative;
 }
-#topTtlWrap .topTtlInner .ttlWrap {
+
+.ttlWrap {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.ttlWrap .enTtl {
+  font-size: 4rem;
+}
+.ttlWrap .jpTtl {
+  font-size: 1.4rem;
 }/*# sourceMappingURL=page-aboutus.css.map */
