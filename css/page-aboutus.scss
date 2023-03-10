@@ -21,4 +21,13 @@
         font-size: 1.4rem;
     }
   }
- 
+  #panNavi .list {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    line-height: 1;
+    li:not(:first-child)::before{
+      content: "＞";
+      color: #e95520;
+    }
+  }
