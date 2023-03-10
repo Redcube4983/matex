@@ -105,12 +105,11 @@
 
 .cintentImg {
   position: relative;
+  img {
+    width: 100%;
+  }
 }
-.cintentImg img {
-  width: 100%;
-}
-
-.cintentImg img::before {
+.cintentImg::before img {
   position: absolute;
   top: -30%;
   left: 0;
