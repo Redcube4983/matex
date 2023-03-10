@@ -119,4 +119,18 @@
   line-height: 1;
   padding-top: 20px;
   color: #e95520;
+}
+.contents .txtWrap h3 {
+  font-size: 2rem;
+}
+.contents .txtWrap p {
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: justify;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .contents .txtWrap p {
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=page-aboutus.css.map */

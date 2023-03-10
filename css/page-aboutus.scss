@@ -116,5 +116,11 @@
     padding-top: 20px;
     color: #e95520;
   }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    @include contentsSentence();
+  }
 }
 
