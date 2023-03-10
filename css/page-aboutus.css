@@ -4,6 +4,7 @@
   width: 100%;
 }
 
+/* CSS Document */
 #topTtlWrap .topTtlInner {
   position: relative;
 }
@@ -60,8 +61,4 @@ li:not(:first-child)::before {
   content: "＞";
   color: #e95520;
   padding-left: 5px;
-}
-
-#mainWrap {
-  padding: 60px 15px;
 }/*# sourceMappingURL=page-aboutus.css.map */

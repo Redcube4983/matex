@@ -2,6 +2,8 @@
 
 @use '../common/css/Layout/main';
 @use '../common/css/Component/bntton';
+@use '../common/css/Foundation/mixin' as paddingSide;
+
 
 #topTtlWrap .topTtlInner {
     position: relative;
@@ -22,7 +24,8 @@
     }
   }
 #panNavi {
-    padding: 10px 15px 0;
+    @include paddingSide;
+    padding-top: 10px;
 }
 #panNavi a {
   position: relative;
@@ -55,6 +58,3 @@ li:not(:first-child)::before{
   padding-left: 5px;
 }
 
-#mainWrap {
-  padding: 60px 15px;
-}

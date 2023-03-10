@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@mixin paddingSide {
+    padding: 0 15px;
+    @media screen and (min-width:768px){
+        padding: 0 40px;
+    }
+    @media screen and (min-width:960px){
+        max-width: 1200px;
+    }
+}
