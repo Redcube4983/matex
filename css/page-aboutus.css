@@ -65,4 +65,22 @@
   content: "＞";
   color: #e95520;
   padding-left: 5px;
+}
+
+.topImg img {
+  width: 100%;
+}
+
+.messageWrap {
+  padding: 10px 15px;
+}
+@media screen and (min-width: 768px) {
+  .messageWrap {
+    padding: 10px 40px;
+  }
+}
+.messageWrap .enTtl {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e95520;
 }/*# sourceMappingURL=page-aboutus.css.map */
