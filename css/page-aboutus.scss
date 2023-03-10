@@ -27,6 +27,13 @@
 #panNavi {
     @include paddingSide;
     padding-top: 10px;
+    @include mq(tab) {
+      padding: 10px 40px;
+    }
+    @include mq(pc) {
+      padding: 0;
+      max-width: 1200px;
+    }
 }
 #panNavi a {
   position: relative;
