@@ -7,12 +7,12 @@
 
 @mixin paddingSide {
   padding: 10px 15px;
-  @include mq(tab) {
-    padding: 10px 40px ;
-    @include mq(pc) {
-      padding: 0;
-      min-width: 1400px;
-    }
+  @media screen and (min-width:768px){
+    padding: 10px 40px;
+  }
+  @media screen and (min-width:960px){
+    padding: 0;
+    min-width: 1400px;
   }
 }
 
@@ -36,7 +36,7 @@
     }
   }
 #panNavi {
-
+  @include paddingSide();
 }
 #panNavi a {
   position: relative;
