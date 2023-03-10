@@ -50,18 +50,7 @@
   font-size: 1.2rem;
   line-height: 1;
 }
-#panNavi .list li {
-  position: absolute;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 1px;
-  background: #000;
-  bottom: -1px;
-  transform: scale(0, 1);
-  transform-origin: left top;
-  transition: 0.3s;
-}
+
 #panNavi .list li:not(:first-child)::before {
   content: "＞";
   color: #e95520;
