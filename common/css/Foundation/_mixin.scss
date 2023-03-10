@@ -1,7 +1,13 @@
 @charset "UTF-8";
 
+$breakpoint: (
+  tab: 'screen and (min-width: 768px)',
+  pc: 'screen and (min-width: 920px)',
+  pc2: 'screen and (min-width: 1024px)',
+);
 
-
-@mixin apddingSide {
-    padding: 0 15px;
+@mixin mq($bp) {
+  @media #{map-get($breakpoint, $bp)} {
+   @content;
+  }
 }

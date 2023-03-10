@@ -4,7 +4,6 @@
   width: 100%;
 }
 
-/* CSS Document */
 #topTtlWrap .topTtlInner {
   position: relative;
 }
@@ -22,10 +21,6 @@
 }
 .ttlWrap .jpTtl {
   font-size: 1.4rem;
-}
-
-#panNavi {
-  padding: 10px 15px 0;
 }
 
 #panNavi a {
