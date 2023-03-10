@@ -109,7 +109,7 @@
   width: 100%;
 }
 
-.cintentImg::before img {
+.cintentImg::before {
   position: absolute;
   top: -30%;
   left: 0;
