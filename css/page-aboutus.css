@@ -73,6 +73,7 @@
 
 .messageWrap {
   padding: 10px 15px;
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .messageWrap {
@@ -85,13 +86,14 @@
   color: #e95520;
 }
 .messageWrap .jpTtl {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 .messageWrap .messageLead {
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
   padding-top: 10px;
+  padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
   .messageWrap .messageLead {

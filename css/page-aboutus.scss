@@ -88,16 +88,18 @@
 
 .messageWrap {
   @include paddingSide();
+  text-align: center;
   .enTtl {
     font-size: 2rem;
     font-weight: bold;
     color: #e95520;
   }
   .jpTtl {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
   .messageLead {
     @include contentsSentence();
+    padding-top: 20px;
   }
 }
 
