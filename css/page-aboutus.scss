@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @use '../common/css/Layout/main';
-@use '../common/css/Component/button';
-@use '../common/css/Foundation/mixin';
+@use '../common/css/Component/button' as morebutton;
+
 
 @mixin paddingSide {
   padding: 10px 15px;
