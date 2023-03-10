@@ -72,24 +72,24 @@
   width: 100%;
 }
 
-.messageWrap {
+.aboutWrap {
   padding: 10px 15px;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .messageWrap {
+  .aboutWrap {
     padding: 10px 40px;
   }
 }
-.messageWrap .enTtl {
+.aboutWrap .enTtl {
   font-size: 2rem;
   font-weight: bold;
   color: #e95520;
 }
-.messageWrap .jpTtl {
+.aboutWrap .jpTtl {
   font-size: 2rem;
 }
-.messageWrap .messageLead {
+.aboutWrap .aboutLead {
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
@@ -97,11 +97,25 @@
   padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
-  .messageWrap .messageLead {
+  .aboutWrap .aboutLead {
     font-size: 1.4rem;
   }
 }
 
 .cintentImg img {
   width: 100%;
+}
+
+.contents .txtWrap {
+  padding: 10px 15px;
+}
+@media screen and (min-width: 768px) {
+  .contents .txtWrap {
+    padding: 10px 40px;
+  }
+}
+.contents .txtWrap span {
+  font-size: 1.4rem;
+  line-height: 1;
+  padding-top: 20px;
 }/*# sourceMappingURL=page-aboutus.css.map */

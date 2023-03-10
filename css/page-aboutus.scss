@@ -86,7 +86,7 @@
   width: 100%;
 }
 
-.messageWrap {
+.aboutWrap {
   @include paddingSide();
   text-align: center;
   .enTtl {
@@ -97,7 +97,7 @@
   .jpTtl {
     font-size: 2rem;
   }
-  .messageLead {
+  .aboutLead {
     @include contentsSentence();
     padding-top: 20px;
   }
@@ -106,6 +106,14 @@
 .cintentImg {
   img {
     width: 100%;
+  }
+}
+.contents .txtWrap {
+  @include paddingSide();
+  span {
+    font-size: 1.4rem;
+    line-height: 1;
+    padding-top: 20px;
   }
 }
 
