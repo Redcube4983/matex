@@ -2,17 +2,12 @@
 
 @use '../common/css/Layout/main';
 @use '../common/css/Component/bntton';
-@use '../common/css/Foundation/mixin';
 
 
 @mixin paddingSide {
   padding: 10px 15px;
   @media screen and (min-width:768px){
     padding: 10px 40px;
-  }
-  @media screen and (min-width:960px){
-    padding: 0;
-    max-width: 1400px;
   }
 }
 
@@ -63,7 +58,7 @@
   font-size: 1.2rem;
   line-height: 1;
 }
-li:not(:first-child)::before{
+#panNavi li:not(:first-child)::before{
   content: "＞";
   color: #e95520;
   padding-left: 5px;
