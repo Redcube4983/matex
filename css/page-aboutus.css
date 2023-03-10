@@ -85,6 +85,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: #e95520;
+  letter-spacing: 1.5px;
 }
 .aboutWrap .jpTtl {
   font-size: 2rem;
@@ -119,6 +120,7 @@
   line-height: 1;
   padding-top: 20px;
   color: #e95520;
+  letter-spacing: 1.5px;
 }
 .contents .txtWrap h3 {
   font-size: 2rem;
