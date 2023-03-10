@@ -10,6 +10,24 @@
     padding: 10px 40px;
   }
 }
+@mixin contentsJpTtl {
+  font-size: 1.8rem;
+  @media screen and (min-width:768px){
+    font-size: 2rem;
+  }
+  @media screen and (min-width:920px){
+    font-size: 2.4rem;
+}
+}
+@mixin contentsSentence {
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: justify;
+  padding-top: 10px;
+  @media screen and (min-width:768px){
+    font-size: 1.4rem;
+  }
+}
 
 
 #topTtlWrap .topTtlInner {
@@ -75,4 +93,11 @@
     font-weight: bold;
     color: #e95520;
   }
+  .jpTtl {
+    font-size: 1.4rem;
+  }
+  .messageLead {
+    @include contentsSentence();
+  }
 }
+

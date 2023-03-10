@@ -83,4 +83,18 @@
   font-size: 2rem;
   font-weight: bold;
   color: #e95520;
+}
+.messageWrap .jpTtl {
+  font-size: 1.4rem;
+}
+.messageWrap .messageLead {
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: justify;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .messageWrap .messageLead {
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=page-aboutus.css.map */
