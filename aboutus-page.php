@@ -33,7 +33,7 @@ Template Name: aboutus
 </div>
 <main id="mainWrap">
     <section class="messageWrap">
-        <div class="essageTtlWrap">
+        <div class="messageTtlWrap">
             <span class="enTtl">For Material Bridge</span>
             <h2 class="jpTtl">社会と鉄とをつなぐ、架け橋でありたい</h2>
         </div>
