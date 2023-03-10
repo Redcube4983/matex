@@ -27,6 +27,10 @@
   padding: 10px 15px 0;
 }
 
+#panNavi a {
+  position: relative;
+}
+
 #panNavi a::after {
   position: absolute;
   left: 0;
@@ -38,6 +42,7 @@
   transform: scale(0, 1);
   transform-origin: left top;
   transition: 0.3s;
+  bottom: -1px;
 }
 
 #panNavi a:hover::after {
