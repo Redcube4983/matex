@@ -2,7 +2,6 @@
 
 @use '../common/css/Layout/main';
 @use '../common/css/Component/bntton';
-@use '../common/css/Foundation/mixin';
 @use '../common/css/Foundation/mixin' as paddingSide;
 
 
@@ -27,13 +26,13 @@
 #panNavi {
     @include paddingSide;
     padding-top: 10px;
-    @include mq(tab) {
-      padding: 10px 40px;
-    }
-    @include mq(pc) {
-      padding: 0;
-      max-width: 1200px;
-    }
+      @media screen and (min-width:768px){
+        padding: 10px 40px;
+      }
+      @media screen and (min-width:960px){
+        padding: 0;
+        max-width: 1200px;
+      }
 }
 #panNavi a {
   position: relative;
