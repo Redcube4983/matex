@@ -51,7 +51,7 @@
   line-height: 1;
 }
 
-#panNavi .list li:not(:first-child)::before {
+li:not(:first-child)::before {
   content: "＞";
   color: #e95520;
   padding-left: 5px;
