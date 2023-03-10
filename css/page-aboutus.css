@@ -6,6 +6,7 @@
 
 #topTtlWrap .topTtlInner {
   position: relative;
+  padding-top: 60px;
 }
 
 .ttlWrap {
@@ -99,4 +100,21 @@
   .messageWrap .messageLead {
     font-size: 1.4rem;
   }
+}
+
+.cintentImg {
+  position: relative;
+}
+
+.cintentImg img {
+  width: 100%;
+}
+
+.cintentImg img::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #c9c9c9;
 }/*# sourceMappingURL=page-aboutus.css.map */

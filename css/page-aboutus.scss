@@ -32,7 +32,7 @@
 
 #topTtlWrap .topTtlInner {
     position: relative;
-    
+    padding-top: 60px;
   }
   .ttlWrap {
     position: absolute;
@@ -101,5 +101,21 @@
     @include contentsSentence();
     padding-top: 20px;
   }
+}
+
+.cintentImg {
+  position: relative;
+}
+.cintentImg img {
+  width: 100%;
+}
+
+.cintentImg img::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #c9c9c9;
 }
 
