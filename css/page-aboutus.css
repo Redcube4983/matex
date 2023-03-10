@@ -34,7 +34,7 @@
 @media screen and (min-width: 960px) {
   #panNavi {
     padding: 0;
-    min-width: 1400px;
+    max-width: 1400px;
   }
 }
 
