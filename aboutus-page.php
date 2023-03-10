@@ -32,17 +32,20 @@ Template Name: aboutus
     </ul>
 </div>
 <main id="mainWrap">
-    <section class="messageWrap">
-        <div class="messageTtlWrap">
+    <section class="aboutWrap">
+        <div class="aboutTtlWrap">
             <span class="enTtl">For Material Bridge</span>
             <h2 class="jpTtl">社会と鉄とをつなぐ、架け橋でありたい</h2>
         </div>
-        <p class="messageLead">私たちマテックスは、1937年の創業以来、鋼材の販売、コイルのスリットや厚中板のシャーリングなどの加工を手がけて、設備、技術、流通サービスのいずれにおいても業界トップレベルのコイルセンターとして、お客様の厚い信頼をいただいています。<br>
+        <p class="aboutLead">私たちマテックスは、1937年の創業以来、鋼材の販売、コイルのスリットや厚中板のシャーリングなどの加工を手がけて、設備、技術、流通サービスのいずれにおいても業界トップレベルのコイルセンターとして、お客様の厚い信頼をいただいています。<br>
         社会と鉄をつなぐ架け橋としてー。私たちはこれからも優れた製品・サービスの提供を通じて、お客様のモノづくりを支え、よりよい未来(あす)の創造に貢献してまいります。
         </p>
     </section>
-    <section class="messageInner">
+    
+    
+    <section class="aboutInner">
         <div class="contents content1">
+            <span class="grayzone"></span>
             <div class="cintentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-pc.jpg" alt="企業情報画像1">
             </div>
@@ -60,6 +63,7 @@ Template Name: aboutus
             </div>
         </div>
         <div class="contents content2">
+            <span class="grayzone"></span>
             <div class="cintentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-pc.jpg" alt="企業情報画像2">
             </div>
@@ -77,6 +81,7 @@ Template Name: aboutus
             </div>
         </div>
         <div class="contents content1">
+            <span class="grayzone"></span>
             <div class="cintentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-pc.jpg" alt="企業情報画像3">
             </div>
@@ -94,6 +99,7 @@ Template Name: aboutus
             </div>
         </div>
         <div class="contents content2">
+            <span class="grayzone"></span>
             <div class="cintentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-pc.jpg" alt="企業情報画像4">
             </div>
