@@ -2,17 +2,16 @@
 
 
 @mixin moreButton {
-    .moreButtonWrap {
-        width: 180px;
-        .moreButton {
-            padding: 20px;
-            background-color: #000;
-            display: block;
-            border-radius: 100px;
-            color: #fff;
-            font-size: 1.4rem;
-            letter-spacing: 1.5px;
-            text-align: center;
-        }
+    width: 180px;
+    .moreButton {
+        padding: 20px;
+        background-color: #000;
+        display: block;
+        border-radius: 100px;
+        color: #fff;
+        font-size: 1.4rem;
+        letter-spacing: 1.5px;
+        text-align: center;
     }
+    
 }
