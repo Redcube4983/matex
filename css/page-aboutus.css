@@ -32,11 +32,6 @@
     padding: 10px 40px 0;
   }
 }
-@media screen and (min-width: 920px) {
-  #panNavi {
-    padding: 0;
-  }
-}
 
 #panNavi a {
   position: relative;
@@ -86,11 +81,6 @@
     padding: 10px 40px 0;
   }
 }
-@media screen and (min-width: 920px) {
-  .aboutWrap {
-    padding: 0;
-  }
-}
 .aboutWrap .enTtl {
   font-size: 2rem;
   font-weight: bold;
@@ -135,11 +125,6 @@
 @media screen and (min-width: 768px) {
   .contents .txtWrap {
     padding: 10px 40px 0;
-  }
-}
-@media screen and (min-width: 920px) {
-  .contents .txtWrap {
-    padding: 0;
   }
 }
 @media screen and (min-width: 920px) {
