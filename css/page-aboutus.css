@@ -81,6 +81,11 @@
     padding: 10px 40px 0;
   }
 }
+@media screen and (min-width: 920px) {
+  .aboutWrap .aboutWrap {
+    padding: 50px 40px 0;
+  }
+}
 .aboutWrap .enTtl {
   font-size: 2rem;
   font-weight: bold;
