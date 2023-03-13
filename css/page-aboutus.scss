@@ -112,14 +112,14 @@
   }
 }
 .content1 {
-  @media screen and (min-width:768px){
+  @media screen and (min-width:920px){
   display: flex;
   flex-flow: wrap;
   }
 }
 
 .contentImg {
-  @media screen and (min-width:768px){
+  @media screen and (min-width:920px){
     width: 45%;
   }
   img {
@@ -128,7 +128,7 @@
 }
 .contents .txtWrap {
   @include paddingSide();
-  @media screen and (min-width:768px){
+  @media screen and (min-width:920px){
     width: 50%;
   }
   .contentTtl {

@@ -103,14 +103,14 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 920px) {
   .content1 {
     display: flex;
     flex-flow: wrap;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 920px) {
   .contentImg {
     width: 45%;
   }
@@ -127,7 +127,7 @@
     padding: 0;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 920px) {
   .contents .txtWrap {
     width: 50%;
   }
