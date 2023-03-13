@@ -176,7 +176,7 @@
   top: 0;
   left: 0;
   z-index: -1;
-  background: #bf6a6a;
+  background: #e95520;
   transform-origin: 100% 50%;
   transform: scaleX(0);
   transition: transform ease 0.2s;
