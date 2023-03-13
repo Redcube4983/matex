@@ -6,7 +6,7 @@
 
 @mixin paddingSide {
   padding: 10px 15px 0;
-  @media screen and (min-width:768px){
+  @media screen and (min-width:920px){
     padding: 0;
   }
 }
