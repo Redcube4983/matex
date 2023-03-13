@@ -46,12 +46,12 @@ Template Name: aboutus
     <section class="aboutInner">
         <div class="contents content1">
             <span class="grayzone"></span>
-            <div class="cintentImg">
+            <div class="contentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-pc.jpg" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="cintentTtl">
+                    <div class="contentTtl">
                         <span>Top message</span>
                         <h3>代表メッセージ</h3>
                     </div>
@@ -64,12 +64,12 @@ Template Name: aboutus
         </div>
         <div class="contents content2">
             <span class="grayzone"></span>
-            <div class="cintentImg">
+            <div class="contentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-pc.jpg" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="cintentTtl">
+                    <div class="contentTtl">
                         <span>Company profile</span>
                         <h3>会社概要</h3>
                     </div>
@@ -82,12 +82,12 @@ Template Name: aboutus
         </div>
         <div class="contents content1">
             <span class="grayzone"></span>
-            <div class="cintentImg">
+            <div class="contentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-pc.jpg" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="cintentTtl">
+                    <div class="contentTtl">
                         <span>Business base</span>
                         <h3>事業拠点</h3>
                     </div>
@@ -100,12 +100,12 @@ Template Name: aboutus
         </div>
         <div class="contents content2">
             <span class="grayzone"></span>
-            <div class="cintentImg">
+            <div class="contentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-pc.jpg" alt="企業情報画像4">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="cintentTtl">
+                    <div class="contentTtl">
                         <span>Quality/Environmental</span>
                         <h3>品質・環境への取り組み</h3>
                     </div>

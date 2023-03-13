@@ -11,9 +11,11 @@
   }
 }
 @mixin contentsJpTtl {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  line-height: 1;
+  padding-top: 5px;
   @media screen and (min-width:768px){
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   @media screen and (min-width:920px){
     font-size: 2.4rem;
@@ -23,7 +25,7 @@
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
-  padding-top: 10px;
+  padding-top: 20px;
   @media screen and (min-width:768px){
     font-size: 1.4rem;
   }
@@ -117,6 +119,9 @@
 }
 .contents .txtWrap {
   @include paddingSide();
+  .contentTtl {
+    padding-top: 10px;
+  }
   span {
     font-size: 1.4rem;
     line-height: 1;
@@ -126,7 +131,6 @@
   }
   h3 {
     @include contentsJpTtl();
-    font-size: 2rem;
   }
   p {
     @include contentsSentence();
@@ -140,3 +144,4 @@
 .grayzone {
   @include grayZone();
 }
+

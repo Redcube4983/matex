@@ -94,7 +94,7 @@
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
@@ -115,6 +115,9 @@
     padding: 10px 40px;
   }
 }
+.contents .txtWrap .contentTtl {
+  padding-top: 10px;
+}
 .contents .txtWrap span {
   font-size: 1.4rem;
   line-height: 1;
@@ -123,12 +126,13 @@
   letter-spacing: 1.5px;
 }
 .contents .txtWrap h3 {
-  font-size: 1.8rem;
   font-size: 2rem;
+  line-height: 1;
+  padding-top: 5px;
 }
 @media screen and (min-width: 768px) {
   .contents .txtWrap h3 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 }
 @media screen and (min-width: 920px) {
@@ -140,7 +144,7 @@
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
   .contents .txtWrap p {
