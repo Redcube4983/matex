@@ -828,7 +828,7 @@ time {
                 transform: translateY(-50%);
                 background-color: #fff;
                 content: "";
-                transition: right 1s;
+                transition: right .3s;
             }
             &::after{
                 position: absolute;
@@ -847,11 +847,11 @@ time {
             span{
                 &::before{
                     right: 15px;
-                    transition: right 1s;
+                    transition: right .3s;
                 }
                 &::after{
                     right: 15px;
-                    transition: right 1s;
+                    transition: right .3s;
                 }
             }
         }

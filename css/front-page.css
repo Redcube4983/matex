@@ -888,7 +888,7 @@ body [data-page-id=top] .mask-container {
   transform: translateY(-50%);
   background-color: #fff;
   content: "";
-  transition: right 1s;
+  transition: right 0.3s;
 }
 #cta-area .button a span::after {
   position: absolute;
@@ -904,11 +904,11 @@ body [data-page-id=top] .mask-container {
 }
 #cta-area .button a:hover span::before {
   right: 15px;
-  transition: right 1s;
+  transition: right 0.3s;
 }
 #cta-area .button a:hover span::after {
   right: 15px;
-  transition: right 1s;
+  transition: right 0.3s;
 }
 @media screen and (min-width: 960px) {
   #cta-area .button {
