@@ -107,6 +107,7 @@
   .content1 {
     display: flex;
     flex-flow: wrap;
+    justify-content: space-between;
   }
 }
 
@@ -130,6 +131,7 @@
 @media screen and (min-width: 920px) {
   .contents .txtWrap {
     width: 50%;
+    padding: 0;
   }
 }
 .contents .txtWrap .contentTtl {
