@@ -193,7 +193,7 @@
     justify-content: space-between;
   }
   .content2 .txtWrap {
-    padding: 0 0 3% 6%;
+    padding: 6% 0 3% 0;
   }
   .content2 .contentImg img {
     border-radius: 30px 0 0 30px;
@@ -201,7 +201,7 @@
 }
 @media screen and (min-width: 1080px) {
   .content2 .txtWrap {
-    padding: 0 0 6% 9%;
+    padding: 9% 0 6% 0;
   }
 }
 
