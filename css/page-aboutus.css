@@ -27,11 +27,6 @@
 #panNavi {
   padding: 10px 15px 0;
 }
-@media screen and (min-width: 768px) {
-  #panNavi {
-    padding: 10px 40px 0;
-  }
-}
 
 #panNavi a {
   position: relative;
@@ -76,11 +71,6 @@
   padding: 10px 15px 0;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
-  .aboutWrap {
-    padding: 10px 40px 0;
-  }
-}
 @media screen and (min-width: 920px) {
   .aboutWrap {
     padding: 50px 40px 0;
@@ -119,34 +109,6 @@
 }
 
 @media screen and (min-width: 920px) {
-  .content1 {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-  }
-  .content1 .txtWrap {
-    padding: 3% 6% 0 0;
-  }
-  .content1 .contentImg img {
-    border-radius: 0 30px 30px 0;
-  }
-}
-
-@media screen and (min-width: 920px) {
-  .content2 {
-    display: flex;
-    flex-flow: row-reverse;
-    justify-content: space-between;
-  }
-  .content2 .txtWrap {
-    padding: 0 0 3% 6%;
-  }
-  .content2 .contentImg img {
-    border-radius: 30px 0 0 30px;
-  }
-}
-
-@media screen and (min-width: 920px) {
   .contentImg {
     width: 50%;
   }
@@ -157,11 +119,6 @@
 
 .contents .txtWrap {
   padding: 10px 15px 0;
-}
-@media screen and (min-width: 768px) {
-  .contents .txtWrap {
-    padding: 10px 40px 0;
-  }
 }
 @media screen and (min-width: 920px) {
   .contents .txtWrap {
@@ -202,6 +159,34 @@
 @media screen and (min-width: 768px) {
   .contents .txtWrap p {
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .content1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+  .content1 .txtWrap {
+    padding: 3% 6% 0 0;
+  }
+  .content1 .contentImg img {
+    border-radius: 0 30px 30px 0;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .content2 {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+  }
+  .content2 .txtWrap {
+    padding: 0 0 3% 6%;
+  }
+  .content2 .contentImg img {
+    border-radius: 30px 0 0 30px;
   }
 }
 
