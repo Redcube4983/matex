@@ -4,6 +4,66 @@
   width: 100%;
 }
 
+#panNavi {
+  padding: 10px 15px 0;
+}
+@media screen and (min-width: 768px) {
+  #panNavi {
+    padding: 10px 40px 0;
+  }
+}
+
+.leadWrap {
+  padding: 10px 15px 0;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .leadWrap {
+    padding: 10px 40px 0;
+  }
+}
+@media screen and (min-width: 920px) {
+  .leadWrap {
+    padding: 50px 40px 0;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .leadWrap {
+    padding: 100px 40px 0;
+  }
+}
+.leadWrap .enTtl {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e95520;
+  letter-spacing: 1.5px;
+}
+.leadWrap .jpTtl {
+  font-size: 2rem;
+}
+@media screen and (min-width: 1080px) {
+  .leadWrap .jpTtl {
+    font-size: 2.2rem;
+  }
+}
+.leadWrap .aboutLead {
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: justify;
+  padding-top: 20px;
+  padding-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .leadWrap .aboutLead {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 920px) {
+  .leadWrap .aboutLead {
+    max-width: 920px;
+  }
+}
+
 /*
     Theme Name: matex
     Description: matex
