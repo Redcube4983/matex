@@ -77,40 +77,40 @@
   width: 100%;
 }
 
-.aboutWrap {
+.leadWrap {
   padding: 10px 15px 0;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .aboutWrap {
+  .leadWrap {
     padding: 10px 40px 0;
   }
 }
 @media screen and (min-width: 920px) {
-  .aboutWrap {
+  .leadWrap {
     padding: 50px 40px 0;
   }
 }
 @media screen and (min-width: 1080px) {
-  .aboutWrap {
+  .leadWrap {
     padding: 100px 40px 0;
   }
 }
-.aboutWrap .enTtl {
+.leadWrap .enTtl {
   font-size: 2rem;
   font-weight: bold;
   color: #e95520;
   letter-spacing: 1.5px;
 }
-.aboutWrap .jpTtl {
+.leadWrap .jpTtl {
   font-size: 2rem;
 }
 @media screen and (min-width: 1080px) {
-  .aboutWrap .jpTtl {
+  .leadWrap .jpTtl {
     font-size: 2.2rem;
   }
 }
-.aboutWrap .aboutLead {
+.leadWrap .aboutLead {
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
@@ -118,12 +118,12 @@
   padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
-  .aboutWrap .aboutLead {
+  .leadWrap .aboutLead {
     font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 920px) {
-  .aboutWrap .aboutLead {
+  .leadWrap .aboutLead {
     max-width: 920px;
   }
 }
