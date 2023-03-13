@@ -6,6 +6,10 @@
 
 @mixin paddingSide {
   padding: 10px 15px 0;
+  @media screen and (min-width:768px){
+    padding: 10px 40px 0;
+  }
+  
 }
 
 @mixin contentsJpTtl {

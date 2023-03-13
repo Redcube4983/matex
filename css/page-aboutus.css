@@ -27,6 +27,11 @@
 #panNavi {
   padding: 10px 15px 0;
 }
+@media screen and (min-width: 768px) {
+  #panNavi {
+    padding: 10px 40px 0;
+  }
+}
 
 #panNavi a {
   position: relative;
@@ -70,6 +75,11 @@
 .aboutWrap {
   padding: 10px 15px 0;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .aboutWrap {
+    padding: 10px 40px 0;
+  }
 }
 @media screen and (min-width: 920px) {
   .aboutWrap {
@@ -124,6 +134,11 @@
 
 .contents .txtWrap {
   padding: 10px 15px 0;
+}
+@media screen and (min-width: 768px) {
+  .contents .txtWrap {
+    padding: 10px 40px 0;
+  }
 }
 @media screen and (min-width: 920px) {
   .contents .txtWrap {
