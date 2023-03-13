@@ -10,34 +10,17 @@
         background-color: #000;
         border: solid 2px #000;
         display: block;
-        border-radius: 50px;
+        border-radius: 100px;
         color: #fff;
         font-size: 1.4rem;
         letter-spacing: 1.5px;
         text-align: center;
         margin-top: 20px;
         transition: .2s;
-        position: relative;
-        z-index: 1;
-        &::before {
-            content: "";
-            width: 120%;
-            height: 200%;
-            position: absolute;
-            top: -50%;
-            right: 0;
-            z-index: -1;
-            background: #000;
-            transform-origin: 100% 50%;
-            transform: translateX(-100%);
-            transition: transform ease .3s;
-            border-radius: 0 100% 100% 0;
-          }
         &:hover {
-            color: #fff;
-            &::before {
-                transform: translateX(10%);
-        }
+            background-color: #fff;
+            color: #e95520;
+            border: solid 2px #e95520;
         }
     }
 }
