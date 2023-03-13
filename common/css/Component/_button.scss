@@ -27,14 +27,15 @@
             top: 0;
             left: 0;
             z-index: -1;
+            background: #000;
             transform-origin: 100% 50%;
             transform: scaleX(0);
             transition: transform ease .2s;
             border-radius: 50px;
           }
         &:hover {
-            background-color: #fff;
-            border: solid 2px #000;
+            background-color: #000;
+            border: solid 2px #fff;
             &::before {
                 transform-origin: 0% 50%;
                 transform: scaleX(1);
