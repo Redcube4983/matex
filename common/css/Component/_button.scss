@@ -10,7 +10,7 @@
         background-color: #000;
         border: solid 2px #000;
         display: block;
-        border-radius: 100px;
+        border-radius: 50px;
         color: #fff;
         font-size: 1.4rem;
         letter-spacing: 1.5px;
@@ -40,7 +40,6 @@
         &:hover::before {
         transform-origin: 0% 50%;
         transform: scaleX(1);
-        border-radius: 50px;
         }
     }
 }
