@@ -183,7 +183,7 @@
   border-radius: 50px;
 }
 .moreButtonWrap .moreButton:hover {
-  background-color: #000;
+  color: #000;
 }
 .moreButtonWrap .moreButton:hover::before {
   transform-origin: 0% 50%;
