@@ -182,7 +182,7 @@
 }
 @media screen and (min-width: 1080px) {
   .content1 .txtWrap {
-    padding: 3% 9% 0 0;
+    padding: 6% 9% 0 0;
   }
 }
 
@@ -201,7 +201,7 @@
 }
 @media screen and (min-width: 1080px) {
   .content2 .txtWrap {
-    padding: 0 0 3% 9%;
+    padding: 0 0 6% 9%;
   }
 }
 
