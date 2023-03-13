@@ -156,6 +156,7 @@
 .moreButtonWrap .moreButton {
   padding: 17px 70px;
   background-color: #000;
+  border: solid 1px #000;
   display: block;
   border-radius: 100px;
   color: #fff;
@@ -166,7 +167,9 @@
   transition: 0.2s;
 }
 .moreButtonWrap .moreButton:hover {
-  background-color: #e95520;
+  background-color: #fff;
+  color: #e95520;
+  border: solid 1px #e95520;
 }
 
 .grayzone {
