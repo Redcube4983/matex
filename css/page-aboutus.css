@@ -109,8 +109,25 @@
     flex-flow: wrap;
     justify-content: space-between;
   }
+  .content1 .txtWrap {
+    padding: 2% 5% 0 0;
+  }
   .content1 .contentImg img {
     border-radius: 0 30px 30px 0;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .content2 {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+  }
+  .content2 .txtWrap {
+    padding: 0 0 2% 5%;
+  }
+  .content2 .contentImg img {
+    border-radius: 30px 0 0 30px;
   }
 }
 
@@ -134,7 +151,6 @@
 @media screen and (min-width: 920px) {
   .contents .txtWrap {
     width: 45%;
-    padding: 2% 5% 0 0;
   }
 }
 .contents .txtWrap .contentTtl {
