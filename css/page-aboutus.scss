@@ -109,6 +109,9 @@
   .aboutLead {
     @include contentsSentence();
     padding-top: 20px;
+    @media screen and (min-width:920px){
+      max-width: 920px;
+    }
   }
 }
 .content1 {
@@ -117,7 +120,7 @@
   flex-flow: wrap;
   justify-content: space-between;
   .txtWrap {
-    padding: 2% 6% 0 0;
+    padding: 3% 6% 0 0;
   }
   .contentImg img {
     border-radius: 0 30px 30px 0;
@@ -130,7 +133,7 @@
   flex-flow: row-reverse;
   justify-content: space-between;
     .txtWrap {
-      padding: 0 0 2% 6%;
+      padding: 0 0 3% 6%;
     }
     .contentImg img {
       border-radius: 30px 0 0 30px;
