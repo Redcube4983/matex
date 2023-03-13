@@ -44,8 +44,9 @@ Template Name: aboutus
     
     
     <section class="aboutInner">
+        
+        <span class="grayzone"></span>
         <div class="contents content1">
-            <span class="grayzone"></span>
             <div class="contentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-pc.jpg" alt="企業情報画像1">
             </div>
@@ -62,8 +63,9 @@ Template Name: aboutus
                 </div>
             </div>
         </div>
+    
+        <span class="grayzone"></span>
         <div class="contents content2">
-            <span class="grayzone"></span>
             <div class="contentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-pc.jpg" alt="企業情報画像2">
             </div>
@@ -80,8 +82,8 @@ Template Name: aboutus
                 </div>
             </div>
         </div>
+        <span class="grayzone"></span>
         <div class="contents content1">
-            <span class="grayzone"></span>
             <div class="contentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-pc.jpg" alt="企業情報画像3">
             </div>
@@ -98,8 +100,9 @@ Template Name: aboutus
                 </div>
             </div>
         </div>
+        
+        <span class="grayzone"></span>
         <div class="contents content2">
-            <span class="grayzone"></span>
             <div class="contentImg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-pc.jpg" alt="企業情報画像4">
             </div>
