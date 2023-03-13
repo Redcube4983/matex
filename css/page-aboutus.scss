@@ -7,7 +7,7 @@
 @mixin paddingSide {
   padding: 10px 15px 0;
   @media screen and (min-width:768px){
-    padding: 10px 40px;
+    padding: 0;
   }
 }
 @mixin contentsJpTtl {
@@ -111,14 +111,26 @@
     padding-top: 20px;
   }
 }
+.content1 {
+  @media screen and (min-width:768px){
+  display: flex;
+  flex-flow: wrap;
+  }
+}
 
 .contentImg {
+  @media screen and (min-width:768px){
+    width: 45%;
+  }
   img {
     width: 100%;
   }
 }
 .contents .txtWrap {
   @include paddingSide();
+  @media screen and (min-width:768px){
+    width: 50%;
+  }
   .contentTtl {
     padding-top: 10px;
   }
@@ -135,6 +147,7 @@
   p {
     @include contentsSentence();
   }
+  
 }
 
 .moreButtonWrap {

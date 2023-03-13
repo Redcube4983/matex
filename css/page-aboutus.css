@@ -29,7 +29,7 @@
 }
 @media screen and (min-width: 768px) {
   #panNavi {
-    padding: 10px 40px;
+    padding: 0;
   }
 }
 
@@ -78,7 +78,7 @@
 }
 @media screen and (min-width: 768px) {
   .aboutWrap {
-    padding: 10px 40px;
+    padding: 0;
   }
 }
 .aboutWrap .enTtl {
@@ -103,6 +103,18 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .content1 {
+    display: flex;
+    flex-flow: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contentImg {
+    width: 45%;
+  }
+}
 .contentImg img {
   width: 100%;
 }
@@ -112,7 +124,12 @@
 }
 @media screen and (min-width: 768px) {
   .contents .txtWrap {
-    padding: 10px 40px;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contents .txtWrap {
+    width: 50%;
   }
 }
 .contents .txtWrap .contentTtl {
