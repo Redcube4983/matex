@@ -108,6 +108,9 @@
   }
   .jpTtl {
     font-size: 2rem;
+    @media screen and (min-width:1080px){
+      font-size: 2.2rem;
+    }
   }
   .aboutLead {
     @include contentsSentence();

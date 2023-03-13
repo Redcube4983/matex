@@ -95,6 +95,11 @@
 .aboutWrap .jpTtl {
   font-size: 2rem;
 }
+@media screen and (min-width: 1080px) {
+  .aboutWrap .jpTtl {
+    font-size: 2.2rem;
+  }
+}
 .aboutWrap .aboutLead {
   font-size: 1.2rem;
   line-height: 2;
