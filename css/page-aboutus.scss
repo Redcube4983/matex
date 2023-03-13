@@ -5,7 +5,7 @@
 
 
 @mixin paddingSide {
-  padding: 10px 15px;
+  padding: 10px 15px 0;
   @media screen and (min-width:768px){
     padding: 10px 40px;
   }
@@ -28,7 +28,13 @@
     font-size: 1.4rem;
   }
 }
-
+@mixin grayZone {
+  height: 60px;
+  display: block;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin: 30px 0;
+}
 
 #topTtlWrap .topTtlInner {
     position: relative;
@@ -129,4 +135,8 @@
 
 .moreButtonWrap {
   @include button.moreButton;
+}
+
+.grayzone {
+  @include grayZone();
 }

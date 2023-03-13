@@ -25,7 +25,7 @@
 }
 
 #panNavi {
-  padding: 10px 15px;
+  padding: 10px 15px 0;
 }
 @media screen and (min-width: 768px) {
   #panNavi {
@@ -73,7 +73,7 @@
 }
 
 .aboutWrap {
-  padding: 10px 15px;
+  padding: 10px 15px 0;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -108,7 +108,7 @@
 }
 
 .contents .txtWrap {
-  padding: 10px 15px;
+  padding: 10px 15px 0;
 }
 @media screen and (min-width: 768px) {
   .contents .txtWrap {
@@ -149,10 +149,12 @@
 }
 
 .moreButtonWrap {
-  width: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .moreButtonWrap .moreButton {
-  padding: 20px;
+  padding: 17px 70px;
   background-color: #000;
   display: block;
   border-radius: 100px;
@@ -160,4 +162,13 @@
   font-size: 1.4rem;
   letter-spacing: 1.5px;
   text-align: center;
+  margin-top: 20px;
+}
+
+.grayzone {
+  height: 60px;
+  display: block;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin: 30px 0;
 }/*# sourceMappingURL=page-aboutus.css.map */
