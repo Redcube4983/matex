@@ -97,9 +97,7 @@
 .aboutWrap {
   @include paddingSide();
   @media screen and (min-width:920px){
-    .aboutWrap {
-      padding: 50px 40px 0;
-    }
+    padding: 50px 40px 0;
   }
   text-align: center;
   .enTtl {
