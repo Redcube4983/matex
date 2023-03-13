@@ -900,7 +900,7 @@ body [data-page-id=top] .mask-container {
   background-color: #fff;
   content: "";
   transform-origin: right;
-  transition: right 1s;
+  transition: right 0.3s;
 }
 #cta-area .button a:hover span::before {
   right: 15px;
