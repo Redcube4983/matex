@@ -36,7 +36,7 @@
         <li class="global-nav parent">
             <h3><a href="<?php echo get_template_directory_uri(); ?>/aboutus/">企業情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="#">代表メッセージ</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo get_template_directory_uri(); ?>/message/">代表メッセージ</a></h4></li>
                 <li class="gran-child"><h4><a href="#">会社概要</a></h4></li>
                 <li class="gran-child"><h4><a href="#">事業拠点</a></h4></li>
                 <li class="gran-child"><h4><a href="#">品質・環境への取り組み</a></h4></li>
