@@ -135,6 +135,9 @@
   @media screen and (min-width:1080px){
     width: 34%;
   }
+  @media screen and (min-width:1280px){
+    width: 28%;
+  }
   .contentTtl {
     padding-top: 10px;
   }
@@ -170,6 +173,11 @@
       padding: 6% 9% 0 0;
     }
   }
+  @media screen and (min-width:1280px){
+    .txtWrap {
+      padding: 8% 11% 0 0;
+    }
+  }
 }
 .content2 {
   @media screen and (min-width:920px){
@@ -186,6 +194,11 @@
   @media screen and (min-width:1080px){
     .txtWrap {
       padding: 9% 0 0 6%;
+    }
+  }
+  @media screen and (min-width:1280px){
+    .txtWrap {
+      padding: 11% 0 0 8%;
     }
   }
 }
