@@ -139,7 +139,7 @@
 }
 .contentImg {
   @media screen and (min-width:920px){
-    width: 45%;
+    width: 50%;
   }
   img {
     width: 100%;
@@ -148,7 +148,7 @@
 .contents .txtWrap {
   @include paddingSide();
   @media screen and (min-width:920px){
-    width: 45%;
+    width: 40%;
   }
   .contentTtl {
     padding-top: 10px;

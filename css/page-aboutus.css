@@ -133,7 +133,7 @@
 
 @media screen and (min-width: 920px) {
   .contentImg {
-    width: 45%;
+    width: 50%;
   }
 }
 .contentImg img {
@@ -150,7 +150,7 @@
 }
 @media screen and (min-width: 920px) {
   .contents .txtWrap {
-    width: 45%;
+    width: 40%;
   }
 }
 .contents .txtWrap .contentTtl {
