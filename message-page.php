@@ -5,7 +5,6 @@ Template Name: message
 ?>
 <?php get_header(); ?>
 <body>
-<div id="body">
 <div id="topTtlWrap">
     <div class="topTtlInner">
         <div class="topImg">
@@ -20,7 +19,6 @@ Template Name: message
             <h1 class="jpTtl">代表メッセージ</h1>
         </div>
     </div>
-</div>
 </div>
 <div id="panNavi">
     <ul class="list">
@@ -72,6 +70,6 @@ Template Name: message
 </main>
     
     
-    
+
 <?php get_footer(); ?>
 </body>

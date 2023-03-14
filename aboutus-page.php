@@ -5,7 +5,6 @@ Template Name: aboutus
 ?>
 <?php get_header(); ?>
 <body>
-<div id="body">
 <div id="topTtlWrap">
     <div class="topTtlInner">
         <div class="topImg">
@@ -122,5 +121,4 @@ Template Name: aboutus
     </section>
 </main>
 <?php get_footer(); ?>
-</div>
 </body>
