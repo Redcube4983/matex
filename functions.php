@@ -7,7 +7,7 @@
  * @param string|null $icon_url メニューに表示するアイコンの URL
  * @param int $position メニューの位置
  */
-SCF::add_options_page( '会社情報', '会社情報', 'manage_options', 'theme-options' );
+SCF::add_options_page( 'オプション設定', 'オプション設定', 'manage_options', 'theme-options' );
 ?>
 
 
