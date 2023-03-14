@@ -4,7 +4,7 @@ Template Name: aboutus
 */
 ?>
 <?php get_header(); ?>
-<body>
+<main id="mainWrap">
 <div id="topTtlWrap">
     <div class="topTtlInner">
         <div class="topImg">
@@ -30,7 +30,6 @@ Template Name: aboutus
         </li>
     </ul>
 </div>
-<main id="mainWrap">
     <section class="leadWrap">
         <div class="leadTtlWrap">
             <span class="enTtl">For Material Bridge</span>
@@ -119,6 +118,6 @@ Template Name: aboutus
             </div>
         </div>
     </section>
-</main>
+    </main>
 <?php get_footer(); ?>
-</body>
+
