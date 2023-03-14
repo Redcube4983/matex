@@ -23,7 +23,7 @@ Template Name: aboutus
 <div id="panNavi">
     <ul class="list">
         <li>
-            <a href="/">TOP</a>
+            <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
             <span>企業情報</span>

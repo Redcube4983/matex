@@ -42,8 +42,95 @@ Template Name: profile
         </div>
     </section>
     
-    <section class="overview">
-  
+    <section id="overview">
+        <div class="profileTtl">
+            <h3>会社概要</h3>
+        </div>
+        <table>
+            <tbody>
+                <tr class="">
+                    <th>商号</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>代表者</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>創業</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>設立</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>事業の目的</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>資本金</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>年間加工能力</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>関連会社</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>従業員数</th>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="items">
+        <div class="profileTtl">
+            <h3>営業品目</h3>
+        </div>
+        <table>
+            <tbody>
+                <tr class="">
+                    <th>各種表面処理鋼板</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>薄鋼板、中板、厚板</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>各種加工</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>スリット加工</th>
+                    <td></td>
+                </tr>
+                <tr class="">
+                    <th>薄板、中・厚板シャーリング加工</th>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="history">
+        <div class="historyTtl">
+            <h3>会社概要</h3>
+        </div>
+        
+        <ul class="historyList">
+            <li class="">
+                <h3 class="year">月</span></h3>
+                <div class="historyWrap">
+                    <p></p>
+                </div>
+            </li>
+    </ul>
     </section>
 </main>
 <?php get_footer(); ?>
