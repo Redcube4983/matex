@@ -43,7 +43,7 @@ Template Name: message
     <section class="messageInner">
         <div id="ceoWrap">
             <div class="ceoImg">
-                <img src="/images/message/message-img01.jpg" alt="代表写真">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/message/message-img01.jpg" alt="代表写真">
             </div>
             <div class="ceoProfile">
                 <span>代表取締役社長<br>新井 憲明</span>
