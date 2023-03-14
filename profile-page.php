@@ -68,21 +68,40 @@ Template Name: profile
         </table>
     </section>
     
+    <section id="businessItems">
+        <?php
+                    $free_item = SCF::get_option_meta('theme-options', 'businessItems');
+                    foreach ($free_item as $fields) { 
 
-    
+                    if($fields['items'] !== ""){
+                    ?>
+                    <ul>
+                        <li><?php echo $fields['items']; ?></li>
+                    </ul>
+                    <?php
+                    } 
+                    }
+                ?>
+    </section>
     <section id="history">
-        <div class="historyTtl">
-            <h3>会社概要</h3>
-        </div>
-        
-        <ul class="historyList">
-            <li class="">
-                <h3 class="year">月</span></h3>
-                <div class="historyWrap">
-                    <p></p>
-                </div>
-            </li>
-    </ul>
+        <?php
+                    $free_item = SCF::get_option_meta('theme-options', 'history');
+                    foreach ($free_item as $fields) { 
+
+                    if($fields['ad'] !== "" and $fields['month']!== "" and $fields['contents']!== ""){
+                    ?>
+                    <ul>
+                        <li>
+                            
+                            <span class="ad"></span>
+                            <span class="month"></span>
+                            <p></p>
+                        </li>
+                    </ul>
+                    <?php
+                    } 
+                    }
+                ?>
     </section>
 </main>
 <?php get_footer(); ?>
