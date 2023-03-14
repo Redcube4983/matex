@@ -1,3 +1,4 @@
+<?php
 /**
  * @param string $page_title ページのtitle属性値
  * @param string $menu_title 管理画面のメニューに表示するタイトル
@@ -7,4 +8,7 @@
  * @param int $position メニューの位置
  */
 SCF::add_options_page( '会社情報', '会社情報', 'manage_options', 'theme-options' );
+?>
+
+
 
