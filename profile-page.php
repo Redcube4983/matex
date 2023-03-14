@@ -92,10 +92,9 @@ Template Name: profile
                     ?>
                     <ul>
                         <li>
-                            
-                            <span class="ad"></span>
-                            <span class="month"></span>
-                            <p></p>
+                            <span class="ad"><?php echo $fields['ad']; ?>年</span>
+                            <span class="month"><?php echo $fields['month']; ?>月</span>
+                            <p class="contents"><?php echo $fields['contents']; ?></p>
                         </li>
                     </ul>
                     <?php
