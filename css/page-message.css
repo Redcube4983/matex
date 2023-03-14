@@ -1133,22 +1133,7 @@ address .fax {
 }
 
 #motto {
-  padding: 10px 15px 0;
   padding: 30px;
+  margin: 0 15px;
   border: solid 1px #000;
-}
-@media screen and (min-width: 768px) {
-  #motto {
-    padding: 10px 40px 0;
-  }
-}
-@media screen and (min-width: 920px) {
-  #motto {
-    padding: 50px 40px 0;
-  }
-}
-@media screen and (min-width: 1080px) {
-  #motto {
-    padding: 100px 40px 0;
-  }
 }/*# sourceMappingURL=page-message.css.map */
