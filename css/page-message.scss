@@ -2,6 +2,19 @@
 
 @use '../common/css/Layout/main';
 
+@mixin paddingWrap {
+    padding: 10px 15px 0;
+    @media screen and (min-width:768px){
+      padding: 10px 40px 0;
+    }
+    @media screen and (min-width:920px){
+      padding: 50px 40px 0;
+    }
+    @media screen and (min-width:1080px){
+      padding: 100px 40px 0;
+    }
+}
+
 
 #ceoWrap {
     position: relative;
@@ -29,6 +42,7 @@
     margin: 0 15px;
     border: solid 1px #9e9997;
     text-align: justify;
+    @include paddingWrap();
     h3 {
         font-size: 1.5rem;
         line-height: 1;

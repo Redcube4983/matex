@@ -155,6 +155,22 @@
   margin: 0 15px;
   border: solid 1px #9e9997;
   text-align: justify;
+  padding: 10px 15px 0;
+}
+@media screen and (min-width: 768px) {
+  #motto {
+    padding: 10px 40px 0;
+  }
+}
+@media screen and (min-width: 920px) {
+  #motto {
+    padding: 50px 40px 0;
+  }
+}
+@media screen and (min-width: 1080px) {
+  #motto {
+    padding: 100px 40px 0;
+  }
 }
 #motto h3 {
   font-size: 1.5rem;
