@@ -42,7 +42,8 @@ Template Name: profile
         </div>
     </section>
     
-    <section id="overview">
+    <section id="outline">
+    <class id="overview">
         <div class="contentsTtl">
             <h3>会社概要</h3>
         </div>
@@ -66,9 +67,9 @@ Template Name: profile
                 
             </tbody>
         </table>
-    </section>
+    </class>
     
-    <section id="businessItems">
+    <class id="businessItems">
         <div class="contentsTtl">
             <h3>営業品目</h3>
         </div>
@@ -85,10 +86,10 @@ Template Name: profile
                     } 
                     }
                 ?>
-    </section>
+    </class>
     
     
-    <section id="history">
+    <class id="history">
         <div class="contentsTtl">
             <h3>沿革</h3>
         </div>
@@ -109,6 +110,7 @@ Template Name: profile
                     } 
                     }
                 ?>
+    </class>
     </section>
 </main>
 <?php get_footer(); ?>
