@@ -87,12 +87,9 @@
 }
 @media screen and (min-width: 920px) {
   .leadWrap {
-    padding: 50px 40px 0;
-  }
-}
-@media screen and (min-width: 1080px) {
-  .leadWrap {
-    padding: 100px 40px 0;
+    padding-top: 50px;
+    max-width: 920px;
+    margin: 0 auto;
   }
 }
 .leadWrap .enTtl {
