@@ -132,6 +132,18 @@
   margin: 0 auto;
   padding-top: 20px;
 }
+@media screen and (min-width: 920px) {
+  .logoWrap .logo {
+    width: 90%;
+    margin-right: 60px;
+  }
+}
+@media screen and (min-width: 920px) {
+  .logoWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 #outline {
   padding: 60px 15px 0;
