@@ -133,6 +133,21 @@
   padding-top: 20px;
 }
 
+#outline {
+  padding: 60px 15px 0;
+}
+@media screen and (min-width: 768px) {
+  #outline {
+    padding: 10px 40px 0;
+  }
+}
+@media screen and (min-width: 920px) {
+  #outline {
+    max-width: 920px;
+    margin: 0 auto;
+  }
+}
+
 .contentsTtl {
   font-size: 2rem;
   color: #e95520;

@@ -13,8 +13,19 @@
       }
 }
 
+#outline {
+    padding: 60px 15px 0;
+    @media screen and (min-width:768px){
+      padding: 10px 40px 0;
+    }
+    @media screen and (min-width:920px){
+      max-width: 920px;
+      margin: 0 auto;
+    }
+}
 .contentsTtl {
     font-size: 2rem;
     color: #e95520;
     letter-spacing: 1px;
 }
+
