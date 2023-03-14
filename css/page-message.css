@@ -151,24 +151,10 @@
 }
 
 #motto {
-  padding: 10px 15px 0;
+  padding: 30px;
+  margin: 0 15px;
   border: solid 1px #9e9997;
   text-align: justify;
-}
-@media screen and (min-width: 768px) {
-  #motto {
-    padding: 10px 40px 0;
-  }
-}
-@media screen and (min-width: 920px) {
-  #motto {
-    padding: 50px 40px 0;
-  }
-}
-@media screen and (min-width: 1080px) {
-  #motto {
-    padding: 100px 40px 0;
-  }
 }
 #motto h3 {
   font-size: 1.5rem;
@@ -185,4 +171,19 @@
   font-size: 1.2rem;
   line-height: 2;
   padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  #motto {
+    margin: 0 40px;
+  }
+}
+@media screen and (min-width: 920px) {
+  #motto {
+    margin: 50px 40px 0;
+  }
+}
+@media screen and (min-width: 1080px) {
+  #motto {
+    margin: 100px 40px 0;
+  }
 }/*# sourceMappingURL=page-message.css.map */

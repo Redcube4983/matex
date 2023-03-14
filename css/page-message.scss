@@ -2,18 +2,7 @@
 
 @use '../common/css/Layout/main';
 
-@mixin paddingWrap {
-    padding: 10px 15px 0;
-    @media screen and (min-width:768px){
-      padding: 10px 40px 0;
-    }
-    @media screen and (min-width:920px){
-      padding: 50px 40px 0;
-    }
-    @media screen and (min-width:1080px){
-      padding: 100px 40px 0;
-    }
-}
+
 
 
 #ceoWrap {
@@ -38,9 +27,8 @@
   }
 
 #motto {
-    @include paddingWrap();
-    // padding: 30px;
-    // margin: 0 15px;
+    padding: 30px;
+    margin: 0 15px;
     border: solid 1px #9e9997;
     text-align: justify;
     h3 {
@@ -59,4 +47,13 @@
         line-height: 2;
         padding-top: 10px;
     }
+    @media screen and (min-width:768px){
+        margin: 0 40px;
+      }
+      @media screen and (min-width:920px){
+        margin: 50px 40px 0;
+      }
+      @media screen and (min-width:1080px){
+        margin: 100px 40px 0;
+      }
 }
