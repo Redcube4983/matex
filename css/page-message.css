@@ -155,6 +155,7 @@
   margin: 0 15px;
   border: solid 1px #9e9997;
   text-align: justify;
+  letter-spacing: 1px;
 }
 #motto h3 {
   font-size: 1.5rem;
@@ -162,7 +163,7 @@
 }
 @media screen and (min-width: 920px) {
   #motto h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 #motto h3:not(:first-child) {
