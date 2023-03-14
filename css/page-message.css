@@ -6,7 +6,6 @@
 
 #topTtlWrap .topTtlInner {
   position: relative;
-  padding-top: 60px;
 }
 @media screen and (min-width: 920px) {
   #topTtlWrap .topTtlInner {
