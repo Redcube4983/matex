@@ -160,6 +160,11 @@
   font-size: 1.5rem;
   line-height: 1;
 }
+@media screen and (min-width: 920px) {
+  #motto h3 {
+    font-size: 2rem;
+  }
+}
 #motto h3:not(:first-child) {
   padding-top: 10px;
 }
@@ -167,10 +172,20 @@
   font-size: 1.2rem;
   padding-top: 10px;
 }
+@media screen and (min-width: 920px) {
+  #motto p {
+    font-size: 1.4rem;
+  }
+}
 #motto ul {
   font-size: 1.2rem;
   line-height: 2;
   padding-top: 10px;
+}
+@media screen and (min-width: 920px) {
+  #motto ul {
+    font-size: 1.4rem;
+  }
 }
 @media screen and (min-width: 768px) {
   #motto {
