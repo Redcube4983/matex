@@ -179,11 +179,7 @@
 }
 @media screen and (min-width: 920px) {
   #motto {
-    margin: 50px 40px 0;
-  }
-}
-@media screen and (min-width: 1080px) {
-  #motto {
-    margin: 100px 40px 0;
+    margin: 0 auto;
+    max-width: 920px;
   }
 }/*# sourceMappingURL=page-message.css.map */

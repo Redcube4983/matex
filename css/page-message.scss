@@ -51,9 +51,8 @@
         margin: 0 40px;
       }
       @media screen and (min-width:920px){
-        margin: 50px 40px 0;
-      }
-      @media screen and (min-width:1080px){
-        margin: 100px 40px 0;
+        margin: 0 auto;
+        max-width: 920px;
+
       }
 }
