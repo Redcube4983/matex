@@ -4,7 +4,7 @@ Template Name: message
 */
 ?>
 <?php get_header(); ?>
-<body>
+<main id="mainWrap">
 <div id="topTtlWrap">
     <div class="topTtlInner">
         <div class="topImg">
@@ -30,7 +30,6 @@ Template Name: message
         </li>
     </ul>
 </div>
-<main id="mainWrap">
     <section class="leadWrap">
         <div class="leadTtlWrap">
         <h2 class="jpTtl">信頼し、信頼され、いかなる時も誠実に</h2>
@@ -68,8 +67,4 @@ Template Name: message
         </div>
     </section>
 </main>
-    
-    
-
 <?php get_footer(); ?>
-</body>

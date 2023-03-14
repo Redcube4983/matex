@@ -4,8 +4,7 @@ Template Name: profile
 */
 ?>
 <?php get_header(); ?>
-
-<body>
+<main id="mainWrap">
 <div id="topTtlWrap">
     <div class="topTtlInner">
         <div class="topImg">
@@ -24,14 +23,13 @@ Template Name: profile
 <div id="panNavi">
     <ul class="list">
         <li>
-            <a href="/">TOP</a>
+            <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
             <span>会社概要</span>
         </li>
     </ul>
 </div>
-<main id="mainWrap">
     <section class="leadWrap">
         <div class="leadTtlWrap">
         <h2 class="jpTtl">無限のテクノロジー「マテックス」</h2>
@@ -49,4 +47,3 @@ Template Name: profile
     </section>
 </main>
 <?php get_footer(); ?>
-</body>
