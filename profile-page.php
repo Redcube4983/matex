@@ -43,7 +43,7 @@ Template Name: profile
     </section>
     
     <section id="overview">
-        <div class="companyProfile">
+        <div class="contentsTtl">
             <h3>会社概要</h3>
         </div>
         <table>
@@ -69,6 +69,9 @@ Template Name: profile
     </section>
     
     <section id="businessItems">
+        <div class="contentsTtl">
+            <h3>営業品目</h3>
+        </div>
         <?php
                     $free_item = SCF::get_option_meta('theme-options', 'businessItems');
                     foreach ($free_item as $fields) { 
@@ -83,7 +86,12 @@ Template Name: profile
                     }
                 ?>
     </section>
+    
+    
     <section id="history">
+        <div class="contentsTtl">
+            <h3>沿革</h3>
+        </div>
         <?php
                     $free_item = SCF::get_option_meta('theme-options', 'history');
                     foreach ($free_item as $fields) { 

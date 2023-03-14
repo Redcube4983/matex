@@ -127,74 +127,14 @@
   }
 }
 
-#ceoWrap {
-  position: relative;
-  max-width: 800px;
-  margin: 50px auto;
-}
-#ceoWrap img {
-  width: 100%;
-  display: block;
+.logoWrap .logo {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
-.ceoProfile {
-  position: absolute;
-  bottom: 0;
-  padding: 30px 40px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-}
-.ceoProfile span {
-  font-size: 1.2rem;
+.contentsTtl {
+  font-size: 2rem;
+  color: #e95520;
   letter-spacing: 1px;
-}
-
-#motto {
-  padding: 30px;
-  margin: 0 15px;
-  border: solid 1px #9e9997;
-  text-align: justify;
-  letter-spacing: 1px;
-}
-#motto h3 {
-  font-size: 1.5rem;
-  line-height: 1;
-}
-@media screen and (min-width: 920px) {
-  #motto h3 {
-    font-size: 1.8rem;
-  }
-}
-#motto h3:not(:first-child) {
-  padding-top: 10px;
-}
-#motto p {
-  font-size: 1.2rem;
-  padding-top: 10px;
-}
-@media screen and (min-width: 920px) {
-  #motto p {
-    font-size: 1.4rem;
-  }
-}
-#motto ul {
-  font-size: 1.2rem;
-  line-height: 2;
-  padding-top: 10px;
-}
-@media screen and (min-width: 920px) {
-  #motto ul {
-    font-size: 1.4rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  #motto {
-    margin: 0 40px;
-  }
-}
-@media screen and (min-width: 920px) {
-  #motto {
-    margin: 0 auto;
-    max-width: 920px;
-  }
-}/*# sourceMappingURL=page-message.css.map */
+}/*# sourceMappingURL=profile-page.css.map */

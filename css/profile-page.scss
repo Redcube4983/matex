@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@use '../common/css/Layout/main';
+
+
+
+
+.logoWrap {
+    .logo {
+        width: 40%;
+        margin: 0 auto;
+        padding-top: 20px;
+      }
+}
+
+.contentsTtl {
+    font-size: 2rem;
+    color: #e95520;
+    letter-spacing: 1px;
+}
