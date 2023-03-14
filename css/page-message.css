@@ -1142,7 +1142,7 @@ address .fax {
   font-size: 1.5rem;
   line-height: 1;
 }
-#motto h3 ::not(:first-child) {
+#motto h3:not(:first-child) {
   padding-top: 10px;
 }
 #motto p {
