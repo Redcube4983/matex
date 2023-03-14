@@ -2,3 +2,43 @@
 
 @use '../common/css/Layout/main';
 @use '../style.scss';
+
+@mixin paddingWrap {
+    padding: 10px 15px 0;
+    @media screen and (min-width:768px){
+      padding: 10px 40px 0;
+    }
+    @media screen and (min-width:920px){
+      padding: 50px 40px 0;
+    }
+    @media screen and (min-width:1080px){
+      padding: 100px 40px 0;
+    }
+}
+
+#ceoWrap {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+    img {
+        width: 100%;
+        display: block;
+    }
+  }
+  .ceoProfile {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    span {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+      }
+  }
+
+#motto {
+    @include paddingWrap();
+    padding: 30px;
+    border: solid 1px #000;
+}

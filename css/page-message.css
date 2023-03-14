@@ -110,7 +110,7 @@
     font-size: 2.2rem;
   }
 }
-.leadWrap .aboutLead {
+.leadWrap p {
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
@@ -118,12 +118,12 @@
   padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
-  .leadWrap .aboutLead {
+  .leadWrap p {
     font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 920px) {
-  .leadWrap .aboutLead {
+  .leadWrap p {
     max-width: 920px;
   }
 }
@@ -1108,5 +1108,47 @@ address .fax {
   #copyright .copyright {
     color: #000;
     font-size: 1.4rem;
+  }
+}
+#ceoWrap {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+}
+#ceoWrap img {
+  width: 100%;
+  display: block;
+}
+
+.ceoProfile {
+  position: absolute;
+  bottom: 0;
+  padding: 30px 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.ceoProfile span {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+#motto {
+  padding: 10px 15px 0;
+  padding: 30px;
+  border: solid 1px #000;
+}
+@media screen and (min-width: 768px) {
+  #motto {
+    padding: 10px 40px 0;
+  }
+}
+@media screen and (min-width: 920px) {
+  #motto {
+    padding: 50px 40px 0;
+  }
+}
+@media screen and (min-width: 1080px) {
+  #motto {
+    padding: 100px 40px 0;
   }
 }/*# sourceMappingURL=page-message.css.map */
