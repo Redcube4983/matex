@@ -43,80 +43,32 @@ Template Name: profile
     </section>
     
     <section id="overview">
-        <div class="profileTtl">
+        <div class="companyProfile">
             <h3>会社概要</h3>
         </div>
         <table>
             <tbody>
-                <tr class="">
-                    <th>商号</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>代表者</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>創業</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>設立</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>事業の目的</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>資本金</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>年間加工能力</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>関連会社</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>従業員数</th>
-                    <td></td>
-                </tr>
+                <?php
+                    $free_item = SCF::get_option_meta('theme-options', 'companyProfile');
+                    foreach ($free_item as $fields) { 
+
+                    if($fields['profileTtl'] !== "" and $fields['profile']!== ""){
+                    ?>
+                    <tr>
+                    <th><?php echo $fields['profileTtl']; ?></th>
+                    <td><?php echo $fields['profile']; ?></td>
+                    </tr>
+                    <?php
+                    } 
+                    }
+                ?>
+                
+                
             </tbody>
         </table>
     </section>
     
-    <section id="items">
-        <div class="profileTtl">
-            <h3>営業品目</h3>
-        </div>
-        <table>
-            <tbody>
-                <tr class="">
-                    <th>各種表面処理鋼板</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>薄鋼板、中板、厚板</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>各種加工</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>スリット加工</th>
-                    <td></td>
-                </tr>
-                <tr class="">
-                    <th>薄板、中・厚板シャーリング加工</th>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+
     
     <section id="history">
         <div class="historyTtl">
