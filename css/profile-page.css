@@ -193,8 +193,10 @@
 
 #businessItems {
   padding-top: 60px;
+  display: block;
 }
 
 #history {
   padding-top: 60px;
+  display: block;
 }/*# sourceMappingURL=profile-page.css.map */
