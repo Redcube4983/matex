@@ -51,6 +51,10 @@
 @mixin top20px {
   padding-top: 20px;
 }
+@mixin top60px {
+  padding-top: 60px;
+}
+
 
 #overview {
   table {
@@ -69,3 +73,10 @@
   }
 }
 
+#businessItems {
+  @include top60px();
+}
+
+#history {
+  @include top60px();
+}
