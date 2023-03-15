@@ -132,12 +132,12 @@
 }
 @media screen and (min-width: 768px) {
   #base {
-    margin: 0 40px;
+    margin: 60px 40px;
   }
 }
 @media screen and (min-width: 920px) {
   #base {
-    margin: 0 auto;
+    margin: 60px auto;
     max-width: 920px;
   }
 }

@@ -47,8 +47,9 @@ Template Name: businessBase
                 </picture>
             </div>
             <div class="mapWrap">
-                <div class="mapImg">
-                    <img src="/images/businessBase/map01-sp.jpg" alt="地図画像">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.58176607823!2d139.78592561568001!3d35.71190833589544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ebddfb1f479%3A0x91b13bf4ca75affb!2z44CSMTExLTAwMzYg5p2x5Lqs6YO95Y-w5p2x5Yy65p2-44GM6LC377yR5LiB55uu77yR77yQ4oiS77yS!5e0!3m2!1sja!2sjp!4v1678865896913!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </iframe>
                 </div>
                 <div class="addressWrap">
                     <h3>本社</h3>
