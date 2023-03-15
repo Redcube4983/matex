@@ -59,6 +59,9 @@
 }
 @mixin p-20pxNotRight {
   padding: 20px 0 20px 20px;
+  @media screen and (min-width:920px){
+    padding: 30px 0 30px 30px;
+  }
 }
 @mixin borderTopStyle {
   border-top: solid 1px #c5c5c5;
@@ -94,9 +97,9 @@
     @include borderTopStyle();
     background-color: #f5f5f5;
     @media screen and (min-width:920px){
-      border-top: inherit;
+      border-top: none;
       background-color: inherit;
-      padding: inherit;
+      padding: 0;
     }
 
   }
@@ -104,8 +107,9 @@
     @include p-20pxNotRight();
     @include borderDotted();
     @media screen and (min-width:920px){
-      padding: inherit;
-      border: inherit;
+      padding: 0;
+      border: none;
+      width: 600px;
     }
   }
 }
