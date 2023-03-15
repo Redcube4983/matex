@@ -120,7 +120,7 @@ Template Name: profile
             <h3>組織図</h3>
         </div>
          <div class="organizationalChart">
-             <img src="/images/profile/organizationalChart.svg" alt="組織図">
+             <img src="<?php echo get_template_directory_uri(); ?>/images/profile/organizationalChart.svg" alt="組織図">
          </div>
          </div>
     </section>
