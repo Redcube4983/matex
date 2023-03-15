@@ -56,8 +56,8 @@ Template Name: profile
                     if($fields['profileTtl'] !== "" and $fields['profile']!== ""){
                     ?>
                     <tr>
-                    <th><?php echo $fields['profileTtl']; ?></th>
-                    <td><?php echo $fields['profile']; ?></td>
+                        <th><?php echo $fields['profileTtl']; ?></th>
+                        <td><?php echo $fields['profile']; ?></td>
                     </tr>
                     <?php
                     } 
@@ -74,20 +74,20 @@ Template Name: profile
             <h3>営業品目</h3>
         </div>
         <ul>
-        <?php
-                    $free_item = SCF::get_option_meta('theme-options', 'businessItems');
-                    foreach ($free_item as $fields) { 
+            <?php
+            $free_item = SCF::get_option_meta('theme-options', 'businessItems');
+            foreach ($free_item as $fields) { 
 
-                    if($fields['items'] !== ""){
-                    ?>
-                    
-                        <li><?php echo $fields['items']; ?></li>
-                    
-                    <?php
-                    } 
-                    }
-                ?>
-            </ul>
+            if($fields['items'] !== ""){
+            ?>
+
+            <li><?php echo $fields['items']; ?></li>
+
+            <?php
+            } 
+            }
+            ?>
+         </ul>
     </class>
     
     
@@ -95,25 +95,25 @@ Template Name: profile
         <div class="contentsTtl">
             <h3>沿革</h3>
         </div>
-        <?php
-                    $free_item = SCF::get_option_meta('theme-options', 'history');
-                    foreach ($free_item as $fields) { 
+        <ul>
+            <?php
+            $free_item = SCF::get_option_meta('theme-options', 'history');
+            foreach ($free_item as $fields) { 
 
-                    if($fields['ad'] !== "" and $fields['month']!== "" and $fields['contents']!== ""){
-                    ?>
-                    <ul>
-                        <li>
-                            <div class="ad-monthWrap">
-                                <span class="ad"><?php echo $fields['ad']; ?>年</span>
-                                <span class="month"><?php echo $fields['month']; ?>月</span>
-                            </div>
-                            <p class="contents"><?php echo $fields['contents']; ?></p>
-                        </li>
-                    </ul>
-                    <?php
-                    } 
-                    }
-                ?>
+            if($fields['ad'] !== "" and $fields['month']!== "" and $fields['contents']!== ""){
+            ?>
+            <li>
+                <div class="ad-monthWrap">
+                    <span class="ad"><?php echo $fields['ad']; ?>年</span>
+                    <span class="month"><?php echo $fields['month']; ?>月</span>
+                </div>
+                <p class="contents"><?php echo $fields['contents']; ?></p>
+            </li>
+            <?php
+            } 
+            }
+            ?>
+        </ul>
     </class>
     </section>
 </main>
