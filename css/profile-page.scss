@@ -188,6 +188,7 @@
 }
 
 #organizationalChart {
+  @include p-top60px();
   .chartImgWrap {
     @include p-top20px();
     @media screen and (min-width:768px){

@@ -343,6 +343,10 @@
   }
 }
 
+#organizationalChart {
+  padding-top: 60px;
+  display: block;
+}
 #organizationalChart .chartImgWrap {
   padding-top: 20px;
 }
