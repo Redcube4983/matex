@@ -123,6 +123,9 @@
     max-width: 920px;
   }
 }
+.leadWrap p .textCenter {
+  text-align: center;
+}
 
 @media screen and (min-width: 920px) {
   .contentImg {

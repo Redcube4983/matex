@@ -123,6 +123,9 @@
     max-width: 920px;
   }
 }
+.leadWrap p .textCenter {
+  text-align: center;
+}
 
 .logoWrap .logo {
   width: 40%;

@@ -122,4 +122,7 @@
   .leadWrap p {
     max-width: 920px;
   }
+}
+.leadWrap p .textCenter {
+  text-align: center;
 }/*# sourceMappingURL=businessBase-page.css.map */
