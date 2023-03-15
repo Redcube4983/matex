@@ -73,19 +73,21 @@ Template Name: profile
         <div class="contentsTtl">
             <h3>営業品目</h3>
         </div>
+        <ul>
         <?php
                     $free_item = SCF::get_option_meta('theme-options', 'businessItems');
                     foreach ($free_item as $fields) { 
 
                     if($fields['items'] !== ""){
                     ?>
-                    <ul>
+                    
                         <li><?php echo $fields['items']; ?></li>
-                    </ul>
+                    
                     <?php
                     } 
                     }
                 ?>
+            </ul>
     </class>
     
     
