@@ -172,6 +172,10 @@
       display: flex;
       flex-flow: wrap;
       justify-content: space-between;
+      @include p-20pxNotRight();
+      &:nth-child(odd){
+        background-color: #f5f5f5;
+      }
     }
   }
 }
