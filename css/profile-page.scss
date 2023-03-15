@@ -82,7 +82,7 @@
   }
   td {
     @include p-20pxNotRight();
-    @include borderTopStyle();
+    border-top: dotted 1px #c5c5c5
   }
 }
 
@@ -103,5 +103,17 @@
   @include p-top60px();
   .contents {
     line-height: 1;
+  }
+  ul {
+    @include p-top20px();
+    border-bottom: solid 1px #c5c5c5;
+  }
+  .ad-monthWrap {
+    @include p-20pxNotRight();
+    @include borderTopStyle();
+  }
+  p {
+    @include p-20pxNotRight();
+    border-top: dotted 1px #c5c5c5
   }
 }
