@@ -34,7 +34,7 @@ Template Name: businessBase
         <div class="leadTtlWrap">
             <h2 class="jpTtl">お客様に最高の満足をお届けするために</h2>
         </div>
-        <p class="">東京本社を中心に、関東から東北にかけて、生産と販売サービスを一体化した拠点をバランスよく展開。<br>お客様のさまざまなニーズにタイムリーにお応えできる体制を整えています。</p>
+        <p class="textCenter">東京本社を中心に、関東から東北にかけて、生産と販売サービスを一体化した拠点をバランスよく展開。<br>お客様のさまざまなニーズにタイムリーにお応えできる体制を整えています。</p>
 </section>
 <section id="base">
     <ul class="baseInner">
