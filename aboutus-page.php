@@ -30,7 +30,7 @@ Template Name: aboutus
         </li>
     </ul>
 </div>
-    <section class="leadWrap">
+    <section id="leadWrap">
         <div class="leadTtlWrap">
             <span class="enTtl">For Material Bridge</span>
             <h2 class="jpTtl">社会と鉄とをつなぐ、架け橋でありたい</h2>

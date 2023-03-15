@@ -30,7 +30,7 @@ Template Name: profile
         </li>
     </ul>
 </div>
-    <section class="leadWrap">
+    <section id="leadWrap">
         <div class="leadTtlWrap">
         <h2 class="jpTtl">無限のテクノロジー「マテックス」</h2>
         </div>

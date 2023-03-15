@@ -30,7 +30,7 @@ Template Name: message
         </li>
     </ul>
 </div>
-    <section class="leadWrap">
+    <section id="leadWrap">
         <div class="leadTtlWrap">
         <h2 class="jpTtl">信頼し、信頼され、いかなる時も誠実に</h2>
         </div>
