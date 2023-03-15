@@ -60,18 +60,19 @@
 #overview {
   table {
     letter-spacing: 1px;
-    @include top20px();
+    @include p-top20px();
   }
   tr {
     display: flex;
     flex-flow: column;
   }
   th {
-    padding: 20px 0 10px 0;
-    border-top: #c5c5c5;
+    padding: 20px 0;
+    border-top: solid 1px #c5c5c5;
   }
   td {
-    padding: 10px 0 20px 0;
+    padding: 20px 0;
+    border-top: dotted 1px #b5b5b5;
   }
 }
 
