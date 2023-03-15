@@ -85,6 +85,8 @@
     @media screen and (min-width:920px){
       flex-flow: wrap;
       justify-content: space-between;
+      @include p-20pxNotRight();
+      @include borderTopStyle();
     }
   }
   th {
@@ -94,12 +96,17 @@
     @media screen and (min-width:920px){
       border-top: inherit;
       background-color: inherit;
+      padding: inherit;
     }
 
   }
   td {
     @include p-20pxNotRight();
     @include borderDotted();
+    @media screen and (min-width:920px){
+      padding: inherit;
+      border: inherit;
+    }
   }
 }
 

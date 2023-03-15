@@ -195,6 +195,8 @@
   #overview tr {
     flex-flow: wrap;
     justify-content: space-between;
+    padding: 20px 0 20px 20px;
+    border-top: solid 1px #c5c5c5;
   }
 }
 #overview th {
@@ -206,11 +208,18 @@
   #overview th {
     border-top: inherit;
     background-color: inherit;
+    padding: inherit;
   }
 }
 #overview td {
   padding: 20px 0 20px 20px;
   border-top: dotted 1px #b5b5b5;
+}
+@media screen and (min-width: 920px) {
+  #overview td {
+    padding: inherit;
+    border: inherit;
+  }
 }
 
 #businessItems {
