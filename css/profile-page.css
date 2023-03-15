@@ -205,7 +205,7 @@
   }
 }
 @media screen and (min-width: 920px) {
-  #overview tr:nth-child(even) {
+  #overview tr:nth-child(odd) {
     background-color: #f5f5f5;
   }
 }
