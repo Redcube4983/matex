@@ -176,4 +176,9 @@
   font-weight: bold;
   padding-top: 10px;
   display: block;
+}
+.mapWrap .property {
+  padding-top: 10px;
+  font-size: 1.4rem;
+  display: block;
 }/*# sourceMappingURL=businessBase-page.css.map */

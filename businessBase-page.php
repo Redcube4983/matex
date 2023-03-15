@@ -73,7 +73,7 @@ Template Name: businessBase
                     <h3>栃木工場／営業所</h3>
                     <h4>〒327-0816<br>栃木県佐野市栄町佐野工業団地14街区1画地</h4>
                     <span class="number">Tel. 0283-23-0808　Fax. 0283-24-1145</span>
-                    <span class="property">敷地 14,500㎡　<br class="tab pc pc2">事務所 1,372 ㎡　<br class="tab pc pc2">工場 6,474㎡</span>
+                    <span class="property">敷地 14,500㎡<br>事務所 1,372 ㎡<br>工場 6,474㎡</span>
                 </div>
             </div>
         </li>
@@ -93,7 +93,7 @@ Template Name: businessBase
                     <h3>福島工場／営業所</h3>
                     <h4>〒969-1301<br>福島県安達郡大玉村大山字向原大玉村第一工業団地</h4>
                     <span class="number">Tel. 0243-48-2008　Fax. 0243-48-3678</span>
-                    <span class="property">敷地 18,000㎡ 　<br class="tab pc pc2">事務所 300㎡ 　<br class="tab pc pc2">工場 3,880㎡</span>
+                    <span class="property">敷地 18,000㎡<br>事務所 300㎡<br>工場 3,880㎡</span>
                 </div>
             </div>
         </li>
