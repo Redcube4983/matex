@@ -185,10 +185,11 @@
   flex-flow: column;
 }
 #overview th {
-  padding-top: 20px;
+  padding: 20px 0 10px 0;
+  border-top: #c5c5c5;
 }
 #overview td {
-  padding: 20px 0;
+  padding: 10px 0 20px 0;
 }
 
 #businessItems {
