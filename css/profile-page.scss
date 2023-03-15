@@ -61,10 +61,16 @@
 @mixin borderTopStyle {
   border-top: solid 1px #c5c5c5;
 }
+@mixin borderBottomStyle {
+  border-bottom: solid 1px #c5c5c5;
+}
+@mixin borderDotted {
+  border-top: dotted 1px #b5b5b5
+}
 
 #overview {
   tbody {
-    border-bottom: solid 1px #c5c5c5;
+    @include borderBottomStyle();
     display: block;
   }
   table {
@@ -82,7 +88,7 @@
   }
   td {
     @include p-20pxNotRight();
-    border-top: dotted 1px #c5c5c5
+    @include borderDotted();
   }
 }
 
@@ -90,7 +96,7 @@
   @include p-top60px();
   ul {
     @include p-top20px();
-    border-bottom: solid 1px #c5c5c5;
+    @include borderBottomStyle();
     letter-spacing: 1px;
   }
   li {
@@ -106,14 +112,15 @@
   }
   ul {
     @include p-top20px();
-    border-bottom: solid 1px #c5c5c5;
+    @include borderBottomStyle();
   }
   .ad-monthWrap {
     @include p-20pxNotRight();
     @include borderTopStyle();
+    background-color: #f5f5f5;
   }
   p {
     @include p-20pxNotRight();
-    border-top: dotted 1px #c5c5c5
+    @include borderDotted();
   }
 }

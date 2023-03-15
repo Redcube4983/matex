@@ -195,7 +195,7 @@
 }
 #overview td {
   padding: 20px 0 20px 20px;
-  border-top: dotted 1px #c5c5c5;
+  border-top: dotted 1px #b5b5b5;
 }
 
 #businessItems {
@@ -226,8 +226,9 @@
 #history .ad-monthWrap {
   padding: 20px 0 20px 20px;
   border-top: solid 1px #c5c5c5;
+  background-color: #f5f5f5;
 }
 #history p {
   padding: 20px 0 20px 20px;
-  border-top: dotted 1px #c5c5c5;
+  border-top: dotted 1px #b5b5b5;
 }/*# sourceMappingURL=profile-page.css.map */
