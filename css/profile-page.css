@@ -161,4 +161,18 @@
   font-size: 2rem;
   color: #e95520;
   letter-spacing: 1px;
+}
+
+#outline {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+@media screen and (min-width: 768px) {
+  #outline {
+    font-size: 1.4rem;
+  }
+}
+
+#overview table {
+  letter-spacing: 1px;
 }/*# sourceMappingURL=profile-page.css.map */
