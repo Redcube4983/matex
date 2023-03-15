@@ -139,6 +139,9 @@
   @include p-top60px();
   .contents {
     line-height: 1;
+    @media screen and (min-width:920px){
+      line-height: 2;
+    }
   }
   ul {
     @include p-top20px();
@@ -172,6 +175,7 @@
       display: flex;
       flex-flow: wrap;
       justify-content: space-between;
+      @include borderTopStyle();
       @include p-20pxNotRight();
       &:nth-child(odd){
         background-color: #f5f5f5;
