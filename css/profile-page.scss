@@ -155,6 +155,11 @@
       padding: 0;
       background-color: inherit;
       border: none;
+      display: flex;
+      align-items: center;
+      .ad {
+        padding-right: 10px;
+      }
     }
   }
   p {
@@ -167,7 +172,8 @@
     @media screen and (min-width:920px){
       padding: 0;
       border: none;
-      width: 300px;
+      width: 600px;
+      margin: 0;
     }
   }
   li {
