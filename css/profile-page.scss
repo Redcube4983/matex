@@ -83,6 +83,14 @@
 
 #businessItems {
   @include p-top60px();
+  ul {
+    @include p-top20px();
+    border-bottom: solid 1px #c5c5c5;
+  }
+  li {
+    padding: 20px 0;
+    border-top: solid 1px #c5c5c5;
+  }
 }
 
 #history {
