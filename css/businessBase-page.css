@@ -76,37 +76,37 @@
   }
 }
 
-.leadWrap {
+#leadWrap {
   padding: 60px 15px 0;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .leadWrap {
+  #leadWrap {
     padding: 10px 40px 0;
   }
 }
 @media screen and (min-width: 920px) {
-  .leadWrap {
+  #leadWrap {
     padding-top: 50px;
     max-width: 920px;
     margin: 0 auto;
   }
 }
-.leadWrap .enTtl {
+#leadWrap .enTtl {
   font-size: 2rem;
   font-weight: bold;
   color: #e95520;
   letter-spacing: 1.5px;
 }
-.leadWrap .jpTtl {
+#leadWrap .jpTtl {
   font-size: 2rem;
 }
 @media screen and (min-width: 1080px) {
-  .leadWrap .jpTtl {
+  #leadWrap .jpTtl {
     font-size: 2.2rem;
   }
 }
-.leadWrap p {
+#leadWrap p {
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
@@ -114,15 +114,15 @@
   padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
-  .leadWrap p {
+  #leadWrap p {
     font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 920px) {
-  .leadWrap p {
+  #leadWrap p {
     max-width: 920px;
   }
 }
-.leadWrap p .textCenter {
+#leadWrap .textCenter {
   text-align: center;
 }/*# sourceMappingURL=businessBase-page.css.map */

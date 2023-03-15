@@ -30,7 +30,7 @@ Template Name: businessBase
         </li>
     </ul>
 </div> 
-<section class="leadWrap">
+<section id="leadWrap">
         <div class="leadTtlWrap">
             <h2 class="jpTtl">お客様に最高の満足をお届けするために</h2>
         </div>
