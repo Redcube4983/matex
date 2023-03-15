@@ -115,11 +115,11 @@ Template Name: profile
             ?>
         </ul>
     </div>
-     <div id="businessItems">
+     <div id="organizationalChart">
         <div class="contentsTtl">
             <h3>組織図</h3>
         </div>
-         <div class="organizationalChart">
+         <div class="chartImgWrap">
              <img src="<?php echo get_template_directory_uri(); ?>/images/profile/organizationalChart.svg" alt="組織図">
          </div>
          </div>
