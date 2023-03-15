@@ -123,7 +123,7 @@
     max-width: 920px;
   }
 }
-.leadWrap p .textCenter {
+.leadWrap .textCenter {
   text-align: center;
 }
 
