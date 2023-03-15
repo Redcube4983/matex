@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: profile
+Template Name: businessBase
 */
 ?>
 <?php get_header(); ?>
