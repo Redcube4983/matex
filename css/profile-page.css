@@ -231,4 +231,10 @@
 #history p {
   padding: 20px 0 20px 20px;
   border-top: dotted 1px #b5b5b5;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 768px) {
+  #history p {
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=profile-page.css.map */

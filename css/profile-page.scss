@@ -44,7 +44,6 @@
   }
   @media screen and (min-width:768px){
     font-size: 1.4rem;
-
   }
 }
 
@@ -122,5 +121,9 @@
   p {
     @include p-20pxNotRight();
     @include borderDotted();
+    letter-spacing: 1px;
+    @media screen and (min-width:768px){
+      font-size: 1.4rem;
+    }
   }
 }
