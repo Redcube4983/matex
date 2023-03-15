@@ -167,6 +167,9 @@
   font-size: 1.2rem;
   line-height: 1;
 }
+#outline h3:not(:first-child) {
+  padding-top: 60px;
+}
 @media screen and (min-width: 768px) {
   #outline {
     font-size: 1.4rem;
@@ -175,4 +178,15 @@
 
 #overview table {
   letter-spacing: 1px;
+  padding-top: 20px;
+}
+#overview tr {
+  display: flex;
+  flex-flow: column;
+}
+#overview th {
+  padding: 20px 0;
+}
+#overview td {
+  padding-top: 10px;
 }/*# sourceMappingURL=profile-page.css.map */
