@@ -103,8 +103,10 @@ Template Name: profile
                     ?>
                     <ul>
                         <li>
-                            <span class="ad"><?php echo $fields['ad']; ?>年</span>
-                            <span class="month"><?php echo $fields['month']; ?>月</span>
+                            <div class="ad-monthWrap">
+                                <span class="ad"><?php echo $fields['ad']; ?>年</span>
+                                <span class="month"><?php echo $fields['month']; ?>月</span>
+                            </div>
                             <p class="contents"><?php echo $fields['contents']; ?></p>
                         </li>
                     </ul>

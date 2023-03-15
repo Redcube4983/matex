@@ -195,7 +195,7 @@
 }
 #overview td {
   padding: 20px 0 20px 20px;
-  border-top: dotted 1px #b5b5b5;
+  border-top: solid 1px #c5c5c5;
 }
 
 #businessItems {
@@ -205,13 +205,17 @@
 #businessItems ul {
   padding-top: 20px;
   border-bottom: solid 1px #c5c5c5;
+  letter-spacing: 1px;
 }
 #businessItems li {
-  padding: 20px 0;
+  padding: 20px 0 20px 20px;
   border-top: solid 1px #c5c5c5;
 }
 
 #history {
   padding-top: 60px;
   display: block;
+}
+#history .contents {
+  line-height: 1;
 }/*# sourceMappingURL=profile-page.css.map */
