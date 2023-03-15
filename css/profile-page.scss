@@ -48,10 +48,10 @@
   }
 }
 
-@mixin top20px {
+@mixin p-top20px {
   padding-top: 20px;
 }
-@mixin top60px {
+@mixin p-top60px {
   padding-top: 60px;
   display: block;
 }
@@ -67,17 +67,18 @@
     flex-flow: column;
   }
   th {
-    padding: 20px 0;
+    padding: 20px 0 10px 0;
+    border-top: #c5c5c5;
   }
   td {
-    padding-top: 10px;
+    padding: 10px 0 20px 0;
   }
 }
 
 #businessItems {
-  @include top60px();
+  @include p-top60px();
 }
 
 #history {
-  @include top60px();
+  @include p-top60px();
 }
