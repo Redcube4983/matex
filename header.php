@@ -16,7 +16,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutus.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/profile-page.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/profile-page.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/businessBase-page.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +41,7 @@
             <ul class="child">
                 <li class="gran-child"><h4><a href="<?php echo get_template_directory_uri(); ?>/message/">代表メッセージ</a></h4></li>
                 <li class="gran-child"><h4><a href="<?php echo get_template_directory_uri(); ?>/profile/">会社概要</a></h4></li>
-                <li class="gran-child"><h4><a href="#">事業拠点</a></h4></li>
+                <li class="gran-child"><h4><a href="/businessBase">事業拠点</a></h4></li>
                 <li class="gran-child"><h4><a href="#">品質・環境への取り組み</a></h4></li>
             </ul>
         </li>
