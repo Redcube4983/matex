@@ -67,7 +67,7 @@ Template Name: businessBase
             </div>
             <div class="mapWrap">
                 <div class="mapImg">
-                    <img src="/images/businessBase/map01-sp.jpg" alt="地図画像">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.0012431223704!2d139.60681611569075!3d36.312276702710996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f3a29fad3010b%3A0x34f8ead36fc15d65!2z5L2Q6YeO5bel5qWt5Zuj5Zyw57eP5ZCI566h55CG5Y2U5Lya!5e0!3m2!1sja!2sjp!4v1678867446677!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="addressWrap">
                     <h3>栃木工場／営業所</h3>
@@ -87,7 +87,7 @@ Template Name: businessBase
             </div>
             <div class="mapWrap">
                 <div class="mapImg">
-                    <img src="/images/businessBase/map01-sp.jpg" alt="地図画像">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.188536894924!2d140.39811157181083!3d37.5506215947344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6020747ab861759d%3A0x511067c331bc237!2z77yI5qCq77yJ44Oe44OG44OD44Kv44K5IOemj-WztuW3peWgtOWWtualreaJgA!5e0!3m2!1sja!2sjp!4v1678867503382!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="addressWrap">
                     <h3>福島工場／営業所</h3>

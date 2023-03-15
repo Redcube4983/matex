@@ -16,10 +16,12 @@
     img {
         width: 100%;
     }
+    li:not(:first-child) {
+        padding-top: 60px;
+    }
 }
 
 .mapWrap {
-
     .map {
         padding-top: 20px;
         width: 100%;
@@ -29,4 +31,24 @@
         height: 100%;
       }
     }
+    .addressWrap {
+        line-height: 1;
+        padding-top: 20px;
+    }
+    h3 {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    h4 {
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-size: 1.4rem;
+        padding-top: 10px;
+    }
+    .number {
+        font-size: 1.6rem;
+        font-weight: bold;
+        padding-top: 10px;
+        display: block;
+      }
 }
