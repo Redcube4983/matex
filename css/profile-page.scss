@@ -21,9 +21,15 @@
 }
 
 #outline {
+    font-size: 1.2rem;
+    line-height: 1;
+    .contentsTtl:not(:first-child) {
+      padding-top: 60px;
+    }
     padding: 60px 15px 0;
     @media screen and (min-width:768px){
       padding: 10px 40px 0;
+      font-size: 1.4rem;
     }
     @media screen and (min-width:920px){
       max-width: 920px;
@@ -34,18 +40,15 @@
     font-size: 2rem;
     color: #e95520;
     letter-spacing: 1px;
+    @media screen and (min-width:768px){
+      font-size: 2.2rem;
+    }
+    @media screen and (min-width:920px){
+      font-size: 2.4rem;
+    }    
 }
 
-#outline {
-  font-size: 1.2rem;
-  line-height: 1;
-  .contentsTtl:not(:first-child) {
-    padding-top: 60px;
-  }
-  @media screen and (min-width:768px){
-    font-size: 1.4rem;
-  }
-}
+
 
 @mixin p-top20px {
   padding-top: 20px;

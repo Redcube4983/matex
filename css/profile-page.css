@@ -143,11 +143,17 @@
 }
 
 #outline {
+  font-size: 1.2rem;
+  line-height: 1;
   padding: 60px 15px 0;
+}
+#outline .contentsTtl:not(:first-child) {
+  padding-top: 60px;
 }
 @media screen and (min-width: 768px) {
   #outline {
     padding: 10px 40px 0;
+    font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 920px) {
@@ -162,17 +168,14 @@
   color: #e95520;
   letter-spacing: 1px;
 }
-
-#outline {
-  font-size: 1.2rem;
-  line-height: 1;
-}
-#outline .contentsTtl:not(:first-child) {
-  padding-top: 60px;
-}
 @media screen and (min-width: 768px) {
-  #outline {
-    font-size: 1.4rem;
+  .contentsTtl {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 920px) {
+  .contentsTtl {
+    font-size: 2.4rem;
   }
 }
 
