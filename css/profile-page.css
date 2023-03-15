@@ -341,4 +341,14 @@
   #history li:nth-child(odd) {
     background-color: #f5f5f5;
   }
+}
+
+#organizationalChart .chartImgWrap {
+  padding-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  #organizationalChart .chartImgWrap {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=profile-page.css.map */

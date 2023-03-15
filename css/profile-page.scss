@@ -186,3 +186,16 @@
     }
   }
 }
+
+#organizationalChart {
+  .chartImgWrap {
+    @include p-top20px();
+    @media screen and (min-width:768px){
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    @media screen and (min-width:920px){
+
+    }
+  }
+}
