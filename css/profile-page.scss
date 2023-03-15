@@ -138,10 +138,7 @@
 #history {
   @include p-top60px();
   .contents {
-    line-height: 1;
-    @media screen and (min-width:920px){
-      line-height: 2;
-    }
+    line-height: 2;
   }
   ul {
     @include p-top20px();

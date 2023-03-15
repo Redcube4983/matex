@@ -272,12 +272,7 @@
   display: block;
 }
 #history .contents {
-  line-height: 1;
-}
-@media screen and (min-width: 920px) {
-  #history .contents {
-    line-height: 2;
-  }
+  line-height: 2;
 }
 #history ul {
   padding-top: 20px;
