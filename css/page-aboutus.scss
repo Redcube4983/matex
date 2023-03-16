@@ -18,7 +18,7 @@
   @media screen and (min-width:768px){
     font-size: 2.2rem;
   }
-  @media screen and (min-width:920px){
+  @media screen and (min-width:960px){
     font-size: 2.4rem;
 }
 }
@@ -43,7 +43,7 @@
 
 
 .contentImg {
-  @media screen and (min-width:920px){
+  @media screen and (min-width:960px){
     width: 50%;
   }
   img {
@@ -52,7 +52,7 @@
 }
 .contents .txtWrap {
   @include paddingSide();
-  @media screen and (min-width:920px){
+  @media screen and (min-width:960px){
     width: 40%;
   }
   @media screen and (min-width:1080px){
@@ -78,7 +78,7 @@
   @media screen and (min-width:768px){
     font-size: 2.2rem;
   }
-  @media screen and (min-width:920px){
+  @media screen and (min-width:960px){
     font-size: 2.4rem;
 }
   }
@@ -88,7 +88,7 @@
   
 }
 .content1 {
-  @media screen and (min-width:920px){
+  @media screen and (min-width:960px){
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
@@ -111,7 +111,7 @@
   }
 }
 .content2 {
-  @media screen and (min-width:920px){
+  @media screen and (min-width:960px){
   display: flex;
   flex-flow: row-reverse;
   justify-content: space-between;
@@ -140,7 +140,7 @@
 
 .grayzone {
   @include grayZone();
-  @media screen and (min-width:920px){
+  @media screen and (min-width:960px){
     height: 100px;
     margin: 50px 0;
     }

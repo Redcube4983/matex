@@ -7,7 +7,7 @@
 #topTtlWrap .topTtlInner {
   position: relative;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #topTtlWrap .topTtlInner {
     padding-top: 0;
   }
@@ -25,7 +25,7 @@
   font-size: 4rem;
   line-height: 1;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .ttlWrap .enTtl {
     font-size: 5rem;
   }
@@ -34,7 +34,7 @@
   font-size: 1.4rem;
   padding-top: 10px;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .ttlWrap .jpTtl {
     font-size: 2rem;
     padding-top: 20px;
@@ -75,7 +75,7 @@
   color: #e95520;
   padding-left: 5px;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #panNavi li:not(:first-child)::before {
     color: #fff;
   }
@@ -94,7 +94,7 @@
     color: #fff;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #panNavi {
     position: absolute;
     top: 65px;
@@ -110,10 +110,10 @@
     padding: 10px 40px 0;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #leadWrap {
     padding-top: 50px;
-    max-width: 920px;
+    max-width: 1100px;
     margin: 0 auto;
   }
 }
@@ -143,16 +143,16 @@
     font-size: 1.4rem;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #leadWrap p {
-    max-width: 920px;
+    max-width: 1100px;
   }
 }
 #leadWrap .textCenter {
   text-align: center;
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .contentImg {
     width: 50%;
   }
@@ -169,7 +169,7 @@
     padding: 10px 40px 0;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .contents .txtWrap {
     width: 40%;
   }
@@ -204,7 +204,7 @@
     font-size: 2.2rem;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .contents .txtWrap h3 {
     font-size: 2.4rem;
   }
@@ -221,7 +221,7 @@
   }
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .content1 {
     display: flex;
     flex-flow: wrap;
@@ -245,7 +245,7 @@
   }
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .content2 {
     display: flex;
     flex-flow: row-reverse;
@@ -300,7 +300,7 @@
   background-color: #f1f1f1;
   margin: 30px 0;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .grayzone {
     height: 100px;
     margin: 50px 0;

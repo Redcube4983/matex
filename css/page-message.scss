@@ -35,7 +35,7 @@
     h3 {
         font-size: 1.5rem;
         line-height: 1;
-        @media screen and (min-width:920px){
+        @media screen and (min-width:960px){
             font-size: 1.8rem;
         }
       }
@@ -45,7 +45,7 @@
     p {
         font-size: 1.2rem;
         padding-top: 10px;
-        @media screen and (min-width:920px){
+        @media screen and (min-width:960px){
             font-size: 1.4rem;
         }
     }
@@ -53,16 +53,16 @@
         font-size: 1.2rem;
         line-height: 2;
         padding-top: 10px;
-        @media screen and (min-width:920px){
+        @media screen and (min-width:960px){
             font-size: 1.4rem;
         }
     }
     @media screen and (min-width:768px){
         margin: 0 40px;
     }
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
         margin: 0 auto;
-        max-width: 920px;
+        max-width: 1100px;
 
     }
 }

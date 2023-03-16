@@ -9,12 +9,12 @@
         width: 40%;
         margin: 0 auto;
         padding-top: 20px;
-        @media screen and (min-width:920px){
+        @media screen and (min-width:960px){
             width: 900px;
             margin-right: 60px;
         }
       }
-      @media screen and (min-width:920px){
+      @media screen and (min-width:960px){
         display: flex;
         justify-content: space-between;
       }
@@ -31,7 +31,7 @@
       padding: 60px 40px 0;
       font-size: 1.4rem;
     }
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       max-width: 920px;
       margin: 0 auto;
     }
@@ -43,7 +43,7 @@
     @media screen and (min-width:768px){
       font-size: 2.2rem;
     }
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       font-size: 2.4rem;
     }    
 }
@@ -59,7 +59,7 @@
 }
 @mixin p-20pxNotRight {
   padding: 20px 0 20px 20px;
-  @media screen and (min-width:920px){
+  @media screen and (min-width:960px){
     padding: 30px 0 30px 30px;
   }
 }
@@ -85,7 +85,7 @@
   tr {
     display: flex;
     flex-flow: column;
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       flex-flow: wrap;
       justify-content: space-between;
       @include p-20pxNotRight();
@@ -99,7 +99,7 @@
     @include p-20pxNotRight();
     @include borderTopStyle();
     background-color: #f5f5f5;
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       border-top: none;
       background-color: inherit;
       padding: 0;
@@ -109,7 +109,7 @@
   td {
     @include p-20pxNotRight();
     @include borderDotted();
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       padding: 0;
       border: none;
       width: 600px;
@@ -127,7 +127,7 @@
   li {
     @include p-20pxNotRight();
     @include borderTopStyle();
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       &:nth-child(odd){
         background-color: #f5f5f5;
       }
@@ -148,7 +148,7 @@
     @include p-20pxNotRight();
     @include borderTopStyle();
     background-color: #f5f5f5;
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       padding: 0;
       background-color: inherit;
       border: none;
@@ -166,7 +166,7 @@
     @media screen and (min-width:768px){
       font-size: 1.4rem;
     }
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       padding: 0;
       border: none;
       width: 600px;
@@ -174,7 +174,7 @@
     }
   }
   li {
-    @media screen and (min-width:920px){
+    @media screen and (min-width:960px){
       display: flex;
       flex-flow: wrap;
       justify-content: space-between;
@@ -195,8 +195,8 @@
       max-width: 600px;
       margin: 0 auto;
     }
-    @media screen and (min-width:920px){
-
+    @media screen and (min-width:960px){
+      max-width: 1100px;
     }
   }
 }
