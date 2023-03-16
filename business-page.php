@@ -9,14 +9,14 @@ Template Name: business
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/business-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/business-top-sp.jpg 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.jpg 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
             <span class="enTtl">Business</span>
-            <h1 class="jpTtl">事業内容</h1>
+            <h1 class="jpTtl">事業情報</h1>
         </div>
     </div>
 </div>
@@ -26,35 +26,32 @@ Template Name: business
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <span>企業情報</span>
+            <span>事業情報</span>
         </li>
     </ul>
 </div>
     <section id="leadWrap">
         <div class="leadTtlWrap">
-            <span class="enTtl">For Material Bridge</span>
-            <h2 class="jpTtl">社会と鉄とをつなぐ、架け橋でありたい</h2>
+            <h2 class="jpTtl">お客様に身近な“鉄のスペシャリスト”として</h2>
         </div>
-        <p class="textCenter">私たちマテックスは、1937年の創業以来、鋼材の販売、コイルのスリットや厚中板のシャーリングなどの加工を手がけて、<br class="pc">設備、技術、流通サービスのいずれにおいても業界トップレベルのコイルセンターとして、お客様の厚い信頼をいただいています。<br>
-        社会と鉄をつなぐ架け橋としてー。私たちはこれからも優れた製品・サービスの提供を通じて、お客様のモノづくりを支え、<br class="pc">よりよい未来(あす)の創造に貢献してまいります。
-        </p>
+        <p class="textCenter">マテックスは、お客様の身近に事業拠点を配置する「拠点主義」により、質の高いサービスをタイムリーにお届けしています。各工場で培われた技術と先進の設備を駆使し、コイルのスリットや厚中板のシャーリングなど高精度な加工を実施。また、鉄のスペシャリストとして、お客様の課題解決のアドバイスや最新の技術情報などを提供し、お客様をサポートしています。v</p>
     </section>
     
     
-    <section class="aboutInner">
+    <section class="businessInner">
         
         <span class="grayzone"></span>
         <div class="contents content1">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-pc.jpg" alt="企業情報画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img01.jpg" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
                     <div class="contentTtl">
-                        <span>Top message</span>
-                        <h3>代表メッセージ</h3>
+                        <span>Network</span>
+                        <h3>販売/納品体制</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+                    <p>お客様に密着した体制から、<br>質の高い製品・サービスをデリバリー。</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="#" class="moreButton">more</a>
@@ -65,15 +62,15 @@ Template Name: business
         <span class="grayzone"></span>
         <div class="contents content2">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-pc.jpg" alt="企業情報画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img02.jpg" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
                     <div class="contentTtl">
-                        <span>Company profile</span>
-                        <h3>会社概要</h3>
+                        <span>Production</span>
+                        <h3>生産体制</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+                    <p>充実した加工設備と熟練のスタッフが<br>付加価値の高い製品をクリエイト。</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="" class="moreButton">more</a>
@@ -83,15 +80,15 @@ Template Name: business
         <span class="grayzone"></span>
         <div class="contents content1">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-pc.jpg" alt="企業情報画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img03.jpg" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
                     <div class="contentTtl">
-                        <span>Business base</span>
-                        <h3>事業拠点</h3>
+                        <span>Support</span>
+                        <h3>技術サポート体制</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+                    <p>Faithful Partnerをモットーに<br>vお客様の様々なニーズに対応。</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="#" class="moreButton">more</a>
@@ -99,24 +96,8 @@ Template Name: business
             </div>
         </div>
         
-        <span class="grayzone"></span>
-        <div class="contents content2">
-            <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-pc.jpg" alt="企業情報画像4">
-            </div>
-            <div class="txtWrap">
-                <div class="txtInner">
-                    <div class="contentTtl">
-                        <span>Quality/Environmental</span>
-                        <h3>品質・環境への取り組み</h3>
-                    </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
-                </div>
-                <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
-                </div>
-            </div>
-        </div>
+        
+      
     </section>
     </main>
 <?php get_footer(); ?>
