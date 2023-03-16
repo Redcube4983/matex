@@ -13,14 +13,19 @@
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/favicon.ico">
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
+<link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
+<?php if( is_front_page() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutus.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-profile.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-businessBase.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-business.css">
+<?php elseif( is_page( 'quality' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-quality.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+<?php else: ?>
+<?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
