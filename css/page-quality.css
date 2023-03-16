@@ -165,4 +165,15 @@
     max-width: 1100px;
     margin: 0 auto;
   }
+}
+#qualityInner h3 {
+  font-size: 2rem;
+}
+#qualityInner p {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: solid 1px #c5c5c5;
+}
+#qualityInner li:not(:first-child) {
+  padding-top: 30px;
 }/*# sourceMappingURL=page-quality.css.map */
