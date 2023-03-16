@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutus.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-profile.css">
-<?php elseif( is_page( 'businessBase' ) ): ?>
+<?php elseif( is_page( 'businessbase' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-businessBase.css">
 <?php elseif( is_page( 'quality' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-quality.css">
