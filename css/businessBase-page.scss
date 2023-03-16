@@ -20,7 +20,22 @@
         border-top: solid 1px #c5c5c5;
         padding-top: 30px;
         margin-top: 30px;
+        @media screen and (min-width:920px){
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+          }
+          .baseImg {
+            width: 40%;
+            height: 100%;
+          }
+          .mapWrap {
+            display: flex;
+            width: 60%;
+            flex-flow: wrap-reverse;
+          }
       }
+    
 }
 
 .mapWrap {

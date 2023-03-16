@@ -149,6 +149,22 @@
   padding-top: 30px;
   margin-top: 30px;
 }
+@media screen and (min-width: 920px) {
+  #base li {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+}
+#base li .baseImg {
+  width: 40%;
+  height: 100%;
+}
+#base li .mapWrap {
+  display: flex;
+  width: 60%;
+  flex-flow: wrap-reverse;
+}
 
 .mapWrap .map {
   padding-top: 20px;
