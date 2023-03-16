@@ -26,8 +26,10 @@
       }
     .jpTtl {
         font-size: 1.4rem;
+        padding-top: 10px;
         @media screen and (min-width:920px){
           font-size: 2rem;
+          padding-top: 20px;
         }
     }
   }
