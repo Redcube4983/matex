@@ -174,16 +174,6 @@
     width: 20%;
   }
 }
-@media screen and (min-width: 1080px) {
-  .contents .txtWrap {
-    width: 34%;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .contents .txtWrap {
-    width: 28%;
-  }
-}
 .contents .txtWrap .contentTtl {
   padding-top: 10px;
 }
