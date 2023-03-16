@@ -73,7 +73,8 @@ Template Name: aboutus
                         <span>Company profile</span>
                         <h3>会社概要</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+                    <p>ダミーダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミーダミーダミーダミー
+                    </p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="" class="moreButton">more</a>
@@ -91,7 +92,7 @@ Template Name: aboutus
                         <span>Business base</span>
                         <h3>事業拠点</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+                    <p>ダミーダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミーダミー</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="#" class="moreButton">more</a>
@@ -110,7 +111,7 @@ Template Name: aboutus
                         <span>Quality/Environmental</span>
                         <h3>品質・環境への取り組み</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+                    <p>ダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミー</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="#" class="moreButton">more</a>
