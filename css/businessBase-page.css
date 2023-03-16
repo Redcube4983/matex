@@ -160,10 +160,20 @@
   width: 40%;
   height: 100%;
 }
+@media screen and (min-width: 920px) {
+  #base li .baseImg {
+    width: 33%;
+  }
+}
 #base li .mapWrap {
   display: flex;
-  width: 60%;
+  width: 100%;
   flex-flow: wrap-reverse;
+}
+@media screen and (min-width: 920px) {
+  #base li .mapWrap {
+    width: 65%;
+  }
 }
 
 .mapWrap .map {
@@ -175,9 +185,19 @@
   width: 100%;
   height: 100%;
 }
+@media screen and (min-width: 920px) {
+  .mapWrap .map iframe {
+    width: 48%;
+  }
+}
 .mapWrap .addressWrap {
   line-height: 1;
   padding-top: 20px;
+}
+@media screen and (min-width: 920px) {
+  .mapWrap .addressWrap {
+    width: 48%;
+  }
 }
 .mapWrap h3 {
   font-size: 1.8rem;
