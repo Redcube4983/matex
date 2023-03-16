@@ -15,7 +15,7 @@ Template Name: quality
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Quality/Environmental</span>
+            <span class="enTtl">Quality/<br class="sp">Environmental</span>
             <h1 class="jpTtl">品質・環境への取り組み</h1>
         </div>
     </div>
