@@ -32,6 +32,11 @@
           }
           p {
             border-top: none;
+            padding-top: 0;
+          }
+          li {
+            padding-top: 20px;
+            list-style: conic-gradient;
           }
     }
 }

@@ -184,4 +184,9 @@
 }
 #qualityInner .olwrap p {
   border-top: none;
+  padding-top: 0;
+}
+#qualityInner .olwrap li {
+  padding-top: 20px;
+  list-style: conic-gradient;
 }/*# sourceMappingURL=page-quality.css.map */
