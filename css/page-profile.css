@@ -153,7 +153,7 @@
 }
 
 .logoWrap .logo {
-  width: 40%;
+  width: 85%;
   margin: 0 auto;
   padding-top: 20px;
 }
@@ -267,7 +267,7 @@
   #overview td {
     padding: 0;
     border: none;
-    width: 600px;
+    width: 700px;
   }
 }
 
@@ -347,7 +347,7 @@
   #history p {
     padding: 0;
     border: none;
-    width: 600px;
+    width: 700px;
     margin: 0;
   }
 }
