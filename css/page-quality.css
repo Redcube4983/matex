@@ -154,6 +154,7 @@
 
 #qualityInner {
   padding: 60px 15px 0;
+  text-align: justify;
 }
 @media screen and (min-width: 768px) {
   #qualityInner {
@@ -189,4 +190,6 @@
 #qualityInner .olwrap li {
   padding-top: 20px;
   list-style: conic-gradient;
+  margin-left: 15px;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=page-quality.css.map */

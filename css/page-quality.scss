@@ -6,6 +6,7 @@
 
 #qualityInner {
     padding: 60px 15px 0;
+    text-align: justify;
         @media screen and (min-width:768px){
         padding: 60px 40px 0;
         }
@@ -37,6 +38,8 @@
           li {
             padding-top: 20px;
             list-style: conic-gradient;
+            margin-left: 15px;
+            font-size: 1.2rem;
           }
     }
 }
