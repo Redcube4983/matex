@@ -23,9 +23,20 @@
 }
 .ttlWrap .enTtl {
   font-size: 4rem;
+  line-height: 1;
+}
+@media screen and (min-width: 920px) {
+  .ttlWrap .enTtl {
+    font-size: 2.4rem;
+  }
 }
 .ttlWrap .jpTtl {
   font-size: 1.4rem;
+}
+@media screen and (min-width: 920px) {
+  .ttlWrap .jpTtl {
+    font-size: 1.8rem;
+  }
 }
 
 #panNavi a {
@@ -196,6 +207,7 @@
 @media screen and (min-width: 920px) {
   .mapWrap .addressWrap {
     width: 48%;
+    padding-right: 20px;
   }
 }
 .mapWrap h3 {
