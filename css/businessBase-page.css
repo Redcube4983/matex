@@ -138,7 +138,7 @@
 @media screen and (min-width: 920px) {
   #base {
     margin: 0 auto;
-    max-width: 920px;
+    max-width: 1080px;
   }
 }
 #base img {
@@ -182,7 +182,7 @@
   .mapWrap .map {
     width: 48%;
     padding: 0;
-    height: 274px;
+    height: 100%;
   }
 }
 .mapWrap .map iframe {

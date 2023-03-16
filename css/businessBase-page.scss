@@ -10,8 +10,7 @@
     }
     @media screen and (min-width:920px){
         margin: 0 auto;
-        max-width: 920px;
-
+        max-width: 1080px;
     }
     img {
         width: 100%;
@@ -51,7 +50,7 @@
         @media screen and (min-width:920px){
             width: 48%;
             padding: 0;
-            height: 274px;
+            height: 100%;
           }
         iframe {
         width: 100%;
