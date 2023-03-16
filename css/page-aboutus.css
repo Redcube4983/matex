@@ -88,6 +88,12 @@
     padding: 10px 40px 0;
   }
 }
+@media screen and (min-width: 920px) {
+  #panNavi {
+    position: absolute;
+    top: 65px;
+  }
+}
 
 #leadWrap {
   padding: 60px 15px 0;
