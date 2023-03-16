@@ -54,7 +54,7 @@ Template Name: aboutus
                         <span>Top message</span>
                         <h3>代表メッセージ</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+                    <p>ダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミー</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="#" class="moreButton">more</a>
