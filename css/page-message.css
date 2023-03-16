@@ -27,7 +27,7 @@
 }
 @media screen and (min-width: 920px) {
   .ttlWrap .enTtl {
-    font-size: 2.4rem;
+    font-size: 5rem;
   }
 }
 .ttlWrap .jpTtl {
@@ -35,7 +35,7 @@
 }
 @media screen and (min-width: 920px) {
   .ttlWrap .jpTtl {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 
