@@ -4,7 +4,8 @@
 @mixin moreButton {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    padding-top: 10px;
     .moreButton {
         padding: 17px 70px;
         background-color: #000;

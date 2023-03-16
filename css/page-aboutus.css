@@ -272,7 +272,8 @@
 .moreButtonWrap {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
+  padding-top: 10px;
 }
 .moreButtonWrap .moreButton {
   padding: 17px 70px;

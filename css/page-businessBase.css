@@ -7,7 +7,7 @@
 #topTtlWrap .topTtlInner {
   position: relative;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #topTtlWrap .topTtlInner {
     padding-top: 0;
   }
@@ -25,7 +25,7 @@
   font-size: 4rem;
   line-height: 1;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .ttlWrap .enTtl {
     font-size: 5rem;
   }
@@ -34,7 +34,7 @@
   font-size: 1.4rem;
   padding-top: 10px;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .ttlWrap .jpTtl {
     font-size: 2rem;
     padding-top: 20px;
@@ -75,7 +75,7 @@
   color: #e95520;
   padding-left: 5px;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #panNavi li:not(:first-child)::before {
     color: #fff;
   }
@@ -94,7 +94,7 @@
     color: #fff;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #panNavi {
     position: absolute;
     top: 65px;
@@ -110,10 +110,10 @@
     padding: 10px 40px 0;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #leadWrap {
     padding-top: 50px;
-    max-width: 920px;
+    max-width: 1100px;
     margin: 0 auto;
   }
 }
@@ -143,9 +143,9 @@
     font-size: 1.4rem;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #leadWrap p {
-    max-width: 920px;
+    max-width: 1100px;
   }
 }
 #leadWrap .textCenter {
@@ -160,10 +160,10 @@
     margin: 0 40px;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #base {
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 1100px;
   }
 }
 #base img {
@@ -174,7 +174,7 @@
   padding-top: 30px;
   margin-top: 30px;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #base li {
     display: flex;
     flex-flow: wrap;
@@ -185,12 +185,12 @@
   width: 100%;
   height: 100%;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #base li .baseImg {
     width: 33%;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #base li .mapWrap {
     width: 67%;
     display: flex;
@@ -203,7 +203,7 @@
   width: 100%;
   height: 300px;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .mapWrap .map {
     width: 48%;
     padding: 0;
@@ -218,7 +218,7 @@
   line-height: 1;
   padding-top: 20px;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .mapWrap .addressWrap {
     width: 48%;
     padding-right: 20px;
@@ -246,4 +246,4 @@
   font-size: 1.4rem;
   display: block;
   line-height: 1.5;
-}/*# sourceMappingURL=businessBase-page.css.map */
+}/*# sourceMappingURL=page-businessBase.css.map */
