@@ -26,6 +26,9 @@ Template Name: businessBase
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
+            <a href="/aboutus/">企業情報</a>
+        </li>
+        <li>
             <span>事業拠点</span>
         </li>
     </ul>

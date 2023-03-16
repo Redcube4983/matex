@@ -26,6 +26,9 @@ Template Name: profile
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
+            <a href="/aboutus/">企業情報</a>
+        </li>
+        <li>
             <span>会社概要</span>
         </li>
     </ul>
