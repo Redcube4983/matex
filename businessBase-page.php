@@ -53,7 +53,7 @@ Template Name: businessBase
                 <div class="addressWrap">
                     <h3>本社</h3>
                     <h4>〒111-0036<br>東京都台東区松が谷1-10-2</h4>
-                    <span class="number">Tel. 03-3844-0808　<br class="pc">Fax. 03-3844-4109</span
+                    <span class="number">Tel. 03-3844-0808　<br class="pc">Fax. 03-3844-4109</span>
                 </div>
             </div>
         </li>
