@@ -177,9 +177,11 @@
 #qualityInner li:not(:first-child) {
   padding-top: 30px;
 }
-
-.olwrap ol {
+#qualityInner .olwrap ol {
   counter-reset: item;
   list-style-type: none;
   padding-left: 0;
+}
+#qualityInner .olwrap p {
+  border-top: none;
 }/*# sourceMappingURL=page-quality.css.map */

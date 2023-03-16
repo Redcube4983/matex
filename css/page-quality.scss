@@ -24,12 +24,15 @@
     li:not(:first-child) {
         padding-top: 30px;
     }
+    .olwrap {
+        ol{
+            counter-reset: item;
+            list-style-type: none;
+            padding-left: 0;
+          }
+          p {
+            border-top: none;
+          }
+    }
 }
 
-.olwrap {
-    ol{
-        counter-reset: item;
-        list-style-type: none;
-        padding-left: 0;
-      }
-}
