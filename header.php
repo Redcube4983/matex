@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/favicon.ico">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
-<!--<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">-->
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
 <?php if( is_front_page() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
