@@ -18,8 +18,8 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
 <?php if( is_front_page() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
-<?php elseif( is_page( 'aboutus' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutus.css">
+<?php elseif( is_page( ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
 <?php elseif( is_page( 'message' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
 <?php elseif( is_page( 'profile' ) ): ?>
