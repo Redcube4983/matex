@@ -16,8 +16,9 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutus.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/profile-page.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/businessBase-page.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-profile.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-businessBase.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-quality.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
