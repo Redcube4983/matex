@@ -72,7 +72,7 @@ Template Name: businessBase
                 <div class="addressWrap">
                     <h3>栃木工場／営業所</h3>
                     <h4>〒327-0816<br>栃木県佐野市栄町佐野工業団地14街区1画地</h4>
-                    <span class="number">Tel. 0283-23-0808　Fax. 0283-24-1145</span>
+                    <span class="number">Tel. 0283-23-0808　<br class="pc">Fax. 0283-24-1145</span>
                     <span class="property">敷地 14,500㎡<br>事務所 1,372 ㎡<br>工場 6,474㎡</span>
                 </div>
             </div>
@@ -92,7 +92,7 @@ Template Name: businessBase
                 <div class="addressWrap">
                     <h3>福島工場／営業所</h3>
                     <h4>〒969-1301<br>福島県安達郡大玉村大山字向原大玉村第一工業団地</h4>
-                    <span class="number">Tel. 0243-48-2008　Fax. 0243-48-3678</span>
+                    <span class="number">Tel. 0243-48-2008　<br class="pc">Fax. 0243-48-3678</span>
                     <span class="property">敷地 18,000㎡<br>事務所 300㎡<br>工場 3,880㎡</span>
                 </div>
             </div>
@@ -112,7 +112,7 @@ Template Name: businessBase
                 <div class="addressWrap">
                     <h3>群馬工場／営業所</h3>
                     <h4>〒370-1201<br>群馬県高崎市倉賀野町3200</h4>
-                    <span class="number">Tel. 027-346-0808　Fax. 027-346-3123</span>
+                    <span class="number">Tel. 027-346-0808　<br class="pc">Fax. 027-346-3123</span>
                     <span class="property">敷地 4,300㎡<br>事務所 384㎡<br>工場 1,780㎡</span>
                 </div>
             </div>
@@ -132,7 +132,7 @@ Template Name: businessBase
                 <div class="addressWrap">
                     <h3>埼玉工場／営業所</h3>
                     <h4>〒350-1331<br>埼玉県狭山市新狭山1-11-6</h4>
-                    <span class="number">Tel. 04-2954-0808　Fax. 04-2954-3208</span>
+                    <span class="number">Tel. 04-2954-0808　<br class="pc">Fax. 04-2954-3208</span>
                     <span class="property">敷地 1,849㎡<br>事務所 116㎡<br>工場 1,000㎡</span>
                 </div>
             </div>

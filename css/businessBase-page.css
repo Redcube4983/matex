@@ -213,6 +213,7 @@
   font-weight: bold;
   padding-top: 10px;
   display: block;
+  line-height: 1.5;
 }
 .mapWrap .property {
   padding-top: 10px;
