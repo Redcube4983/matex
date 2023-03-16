@@ -9,14 +9,14 @@ Template Name: quality
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/message/message-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/message/message-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/message/message-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/message/message-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/message/message-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/message/message-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/message/message-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/quality/quality-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/quality/quality-top-sp.jpg 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/quality/quality-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/quality/quality-top-pc.jpg 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/quality/quality-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/quality/quality-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/quality/quality-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Top Message</span>
-            <h1 class="jpTtl">代表メッセージ</h1>
+            <span class="enTtl">Quality/Environmental</span>
+            <h1 class="jpTtl">品質・環境への取り組み</h1>
         </div>
     </div>
 </div>
@@ -29,15 +29,52 @@ Template Name: quality
             <a href="/aboutus/">企業情報</a>
         </li>
         <li>
-            <span>代表メッセージ</span>
+            <span>品質・環境への取り組み</span>
         </li>
     </ul>
 </div>
 <section id="leadWrap">
     <div class="leadTtlWrap">
-    <h2 class="jpTtl">信頼し、信頼され、いかなる時も誠実に</h2>
+    <h2 class="jpTtl">クオリティを高め、環境負荷を軽減</h2>
     </div>
-    <p class="">私たちは長い間技術を蓄積し、さまざまな面で合理化を重ねてまいりましたが、その目的はただひとつ、「お客様にご満足をいただく」ことです。マテックスの社員教育の根幹は、お客様最優先の意識の徹底です。私たちは社内外におけるあらゆる活動、決定を「どうすればお客様にご満足いただけるか」という一点に絞って対処してきました。創業以来、激動の年月を着実に成長し続けることができましたのも、この単純明快な信念に徹してきたことで、長くお客様の信頼をかち得たからだと信じています。<br>マテックスはこれからもこの信念を曲げることなく、新しい時代に立ち向かってまいります。</p>
+    <p class="textCenter">マテックスは、ISO9001、ISO14001の認証を取得し、技術のグローバルスタンダードを確立しており、<br class="pc">さらに当社の理念にもとづく環境負荷低減のため、廃棄物の排出削減とリサイクルをはかりながら、<br class="pc">資源とエネルギーの有効利用をめざしています。</p>
+</section>
+
+<section id="qualityInner">
+    <ul>
+        <li>
+            <h3>品質方針</h3>
+            <p>品質絶対をモットーに顧客の要求品質に適合した製品をタイムリーに提供し、弛まぬ改善で顧客の信頼に応える。</p>
+        </li>
+        <li>
+            <h3>品質方針</h3>
+            <p>品質絶対をモットーに顧客の要求品質に適合した製品をタイムリーに提供し、弛まぬ改善で顧客の信頼に応える。</p>
+        </li>
+        <li>
+            <h3>品質方針</h3>
+            <p>品質絶対をモットーに顧客の要求品質に適合した製品をタイムリーに提供し、弛まぬ改善で顧客の信頼に応える。</p>
+            <ol class="olwrap">
+                <li>
+                    <p>環境方針の実現のために著しい及び有益な環境側面を抽出し、環境目標を設定して、企業活動を推進すると共に定期的に見直し、継続的な活動に努めます。</p>
+                </li>
+                <li>
+                    <p>環境負荷低減のため、廃棄物の排出削減とリサイクルを図り、又資源及びエネルギーの有効利用を推進します。</p>
+                </li>
+                <li>
+                    <p>関連する法規制及び当社が同意するその他の要求事項を順守して環境保全に努めます。</p>
+                </li>
+                <li>
+                    <p>社員の環境意識昂揚のため、環境教育を推進します。</p>
+                </li>
+                <li>
+                    <p>この環境方針は、全社員に周知すると共に協力会社にも環境方針を伝達し、理解と協力を要請します。</p>
+                </li>
+                <li>
+                    <p>この環境方針は、要求に応じて社外に公開します。</p>
+                </li>
+            </ol>
+        </li>
+    </ul>
 </section>
     
 </main>
