@@ -25,3 +25,11 @@
         padding-top: 30px;
     }
 }
+
+.olwrap {
+    ol{
+        counter-reset: item;
+        list-style-type: none;
+        padding-left: 0;
+      }
+}
