@@ -33,11 +33,10 @@
             }
           }
           .mapWrap {
-            display: flex;
-            width: 100%;
-            flex-flow: wrap-reverse;
             @media screen and (min-width:920px){
-                width: 64%;
+                width: 67%;
+                display: flex;
+                flex-flow: row-reverse;
             }
           }
       }
@@ -51,6 +50,8 @@
         height: 300px;
         @media screen and (min-width:920px){
             width: 48%;
+            padding: 0;
+            height: 274px;
           }
         iframe {
         width: 100%;

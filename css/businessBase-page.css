@@ -165,14 +165,11 @@
     width: 33%;
   }
 }
-#base li .mapWrap {
-  display: flex;
-  width: 100%;
-  flex-flow: wrap-reverse;
-}
 @media screen and (min-width: 920px) {
   #base li .mapWrap {
-    width: 64%;
+    width: 67%;
+    display: flex;
+    flex-flow: row-reverse;
   }
 }
 
@@ -184,6 +181,8 @@
 @media screen and (min-width: 920px) {
   .mapWrap .map {
     width: 48%;
+    padding: 0;
+    height: 274px;
   }
 }
 .mapWrap .map iframe {
