@@ -149,9 +149,6 @@
   padding-top: 30px;
   margin-top: 30px;
 }
-#base li:not(:first-child) {
-  padding-top: 60px;
-}
 
 .mapWrap .map {
   padding-top: 20px;
