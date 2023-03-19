@@ -6,6 +6,21 @@
   padding: 0 15px;
   margin: 60px auto;
 }
+.cta-tel p{
+    line-height: 1.4;
+    font-size: 1.4rem;
+    a{
+        font-size: 4rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        color: #e95520;
+    }
+    @media screen and (min-width:960px){
+        a {
+            font-size: 5rem;
+        }    
+    }
+}
 footer .site-logo{
     margin: 0 auto 20px;
     padding: 0 15px;

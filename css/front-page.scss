@@ -904,18 +904,3 @@ time {
     
 }
 
-.cta-tel p{
-    line-height: 1.4;
-    font-size: 1.4rem;
-    a{
-        font-size: 4rem;
-        font-family: 'Oswald', sans-serif;
-        font-weight: 500;
-        color: #e95520;
-    }
-    @media screen and (min-width:960px){
-        a {
-            font-size: 5rem;
-        }    
-    }
-}

@@ -948,20 +948,4 @@ body [data-page-id=top] .mask-container {
     right: 20px;
     transition: right 1s;
   }
-}
-
-.cta-tel p {
-  line-height: 1.4;
-  font-size: 1.4rem;
-}
-.cta-tel p a {
-  font-size: 4rem;
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
-  color: #e95520;
-}
-@media screen and (min-width: 960px) {
-  .cta-tel p a {
-    font-size: 5rem;
-  }
 }/*# sourceMappingURL=front-page.css.map */
