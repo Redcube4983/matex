@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: deliverysystem
+Template Name: selessystem
 */
 ?>
 <?php get_header(); ?>
