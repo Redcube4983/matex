@@ -33,7 +33,18 @@
     li:not(:first-child) {
         padding-top: 30px;
     }
-    img {
-        width: 100%;
-    }
+    .position {
+        overflow-x: scroll;
+        width: 130%;
+        @media screen and (min-width:768px){
+            overflow-x: inherit;
+            width: 100%;
+        }
+      }
 }
+.stateImgWrap {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
