@@ -15,8 +15,8 @@ Template Name: selessystem
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Business base</span>
-            <h1 class="jpTtl">事業拠点</h1>
+            <span class="enTtl">Network</span>
+            <h1 class="jpTtl">販売/納品体制</h1>
         </div>
     </div>
 </div>
@@ -26,11 +26,13 @@ Template Name: selessystem
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <a href="/aboutus/">企業情報</a>
+            <a href="/business/">事業情報</a>
         </li>
         <li>
             <span>事業拠点</span>
         </li>
     </ul>
 </div>
+<section id="selesSystem">
+</section>
 </main>

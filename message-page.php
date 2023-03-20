@@ -9,9 +9,9 @@ Template Name: message
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/message/message-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/message/message-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/message/message-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/message/message-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/message/message-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/message/message-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/message/message-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/message/message-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/message/message-top-sp.jpg 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/message/message-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/message/message-top-pc.jpg 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/message/message-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/message/message-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/message/message-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -43,7 +43,7 @@ Template Name: message
     <section class="messageInner">
         <div id="ceoWrap">
             <div class="ceoImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/message/message-img01.jpg" alt="代表写真">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/message/message-img01.jpg" alt="代表写真">
             </div>
             <div class="ceoProfile">
                 <span>代表取締役社長<br>新井 憲明</span>

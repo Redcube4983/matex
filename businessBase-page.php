@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: businessBase
+Template Name: businessbase
 */
 ?>
 <?php get_header(); ?>
