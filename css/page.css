@@ -376,7 +376,6 @@ main {
   font-size: 1.4rem;
   letter-spacing: 1.5px;
   text-align: center;
-  margin-top: 20px;
   transition: 0.2s;
 }
 .moreButtonWrap .moreButton:hover {
