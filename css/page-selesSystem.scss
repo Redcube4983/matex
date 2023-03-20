@@ -16,6 +16,7 @@
 
 #selesSystemInner {
     @include padding();
+    .textWrap {
     h3 {
         font-size: 2rem;
         @media screen and (min-width:960px){
@@ -32,6 +33,7 @@
       }
     li:not(:first-child) {
         padding-top: 30px;
+    }
     }
     .position {
         overflow-x: scroll;

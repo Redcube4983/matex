@@ -62,10 +62,20 @@ Template Name: selessystem
             <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg02.svg" alt="体制仕組み図画像">
         </div>
         <div class="stateImgWrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg03.jpg" alt="様子画像">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg04.jpg" alt="様子画像">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg05.jpg" alt="様子画像">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg06.jpg" alt="様子画像">
+            <ul>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg03.jpg" alt="様子画像">
+                </li>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg04.jpg" alt="様子画像">
+                </li>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg05.jpg" alt="様子画像">
+                </li>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg06.jpg" alt="様子画像">
+                </li>
+            </ul>
         </div>
     </div>
 </section>
