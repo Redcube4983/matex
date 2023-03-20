@@ -45,8 +45,16 @@
       }
 }
 .stateImgWrap {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    width: 100%;
+    img {
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    li {
+        width: 48%;
+    }
   }

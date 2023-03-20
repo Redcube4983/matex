@@ -215,9 +215,15 @@
   }
 }
 
-.stateImgWrap {
+.stateImgWrap img {
+  width: 100%;
+}
+.stateImgWrap ul {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
   width: 100%;
+}
+.stateImgWrap li {
+  width: 48%;
 }/*# sourceMappingURL=page-selesSystem.css.map */
