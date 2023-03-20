@@ -9,9 +9,9 @@ Template Name: selessystem
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/profile/profile-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/profile/profile-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/profile/profile-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/profile/profile-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/profile/profile-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/profile/profile-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/profile/profile-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-sp.jpg 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-pc.jpg 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -29,10 +29,53 @@ Template Name: selessystem
             <a href="/business/">事業情報</a>
         </li>
         <li>
-            <span>事業拠点</span>
+            <span>販売/納品体制</span>
         </li>
     </ul>
 </div>
-<section id="selesSystem">
+<section id="leadWrap">
+        <div class="leadTtlWrap">
+            <h2 class="jpTtl">“拠点主義”体制から<br>ジャストインタイムでデリバリー</h2>
+        </div>
+</section>
+<section id="selesSystemInner">
+    <div class="textMap">
+    <div class="textWrap">
+        <ul>
+            <li>
+                <h3>販売体制</h3>
+                <p>鉄鋼メーカーから供給される一次製品を、お客様のニーズに合わせて加工、納品するのが私たちコイルセンターの役割です。
+                    マテックスは、北関東から東北にかけて、生産と販売サービスを一体化した拠点をバランスよく展開。東京本社と各拠点が緻密に連携し、最適な在庫管理、納期管理を実現しています。お客様の身近にあって、その声をじかに聞き、最短の反応でニーズにお応えする。この「拠点主義」こそマテックスの一貫したポリシーです。私たちはこれからもお客様と親密で永続的な信頼関係を守るために最善を尽くします。</p>
+            </li>
+            <li>
+                <h3>納品体制</h3>
+                <p>ジャストインタイムの納品体制を支えているのは、マテックス専属の輸送会社、カンテツ運輸株式会社による強力な配送システムです。カンテツ運輸はもともとマテックスの輸送部門が分離独立したもので、24トントレーラーや大型トラックを多数保有し、万全な配送システムを構築しています。コイル輸送専門に長い経験をつんだ運行スタッフがマテックスの4拠点それぞれに常駐し、さまざまな状況に臨機応変に対応しながら、第二の営業マンとして誠実にお客様の元へお届けしています。</p>
+            </li>
+        </ul>
+        <div class="mapImg">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg01.svg" alt="地図画像">
+        </div>
+    </div>
+    </div> 
+    <div class="imgWrap">
+        <div class="position">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg02.svg" alt="体制仕組み図画像">
+        </div>
+        <div class="stateImgWrap">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg03.jpg" alt="様子画像">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg04.jpg" alt="様子画像">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg05.jpg" alt="様子画像">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg06.jpg" alt="様子画像">
+        </div>
+    </div>
 </section>
 </main>
+<?php get_footer(); ?>
+
+
+
+
+
+
+
+
