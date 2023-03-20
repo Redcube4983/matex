@@ -126,7 +126,10 @@
       }
     }
     .textCenter {
-      text-align: center;
+      text-align: left;
+      @media screen and (min-width:960px){
+        text-align: center;
+      }
     }
   }
 

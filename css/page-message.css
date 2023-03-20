@@ -155,7 +155,12 @@
   }
 }
 #leadWrap .textCenter {
-  text-align: center;
+  text-align: left;
+}
+@media screen and (min-width: 960px) {
+  #leadWrap .textCenter {
+    text-align: center;
+  }
 }
 
 #ceoWrap {
