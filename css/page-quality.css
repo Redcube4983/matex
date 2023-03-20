@@ -165,6 +165,109 @@
   margin: 60px auto;
 }
 
+@media screen and (min-width: 960px) {
+  #cta-area {
+    text-align: center;
+    padding: 0 30px;
+    margin: 100px auto 120px;
+  }
+}
+
+#cta-area .button {
+  margin: 0 0 30px;
+}
+#cta-area .button a {
+  background-color: #e95520;
+  color: #fff;
+  width: 320px;
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+#cta-area .button a span {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#cta-area .button a span::before {
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  background-color: #fff;
+  content: "";
+  transition: right 0.3s;
+}
+#cta-area .button a span::after {
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%) rotate(30deg);
+  background-color: #fff;
+  content: "";
+  transform-origin: right;
+  transition: right 0.3s;
+}
+#cta-area .button a:hover span::before {
+  right: 15px;
+  transition: right 0.3s;
+}
+#cta-area .button a:hover span::after {
+  right: 15px;
+  transition: right 0.3s;
+}
+@media screen and (min-width: 960px) {
+  #cta-area .button {
+    margin: 0 0 50px;
+  }
+  #cta-area .button a {
+    width: 500px;
+    height: 80px;
+    font-size: 2.1rem;
+  }
+  #cta-area .button a span::before {
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    content: "";
+  }
+  #cta-area .button a span::after {
+    position: absolute;
+    width: 15px;
+    height: 1px;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%) rotate(30deg);
+    background-color: #fff;
+    content: "";
+    transform-origin: right;
+  }
+  #cta-area .button a:hover span::before {
+    right: 20px;
+    transition: right 1s;
+  }
+  #cta-area .button a:hover span::after {
+    right: 20px;
+    transition: right 1s;
+  }
+}
+
 .cta-tel p {
   line-height: 1.4;
   font-size: 1.4rem;
