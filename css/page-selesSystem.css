@@ -203,4 +203,7 @@
 }
 #selesSystemInner li:not(:first-child) {
   padding-top: 30px;
+}
+#selesSystemInner img {
+  width: 100%;
 }/*# sourceMappingURL=page-selesSystem.css.map */
