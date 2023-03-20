@@ -36,15 +36,31 @@
     }
     }
     .position {
+        padding-top: 30px;
         overflow-x: scroll;
         width: 130%;
         @media screen and (min-width:768px){
             overflow-x: inherit;
             width: 100%;
+            padding-top: 60px;
         }
       }
 }
+.mapImg {
+    padding-top: 30px;
+    @media screen and (min-width:768px){
+    .mapImg {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 60px;
+      }
+    }
+    @media screen and (min-width:960px){
+
+    }
+  }
 .stateImgWrap {
+    padding-top: 30px;
     img {
         width: 100%;
     }
@@ -52,11 +68,15 @@
         display: flex;
         flex-flow: wrap;
         width: 100%;
+        justify-content: space-between;
     }
     li:first-child {
         width: 60%;
     }
     li:not(:first-child){
-        width: 49.5%;
+        width: 38%;
     }
+    @media screen and (min-width:768px){
+            padding-top: 60px;
+        }
   }

@@ -205,6 +205,7 @@
   padding-top: 30px;
 }
 #selesSystemInner .position {
+  padding-top: 30px;
   overflow-x: scroll;
   width: 130%;
 }
@@ -212,9 +213,23 @@
   #selesSystemInner .position {
     overflow-x: inherit;
     width: 100%;
+    padding-top: 60px;
   }
 }
 
+.mapImg {
+  padding-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .mapImg .mapImg {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+}
+.stateImgWrap {
+  padding-top: 30px;
+}
 .stateImgWrap img {
   width: 100%;
 }
@@ -222,10 +237,16 @@
   display: flex;
   flex-flow: wrap;
   width: 100%;
+  justify-content: space-between;
 }
 .stateImgWrap li:first-child {
   width: 60%;
 }
 .stateImgWrap li:not(:first-child) {
-  width: 49.5%;
+  width: 38%;
+}
+@media screen and (min-width: 768px) {
+  .stateImgWrap {
+    padding-top: 60px;
+  }
 }/*# sourceMappingURL=page-selesSystem.css.map */
