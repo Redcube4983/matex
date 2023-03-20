@@ -1,7 +1,7 @@
 <body>
 <footer>
 <section id="cta-area">
-    <div class="button"><a href=""><span>お問い合わせはこちら</span></a></div>
+<!--    <div class="button"><a href=""><span>お問い合わせはこちら</span></a></div>-->
     <div class="cta-tel">
         <p>お電話でのお問い合わせ</p>
         <p><a href="tel:03-3844-0808">03-3844-0808</a></p>
