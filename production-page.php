@@ -15,8 +15,8 @@ Template Name: production
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Network</span>
-            <h1 class="jpTtl">販売/納品体制</h1>
+            <span class="enTtl">Production</span>
+            <h1 class="jpTtl">生産体制</h1>
         </div>
     </div>
 </div>
