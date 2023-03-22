@@ -72,9 +72,15 @@
     }
     li:first-child {
         width: 60%;
+        @media screen and (min-width:1280px){
+            width: 35%;
+        }
     }
     li:not(:first-child){
         width: 38%;
+        @media screen and (min-width:1280px){
+            width: 21%;
+        }
     }
     @media screen and (min-width:768px){
             padding-top: 60px;
