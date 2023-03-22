@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: selessystem
+Template Name: network
 */
 ?>
 <?php get_header(); ?>
@@ -9,9 +9,9 @@ Template Name: selessystem
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selessyStem-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.jpg 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.jpg 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -38,7 +38,7 @@ Template Name: selessystem
             <h2 class="jpTtl">“拠点主義”体制から<br class="sp">ジャストインタイムでデリバリー</h2>
         </div>
 </section>
-<section id="selesSystemInner">
+<section id="networkInner">
     <div class="textMap">
     <div class="textWrap">
         <ul>
@@ -53,27 +53,27 @@ Template Name: selessystem
             </li>
         </ul>
         <div class="mapImg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg01.svg" alt="地図画像">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg01.svg" alt="地図画像">
         </div>
     </div>
     </div> 
     <div class="imgWrap">
         <div class="position">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg02.svg" alt="体制仕組み図画像">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg02.svg" alt="体制仕組み図画像">
         </div>
         <div class="stateImgWrap">
             <ul>
                 <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg03.jpg" alt="様子画像">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg03.jpg" alt="様子画像">
                 </li>
                 <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg04.jpg" alt="様子画像">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg04.jpg" alt="様子画像">
                 </li>
                 <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg05.jpg" alt="様子画像">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg05.jpg" alt="様子画像">
                 </li>
                 <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/selesSystem/selesSystemImg06.jpg" alt="様子画像">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg06.jpg" alt="様子画像">
                 </li>
             </ul>
         </div>
