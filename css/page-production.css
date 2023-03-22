@@ -206,10 +206,10 @@
   justify-content: space-between;
 }
 .innerWrap2 li:first-child {
-  width: 56%;
+  width: 60%;
 }
 .innerWrap2 li:last-child {
-  width: 42%;
+  width: 38%;
 }
 
 .innerWrap3 ul {
@@ -218,5 +218,5 @@
   justify-content: space-between;
 }
 .innerWrap3 li {
-  width: 30%;
+  width: 32%;
 }/*# sourceMappingURL=page-production.css.map */
