@@ -78,3 +78,11 @@
             padding-top: 60px;
         }
   }
+
+
+.textMap {
+@media screen and (min-width:960px){
+    display: flex;
+    flex-flow: wrap;
+}
+}
