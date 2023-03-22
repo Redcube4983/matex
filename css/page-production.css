@@ -291,11 +291,13 @@
 @media screen and (min-width: 960px) {
   #productionChart table {
     font-size: 1.6rem;
-    width: 100%;
-    overflow-x: inherit;
   }
 }
 #productionChart .table1 {
   padding: 20px 60px 20px 10px;
   background-color: #b9b9b9;
+}
+#productionChart .table2 {
+  width: 840px;
+  background-color: #d9d9d9;
 }/*# sourceMappingURL=page-production.css.map */
