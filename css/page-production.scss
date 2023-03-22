@@ -7,8 +7,16 @@
     img {
         width: 100%;
       }
-    .innerWrap1 {
+
+}
+
+.innerWrap1 {
+    ul {
         display: flex;
+        flex-flow: wrap;
         justify-content: space-between;
+      }
+    li {
+        width: 48%;
     }
 }

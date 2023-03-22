@@ -174,7 +174,12 @@
 #productionWrap img {
   width: 100%;
 }
-#productionWrap .innerWrap1 {
+
+.innerWrap1 ul {
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
+}
+.innerWrap1 li {
+  width: 48%;
 }/*# sourceMappingURL=page-production.css.map */
