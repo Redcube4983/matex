@@ -270,4 +270,9 @@
   .textWrap ul {
     width: 48%;
   }
+}
+@media screen and (min-width: 1280px) {
+  .textWrap ul {
+    width: 30%;
+  }
 }/*# sourceMappingURL=page-selesSystem.css.map */
