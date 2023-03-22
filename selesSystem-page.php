@@ -35,7 +35,7 @@ Template Name: selessystem
 </div>
 <section id="leadWrap">
         <div class="leadTtlWrap">
-            <h2 class="jpTtl">“拠点主義”体制から<br>ジャストインタイムでデリバリー</h2>
+            <h2 class="jpTtl">“拠点主義”体制から<br class="sp">ジャストインタイムでデリバリー</h2>
         </div>
 </section>
 <section id="selesSystemInner">

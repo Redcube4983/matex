@@ -227,6 +227,14 @@
     padding-top: 60px;
   }
 }
+@media screen and (min-width: 960px) {
+  .mapImg {
+    width: 48%;
+    margin: 0;
+    padding-top: 0;
+  }
+}
+
 .stateImgWrap {
   padding-top: 30px;
 }
@@ -256,4 +264,7 @@
     display: flex;
     flex-flow: wrap;
   }
+}
+.textMap ul {
+  width: 48%;
 }/*# sourceMappingURL=page-selesSystem.css.map */

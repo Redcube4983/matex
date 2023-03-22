@@ -54,7 +54,9 @@
         padding-top: 60px;
     }
     @media screen and (min-width:960px){
-
+        width: 48%;
+        margin: 0;
+        padding-top: 0;
     }
   }
 .stateImgWrap {
@@ -84,5 +86,8 @@
 @media screen and (min-width:960px){
     display: flex;
     flex-flow: wrap;
-}
+    }
+    ul {
+        width: 48%;
+      }
 }
