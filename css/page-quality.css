@@ -96,13 +96,13 @@
 @media screen and (min-width: 768px) {
   #panNavi {
     padding: 10px 40px 0;
-    color: #fff;
   }
 }
 @media screen and (min-width: 960px) {
   #panNavi {
     position: absolute;
     top: 65px;
+    color: #fff;
   }
 }
 
