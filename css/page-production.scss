@@ -40,7 +40,7 @@
 }
 
 .innerWrap2 {
-    padding-top: 3px;
+    @include paddingTop();
     ul {
         display: flex;
         flex-flow: wrap;
@@ -55,7 +55,7 @@
 }
 
 .innerWrap3 {
-    padding-top: 3px;
+    @include paddingTop();
     ul {
         display: flex;
         flex-flow: wrap;

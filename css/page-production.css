@@ -203,6 +203,11 @@
 .innerWrap2 {
   padding-top: 3px;
 }
+@media screen and (min-width: 960px) {
+  .innerWrap2 {
+    padding-top: 10px;
+  }
+}
 .innerWrap2 ul {
   display: flex;
   flex-flow: wrap;
@@ -217,6 +222,11 @@
 
 .innerWrap3 {
   padding-top: 3px;
+}
+@media screen and (min-width: 960px) {
+  .innerWrap3 {
+    padding-top: 10px;
+  }
 }
 .innerWrap3 ul {
   display: flex;
