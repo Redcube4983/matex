@@ -168,47 +168,47 @@
   }
 }
 
-#selesSystemInner {
+#networkInner {
   padding: 60px 15px 0;
 }
 @media screen and (min-width: 768px) {
-  #selesSystemInner {
+  #networkInner {
     padding: 60px 40px 0;
     font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 960px) {
-  #selesSystemInner {
+  #networkInner {
     max-width: 1100px;
     margin: 0 auto;
   }
 }
-#selesSystemInner .textWrap h3 {
+#networkInner .textWrap h3 {
   font-size: 2rem;
 }
 @media screen and (min-width: 960px) {
-  #selesSystemInner .textWrap h3 {
+  #networkInner .textWrap h3 {
     font-size: 2, 2rem;
   }
 }
-#selesSystemInner .textWrap p {
+#networkInner .textWrap p {
   padding-top: 10px;
   margin-top: 10px;
   border-top: solid 1px #c5c5c5;
 }
 @media screen and (min-width: 960px) {
-  #selesSystemInner .textWrap p {
+  #networkInner .textWrap p {
     font-size: 1.5rem;
   }
 }
-#selesSystemInner .textWrap li:not(:first-child) {
+#networkInner .textWrap li:not(:first-child) {
   padding-top: 30px;
 }
-#selesSystemInner .position {
+#networkInner .position {
   padding-top: 30px;
 }
 @media screen and (min-width: 768px) {
-  #selesSystemInner .position {
+  #networkInner .position {
     overflow-x: inherit;
     width: 100%;
     padding-top: 60px;
@@ -284,4 +284,4 @@
   .textWrap ul {
     width: 40%;
   }
-}/*# sourceMappingURL=page-selesSystem.css.map */
+}/*# sourceMappingURL=page-network.css.map */

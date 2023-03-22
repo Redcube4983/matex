@@ -29,8 +29,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-businessBase.css">
 <?php elseif( is_page( 'quality' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-quality.css">
-<?php elseif( is_page( 'selessystem' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-selesSystem.css">
+<?php elseif( is_page( 'network' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-network.css">
 <?php elseif( is_page( 'production' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-production.css">
 <?php else: ?>
