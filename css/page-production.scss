@@ -7,7 +7,15 @@
     img {
         width: 100%;
       }
-
+    padding: 60px 15px 0;
+    @media screen and (min-width:768px){
+    padding: 60px 40px 0;
+    font-size: 1.4rem;
+    }
+    @media screen and (min-width:960px){
+    max-width: 1100px;
+    margin: 0 auto;
+    }
 }
 
 .innerWrap1 {
