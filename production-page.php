@@ -75,74 +75,76 @@ Template Name: production
             </ul>
         </div>
     </div>
-    <div id="productionCart">
+    <div id="productionChart">
+        <h3 class="chartTtl">工場設備一覧</h3>
         <table>
-	<tbody>
-		<tr>
-			<th colspan="2" rowspan="2">設備名</th>
-			<th colspan="3">母材使用</th>
-			<th colspan="6">製品使用</th>
-		</tr>
-		<tr>
-			<th>板厚（mm）</th>
-			<th>板幅（mm）</th>
-			<th>コイル内径（mm）</th>
-			<th>コイル外径（mm）</th>
-			<th>積載重量（㌧max）</th>
-			<th></th>
-			<th>内径（mm max）</th>
-			<th>外形（mm max）</th>
-			<th>製品重量（㌧）</th>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</tbody>
+            <h4 class="factoryName">栃木工場</h4>
+        <tbody>
+            <tr>
+                <th colspan="2" rowspan="2">設備名</th>
+                <th colspan="3">母材使用</th>
+                <th colspan="6">製品使用</th>
+            </tr>
+            <tr>
+                <th>板厚（mm）</th>
+                <th>板幅（mm）</th>
+                <th>コイル内径（mm）</th>
+                <th>コイル外径（mm）</th>
+                <th>積載重量（㌧max）</th>
+                <th></th>
+                <th>内径（mm max）</th>
+                <th>外形（mm max）</th>
+                <th>製品重量（㌧）</th>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
 </table>
     </div>
 </section>
