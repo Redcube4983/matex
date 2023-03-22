@@ -42,17 +42,37 @@ Template Name: production
 <section id="productionWrap">
     <div id="imgWrap">
         <div class="innerWrap1">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg01.jpg" alt="生産体制イメージ画像">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg02.jpg" alt="生産体制イメージ画像">
+            <ul>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg01.jpg" alt="生産体制イメージ画像">
+                </li>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg02.jpg" alt="生産体制イメージ画像">
+                </li>
+            </ul>
         </div>
         <div class="innerWrap2">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg03.jpg" alt="生産体制イメージ画像">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg04.jpg" alt="生産体制イメージ画像">
+            <ul>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg03.jpg" alt="生産体制イメージ画像">
+                </li>
+                <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg04.jpg" alt="生産体制イメージ画像">
+                </li>
+            </ul>
         </div>
         <div class="innerWrap3">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg05.jpg" alt="生産体制イメージ画像">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg06.jpg" alt="生産体制イメージ画像">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg07.jpg" alt="生産体制イメージ画像">
+            <ul>
+                <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg05.jpg" alt="生産体制イメージ画像">
+                </li>
+                <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg06.jpg" alt="生産体制イメージ画像">
+                </li>
+                <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg07.jpg" alt="生産体制イメージ画像">
+                </li>
+            </ul>
         </div>
     </div>
     <div id="cart">

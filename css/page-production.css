@@ -166,4 +166,15 @@
   #leadWrap .textCenter {
     text-align: center;
   }
+}
+
+#productionWrap {
+  padding-top: 60px;
+}
+#productionWrap img {
+  width: 100%;
+}
+#productionWrap .innerWrap1 {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=page-production.css.map */
