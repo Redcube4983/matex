@@ -188,6 +188,13 @@
   }
 }
 
+@media screen and (min-width: 960px) {
+  #imgWrap {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
 .innerWrap1 ul {
   display: flex;
   flex-flow: wrap;

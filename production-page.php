@@ -75,7 +75,7 @@ Template Name: production
             </ul>
         </div>
     </div>
-    <div id="cart">
+    <div id="productionCart">
         <table>
 	<tbody>
 		<tr>
