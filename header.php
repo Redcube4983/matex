@@ -65,7 +65,7 @@
             <h3><a href="/business/">事業情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="/network/">販売/納品体制</a></h4></li>
-                <li class="gran-child"><h4><a href="#">生産体制</a></h4></li>
+                <li class="gran-child"><h4><a href="/production/">生産体制</a></h4></li>
                 <li class="gran-child"><h4><a href="#">事業拠点</a></h4></li>
                 <li class="gran-child"><h4><a href="#">技術サポート体制</a></h4></li>
             </ul>
