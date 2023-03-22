@@ -259,12 +259,15 @@
   }
 }
 
+.textMap {
+  text-align: justify;
+}
 @media screen and (min-width: 960px) {
   .textMap {
     display: flex;
     flex-flow: wrap;
   }
-}
-.textMap ul {
-  width: 48%;
+  .textMap ul {
+    width: 48%;
+  }
 }/*# sourceMappingURL=page-selesSystem.css.map */
