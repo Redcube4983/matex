@@ -31,6 +31,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-quality.css">
 <?php elseif( is_page( 'selessystem' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-selesSystem.css">
+<?php elseif( is_page( 'production' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-production.css">
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
