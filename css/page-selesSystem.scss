@@ -87,6 +87,7 @@
     @media screen and (min-width:960px){
         display: flex;
         flex-flow: wrap;
+        justify-content: space-between;
         ul {
             width: 48%;
         }

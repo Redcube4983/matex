@@ -266,6 +266,7 @@
   .textWrap {
     display: flex;
     flex-flow: wrap;
+    justify-content: space-between;
   }
   .textWrap ul {
     width: 48%;
