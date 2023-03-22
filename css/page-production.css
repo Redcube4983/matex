@@ -186,29 +186,6 @@
 #productionWrap img {
   width: 100%;
 }
-#productionWrap h3 {
-  font-size: 2rem;
-  color: #e95520;
-  letter-spacing: 1px;
-}
-@media screen and (min-width: 768px) {
-  #productionWrap h3 {
-    font-size: 2.2rem;
-  }
-}
-@media screen and (min-width: 960px) {
-  #productionWrap h3 {
-    font-size: 2.4rem;
-  }
-}
-#productionWrap h4 {
-  font-size: 1.8rem;
-  line-height: 1;
-  padding-top: 20px;
-}
-#productionWrap table {
-  margin-top: 30px;
-}
 
 @media screen and (min-width: 960px) {
   #imgWrap {
@@ -268,4 +245,52 @@
 
 #productionChart {
   padding-top: 60px;
+}
+#productionChart h3 {
+  font-size: 2rem;
+  color: #e95520;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 768px) {
+  #productionChart h3 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #productionChart h3 {
+    font-size: 2.4rem;
+  }
+}
+#productionChart h4 {
+  font-size: 1.8rem;
+  line-height: 1;
+  padding-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  #productionChart h4 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #productionChart h4 {
+    font-size: 2.2rem;
+  }
+}
+#productionChart table {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  width: 1800px;
+  overflow-x: scroll;
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  #productionChart table {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #productionChart table {
+    font-size: 1.6rem;
+    width: 100%;
+  }
 }/*# sourceMappingURL=page-production.css.map */
