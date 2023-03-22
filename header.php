@@ -87,7 +87,6 @@
         </li>
         <li class="global-nav other">
             <h3><a href="#">サイトのご利用について</a></h3>
-            <h3><a href="#">サイトのご利用について</a></h3>
         </li>
     </ul>
     </div>
