@@ -77,6 +77,7 @@ Template Name: production
     </div>
     <div id="productionChart">
         <h3 class="">工場設備一覧</h3>
+        <div class="chartInnerWrap">
         <table>
             <h4 class="">■栃木工場</h4>
         <tbody>
@@ -146,6 +147,7 @@ Template Name: production
             </tr>
         </tbody>
 </table>
+        </div>
     </div>
 </section>
 

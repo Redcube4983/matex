@@ -299,5 +299,11 @@
 }
 #productionChart .table2 {
   width: 840px;
+  height: 60px;
   background-color: #d9d9d9;
+}
+#productionChart .table3 {
+  width: 160px;
+  height: 60px;
+  text-align: center;
 }/*# sourceMappingURL=page-production.css.map */
