@@ -78,8 +78,8 @@ Template Name: production
     <div id="productionChart">
         <h3 class="">工場設備一覧</h3>
         <div class="chartInnerWrap">
-        <table>
             <h4 class="">■栃木工場</h4>
+        <table>
         <tbody>
             <tr>
                 <th class="table1" colspan="2" rowspan="2">設備名</th>
