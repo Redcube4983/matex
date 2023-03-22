@@ -206,6 +206,9 @@
   line-height: 1;
   padding-top: 20px;
 }
+#productionWrap table {
+  margin-top: 30px;
+}
 
 @media screen and (min-width: 960px) {
   #imgWrap {
