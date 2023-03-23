@@ -107,13 +107,17 @@
         }
     }
     .table1 {
-        padding: 20px 60px 20px 10px;
+        padding: 25px 0 25px 10px;
         background-color: #b9b9b9;
+        display: block;
+        width: 216px;
       }
     .table2 {
-        width: 840px;
-        height: 60px;
         background-color: #d9d9d9;
+        display: block;
+        padding: 7px 300px 7px 10px;
+        width: 840px;
+        height: 100%;
     }
     .table3 {
         width: 160px;
