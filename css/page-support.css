@@ -236,6 +236,11 @@
 #supportWrap .textWrap p {
   font-size: 1.4rem;
 }
+@media screen and (min-width: 960px) {
+  #supportWrap .textWrap p {
+    font-size: 1.6rem;
+  }
+}
 
 .supportlogoWrap span {
   font-size: 1.3rem;
