@@ -43,6 +43,13 @@
         padding-top: 40px;
         @media screen and (min-width:920px){
             padding: 0;
+            width: 40%;
+            padding-right: 30px;
+        }
+    .textWrap {
+        @media screen and (min-width:920px){
+            width: 80%;
+            }
         }
      }
 }
@@ -77,3 +84,4 @@
         padding-top: 40px;
     }
   }
+
