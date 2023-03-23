@@ -15,8 +15,8 @@ Template Name: recruit
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">recruit us</span>
-            <h1 class="jpTtl">企業情報</h1>
+            <span class="enTtl">Recruit</span>
+            <h1 class="jpTtl">採用情報</h1>
         </div>
     </div>
 </div>
@@ -26,18 +26,16 @@ Template Name: recruit
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <span>企業情報</span>
+            <span>採用情報</span>
         </li>
     </ul>
 </div>
     <section id="leadWrap">
         <div class="leadTtlWrap">
             <span class="enTtl">For Material Bridge</span>
-            <h2 class="jpTtl">社会と鉄とをつなぐ、架け橋でありたい</h2>
+            <h2 class="jpTtl">あらゆる産業を支えるダイナミックな仕事</h2>
         </div>
-        <p class="textCenter">私たちマテックスは、1937年の創業以来、鋼材の販売、コイルのスリットや厚中板のシャーリングなどの加工を手がけて、<br class="pc">設備、技術、流通サービスのいずれにおいても業界トップレベルのコイルセンターとして、お客様の厚い信頼をいただいています。<br>
-        社会と鉄をつなぐ架け橋としてー。私たちはこれからも優れた製品・サービスの提供を通じて、お客様のモノづくりを支え、<br class="pc">よりよい未来(あす)の創造に貢献してまいります。
-        </p>
+        <p class="textCenter">私たちの生活を支えている「鉄」製品は、太古の昔から使われてきました。時に重厚長大に、時に繊細でしなやかに、時代の変化とともにへ変幻自在に形状や性質を変え存在してきました。社会に貢献し続ける「鉄」のように、既成概念にとらわれず、自由な発想を持った挑戦できる人材を求めています。</p>
     </section>
     
     
