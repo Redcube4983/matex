@@ -167,6 +167,11 @@
   }
 }
 
+.innerWrap1 {
+  display: flex;
+  justify-content: space-between;
+}
+
 #networkInner {
   padding: 60px 15px 0;
 }

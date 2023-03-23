@@ -257,6 +257,11 @@ main {
   }
 }
 
+.innerWrap1 {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 960px) {
   .contentImg {
     width: 50%;

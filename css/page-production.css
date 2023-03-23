@@ -167,6 +167,11 @@
   }
 }
 
+.innerWrap1 {
+  display: flex;
+  justify-content: space-between;
+}
+
 #productionWrap {
   padding: 60px 15px 0;
 }

@@ -167,6 +167,11 @@
   }
 }
 
+.innerWrap1 {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* CSS Document */
 #cta-area {
   text-align: center;

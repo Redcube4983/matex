@@ -167,6 +167,11 @@
   }
 }
 
+.innerWrap1 {
+  display: flex;
+  justify-content: space-between;
+}
+
 #ceoWrap {
   position: relative;
   max-width: 800px;

@@ -167,6 +167,11 @@
   }
 }
 
+.innerWrap1 {
+  display: flex;
+  justify-content: space-between;
+}
+
 #supportWrap {
   padding: 60px 15px 0;
 }
@@ -211,6 +216,11 @@
 #supportWrap .img {
   padding-top: 40px;
 }
+@media screen and (min-width: 920px) {
+  #supportWrap .img {
+    padding: 0;
+  }
+}
 
 .supportlogoWrap span {
   font-size: 1.3rem;
@@ -236,5 +246,13 @@
   .logoWrap {
     width: 70%;
     margin: 0 30px 0 0;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .innerWrap1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
   }
 }/*# sourceMappingURL=page-support.css.map */

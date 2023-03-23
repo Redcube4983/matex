@@ -41,6 +41,9 @@
      }
      .img {
         padding-top: 40px;
+        @media screen and (min-width:920px){
+            padding: 0;
+        }
      }
 }
 .supportlogoWrap {
@@ -65,4 +68,12 @@
         width: 70%;
         margin: 0 30px 0 0;
     } 
+  }
+
+  .innerWrap1 {
+    @media screen and (min-width:920px){
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
   }
