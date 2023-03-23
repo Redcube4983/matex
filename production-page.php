@@ -86,7 +86,7 @@ Template Name: production
                 <th class="table2" colspan="4">製品使用</th>
             </tr>
             <tr>
-<!--                <th class="table3"></th>-->
+                <th class="table3"></th>
                 <th class="table3">板厚（mm）</th>
                 <th class="table3">板幅（mm）</th>
                 <th class="table3">コイル内径（mm）</th>
