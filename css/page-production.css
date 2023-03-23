@@ -284,6 +284,8 @@
   margin-top: 30px;
   font-size: 1.2rem;
   width: 1800px;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
 }
 @media screen and (min-width: 768px) {
   #productionChart table {
