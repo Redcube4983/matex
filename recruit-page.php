@@ -9,13 +9,13 @@ Template Name: recruit
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/about-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/about-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/about-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/about-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/about-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/about-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/about-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-sp.jpg 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.jpg 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">About us</span>
+            <span class="enTtl">recruit us</span>
             <h1 class="jpTtl">企業情報</h1>
         </div>
     </div>
@@ -41,12 +41,12 @@ Template Name: recruit
     </section>
     
     
-    <section class="aboutInner">
+    <section class="recruitInner">
         
         <span class="grayzone"></span>
         <div class="contents content1">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/about-img01-pc.jpg" alt="企業情報画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01-pc.jpg" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -65,7 +65,7 @@ Template Name: recruit
         <span class="grayzone"></span>
         <div class="contents content2">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.jpg" alt="企業情報画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg02.jpg" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -84,7 +84,7 @@ Template Name: recruit
         <span class="grayzone"></span>
         <div class="contents content1">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg02.jpg" alt="企業情報画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg03.jpg" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -100,24 +100,7 @@ Template Name: recruit
             </div>
         </div>
         
-        <span class="grayzone"></span>
-        <div class="contents content2">
-            <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg03.jpg" alt="企業情報画像4">
-            </div>
-            <div class="txtWrap">
-                <div class="txtInner">
-                    <div class="contentTtl">
-                        <span>Quality/Environmental</span>
-                        <h3>品質・環境への取り組み</h3>
-                    </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミー</p>
-                </div>
-                <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
-                </div>
-            </div>
-        </div>
+        
     </section>
     </main>
 <?php get_footer(); ?>
