@@ -47,7 +47,7 @@ Template Name: support
 <section id="supportWrap">
      <h3>Faithful Partnerに基づき、<br class="sp">少しでもお客様のお役に立てるよう活動しています。
 </h3>
-    <div class="innerWrap1">
+    <div class="innerWrap">
         <div class="img">
             <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg02.jpg" alt="技術サポート体制画像">
         </div>
@@ -56,7 +56,7 @@ Template Name: support
             <p>鉄のことを知り尽くしたマテックスの技術顧問がお客様のもとへお伺いし、不良品発生のお悩みや、加工技術の問題点などについての丁寧にヒアリングし、改善策、解決策をご提案しています。</p>
         </div>
     </div>
-    <div class="innerWrap2">
+    <div class="innerWrap">
         <div class="img">
             <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg03.jpg" alt="技術サポート体制画像">
         </div>
