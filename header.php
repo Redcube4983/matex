@@ -33,6 +33,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-network.css">
 <?php elseif( is_page( 'production' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-production.css">
+<?php elseif( is_page( 'support' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-support.css">
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,8 +68,7 @@
             <ul class="child">
                 <li class="gran-child"><h4><a href="/network/">販売/納品体制</a></h4></li>
                 <li class="gran-child"><h4><a href="/production/">生産体制</a></h4></li>
-                <li class="gran-child"><h4><a href="#">事業拠点</a></h4></li>
-                <li class="gran-child"><h4><a href="#">技術サポート体制</a></h4></li>
+                <li class="gran-child"><h4><a href="/support/">技術サポート体制</a></h4></li>
             </ul>
         </li>
         <li class="global-nav parent">
