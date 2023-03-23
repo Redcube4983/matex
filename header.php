@@ -74,7 +74,7 @@
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a href="#">採用情報</a><div class="arrow"></div></h3>
+            <h3><a href="/recruit/">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="#">マテックスとは</a></h4></li>
                 <li class="gran-child"><h4><a href="#">社員紹介</a></h4></li>
@@ -82,9 +82,11 @@
                 <li class="gran-child"><h4><a href="#">募集要項</a></h4></li>
             </ul>
         </li>
+<!--
         <li class="global-nav single">
             <h3><a href="#">お問い合わせ</a></h3>
         </li>
+-->
         <li class="global-nav other">
             <h3><a href="#">個人情報保護方針</a></h3>
         </li>
