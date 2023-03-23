@@ -65,7 +65,7 @@ Template Name: recruit
         <span class="grayzone"></span>
         <div class="contents content2">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/about-img02-pc.jpg" alt="企業情報画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.jpg" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -84,7 +84,7 @@ Template Name: recruit
         <span class="grayzone"></span>
         <div class="contents content1">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/about-img03-pc.jpg" alt="企業情報画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg02.jpg" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -103,7 +103,7 @@ Template Name: recruit
         <span class="grayzone"></span>
         <div class="contents content2">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/about-img04-pc.jpg" alt="企業情報画像4">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg03.jpg" alt="企業情報画像4">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
