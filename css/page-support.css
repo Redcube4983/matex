@@ -210,6 +210,12 @@
     font-size: 2rem;
   }
 }
+#supportWrap p {
+  padding-top: 10px;
+}
+#supportWrap .img {
+  padding-top: 60px;
+}
 
 .logoWrap {
   width: 60%;
