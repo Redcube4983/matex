@@ -221,14 +221,14 @@
 #supportWrap .img {
   padding-top: 40px;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #supportWrap .img {
     padding: 0;
     width: 40%;
     padding-right: 30px;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   #supportWrap .img .textWrap {
     width: 80%;
   }
@@ -237,7 +237,7 @@
 .supportlogoWrap span {
   font-size: 1.3rem;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .supportlogoWrap {
     display: flex;
     justify-content: space-between;
@@ -254,14 +254,14 @@
     width: 35%;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .logoWrap {
     width: 70%;
     margin: 0 30px 0 0;
   }
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .innerWrap {
     display: flex;
     justify-content: space-between;
