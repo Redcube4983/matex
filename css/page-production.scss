@@ -120,9 +120,11 @@
         height: 100%;
     }
     .table3 {
-        width: 160px;
-        height: 60px;
+        height: 100%;
         text-align: center;
+        display: block;
+        padding: 10px 30px;
+        background-color: #e9e9e9;
       }
   }
 

@@ -80,7 +80,6 @@ Template Name: production
         <h4 class="">■栃木工場</h4>
         <div class="chartInnerWrap">
         <table>
-        <tbody>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
                 <th class="table2" colspan="5">母材使用</th>
@@ -146,7 +145,6 @@ Template Name: production
                 <td></td>
                 <td></td>
             </tr>
-        </tbody>
 </table>
         </div>
     </div>
