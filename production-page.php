@@ -91,6 +91,7 @@ Template Name: production
                 <th class="table3">コイル内径（㎜）</th>
                 <th class="table3">コイル外径（㎜）</th>
                 <th class="table3">積載重量（㌧max）</th>
+                <th class="table3"></th>
                 <th class="table3">内径（㎜ max）</th>
                 <th class="table3">外形（㎜ max）</th>
                 <th class="table3">製品重量（㌧）</th>
