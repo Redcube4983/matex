@@ -233,6 +233,9 @@
     width: 80%;
   }
 }
+#supportWrap .textWrap p {
+  font-size: 1.4rem;
+}
 
 .supportlogoWrap span {
   font-size: 1.3rem;
