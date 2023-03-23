@@ -311,6 +311,9 @@
   padding: 10px 30px;
   background-color: #e9e9e9;
 }
+#productionChart tr {
+  display: flex;
+}
 
 .chartInnerWrap {
   width: 100%;

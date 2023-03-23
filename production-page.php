@@ -86,7 +86,6 @@ Template Name: production
                 <th class="table2" colspan="4">製品使用</th>
             </tr>
             <tr>
-<!--                <th class="table3"></th>-->
                 <th class="table3">板厚（mm）</th>
                 <th class="table3">板幅（mm）</th>
                 <th class="table3">コイル内径（mm）</th>
@@ -97,55 +96,7 @@ Template Name: production
                 <th class="table3">外形（mm max）</th>
                 <th class="table3">製品重量（㌧）</th>
             </tr>
-            <tr>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-</table>
+    </table>
         </div>
     </div>
 </section>
