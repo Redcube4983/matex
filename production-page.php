@@ -86,15 +86,15 @@ Template Name: production
                 <th class="table2" colspan="4">製品使用</th>
             </tr>
             <tr>
-                <th class="table3">板厚（mm）</th>
-                <th class="table3">板幅（mm）</th>
-                <th class="table3">コイル内径（mm）</th>
-                <th class="table3">コイル外径（mm）</th>
-                <th class="table3">積載重量（㌧max）</th>
-                <th class="table4"></th>
-                <th class="table3">内径（mm max）</th>
-                <th class="table3">外形（mm max）</th>
-                <th class="table3">製品重量（㌧）</th>
+                <td class="table3">板厚（mm）</th>
+                <td class="table3">板幅（mm）</th>
+                <td class="table3">コイル内径（mm）</th>
+                <td class="table3">コイル外径（mm）</th>
+                <td class="table3">積載重量（㌧max）</th>
+                <td class="table4"></th>
+                <td class="table3">内径（mm max）</th>
+                <td class="table3">外形（mm max）</th>
+                <td class="table3">製品重量（㌧）</th>
             </tr>
     </table>
         </div>
