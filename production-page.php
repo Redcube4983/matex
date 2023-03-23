@@ -82,12 +82,12 @@ Template Name: production
         <table>
         <tbody>
             <tr>
-                <div class="table12wrap">
-                    <th class="table1" colspan="2" rowspan="2">設備名</th>
+                <th class="table1" colspan="2" rowspan="2">設備名</th>
+                <tr class="table2wrap">
                     <th class="table2" colspan="3">母材使用</th>
                     <th class="table2" colspan="6">製品使用</th>
-                </div>
-                <div class="table34wrap">
+                </tr>
+                <tr class="table23wrap">
                     <th class="table3">板厚（mm）</th>
                     <th class="table3">板幅（mm）</th>
                     <th class="table3">コイル内径（mm）</th>
@@ -97,7 +97,7 @@ Template Name: production
                     <th class="table3">内径（mm max）</th>
                     <th class="table3">外形（mm max）</th>
                     <th class="table3">製品重量（㌧）</th>
-                </div>
+                </tr>
             </tr>
             <tr>
                 <td colspan="2"></td>
