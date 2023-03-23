@@ -303,6 +303,7 @@
   vertical-align: middle;
   width: 216px;
   border-right: 1px solid #575757;
+  color: #fff;
 }
 #productionChart .table2 {
   background-color: #808080;
@@ -311,6 +312,8 @@
   width: 840px;
   height: 100%;
   border-right: 1px solid #575757;
+  border-bottom: 1px solid #575757;
+  color: #fff;
 }
 #productionChart .table3 {
   height: 100%;
@@ -320,6 +323,7 @@
   background-color: #cccccc;
   border-right: 1px solid #575757;
 }
+
 .chartInnerWrap {
   width: 100%;
   height: 500px;

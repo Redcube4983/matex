@@ -109,19 +109,22 @@
         }
     }
     .table1 {
-        padding: 25px 0 25px 10px;
+        padding: 25px 0 25px 20px;
         background-color: #666666;
         vertical-align: middle;
         width: 216px;
         border-right: 1px solid #575757;
+        color: #fff;
       }
     .table2 {
         background-color: #808080;
         vertical-align: middle;
-        padding: 7px 0 7px 10px;
+        padding: 7px 0 7px 20px;
         width: 840px;
         height: 100%;
         border-right: 1px solid #575757;
+        border-bottom: 1px solid #575757;
+        color: #fff;
     }
     .table3 {
         height: 100%;
@@ -130,9 +133,6 @@
         padding: 10px;
         background-color: #cccccc;
         border-right: 1px solid #575757;
-      }
-      tr {
-        
       }
   }
 
