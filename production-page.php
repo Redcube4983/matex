@@ -79,6 +79,7 @@ Template Name: production
         <h3 class="">工場設備一覧</h3>
         <h4 class="">■栃木工場</h4>
         <div class="chartInnerWrap">
+<!--
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
@@ -97,6 +98,22 @@ Template Name: production
                 <td class="table3">製品重量（㌧）</th>
             </tr>
     </table>
+-->
+            <table border="1">
+            <tr>
+            <td rowspan="3">結合セル</td>
+            <td>セル</td>
+            <td>セル</td>
+            </tr>
+            <tr>
+            <td>セル</td>
+            <td>セル</td>
+            </tr>
+            <tr>
+            <td>セル</td>
+            <td>セル</td>
+            </tr>
+            </table>
         </div>
     </div>
 </section>
