@@ -229,7 +229,7 @@
   }
 }
 @media screen and (min-width: 960px) {
-  #supportWrap .img .textWrap {
+  #supportWrap .textWrap {
     width: 80%;
   }
 }
