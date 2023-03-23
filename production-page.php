@@ -99,21 +99,33 @@ Template Name: production
             </tr>
     </table>
 -->
-            <table border="1">
-            <tr>
-            <td rowspan="3">結合セル</td>
-            <td>セル</td>
-            <td>セル</td>
-            </tr>
-            <tr>
-            <td>セル</td>
-            <td>セル</td>
-            </tr>
-            <tr>
-            <td>セル</td>
-            <td>セル</td>
-            </tr>
-            </table>
+            <?
+$fileName = "time.csv";
+$file = fopen($fileName,"r");
+?>
+<table border="1">
+<tr>
+<td>順位</td>
+<td>ゼッケンナンバー</td>
+<td>タイム</td>
+</tr>
+<?
+while(!feof($file)){
+$csv = fgets($file);
+$str = explode(",", $csv);
+?>
+<tr>
+<td><? echo $str[0]; ?></td>
+<td><? echo $str[1]; ?></td>
+<td><? echo $str[2]; ?></td>
+</tr>
+<?
+}
+fclose($file);
+?>
+</table>
+            
+            
         </div>
     </div>
 </section>
