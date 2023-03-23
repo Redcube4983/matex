@@ -16,7 +16,7 @@ Template Name: support
         </div>
         <div class="ttlWrap">
             <span class="enTtl">support</span>
-            <h1 class="jpTtl">生産体制</h1>
+            <h1 class="jpTtl">技術サポート体制</h1>
         </div>
     </div>
 </div>
@@ -35,9 +35,14 @@ Template Name: support
 </div>
 <section id="leadWrap">
         <div class="leadTtlWrap">
-            <h2 class="jpTtl">設備・技術・人が、<br class="sp">付加価値の高い製品をクリエイト</h2>
+            <h2 class="jpTtl">Faithful Partnerをモットーに<br class="sp">独自のサービスを提供</h2
         </div>
-        <p class="textCenter">日本における鋼板コイル生産の黎明期からコイル関連技術ひとすじに取り組み、コイルの扱いについて知り尽くしていることがマテックスの大きな技術資産です。その設備体制はつねに進化し、板厚6.0mm 780MPaの高張力鋼まで加工可能な自動刃替え装置(ダミーアーバー)式スリッターライン、刃組みまでも自動化した自動刃替え装置(ロボット)式スリッターライン、超高精度のフルp-ト・シャーリングなどを含む多くの新鋭機器で構成されています。また、経験豊かな技術スタッフが、コイル加工技術のノウハウを極めている点でも他社の追随を許しません。この設備・技術・人一体の高度のハーモニーを緻密な品質管理体制がフォローし、自動車メーカー、精密機械メーカーなどを含むきわめてシビアなニーズに対応し、高い評価をいただいています。</p>
+        <div class="supportlogoWrap">
+        <div class="logoWrap">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg01.svg" alt="">
+        </div>
+        <p class="textCenter">マテックスのポリシーにFaithful　Partner (フェイスフル パートナー※) の考えがあります。<br>社員やその家族、取引先やユーザーなどマテックスを取り巻く全ての人が仲間であり、「信頼し、信頼され、いかなる時も誠実に」という考え方です。社内外におけるあらゆる活動はこの「Faithful　Partner」の考えに基づき決定してきました。創業以来着実に成長してこられたのも、「Faithful　Partner」を徹底してきたことで信頼をかち得たからだと信じています。<br>マテックスはこれからも「Faithful　Partner」を掲げ、鉄鋼業の裾野を支え、持続可能な暮らしを築くために不可欠な鉄の加工販売を通じ、より良い社会へ貢献してまいります。<br><br>※Faithful：信頼できる、誠実な／Partner：相手、仲間、共同者</p>
+        </div>
 </section>
 <section id="supportWrap">
     
