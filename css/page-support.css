@@ -185,4 +185,33 @@
 }
 #supportWrap img {
   width: 100%;
+}
+#supportWrap h3 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  #supportWrap h3 {
+    font-size: 2rem;
+  }
+}
+#supportWrap h4 {
+  font-size: 1.6rem;
+  padding-top: 10px;
+  line-height: 1;
+}
+@media screen and (min-width: 768px) {
+  #supportWrap h4 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #supportWrap h4 {
+    font-size: 2rem;
+  }
+}
+
+.logoWrap {
+  width: 60%;
+  margin: 60px auto 0;
 }/*# sourceMappingURL=page-support.css.map */
