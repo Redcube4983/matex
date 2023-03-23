@@ -213,7 +213,18 @@
   padding-top: 40px;
 }
 
+@media screen and (min-width: 920px) {
+  .supportlogoWrap {
+    display: flex;
+  }
+}
+
 .logoWrap {
   width: 60%;
   margin: 40px auto 0;
+}
+@media screen and (min-width: 768px) {
+  .logoWrap {
+    width: 35%;
+  }
 }/*# sourceMappingURL=page-support.css.map */

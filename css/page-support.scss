@@ -43,8 +43,19 @@
         padding-top: 40px;
      }
 }
+.supportlogoWrap {
+    @media screen and (min-width:920px){
+        display: flex;
+    }
+  }
 
 .logoWrap {
     width: 60%;
     margin: 40px auto 0;
+    @media screen and (min-width:768px){
+        width: 35%;
+    }
+    @media screen and (min-width:920px){
+        
+    } 
   }
