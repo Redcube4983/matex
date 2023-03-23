@@ -83,7 +83,7 @@ Template Name: production
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
                 <th class="table2" colspan="5">母材使用</th>
-                <th class="table2" colspan="4">製品使用</th>
+                <th class="table2 tableLast" colspan="4">製品使用</th>
             </tr>
             <tr class="table34wrap">
                 <th class="table3">板厚（㎜）</th>
@@ -91,10 +91,10 @@ Template Name: production
                 <th class="table3">コイル内径（㎜）</th>
                 <th class="table3">コイル外径（㎜）</th>
                 <th class="table3">積載重量（㌧max）</th>
-                <th class="table3"></th>
+                <th class="table4"></th>
                 <th class="table3">内径（㎜ max）</th>
                 <th class="table3">外形（㎜ max）</th>
-                <th class="table3">製品重量（㌧）</th>
+                <th class="table3 tableLast">製品重量（㌧）</th>
             </tr>
             <tr class="">
                 <td class="table5">大型レベラーNo.1<br>3.2×1,550</td>
@@ -106,7 +106,7 @@ Template Name: production
                 <td class="table5">剪断長さ<br>300～3,100㎜</td>
                 <td class="table5">ー</td>
                 <td class="table5">ー</td>
-                <td class="table5">4</td>
+                <td class="table5 tableLast">4</td>
             </tr>
     </table>
         </div>

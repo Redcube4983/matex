@@ -324,6 +324,15 @@
   border-right: 1px solid #575757;
   border-bottom: 1px solid #575757;
 }
+#productionChart .table4 {
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  background-color: #cccccc;
+  border-right: 1px solid #575757;
+  border-bottom: 1px solid #575757;
+}
 #productionChart .table5 {
   height: 100%;
   text-align: center;
@@ -331,6 +340,12 @@
   padding: 10px;
   border-right: 1px solid #575757;
   border-bottom: 1px solid #575757;
+}
+#productionChart .tableLast {
+  border-right: 0px solid #575757;
+}
+#productionChart tr:last-child td {
+  border-bottom: 0px solid #575757;
 }
 
 .chartInnerWrap {
