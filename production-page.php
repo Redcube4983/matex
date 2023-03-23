@@ -82,24 +82,21 @@ Template Name: production
         <table>
         <tbody>
             <tr>
-                <th class="table1" colspan="2" rowspan="2">設備名</th>
-                <tbody class="table234wrap">
-                    <tr class="table2wrap">
-                        <th class="table2" colspan="3">母材使用</th>
-                        <th class="table2" colspan="6">製品使用</th>
-                    </tr>
-                    <tr class="table34wrap">
-                        <th class="table3">板厚（mm）</th>
-                        <th class="table3">板幅（mm）</th>
-                        <th class="table3">コイル内径（mm）</th>
-                        <th class="table3">コイル外径（mm）</th>
-                        <th class="table3">積載重量（㌧max）</th>
-                        <th class="table4"></th>
-                        <th class="table3">内径（mm max）</th>
-                        <th class="table3">外形（mm max）</th>
-                        <th class="table3">製品重量（㌧）</th>
-                    </tr>
-                </tbody>
+                <th class="table1"  rowspan="2">設備名</th>
+                <th class="table2" colspan="5">母材使用</th>
+                <th class="table2" colspan="4">製品使用</th>
+            </tr>
+            <tr>
+<!--                <th class="table3"></th>-->
+                <th class="table3">板厚（mm）</th>
+                <th class="table3">板幅（mm）</th>
+                <th class="table3">コイル内径（mm）</th>
+                <th class="table3">コイル外径（mm）</th>
+                <th class="table3">積載重量（㌧max）</th>
+                <th class="table4"></th>
+                <th class="table3">内径（mm max）</th>
+                <th class="table3">外形（mm max）</th>
+                <th class="table3">製品重量（㌧）</th>
             </tr>
             <tr>
                 <td colspan="2"></td>
