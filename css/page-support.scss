@@ -42,16 +42,17 @@
      .img {
         padding-top: 40px;
      }
-     span {
-        font-size: 1.3rem;
-     }
 }
 .supportlogoWrap {
+    span {
+        font-size: 1.3rem;
+    }
     @media screen and (min-width:920px){
         display: flex;
         justify-content: space-between;
         width: 100%;
     }
+
   }
 
 .logoWrap {
