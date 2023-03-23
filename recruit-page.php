@@ -46,7 +46,7 @@ Template Name: recruit
         <span class="grayzone"></span>
         <div class="contents content1">
             <div class="contentImg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01-pc.jpg" alt="企業情報画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.jpg" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
