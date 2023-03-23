@@ -16,31 +16,30 @@
         width: 100%;
       }
      h3 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-align: center;
         @media screen and (min-width:768px){
-            font-size: 2rem;
+            font-size: 1.8rem;
             }
             @media screen and (min-width:960px){
             
             }
      }
      h4 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         padding-top: 10px;
         line-height: 1;
         @media screen and (min-width:768px){
-            font-size: 1.8rem;
+            font-size: 1.7rem;
             }
             @media screen and (min-width:960px){
-                font-size: 2rem;
             }
      }
      p {
         padding-top: 10px;
      }
      .img {
-        padding-top: 60px;
+        padding-top: 40px;
      }
 }
 
