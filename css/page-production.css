@@ -298,12 +298,10 @@
 #productionChart .table1 {
   padding: 25px 0 25px 10px;
   background-color: #b9b9b9;
-  display: block;
   width: 216px;
 }
 #productionChart .table2 {
   background-color: #d9d9d9;
-  display: block;
   padding: 7px 0 7px 10px;
   width: 840px;
   height: 100%;
@@ -311,14 +309,9 @@
 #productionChart .table3 {
   height: 100%;
   text-align: center;
-  display: block;
   padding: 10px 30px;
   background-color: #e9e9e9;
 }
-#productionChart tr {
-  display: flex;
-}
-
 .chartInnerWrap {
   width: 100%;
   height: 500px;
