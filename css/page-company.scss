@@ -30,7 +30,10 @@
         }
     }
     li {
-        width: 32%;
+        width: 48%;
+        @media screen and (min-width:960px){
+            width: 32%;
+        }
     }
 }
 
@@ -44,7 +47,10 @@
     justify-content: space-between;
     img {
         width: 100%;
-        padding-top: 30px;
+        padding-top: 10px;
         display: block;
+        @media screen and (min-width:960px){
+            padding-top: 30px;
+        }
     }
   }
