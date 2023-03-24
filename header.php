@@ -37,6 +37,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-production.css">
 <?php elseif( is_page( 'support' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-support.css">
+<?php elseif( is_page( 'company' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-company.css">
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">

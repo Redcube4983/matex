@@ -55,7 +55,7 @@ Template Name: recruit
                     <p>鉄の可能性、鋼材流通業界と<br>マテックスの役割をご紹介します。</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="/company/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ Template Name: recruit
                     <p>社会と鉄をつなぐ架け橋として、<br>ヤリガイのある仕事がここにあります。</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="" class="moreButton">more</a>
+                    <a href="#" class="moreButton">more</a>
                 </div>
             </div>
         </div>
