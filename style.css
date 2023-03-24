@@ -799,6 +799,11 @@ header {
   line-height: 1.4;
   font-size: 1.4rem;
 }
+@media screen and (min-width: 960px) {
+  .cta-tel p {
+    font-size: 2rem;
+  }
+}
 .cta-tel p a {
   font-size: 4rem;
   font-family: "Oswald", sans-serif;
