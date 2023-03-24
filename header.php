@@ -39,6 +39,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-support.css">
 <?php elseif( is_page( 'company' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-company.css">
+<?php elseif( is_page( 'policy' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-policy.css">
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -89,7 +91,8 @@
         </li>
 -->
         <li class="global-nav other">
-            <h3><a href="#">個人情報保護方針</a></h3>
+        <li class="global-nav other">
+            <h3><a href="/policy/">個人情報保護方針</a></h3>
         </li>
         <li class="global-nav other">
             <h3><a href="#">サイトのご利用について</a></h3>
