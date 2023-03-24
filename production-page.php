@@ -312,7 +312,7 @@ Template Name: production
                         <li>条件<br>13条max</li>
                         <li>製品幅<br>400mm max</li>
                     </ul>
-            </td>
+                </td>
                 <td class="table4">508<br>300</td>
                 <td class="table4">1,800</td>
                 <td class="table4 tableLast">4</td>
@@ -381,7 +381,7 @@ Template Name: production
                 <td class="table4">508・610<br>762</td>
                 <td class="table4">1,800</td>
                 <td class="table4">15</td>
-                <td class="table4">
+                <td class="table4-2">
                     <ul>
                         <li>条約<br>10条max</li>
                         <li>製品幅<br>1,300mm max</li>
@@ -403,7 +403,7 @@ Template Name: production
                         <li>条件<br>10条max</li>
                         <li>製品幅<br>495mm max</li>
                     </ul>
-            </td>
+                </td>
                 <td class="table4">300<br>508</td>
                 <td class="table4">1,100</td>
                 <td class="table4 tableLast">3.5</td>

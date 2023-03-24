@@ -270,7 +270,7 @@
 #productionChart h4 {
   font-size: 1.8rem;
   line-height: 1;
-  padding-top: 20px;
+  padding-top: 4440px;
 }
 @media screen and (min-width: 768px) {
   #productionChart h4 {
@@ -314,7 +314,7 @@
   background-color: #808080;
   vertical-align: middle;
   padding: 7px 0 7px 20px;
-  width: 700px;
+  width: 900px;
   height: 100%;
   border-right: 1px solid #575757;
   border-bottom: 1px solid #575757;
