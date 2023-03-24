@@ -26,10 +26,7 @@ Template Name: policy
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <a href="/policy/">個人情報保護方針</a>
-        </li>
-        <li>
-            <span>会社を知る</span>
+            <span>個人情報保護方針</span>
         </li>
     </ul>
 </div>
