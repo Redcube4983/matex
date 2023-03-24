@@ -139,7 +139,7 @@ Template Name: production
                 <td class="table4">508・610<br>762</td>
                 <td class="table4">1,800</td>
                 <td class="table4">15</td>
-                <td class="table4-2">]
+                <td class="table4-2">
                     <ul>
                         <li>条約<br>19条max</li>
                         <li>製品幅<br>1,330mm max</li>
