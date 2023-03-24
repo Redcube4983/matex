@@ -114,10 +114,12 @@ main {
 .ttlWrap .enTtl {
   font-size: 4rem;
   line-height: 1;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 @media screen and (min-width: 960px) {
   .ttlWrap .enTtl {
-    font-size: 5rem;
+    font-size: 8rem;
   }
 }
 .ttlWrap .jpTtl {

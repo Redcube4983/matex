@@ -83,18 +83,54 @@ Template Name: production
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
                 <th class="table2" colspan="5">母材使用</th>
-                <th class="table2" colspan="4">製品使用</th>
+                <th class="table2 tableLast" colspan="4">製品使用</th>
             </tr>
             <tr class="table34wrap">
-                <td class="table3">板厚（mm）</th>
-                <td class="table3">板幅（mm）</th>
-                <td class="table3">コイル内径（mm）</th>
-                <td class="table3">コイル外径（mm）</th>
-                <td class="table3">積載重量（㌧max）</th>
-                <td class="table4"></th>
-                <td class="table3">内径（mm max）</th>
-                <td class="table3">外形（mm max）</th>
-                <td class="table3">製品重量（㌧）</th>
+                <th class="table3">板厚（㎜）</th>
+                <th class="table3">板幅（㎜）</th>
+                <th class="table3">コイル内径（㎜）</th>
+                <th class="table3">コイル外径（㎜）</th>
+                <th class="table3">積載重量（㌧max）</th>
+                <th class="table4"></th>
+                <th class="table3">内径（㎜ max）</th>
+                <th class="table3">外形（㎜ max）</th>
+                <th class="table3 tableLast">製品重量（㌧）</th>
+            </tr>
+            <tr class="">
+                <td class="table5">大型レベラーNo.1<br>3.2×1,550</td>
+                <td class="table5">1.6～3.2</td>
+                <td class="table5">520～1,550</td>
+                <td class="table5">508・610</td>
+                <td class="table5">1,800</td>
+                <td class="table5">15</td>
+                <td class="table5">剪断長さ<br>300～3,100㎜</td>
+                <td class="table5">ー</td>
+                <td class="table5">ー</td>
+                <td class="table5 tableLast">4</td>
+            </tr>
+            <tr class="">
+                <td class="table5">大型レベラーNo.1<br>3.2×1,550</td>
+                <td class="table5">1.6～3.2</td>
+                <td class="table5">520～1,550</td>
+                <td class="table5">508・610</td>
+                <td class="table5">1,800</td>
+                <td class="table5">15</td>
+                <td class="table5">剪断長さ<br>300～3,100㎜</td>
+                <td class="table5">ー</td>
+                <td class="table5">ー</td>
+                <td class="table5 tableLast">4</td>
+            </tr>
+            <tr class="">
+                <td class="table5">大型レベラーNo.1<br>3.2×1,550</td>
+                <td class="table5">1.6～3.2</td>
+                <td class="table5">520～1,550</td>
+                <td class="table5">508・610</td>
+                <td class="table5">1,800</td>
+                <td class="table5">15</td>
+                <td class="table5">剪断長さ<br>300～3,100㎜</td>
+                <td class="table5">ー</td>
+                <td class="table5">ー</td>
+                <td class="table5 tableLast">4</td>
             </tr>
     </table>
         </div>
