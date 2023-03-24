@@ -78,9 +78,8 @@
         <li class="global-nav parent">
             <h3><a href="/recruit/">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="#">マテックスとは</a></h4></li>
-                <li class="gran-child"><h4><a href="#">社員紹介</a></h4></li>
-                <li class="gran-child"><h4><a href="#">スタッフ紹介</a></h4></li>
+                <li class="gran-child"><h4><a href="/company/">会社を知る</a></h4></li>
+                <li class="gran-child"><h4><a href="#">仕事を知る</a></h4></li>
                 <li class="gran-child"><h4><a href="#">募集要項</a></h4></li>
             </ul>
         </li>

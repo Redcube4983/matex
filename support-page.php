@@ -45,8 +45,7 @@ Template Name: support
         </div>
 </section>
 <section id="supportWrap">
-     <h3>Faithful Partnerに基づき、<br class="sp">少しでもお客様のお役に立てるよう活動しています。
-</h3>
+     <h3>Faithful Partnerに基づき、<br class="sp">少しでもお客様のお役に立てるよう活動しています。</h3>
     <div class="innerWrap">
         <div class="img">
             <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg02.jpg" alt="技術サポート体制画像">
