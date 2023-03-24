@@ -12,10 +12,6 @@
     max-width: 1100px;
     margin: 0 auto;
     }
-}
-
-.textWrap {
-    padding-top: 60px;
     h3 {
         font-size: 1.6rem;
         text-align: center;
@@ -28,8 +24,25 @@
     }
     p {
         font-size: 1.4rem;
+        padding-top: 20px;
         @media screen and (min-width:960px){
             font-size: 1.6rem;
         }
     }
+    li {
+        width: 32%;
+    }
 }
+
+.textWrap,
+.textWrap2 {
+    padding-top: 60px;
+}
+.companyImg {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    img {
+        width: 100%;
+    }
+  }
