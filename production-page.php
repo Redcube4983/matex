@@ -163,7 +163,7 @@ Template Name: production
                 <td class="table4">508</td>
                 <td class="table4">1,350</td>
                 <td class="table4">3.5</td>
-                <td class="table4-2">条約<br>15条max</td>
+                <td class="table4">条約<br>15条max</td>
                 <td class="table4">300<br>508</td>
                 <td class="table4">1,100</td>
                 <td class="table4 tableLast">2</td>
@@ -175,7 +175,7 @@ Template Name: production
                 <td class="table4">板長さ<br>500〜2,500</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
-                <td class="table4-2">剪断長さ<br>35～1,300㎜</td>
+                <td class="table4">剪断長さ<br>35～1,300㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">3</td>
@@ -187,7 +187,7 @@ Template Name: production
                 <td class="table4">板長さ<br>500〜2,500</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
-                <td class="table4-2">剪断長さ<br>55～1,300㎜</td>
+                <td class="table4">剪断長さ<br>55～1,300㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">3</td>
@@ -199,7 +199,7 @@ Template Name: production
                 <td class="table4">板長さ<br>500〜1,250</td>
                 <td class="table4">ー</td>
                 <td class="table4">2</td>
-                <td class="table4-2">剪断長さ<br>25～625㎜</td>
+                <td class="table4">剪断長さ<br>25～625㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">1.5</td>
@@ -211,7 +211,7 @@ Template Name: production
                 <td class="table4">板長さ<br>3,000max</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
-                <td class="table4-2">剪断長さ<br>50～1,000㎜</td>
+                <td class="table4">剪断長さ<br>50～1,000㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">3</td>
@@ -223,7 +223,7 @@ Template Name: production
                 <td class="table4">ー</td>
                 <td class="table4">1,800</td>
                 <td class="table4">2.5</td>
-                <td class="table4-2">ー</td>
+                <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">ー</td>
@@ -235,7 +235,7 @@ Template Name: production
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
-                <td class="table4-2">板長さ<br>2,000㎜ max</td>
+                <td class="table4">板長さ<br>2,000㎜ max</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">ー</td>
@@ -292,7 +292,7 @@ Template Name: production
                 <td class="table4">508</td>
                 <td class="table4">1,400</td>
                 <td class="table4">4</td>
-                <td class="table4"><span>条件<br>13条max</span>製品幅<br>400mm max</span></td>
+                <td class="table4-2"><span>条件<br>13条max</span>製品幅<br>400mm max</span></td>
                 <td class="table4">508<br>300</td>
                 <td class="table4">1,800</td>
                 <td class="table4 tableLast">4</td>
@@ -304,7 +304,7 @@ Template Name: production
                 <td class="table4">板長さ<br>500〜2,500</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
-                <td class="table4-2">剪断長さ<br>35～1,300㎜</td>
+                <td class="table4">剪断長さ<br>35～1,300㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">3</td>
@@ -316,7 +316,7 @@ Template Name: production
                 <td class="table4">板長さ<br>2,500max</td>
                 <td class="table4">ー</td>
                 <td class="table4">2</td>
-                <td class="table4-2">剪断長さ<br>30～1,000㎜</td>
+                <td class="table4">剪断長さ<br>30～1,000㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">2</td>
@@ -328,7 +328,7 @@ Template Name: production
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4">2.5</td>
-                <td class="table4-2">ー</td>
+                <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">ー</td>
