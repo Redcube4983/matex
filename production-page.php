@@ -353,9 +353,173 @@ Template Name: production
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">ー</td>
             </tr>
-    </table>
+        </table>
         </div>
-
+        <h4 class="">■群馬工場</h4>
+        <div class="chartInnerWrap">
+        <table>
+            <tr>
+                <th class="table1"  rowspan="2">設備名</th>
+                <th class="table2" colspan="5">母材使用</th>
+                <th class="table2 tableLast" colspan="4">製品使用</th>
+            </tr>
+            <tr class="table34wrap">
+                <th class="table3">板厚（㎜）</th>
+                <th class="table3">板幅（㎜）</th>
+                <th class="table3">コイル内径（㎜）</th>
+                <th class="table3">コイル外径（㎜）</th>
+                <th class="table3">積載重量（㌧max）</th>
+                <th class="table3-2"></th>
+                <th class="table3">内径（㎜ max）</th>
+                <th class="table3">外形（㎜ max）</th>
+                <th class="table3 tableLast">製品重量（㌧）</th>
+            </tr>
+            <tr class="">
+                <td class="table4">大型スリッター<br>4.0×1,300</td>
+                <td class="table4">0.4～4.0</td>
+                <td class="table4">600～1,300</td>
+                <td class="table4">508・610<br>762</td>
+                <td class="table4">1,800</td>
+                <td class="table4">15</td>
+                <td class="table4">
+                    <ul>
+                        <li>条約<br>10条max</li>
+                        <li>製品幅<br>1,300mm max</li>
+                    </ul>
+                </td>
+                <td class="table4">508</td>
+                <td class="table4">1,800</td>
+                <td class="table4 tableLast">15</td>
+            </tr>
+            <tr class="">
+                <td class="table4">小型スリッター<br>2.3×500</td>
+                <td class="table4">0.4～2.3</td>
+                <td class="table4">495max</td>
+                <td class="table4">508・610</td>
+                <td class="table4">1,200</td>
+                <td class="table4">3.5</td>
+                <td class="table4-2">
+                    <ul>
+                        <li>条件<br>10条max</li>
+                        <li>製品幅<br>495mm max</li>
+                    </ul>
+            </td>
+                <td class="table4">300<br>508</td>
+                <td class="table4">1,100</td>
+                <td class="table4 tableLast">3.5</td>
+            </tr>
+            <tr class="">
+                <td class="table4">自動シャーリング</td>
+                <td class="table4">0.4～2.3</td>
+                <td class="table4">200〜1,300</td>
+                <td class="table4">板長さ<br>500〜2,500</td>
+                <td class="table4">ー</td>
+                <td class="table4">3</td>
+                <td class="table4">剪断長さ<br>35～1,300㎜</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4 tableLast">3</td>
+            </tr>
+            <tr class="">
+                <td class="table4">スケヤーシャーリング</td>
+                <td class="table4">0.4～6.0</td>
+                <td class="table4">2,500max</td>
+                <td class="table4">板長さ<br>2,500max</td>
+                <td class="table4">ー</td>
+                <td class="table4">2</td>
+                <td class="table4">剪断長さ<br>20～700㎜</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4 tableLast">2</td>
+            </tr>
+            <tr class="">
+                <td class="table4">反転機</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4">1,800</td>
+                <td class="table4">2.5</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4 tableLast">ー</td>
+            </tr>
+        </table>
+        </div>
+        <h4 class="">■埼玉工場</h4>
+        <div class="chartInnerWrap">
+        <table>
+            <tr>
+                <th class="table1"  rowspan="2">設備名</th>
+                <th class="table2" colspan="5">母材使用</th>
+                <th class="table2 tableLast" colspan="4">製品使用</th>
+            </tr>
+            <tr class="table34wrap">
+                <th class="table3">板厚（㎜）</th>
+                <th class="table3">板幅（㎜）</th>
+                <th class="table3">コイル内径（㎜）</th>
+                <th class="table3">コイル外径（㎜）</th>
+                <th class="table3">積載重量（㌧max）</th>
+                <th class="table3-2"></th>
+                <th class="table3">内径（㎜ max）</th>
+                <th class="table3">外形（㎜ max）</th>
+                <th class="table3 tableLast">製品重量（㌧）</th>
+            </tr>
+            <tr class="">
+                <td class="table4">小型スリッター<br>2.3×500</td>
+                <td class="table4">0.4～2.3</td>
+                <td class="table4">20〜505</td>
+                <td class="table4">300・508</td>
+                <td class="table4">1,400</td>
+                <td class="table4">2.5</td>
+                <td class="table4-2">
+                    <ul>
+                        <li>条件<br>15条max</li>
+                        <li>製品幅<br>495mm max</li>
+                    </ul>
+            </td>
+                <td class="table4">300<br>508</td>
+                <td class="table4">1,100</td>
+                <td class="table4 tableLast">2</td>
+            </tr>
+            <tr class="">
+                <td class="table4">自動シャーリングNo.1<br>No.2</td>
+                <td class="table4">0.4～3.2</td>
+                <td class="table4">300〜1,300</td>
+                <td class="table4">板長さ<br>3,000max</td>
+                <td class="table4">ー</td>
+                <td class="table4">3</td>
+                <td class="table4">剪断長さ　55～1,230㎜<br>剪断長さ　35～1,230㎜</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4 tableLast">3</td>
+            </tr>
+            <tr class="">
+                <td class="table4">スケヤーシャーリング</td>
+                <td class="table4">0.4～4.5</td>
+                <td class="table4">1,900max</td>
+                <td class="table4">板長さ<br>3,000max</td>
+                <td class="table4">ー</td>
+                <td class="table4">3</td>
+                <td class="table4">剪断長さ<br>20～700㎜</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4 tableLast">2</td>
+            </tr>
+            <tr class="">
+                <td class="table4">反転機</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4">1,800</td>
+                <td class="table4">2.5</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4">ー</td>
+                <td class="table4 tableLast">ー</td>
+            </tr>
+        </table>
+        </div>
     </div>
 </section>
 
