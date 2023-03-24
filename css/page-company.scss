@@ -23,6 +23,7 @@
             }
     }
     p {
+        text-align: justify;
         font-size: 1.4rem;
         padding-top: 20px;
         @media screen and (min-width:960px){
@@ -30,12 +31,13 @@
         }
     }
     li {
-        width: 48%;
+        width: 49%;
         @media screen and (min-width:960px){
             width: 32%;
         }
     }
 }
+
 
 .textWrap,
 .textWrap2 {
@@ -55,3 +57,11 @@
         }
     }
   }
+
+.image {
+    padding-top: 60px;
+    @media screen and (min-width:960px){
+        width: 80%;
+        margin: 0 auto;
+    }
+}

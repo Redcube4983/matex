@@ -202,6 +202,7 @@
   }
 }
 #companyWrap p {
+  text-align: justify;
   font-size: 1.4rem;
   padding-top: 20px;
 }
@@ -211,7 +212,7 @@
   }
 }
 #companyWrap li {
-  width: 48%;
+  width: 49%;
 }
 @media screen and (min-width: 960px) {
   #companyWrap li {
@@ -238,5 +239,15 @@
 @media screen and (min-width: 960px) {
   .companyImg img {
     padding-top: 30px;
+  }
+}
+
+.image {
+  padding-top: 60px;
+}
+@media screen and (min-width: 960px) {
+  .image {
+    width: 80%;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=page-company.css.map */
