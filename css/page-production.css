@@ -282,6 +282,9 @@
     font-size: 2.2rem;
   }
 }
+#productionChart h4:not(:first-child) {
+  padding-top: 30px;
+}
 #productionChart table {
   margin-top: 30px;
   font-size: 1.2rem;
@@ -365,5 +368,4 @@
   width: 100%;
   height: auto;
   overflow-x: scroll;
-  overflow-y: scroll;
 }/*# sourceMappingURL=page-production.css.map */
