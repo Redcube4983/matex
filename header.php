@@ -21,6 +21,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
 <?php elseif( is_page( 'aboutus' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
+<?php elseif( is_page( 'recruit' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
 <?php elseif( is_page( 'message' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
 <?php elseif( is_page( 'profile' ) ): ?>
@@ -35,6 +37,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-production.css">
 <?php elseif( is_page( 'support' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-support.css">
+<?php elseif( is_page( 'company' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-company.css">
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,17 +76,18 @@
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a href="#">採用情報</a><div class="arrow"></div></h3>
+            <h3><a href="/recruit/">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="#">マテックスとは</a></h4></li>
-                <li class="gran-child"><h4><a href="#">社員紹介</a></h4></li>
-                <li class="gran-child"><h4><a href="#">スタッフ紹介</a></h4></li>
+                <li class="gran-child"><h4><a href="/company/">会社を知る</a></h4></li>
+                <li class="gran-child"><h4><a href="#">仕事を知る</a></h4></li>
                 <li class="gran-child"><h4><a href="#">募集要項</a></h4></li>
             </ul>
         </li>
+<!--
         <li class="global-nav single">
             <h3><a href="#">お問い合わせ</a></h3>
         </li>
+-->
         <li class="global-nav other">
             <h3><a href="#">個人情報保護方針</a></h3>
         </li>

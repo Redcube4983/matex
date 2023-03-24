@@ -172,112 +172,82 @@
   justify-content: space-between;
 }
 
-#supportWrap {
+#companyWrap {
   padding: 60px 15px 0;
 }
 @media screen and (min-width: 768px) {
-  #supportWrap {
-    padding: 100px 40px 0;
+  #companyWrap {
+    padding: 60px 40px 0;
     font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 960px) {
-  #supportWrap {
+  #companyWrap {
     max-width: 1100px;
     margin: 0 auto;
   }
 }
-#supportWrap img {
-  width: 100%;
-}
-#supportWrap h3 {
+#companyWrap h3 {
   font-size: 1.6rem;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  #supportWrap h3 {
+  #companyWrap h3 {
     font-size: 1.8rem;
   }
 }
 @media screen and (min-width: 960px) {
-  #supportWrap h3 {
+  #companyWrap h3 {
     font-size: 2rem;
   }
 }
-#supportWrap h4 {
-  font-size: 1.5rem;
-  padding-top: 10px;
-  line-height: 1;
-}
-@media screen and (min-width: 768px) {
-  #supportWrap h4 {
-    font-size: 1.7rem;
-  }
-}
-@media screen and (min-width: 960px) {
-  #supportWrap h4 {
-    padding-top: 0;
-  }
-}
-#supportWrap p {
-  padding-top: 10px;
+#companyWrap p {
   text-align: justify;
-}
-#supportWrap .img {
-  padding-top: 40px;
-}
-@media screen and (min-width: 960px) {
-  #supportWrap .img {
-    padding: 0;
-    width: 40%;
-    padding-right: 30px;
-  }
-}
-@media screen and (min-width: 960px) {
-  #supportWrap .textWrap {
-    width: 80%;
-  }
-}
-#supportWrap .textWrap p {
   font-size: 1.3rem;
+  padding-top: 20px;
 }
 @media screen and (min-width: 960px) {
-  #supportWrap .textWrap p {
+  #companyWrap p {
     font-size: 1.5rem;
   }
 }
-
-.supportlogoWrap span {
-  font-size: 1.3rem;
+#companyWrap li {
+  width: 49%;
 }
 @media screen and (min-width: 960px) {
-  .supportlogoWrap {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  #companyWrap li {
+    width: 32%;
   }
 }
 
-.logoWrap {
-  width: 60%;
-  margin: 40px auto 0;
+.textWrap,
+.textWrap2 {
+  padding-top: 60px;
 }
-@media screen and (min-width: 768px) {
-  .logoWrap {
-    width: 35%;
-  }
+
+.companyImg {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.companyImg img {
+  width: 100%;
+  padding-top: 10px;
+  display: block;
 }
 @media screen and (min-width: 960px) {
-  .logoWrap {
-    width: 70%;
-    margin: 20px 30px 0 0;
+  .companyImg img {
+    padding-top: 30px;
   }
 }
 
+.image {
+  padding-top: 60px;
+}
 @media screen and (min-width: 960px) {
-  .innerWrap {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 40px;
+  .image {
+    width: 80%;
+    margin: 0 auto;
   }
-}/*# sourceMappingURL=page-support.css.map */
+}/*# sourceMappingURL=page-company.css.map */
