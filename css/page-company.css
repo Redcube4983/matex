@@ -170,4 +170,30 @@
 .innerWrap1 {
   display: flex;
   justify-content: space-between;
+}
+
+.textWrap {
+  padding-top: 60px;
+}
+.textWrap h3 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .textWrap h3 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .textWrap h3 {
+    font-size: 2rem;
+  }
+}
+.textWrap p {
+  font-size: 1.4rem;
+}
+@media screen and (min-width: 960px) {
+  .textWrap p {
+    font-size: 1.6rem;
+  }
 }/*# sourceMappingURL=page-company.css.map */
