@@ -49,10 +49,10 @@ Template Name: recruit
             <div class="txtWrap">
                 <div class="txtInner">
                     <div class="contentTtl">
-                        <span>Top message</span>
-                        <h3>代表メッセージ</h3>
+                        <span>Company</span>
+                        <h3>会社を知る</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミー</p>
+                    <p>鉄の可能性、鋼材流通業界と<br>マテックスの役割をご紹介します。</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="#" class="moreButton">more</a>
@@ -68,11 +68,10 @@ Template Name: recruit
             <div class="txtWrap">
                 <div class="txtInner">
                     <div class="contentTtl">
-                        <span>Company profile</span>
-                        <h3>会社概要</h3>
+                        <span>More</span>
+                        <h3>仕事を知る</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミーダミーダミーダミー
-                    </p>
+                    <p>社会と鉄をつなぐ架け橋として、<br>ヤリガイのある仕事がここにあります。</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="" class="moreButton">more</a>
@@ -87,10 +86,10 @@ Template Name: recruit
             <div class="txtWrap">
                 <div class="txtInner">
                     <div class="contentTtl">
-                        <span>Business base</span>
-                        <h3>事業拠点</h3>
+                        <span>Requirement</span>
+                        <h3>募集要項</h3>
                     </div>
-                    <p>ダミーダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミーダミー</p>
+                    <p>新卒採用・キャリア採用の情報は<br>こちらからご確認ください。</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="#" class="moreButton">more</a>
