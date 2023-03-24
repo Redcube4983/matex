@@ -41,6 +41,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-company.css">
 <?php elseif( is_page( 'policy' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-policy.css">
+<?php elseif( is_page( 'aboutUsing' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutUsing.css">
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
