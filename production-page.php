@@ -108,6 +108,18 @@ Template Name: production
                 <td class="table5">ー</td>
                 <td class="table5 tableLast">4</td>
             </tr>
+            <tr class="">
+                <td class="table5">大型レベラーNo.1<br>3.2×1,550</td>
+                <td class="table5">1.6～3.2</td>
+                <td class="table5">520～1,550</td>
+                <td class="table5">508・610</td>
+                <td class="table5">1,800</td>
+                <td class="table5">15</td>
+                <td class="table5">剪断長さ<br>300～3,100㎜</td>
+                <td class="table5">ー</td>
+                <td class="table5">ー</td>
+                <td class="table5 tableLast">4</td>
+            </tr>
     </table>
         </div>
     </div>
