@@ -39,7 +39,7 @@ Template Name: aboutUsing
     
 <section id="aboutUsingWrap">
     <div class="environmentWrap">
-        <div class="ttlWrap aboutWrap">
+        <div class="aboutWrap">
             <h3>ご利用環境について</h3>
             <p>当ウェブサイトは以下の環境での閲覧を推奨いたします。 </p>
         </div>
