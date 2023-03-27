@@ -55,7 +55,7 @@ Template Name: message
                 <p>私たちは互に授け合い 人格の向上と技術の錬磨に努め 鐵を通じて社会に貢献し国家と共に繁栄を希うものである</p>
             </div>
             <div class="textWrap">
-                <h3>社訓</h3>
+                <h3 class="notFirst">社訓</h3>
                 <ul>
                     <li>一、企業は何より人にある。</li>
                     <li>一、業は周到に企画し、果敢に実行する。</li>

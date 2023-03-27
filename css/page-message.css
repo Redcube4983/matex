@@ -212,7 +212,7 @@
     font-size: 1.8rem;
   }
 }
-#motto h3:not(:first-child) {
+#motto .notFirst {
   padding-top: 10px;
 }
 #motto p {
