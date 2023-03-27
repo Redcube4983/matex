@@ -263,11 +263,16 @@
 
 .pcWrap {
   padding: 15px;
-  border: solid 1px #555;
+  border: solid 1px #c5c5c5;
   margin-top: 30px;
 }
 .pcWrap h4 {
   font-size: 1.5rem;
+}
+@media screen and (min-width: 960px) {
+  .pcWrap h4 {
+    font-size: 1.8rem;
+  }
 }
 .pcWrap ul {
   padding-top: 10px;
@@ -294,11 +299,16 @@
 
 .smartphonesWrap {
   padding: 15px;
-  border: solid 1px #555;
+  border: solid 1px #c5c5c5;
   margin-top: 30px;
 }
 .smartphonesWrap h4 {
   font-size: 1.5rem;
+}
+@media screen and (min-width: 960px) {
+  .smartphonesWrap h4 {
+    font-size: 1.8rem;
+  }
 }
 .smartphonesWrap ul {
   padding-top: 10px;
