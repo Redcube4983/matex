@@ -221,24 +221,24 @@
   }
 }
 
-.browserWrap {
+.smartphonsrWrap {
   padding: 15px;
   border: solid 1px #555;
 }
-.browserWrap h4 {
+.smartphonsrWrap h4 {
   font-size: 1.5rem;
 }
-.browserWrap ul {
+.smartphonsrWrap ul {
   font-size: 1.2rem;
   padding-top: 10px;
 }
 @media screen and (min-width: 768px) {
-  .browserWrap ul {
+  .smartphonsrWrap ul {
     font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 960px) {
-  .browserWrap ul {
+  .smartphonsrWrap ul {
     font-size: 1.6rem;
   }
 }/*# sourceMappingURL=page-aboutUsing.css.map */
