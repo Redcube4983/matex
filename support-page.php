@@ -66,7 +66,7 @@ Template Name: support
     </div>
 </section>
 <section id="cta-area">
-    <div class="button"><a href=""><span>プレス技術講習会の資料はこちら</span></a></div>
+    <div class="button"><a href=""><span>プレス技術講習会の<br class="sp">資料はこちら</span></a></div>
 
 </section>
 
