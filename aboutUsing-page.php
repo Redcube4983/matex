@@ -97,7 +97,7 @@ Template Name: aboutUsing
         <div class="pluginWrap aboutWrap">
             <h3>プラグインについて</h3>
             <p>一部のコンテンツでは、以下のプラグインが必要です。インストールされていない場合は、リンクをクリックして最新のバージョンをダウンロードしてください。</p>
-            <a href="">Adobe&reg; Reader&reg;®</a>
+            <a href="">Adobe&reg; Reader&reg;</a>
         </div>
         <div class="policyWrap aboutWrap">
             <h3>個人情報の取扱いについて</h3>
