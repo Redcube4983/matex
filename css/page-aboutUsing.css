@@ -202,7 +202,7 @@
 .pcWrap {
   padding: 15px;
   border: solid 1px #555;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 .pcWrap h4 {
   font-size: 1.5rem;
@@ -233,7 +233,7 @@
 .smartphonesWrap {
   padding: 15px;
   border: solid 1px #555;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 .smartphonesWrap h4 {
   font-size: 1.5rem;
