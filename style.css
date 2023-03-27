@@ -304,6 +304,7 @@ header {
 }
 
 .site-logo a {
+  display: block;
   height: 100%;
   width: 100%;
   vertical-align: bottom;
@@ -564,8 +565,6 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     min-width: 500px;
-  }
-  #header-right {
     margin-right: 50px;
   }
   #header-right.open #global-nav {
