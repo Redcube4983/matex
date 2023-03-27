@@ -114,7 +114,7 @@ Template Name: aboutus
                     <p>ダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミー</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="/puality/" class="moreButton">more</a>
+                    <a href="/quality/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
