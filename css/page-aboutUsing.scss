@@ -48,7 +48,11 @@
         @include fontSizeStyle1();
     }
     span {
-        @include fontSizeStyle1();
+        font-size: 1.2rem;
+        padding-top: 10px;
+        @media screen and (min-width:768px){
+            font-size: 1.4rem;
+        }
     }
 }
 
