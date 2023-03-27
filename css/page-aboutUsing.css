@@ -214,7 +214,7 @@
 }
 #aboutUsingWrap p {
   font-size: 1.2rem;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 @media screen and (min-width: 768px) {
   #aboutUsingWrap p {
