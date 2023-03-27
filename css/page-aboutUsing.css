@@ -188,4 +188,57 @@
     max-width: 1100px;
     margin: 0 auto;
   }
+}
+
+.aboutWrap h3 {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 960px) {
+  .aboutWrap h3 {
+    font-size: 1.7rem;
+  }
+}
+
+.pcWrap {
+  padding: 15px;
+  border: solid 1px #555;
+}
+.pcWrap h4 {
+  font-size: 1.5rem;
+}
+.pcWrap ul {
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .pcWrap ul {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .pcWrap ul {
+    font-size: 1.6rem;
+  }
+}
+
+.browserWrap {
+  padding: 15px;
+  border: solid 1px #555;
+}
+.browserWrap h4 {
+  font-size: 1.5rem;
+}
+.browserWrap ul {
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .browserWrap ul {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .browserWrap ul {
+    font-size: 1.6rem;
+  }
 }/*# sourceMappingURL=page-aboutUsing.css.map */

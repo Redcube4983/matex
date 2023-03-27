@@ -13,3 +13,39 @@
     margin: 0 auto;
     }
 }
+
+.aboutWrap {
+    h3 {
+        font-size: 1.5rem;
+        @media screen and (min-width:960px){
+            font-size: 1.7rem;
+        }
+      }
+}
+
+@mixin borderWrap{
+    padding: 15px;
+    border: solid 1px #555;
+    h4 {
+        font-size: 1.5rem;
+      }
+    ul {
+        font-size: 1.2rem;
+        padding-top: 10px;
+        @media screen and (min-width:768px){
+            font-size: 1.4rem;
+        }
+        @media screen and (min-width:960px){
+            font-size: 1.6rem;
+        }
+      }
+}
+
+.pcWrap {
+    @include borderWrap();
+}
+
+.browserWrap {
+    @include borderWrap();
+}
+
