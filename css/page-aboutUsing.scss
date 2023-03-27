@@ -57,14 +57,18 @@
     }
     p {
         @include fontSizeStyle1();
+        padding-top: 15px;
     }
 }
 
 .aboutWrap {
     h3 {
         font-size: 1.5rem;
-        @media screen and (min-width:960px){
+        @media screen and (min-width:768px){
             font-size: 1.7rem;
+        }
+        @media screen and (min-width:960px){
+            font-size: 2rem;
         }
       }
 }
