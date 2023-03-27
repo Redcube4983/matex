@@ -2,6 +2,38 @@
 
 @use '../common/css/Layout/main';
 
+@mixin fontSizeStyle1 {
+    font-size: 1.2rem;
+        @media screen and (min-width:768px){
+            font-size: 1.4rem;
+        }
+        @media screen and (min-width:960px){
+            font-size: 1.6rem;
+        }
+}
+
+@mixin borderWrap{
+    padding: 15px;
+    border: solid 1px #555;
+    margin-top: 30px;
+    h4 {
+        font-size: 1.5rem;
+      }
+    ul {
+        padding-top: 10px;
+        column-count: 2;
+        @include fontSizeStyle1();
+      }
+      li {
+        list-style-type: disc;
+        margin-left: 15px;
+      }
+      .bs {
+        padding-top: 15px
+      }
+}
+
+
 #aboutUsingWrap {
     padding: 60px 15px 0;
     @media screen and (min-width:768px){
@@ -11,6 +43,12 @@
     @media screen and (min-width:960px){
     max-width: 1100px;
     margin: 0 auto;
+    }
+    a {
+        @include fontSizeStyle1();
+    }
+    span {
+        @include fontSizeStyle1();
     }
 }
 
@@ -23,32 +61,6 @@
       }
 }
 
-@mixin borderWrap{
-    padding: 15px;
-    border: solid 1px #555;
-    margin-top: 30px;
-    h4 {
-        font-size: 1.5rem;
-      }
-    ul {
-        font-size: 1.2rem;
-        padding-top: 10px;
-        column-count: 2;
-        @media screen and (min-width:768px){
-            font-size: 1.4rem;
-        }
-        @media screen and (min-width:960px){
-            font-size: 1.6rem;
-        }
-      }
-      li {
-        list-style-type: disc;
-        margin-left: 15px;
-      }
-      .bs {
-        padding-top: 15px
-      }
-}
 
 .pcWrap {
     @include borderWrap();
@@ -58,3 +70,6 @@
     @include borderWrap();
 }
 
+.aboutWrap {
+    margin-top: 30px;
+}

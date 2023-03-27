@@ -189,6 +189,32 @@
     margin: 0 auto;
   }
 }
+#aboutUsingWrap a {
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 768px) {
+  #aboutUsingWrap a {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #aboutUsingWrap a {
+    font-size: 1.6rem;
+  }
+}
+#aboutUsingWrap span {
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 768px) {
+  #aboutUsingWrap span {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #aboutUsingWrap span {
+    font-size: 1.6rem;
+  }
+}
 
 .aboutWrap h3 {
   font-size: 1.5rem;
@@ -208,9 +234,9 @@
   font-size: 1.5rem;
 }
 .pcWrap ul {
-  font-size: 1.2rem;
   padding-top: 10px;
   column-count: 2;
+  font-size: 1.2rem;
 }
 @media screen and (min-width: 768px) {
   .pcWrap ul {
@@ -239,9 +265,9 @@
   font-size: 1.5rem;
 }
 .smartphonesWrap ul {
-  font-size: 1.2rem;
   padding-top: 10px;
   column-count: 2;
+  font-size: 1.2rem;
 }
 @media screen and (min-width: 768px) {
   .smartphonesWrap ul {
@@ -259,4 +285,8 @@
 }
 .smartphonesWrap .bs {
   padding-top: 15px;
+}
+
+.aboutWrap {
+  margin-top: 30px;
 }/*# sourceMappingURL=page-aboutUsing.css.map */
