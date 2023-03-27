@@ -64,7 +64,7 @@ Template Name: message
                 </ul>
             </div>
             <div class="textWrap">
-                <h3>行動方針</h3>
+                <h3 class="notFirst">行動方針</h3>
                 <p>安全第一　　良品増産　　敏速出荷</p>
             </div>
         </div>
