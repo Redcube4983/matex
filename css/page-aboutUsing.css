@@ -221,24 +221,24 @@
   }
 }
 
-.smartphonesrWrap {
+.smartphonesWrap {
   padding: 15px;
   border: solid 1px #555;
 }
-.smartphonesrWrap h4 {
+.smartphonesWrap h4 {
   font-size: 1.5rem;
 }
-.smartphonesrWrap ul {
+.smartphonesWrap ul {
   font-size: 1.2rem;
   padding-top: 10px;
 }
 @media screen and (min-width: 768px) {
-  .smartphonesrWrap ul {
+  .smartphonesWrap ul {
     font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 960px) {
-  .smartphonesrWrap ul {
+  .smartphonesWrap ul {
     font-size: 1.6rem;
   }
 }/*# sourceMappingURL=page-aboutUsing.css.map */
