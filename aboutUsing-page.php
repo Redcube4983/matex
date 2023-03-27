@@ -37,7 +37,7 @@ Template Name: aboutUsing
         <p class="">株式会社マテックスでは皆様に快適にウェブサイトをご利用できますよう心がけております。ウェブサイトのご利用にあたって下記の内容をご一読いただきますようお願いいたします。なお、ウェブサイトの掲載内容につきましては、予告なく変更することがございますのでご了承願います。 </p>
 </section>
     
-<section id="aboutausingWrap">
+<section id="aboutUsingWrap">
     <div class="environmentWrap">
         <div class="ttlWrap aboutWrap">
             <h3>ご利用環境について</h3>
