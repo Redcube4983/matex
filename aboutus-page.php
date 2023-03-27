@@ -57,7 +57,7 @@ Template Name: aboutus
                     <p>ダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミー</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="/message/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@ Template Name: aboutus
                     </p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="" class="moreButton">more</a>
+                    <a href="/profile/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@ Template Name: aboutus
                     <p>ダミーダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミーダミー</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="/businessBase/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@ Template Name: aboutus
                     <p>ダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミー</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="/puality/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
