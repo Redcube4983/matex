@@ -68,22 +68,30 @@
         width: 100%;
         justify-content: space-between;
     }
+  }
+.stateImgWrap1 {
     li:first-child {
         width: 60%;
         @media screen and (min-width:920px){
             width: 35%;
         }
     }
-    li:not(:first-child){
-        width: 38%;
+    li:last-child {
+        width: 40%;
+    }
+}
+
+.stateImgWrap2 {
+    li:first-child {
+        width: 60%;
         @media screen and (min-width:920px){
-            width: 21%;
+            width: 35%;
         }
     }
-    @media screen and (min-width:768px){
-            padding-top: 60px;
-        }
-  }
+    li:last-child {
+        width: 40%;
+    }
+}
 
 
 .textWrap {

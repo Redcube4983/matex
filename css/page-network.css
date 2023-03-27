@@ -251,26 +251,29 @@
   width: 100%;
   justify-content: space-between;
 }
-.stateImgWrap li:first-child {
+
+.stateImgWrap1 li:first-child {
   width: 60%;
 }
 @media screen and (min-width: 920px) {
-  .stateImgWrap li:first-child {
+  .stateImgWrap1 li:first-child {
     width: 35%;
   }
 }
-.stateImgWrap li:not(:first-child) {
-  width: 38%;
+.stateImgWrap1 li:last-child {
+  width: 40%;
+}
+
+.stateImgWrap2 li:first-child {
+  width: 60%;
 }
 @media screen and (min-width: 920px) {
-  .stateImgWrap li:not(:first-child) {
-    width: 21%;
+  .stateImgWrap2 li:first-child {
+    width: 35%;
   }
 }
-@media screen and (min-width: 768px) {
-  .stateImgWrap {
-    padding-top: 60px;
-  }
+.stateImgWrap2 li:last-child {
+  width: 40%;
 }
 
 .textWrap {
