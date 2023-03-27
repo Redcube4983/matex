@@ -47,14 +47,14 @@ Template Name: aboutUsing
             <h4>PC</h4>
             <div class="recommendWrap">
                 <div class="osWrap">
-                    <h4>●推奨OS</h4>
+                    <h4 class="bs">●推奨OS</h4>
                     <ul>
                         <li>Windows10</li>
                         <li>MacOS X</li>
                     </ul>
                 </div>
                 <div class="browserWrap">
-                    <h4>●推奨ブラウザ</h4>
+                    <h4 class="bs">●推奨ブラウザ</h4>
                     <ul>
                         <li>Google Chrome（最新版）</li>
                         <li>Firefox（最新版）</li>
@@ -69,15 +69,14 @@ Template Name: aboutUsing
             <h4>スマートホン</h4>
             <div class="recommendWrap">
                 <div class="osWrap">
-                    <h4>●推奨OS</h4>
+                    <h4 class="bs">●推奨OS</h4>
                     <ul>
                         <li>iOS12</li>
                         <li>Android7.0 以上</li>
-                        <li></li>
                     </ul>
                 </div>
                 <div class="browserWrap">
-                    <h4>●推奨ブラウザ</h4>
+                    <h4 class="bs">●推奨ブラウザ</h4>
                     <ul>
                         <li>iOS：Safari（最新版）</li>
                         <li>Google Chrome（最新版）</li>

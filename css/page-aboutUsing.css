@@ -202,6 +202,7 @@
 .pcWrap {
   padding: 15px;
   border: solid 1px #555;
+  padding-top: 30px;
 }
 .pcWrap h4 {
   font-size: 1.5rem;
@@ -209,6 +210,7 @@
 .pcWrap ul {
   font-size: 1.2rem;
   padding-top: 10px;
+  column-count: 2;
 }
 @media screen and (min-width: 768px) {
   .pcWrap ul {
@@ -220,10 +222,18 @@
     font-size: 1.6rem;
   }
 }
+.pcWrap li {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+.pcWrap .bs {
+  padding-top: 15px;
+}
 
 .smartphonesWrap {
   padding: 15px;
   border: solid 1px #555;
+  padding-top: 30px;
 }
 .smartphonesWrap h4 {
   font-size: 1.5rem;
@@ -231,6 +241,7 @@
 .smartphonesWrap ul {
   font-size: 1.2rem;
   padding-top: 10px;
+  column-count: 2;
 }
 @media screen and (min-width: 768px) {
   .smartphonesWrap ul {
@@ -241,4 +252,11 @@
   .smartphonesWrap ul {
     font-size: 1.6rem;
   }
+}
+.smartphonesWrap li {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+.smartphonesWrap .bs {
+  padding-top: 15px;
 }/*# sourceMappingURL=page-aboutUsing.css.map */
