@@ -61,26 +61,7 @@ Template Name: network
         <div class="position">
             <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg02.svg" alt="体制仕組み図画像">
         </div>
-        <div class="stateImgWrap stateImgWrap1">
-            <ul>
-                <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg03.jpg" alt="様子画像">
-                </li>
-                <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg04.jpg" alt="様子画像">
-                </li>
-            </ul>
-        </div>
-        <div class="stateImgWrap stateImgWrap2">
-            <ul>
-                <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg05.jpg" alt="様子画像">
-                </li>
-                <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg06.jpg" alt="様子画像">
-                </li>
-            </ul>
-        </div>
+        
 </section>
 
 </main>
