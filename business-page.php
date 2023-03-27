@@ -54,7 +54,7 @@ Template Name: business
                     <p>お客様に密着した体制から、<br>質の高い製品・サービスをデリバリー。</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="network" class="moreButton">more</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ Template Name: business
                     <p>充実した加工設備と熟練のスタッフが<br>付加価値の高い製品をクリエイト。</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="" class="moreButton">more</a>
+                    <a href="production" class="moreButton">more</a>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@ Template Name: business
                     <p>Faithful Partnerをモットーに<br>vお客様の様々なニーズに対応。</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="support" class="moreButton">more</a>
                 </div>
             </div>
         </div>
