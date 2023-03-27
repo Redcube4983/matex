@@ -16,7 +16,7 @@ Template Name: aboutUsing
         </div>
         <div class="ttlWrap">
             <span class="enTtl">About Using The site</span>
-            <h1 class="jpTtl">個人情報保護方針</h1>
+            <h1 class="jpTtl">サイトのご利用について</h1>
         </div>
     </div>
 </div>
@@ -26,15 +26,84 @@ Template Name: aboutUsing
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <span>個人情報保護方針</span>
+            <span>サイトのご利用について</span>
         </li>
     </ul>
 </div>
 <section id="leadWrap">
         <div class="leadTtlWrap">
-            <h2 class="jpTtl">お客様情報の保護についての考え方</h2>
+            <h2 class="jpTtl">サイトのご利用について</h2>
         </div>
-        <p class="">当社は、当社の業務を円滑に行うため、お客様の電子メールアドレスをはじめ、氏名、住所、電話番号等の情報を収集・利用させていただいております。当社は、これらのお客様の個人情報（以下「お客様情報」といいます。）の適正な保護を重大な責務と認識し、この責務を果たすために、次の方針の下でお客さま情報を取り扱います。<br><br>お客様情報に適用される個人情報の保護に関する法律その他の関係法令を遵守し、適切に取り扱います。また、適宜取扱いの改善に努めます。<br><br>お客様情報の取扱いに関する規程を明確にし、従業者に周知徹底します。また、取引先等に対しても適切にお客様情報を取り扱うように要請します。<br><br>お客様情報の収集に際しては、利用目的を特定して通知または公表し、その利用目的にしたがってお客様情報を取り扱います。<br><br>お客様情報の漏洩、紛失、改ざん等を防止するために必要な対策を講じて適切な管理を行います。</p>
+        <p class="">株式会社マテックスでは皆様に快適にウェブサイトをご利用できますよう心がけております。ウェブサイトのご利用にあたって下記の内容をご一読いただきますようお願いいたします。なお、ウェブサイトの掲載内容につきましては、予告なく変更することがございますのでご了承願います。 </p>
+</section>
+    
+<section id="aboutausingWrap">
+    <div class="environmentWrap">
+        <div class="ttlWrap aboutWrap">
+            <h3>ご利用環境について</h3>
+            <p>当ウェブサイトは以下の環境での閲覧を推奨いたします。 </p>
+        </div>
+        <div class="pcWrap">
+            <h4>PC</h4>
+            <div class="recommendWrap">
+                <div class="osWrap">
+                    <h4>●推奨OS</h4>
+                    <ul>
+                        <li>Windows10</li>
+                        <li>MacOS X</li>
+                    </ul>
+                </div>
+                <div class="browserWrap">
+                    <h4>●推奨ブラウザ</h4>
+                    <ul>
+                        <li>Google Chrome（最新版）</li>
+                        <li>Firefox（最新版）</li>
+                        <li>Safari（最新版）</li>
+                        <li>Microsoft Edge（最新版）</li>
+                    </ul>
+                    <span>※他のブラウザでご覧になった際、一部コンテンツが正しく表示されない場合がございますので、あらかじめご了承ください。</span>
+                </div>
+            </div>
+        </div>
+        <div class="smartphonesWrap">
+            <h4>スマートホン</h4>
+            <div class="recommendWrap">
+                <div class="osWrap">
+                    <h4>●推奨OS</h4>
+                    <ul>
+                        <li>iOS12</li>
+                        <li>Android7.0 以上</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="browserWrap">
+                    <h4>●推奨ブラウザ</h4>
+                    <ul>
+                        <li>iOS：Safari（最新版）</li>
+                        <li>Google Chrome（最新版）</li>
+                        <li>Firefox for Mobile（最新版）</li>
+                        <li>Android：Chrome for Android（最新版）</li>
+                        <li>Firefox for Mobile（最新版）</li>
+                        <li>Android標準ブラウザ（最新版）</li>
+                    </ul>
+                    <span>※他のブラウザでご覧になった際、一部コンテンツが正しく表示されない場合がございますので、あらかじめご了承ください。</span>
+                </div>
+            </div>
+        </div>
+        <div class="jsWrap aboutWrap">
+            <h3>JavaScriptについて</h3>
+            <p>ウェブサイトは、JavaScriptを使用しています。JavaScriptを無効にされている場合はページが正しく表示されない場合が ございます。<br>当ウェブサイトご利用の際には、JavaScriptを有効に設定していただきますようお願いします。</p>
+        </div>
+        <div class="pluginWrap aboutWrap">
+            <h3>プラグインについて</h3>
+            <p>一部のコンテンツでは、以下のプラグインが必要です。インストールされていない場合は、リンクをクリックして最新のバージョンをダウンロードしてください。</p>
+            <a href="">Adobe&reg; Reader&reg;®</a>
+        </div>
+        <div class="policyWrap aboutWrap">
+            <h3>個人情報の取扱いについて</h3>
+            <p>個人情報の取り扱いについては、<a href="/policy/">個人情報保護方針</a>のページをご覧ください。 </p>
+        </div>
+    </div>
 </section>
 
 </main>
