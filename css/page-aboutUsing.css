@@ -204,11 +204,25 @@
 }
 #aboutUsingWrap span {
   font-size: 1.2rem;
-  padding-top: 10px;
+  padding-top: 15px;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   #aboutUsingWrap span {
     font-size: 1.4rem;
+  }
+}
+#aboutUsingWrap p {
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 768px) {
+  #aboutUsingWrap p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #aboutUsingWrap p {
+    font-size: 1.6rem;
   }
 }
 
