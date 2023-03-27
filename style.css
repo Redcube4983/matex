@@ -564,7 +564,10 @@ header {
     padding: 0;
     flex-flow: row nowrap;
     justify-content: space-between;
-    min-width: 700px;
+    min-width: 500px;
+  }
+  #header-right {
+    margin-right: 50px;
   }
   #header-right.open #global-nav {
     display: flex;
