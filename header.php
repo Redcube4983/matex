@@ -97,7 +97,7 @@
             <h3><a href="/policy/">個人情報保護方針</a></h3>
         </li>
         <li class="global-nav other">
-            <h3><a href="#">サイトのご利用について</a></h3>
+            <h3><a href="aboutUsing">サイトのご利用について</a></h3>
         </li>
     </ul>
     </div>
