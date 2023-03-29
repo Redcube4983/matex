@@ -43,6 +43,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-policy.css">
 <?php elseif( is_page( 'aboutusing' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutUsing.css">
+<?php elseif( is_page( 'work' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-work.css">
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -83,7 +85,7 @@
             <h3><a href="/recruit/">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="/company/">会社を知る</a></h4></li>
-                <li class="gran-child"><h4><a href="#">仕事を知る</a></h4></li>
+                <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
                 <li class="gran-child"><h4><a href="#">募集要項</a></h4></li>
             </ul>
         </li>
