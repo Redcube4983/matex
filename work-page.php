@@ -29,7 +29,7 @@ Template Name: work
             <a href="/recruit/">事業情報</a>
         </li>
         <li>
-            <span>販売/納品体制</span>
+            <span>仕事を知る</span>
         </li>
     </ul>
 </div>
