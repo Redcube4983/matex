@@ -47,6 +47,19 @@
             font-size: 1.6rem;
         }
     }
+    @media screen and (min-width:960px){
+        .wrap {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+          }
+        .img {
+        width: 40%;
+        }
+        .rightWrap {
+            width: 55%;
+          }
+        }
 }
 
 .buttonWrap {
@@ -71,17 +84,4 @@
             border: solid 2px #e95520;
         }
     }
-    @media screen and (min-width:960px){
-        .wrap {
-            display: flex;
-            width: 100%;
-            justify-content: space-between;
-          }
-        .img {
-        width: 40%;
-        }
-        .rightWrap {
-            width: 55%;
-          }
-        }
   }

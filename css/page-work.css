@@ -225,6 +225,19 @@
     font-size: 1.6rem;
   }
 }
+@media screen and (min-width: 960px) {
+  #workInner .wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  #workInner .img {
+    width: 40%;
+  }
+  #workInner .rightWrap {
+    width: 55%;
+  }
+}
 
 .buttonWrap {
   width: 100%;
@@ -246,17 +259,4 @@
   color: #e95520;
   background-color: #fff;
   border: solid 2px #e95520;
-}
-@media screen and (min-width: 960px) {
-  .buttonWrap .wrap {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-  .buttonWrap .img {
-    width: 40%;
-  }
-  .buttonWrap .rightWrap {
-    width: 55%;
-  }
 }/*# sourceMappingURL=page-work.css.map */
