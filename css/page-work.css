@@ -234,12 +234,13 @@
   margin-top: 15px;
 }
 .buttonWrap a {
-  padding: 30px;
+  padding: 20px 30px;
   background-color: #000;
   border-radius: 50px;
   border: solid 2px #000;
   width: 100%;
   transition: 0.2s;
+  color: #fff;
 }
 .buttonWrap:hover a {
   color: #e95520;

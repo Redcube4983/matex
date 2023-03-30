@@ -56,12 +56,13 @@
     font-size: 1.4rem;
     margin-top: 15px;
     a {
-        padding: 30px;
+        padding: 20px 30px;
         background-color: #000;
         border-radius: 50px;
         border: solid 2px #000;
         width: 100%;
         transition: .2s;
+        color: #fff;
     }
     &:hover {
         a {
