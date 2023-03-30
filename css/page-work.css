@@ -244,6 +244,10 @@
     justify-content: end;
   }
 }
+#workInner .wrap2,
+#workInner .wrap3 {
+  padding-top: 30px;
+}
 
 .buttonWrap {
   width: 100%;
