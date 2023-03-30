@@ -26,7 +26,7 @@ Template Name: work
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <a href="/recruit/">事業情報</a>
+            <a href="/recruit/">採用情報</a>
         </li>
         <li>
             <span>仕事を知る</span>
@@ -35,11 +35,24 @@ Template Name: work
 </div>
 <section id="leadWrap">
         <div class="leadTtlWrap">
-            <h2 class="jpTtl">“拠点主義”体制から<br class="sp">ジャストインタイムでデリバリー</h2>
+            <h2 class="jpTtl">チャレンジの先にある、感動と喜びを求めて</h2>
         </div>
+        <p class="">マテックスは、鋼鈑コイル生産の黎明期からコイル関連技術に取り組み、経験を蓄積し、さまざまな合理化を重ねて成長してきました。暮らしや産業に欠くことのできない「鉄」。私たちマテックスは、「鉄」を通じてあらゆる活動に創意をもって果敢にチャレンジしています。</p>
 </section>
 <section id="workInner">
-    
+    <div class="wrap wrap1">
+        <div class="img">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg01.jpg" alt="">
+        </div>
+        <div class="rightWrap">
+            <h3>営業職</h3>
+            <h4>お客様にいただく「ありがとう」の一言が最高のヤリガイ</h4>
+            <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミ。</p>
+            <div class="buttonWrap">
+                <a href="/salesjob/">先輩社員の声を聴いてみよう</a>
+            </div>
+        </div>
+    </div>
 </section>
 
 </main>
