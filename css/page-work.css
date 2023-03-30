@@ -234,8 +234,14 @@
   #workInner .img {
     width: 40%;
   }
+  #workInner h3 {
+    padding: 0;
+  }
   #workInner .rightWrap {
     width: 55%;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
   }
 }
 

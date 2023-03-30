@@ -56,9 +56,15 @@
         .img {
         width: 40%;
         }
+        h3 {
+            padding: 0;
+        }
         .rightWrap {
             width: 55%;
-          }
+            display: flex;
+            flex-flow: column;
+            justify-content: end;
+        }
         }
 }
 
