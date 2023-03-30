@@ -172,4 +172,38 @@
 .innerWrap1 {
   display: flex;
   justify-content: space-between;
+}
+
+#workInner img {
+  width: 100%;
+}
+#workInner .wrap {
+  padding-top: 30px;
+}
+#workInner h3 {
+  font-size: 1.7rem;
+  line-height: 1;
+}
+@media screen and (min-width: 960px) {
+  #workInner h3 {
+    font-size: 2rem;
+  }
+}
+#workInner h4 {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+@media screen and (min-width: 960px) {
+  #workInner h4 {
+    font-size: 1.7rem;
+  }
+}
+#workInner p {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+@media screen and (min-width: 960px) {
+  #workInner p {
+    font-size: 1.6rem;
+  }
 }/*# sourceMappingURL=page-work.css.map */
