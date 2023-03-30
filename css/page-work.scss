@@ -50,27 +50,24 @@
 }
 
 .buttonWrap {
-    a {
-    width: 100%;
+    width: 250px;
     display: flex;
-    justify-content: end;
-    padding-top: 50px;
-    .moreButton {
-        padding: 17px 70px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    a {
+        padding: 30px;
         background-color: #000;
+        border-radius: 50px;
         border: solid 2px #000;
-        display: block;
-        border-radius: 100px;
-        color: #fff;
-        font-size: 1.4rem;
-        letter-spacing: 1.5px;
-        text-align: center;
+        width: 100%;
         transition: .2s;
-        &:hover {
-            background-color: #fff;
+    }
+    &:hover {
+        a {
             color: #e95520;
+            background-color: #fff;
             border: solid 2px #e95520;
-        }
         }
     }
   }
