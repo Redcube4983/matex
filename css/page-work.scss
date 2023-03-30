@@ -4,7 +4,7 @@
 
 
 @mixin paddingTop {
-    padding-top: 10px;
+    padding-top: 15px;
 }
 #workInner {
     padding: 60px 15px 0;
@@ -56,7 +56,6 @@
     font-size: 1.4rem;
     margin-top: 15px;
     justify-content: end;
-
     a {
         padding: 20px 30px;
         background-color: #000;
@@ -72,4 +71,17 @@
             border: solid 2px #e95520;
         }
     }
+    @media screen and (min-width:960px){
+        .wrap {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+          }
+        .img {
+        width: 40%;
+        }
+        .rightWrap {
+            width: 55%;
+          }
+        }
   }

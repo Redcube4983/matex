@@ -206,7 +206,7 @@
   }
 }
 #workInner h4 {
-  padding-top: 10px;
+  padding-top: 15px;
   font-size: 1.5rem;
   line-height: 1;
 }
@@ -216,7 +216,7 @@
   }
 }
 #workInner p {
-  padding-top: 10px;
+  padding-top: 15px;
   font-size: 1.3rem;
   line-height: 2;
 }
@@ -246,4 +246,17 @@
   color: #e95520;
   background-color: #fff;
   border: solid 2px #e95520;
+}
+@media screen and (min-width: 960px) {
+  .buttonWrap .wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .buttonWrap .img {
+    width: 40%;
+  }
+  .buttonWrap .rightWrap {
+    width: 55%;
+  }
 }/*# sourceMappingURL=page-work.css.map */
