@@ -50,6 +50,7 @@
 }
 
 .buttonWrap {
+    a {
     width: 100%;
     display: flex;
     justify-content: end;
@@ -69,6 +70,7 @@
             background-color: #fff;
             color: #e95520;
             border: solid 2px #e95520;
+        }
         }
     }
   }
