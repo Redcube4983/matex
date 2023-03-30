@@ -181,6 +181,7 @@
   padding-top: 30px;
 }
 #workInner h3 {
+  padding-top: 20px;
   font-size: 1.7rem;
   line-height: 1;
 }
@@ -190,6 +191,7 @@
   }
 }
 #workInner h4 {
+  padding-top: 10px;
   font-size: 1.5rem;
   line-height: 1;
 }
@@ -199,6 +201,7 @@
   }
 }
 #workInner p {
+  padding-top: 10px;
   font-size: 1.3rem;
   line-height: 1;
 }

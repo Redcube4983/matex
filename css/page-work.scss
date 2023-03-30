@@ -3,6 +3,9 @@
 @use '../common/css/Layout/main';
 
 
+@mixin paddingTop {
+    padding-top: 10px;
+}
 #workInner {
     img {
         width: 100%;
@@ -11,6 +14,7 @@
         padding-top: 30px;
     }
     h3 {
+        padding-top: 20px;
         font-size: 1.7rem;
         line-height: 1;
         @media screen and (min-width:960px){
@@ -18,6 +22,7 @@
         }
       }
     h4 {
+        @include paddingTop();
         font-size: 1.5rem;
         line-height: 1;
         @media screen and (min-width:960px){
@@ -25,6 +30,7 @@
         }
     }
     p {
+        @include paddingTop();
         font-size: 1.3rem;
         line-height: 1;
         @media screen and (min-width:960px){
