@@ -53,7 +53,7 @@ Template Name: work
             </div>
         </div>
     </div>
-    <div class="wrap wrap1">
+    <div class="wrap wrap2">
         <div class="img">
             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg02.jpg" alt="">
         </div>
@@ -66,7 +66,7 @@ Template Name: work
             </div>
         </div>
     </div>
-    <div class="wrap wrap1">
+    <div class="wrap wrap3">
         <div class="img">
             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg03.jpg" alt="">
         </div>
