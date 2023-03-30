@@ -46,10 +46,36 @@ Template Name: work
         </div>
         <div class="rightWrap">
             <h3>営業職</h3>
-            <h4>お客様にいただく「ありがとう」の一言が最高のヤリガイ</h4>
+            <h4>お客様にいただく「ありがとう」の一言が<br class="sp">最高のヤリガイ</h4>
             <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミ。</p>
             <div class="buttonWrap">
                 <a href="/salesjob/">先輩社員の声を聴いてみよう</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrap wrap1">
+        <div class="img">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg02.jpg" alt="">
+        </div>
+        <div class="rightWrap">
+            <h3>技術職</h3>
+            <h4>より速く精密に。技術を極める<br class="sp">コイル加工のスペシャリスト</h4>
+            <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミ。</p>
+            <div class="buttonWrap">
+                <a href="/technical/">先輩社員の声を聴いてみよう</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrap wrap1">
+        <div class="img">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg03.jpg" alt="">
+        </div>
+        <div class="rightWrap">
+            <h3>業務職</h3>
+            <h4>会社のあれこれをマネジメントする縁の下の力持ち</h4>
+            <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミ。</p>
+            <div class="buttonWrap">
+                <a href="/officejob/">先輩社員の声を聴いてみよう</a>
             </div>
         </div>
     </div>
