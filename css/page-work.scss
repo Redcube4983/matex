@@ -27,13 +27,13 @@
         font-size: 1.7rem;
         line-height: 1;
         @media screen and (min-width:960px){
-            font-size: 2rem;
+            font-size: 2.2rem;
         }
       }
     h4 {
         @include paddingTop();
         font-size: 1.5rem;
-        line-height: 1;
+        line-height: 1.5;
         @media screen and (min-width:960px){
             font-size: 1.7rem;
         }

@@ -202,13 +202,13 @@
 }
 @media screen and (min-width: 960px) {
   #workInner h3 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 }
 #workInner h4 {
   padding-top: 15px;
   font-size: 1.5rem;
-  line-height: 1;
+  line-height: 1.5;
 }
 @media screen and (min-width: 960px) {
   #workInner h4 {
