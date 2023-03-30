@@ -41,9 +41,24 @@
     p {
         @include paddingTop();
         font-size: 1.3rem;
-        line-height: 1;
+        line-height: 1.5;
+
         @media screen and (min-width:960px){
             font-size: 1.6rem;
         }
     }
 }
+
+.buttonWrap {
+    width: 250px;
+    display: flex;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    a {
+        padding: 30px;
+        background-color: #000;
+        border-radius: 50px;
+        width: 100%;
+    }
+  }
