@@ -218,7 +218,7 @@
 #workInner p {
   padding-top: 10px;
   font-size: 1.3rem;
-  line-height: 1.5;
+  line-height: 2;
 }
 @media screen and (min-width: 960px) {
   #workInner p {
@@ -232,10 +232,18 @@
   text-align: center;
   font-size: 1.4rem;
   margin-top: 15px;
+  border: solid 1px #000;
 }
 .buttonWrap a {
   padding: 30px;
   background-color: #000;
   border-radius: 50px;
   width: 100%;
+}
+.buttonWrap.hover {
+  border: solid 1px #e9e9e9;
+}
+.buttonWrap.hover a {
+  color: #e9e9e9;
+  background-color: #fff;
 }/*# sourceMappingURL=page-work.css.map */

@@ -41,7 +41,7 @@
     p {
         @include paddingTop();
         font-size: 1.3rem;
-        line-height: 1.5;
+        line-height: 2;
 
         @media screen and (min-width:960px){
             font-size: 1.6rem;
@@ -55,10 +55,18 @@
     text-align: center;
     font-size: 1.4rem;
     margin-top: 15px;
+    border: solid 1px #000;
     a {
         padding: 30px;
         background-color: #000;
         border-radius: 50px;
         width: 100%;
+    }
+    &.hover {
+        border: solid 1px #e9e9e9;
+        a {
+            color: #e9e9e9;
+            background-color: #fff;
+        }
     }
   }
