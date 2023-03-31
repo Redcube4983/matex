@@ -211,4 +211,39 @@
   #workSub .jobLeadWrap span {
     font-size: 1.8rem;
   }
+}
+#workSub .jobLeadWrap h4 {
+  font-size: 2rem;
+  padding-top: 20px;
+}
+
+.profileWrap {
+  padding: 20px;
+  margin-top: 20px;
+  border: solid 1px #c5c5c5;
+}
+.profileWrap h3 {
+  font-size: 1.8rem;
+  padding-top: 10px;
+}
+@media screen and (min-width: 960px) {
+  .profileWrap h3 {
+    font-size: 2rem;
+  }
+}
+.profileWrap h5 {
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 960px) {
+  .profileWrap h5 {
+    font-size: 1.8rem;
+  }
+}
+.profileWrap .profileWrap span {
+  font-size: 1.4rem;
+}
+@media screen and (min-width: 960px) {
+  .profileWrap .profileWrap span {
+    font-size: 1.6rem;
+  }
 }/*# sourceMappingURL=page2.css.map */

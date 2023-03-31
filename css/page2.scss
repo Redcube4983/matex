@@ -39,5 +39,34 @@ $color: #e95522;
                 font-size: 1.8rem;
                 }
         }
+        h4 {
+            font-size: 2rem;
+            padding-top: 20px;
+          }
     }
 }
+
+.profileWrap {
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 1px #c5c5c5;
+    h3 {
+        font-size: 1.8rem;
+        padding-top: 10px;
+        @media screen and (min-width:960px){
+            font-size: 2rem;
+            }
+      }
+    h5 {
+        font-size: 1.6rem;
+        @media screen and (min-width:960px){
+            font-size: 1.8rem;
+            }
+    }
+    .profileWrap span {
+        font-size: 1.4rem;
+        @media screen and (min-width:960px){
+            font-size: 1.6rem;
+            }
+      }
+  }
