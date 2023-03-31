@@ -222,6 +222,11 @@
   margin-top: 20px;
   border: solid 1px #c5c5c5;
 }
+@media screen and (min-width: 768px) {
+  .profileWrap {
+    padding: 40px;
+  }
+}
 .profileWrap h3 {
   font-size: 1.8rem;
   padding-top: 10px;
