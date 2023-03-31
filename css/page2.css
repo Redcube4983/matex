@@ -272,6 +272,7 @@
 }
 #QAwrap {
   padding-top: 30px;
+  text-align: justify;
 }
 #QAwrap h3 {
   font-size: 1.3rem;
@@ -295,6 +296,22 @@
     width: 49%;
   }
   #QAwrap .inner2 .img2 {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 920px) {
+  #QAwrap .inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 920px) {
+  #QAwrap .leftWrap {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 920px) {
+  #QAwrap .rightWrap {
     width: 49%;
   }
 }/*# sourceMappingURL=page2.css.map */
