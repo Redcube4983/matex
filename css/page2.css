@@ -226,6 +226,7 @@
   padding: 20px;
   margin-top: 20px;
   border: solid 1px #c5c5c5;
+  text-align: justify;
 }
 @media screen and (min-width: 768px) {
   .profileWrap {
@@ -294,6 +295,19 @@
   }
   #QAwrap .inner2 .img1 {
     width: 49%;
+  }
+  #QAwrap .inner2 .img2 {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 920px) {
+  #QAwrap .inner2 .img {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+  }
+  #QAwrap .inner2 .img1 {
+    width: 75%;
   }
   #QAwrap .inner2 .img2 {
     width: 49%;

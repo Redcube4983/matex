@@ -53,6 +53,7 @@ $color: #e95522;
     padding: 20px;
     margin-top: 20px;
     border: solid 1px #c5c5c5;
+    text-align: justify;
     @media screen and (min-width:768px){
         padding: 40px;
         display: flex;
@@ -129,6 +130,19 @@ $color: #e95522;
         .img2 {
             width: 49%;
         }
+        }
+        @media screen and (min-width:920px){
+            .img {
+                display: flex;
+                justify-content: space-between;
+                flex-flow: column;
+            }
+            .img1 {
+                width: 75%;
+            }
+            .img2 {
+                width: 49%;
+            }
         }
     }
     .inner {
