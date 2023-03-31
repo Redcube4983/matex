@@ -191,4 +191,21 @@
 }
 #workSub img {
   width: 100%;
+}
+#workSub .jobLeadWrap span {
+  font-size: 1.6rem;
+  position: relative;
+}
+#workSub .jobLeadWrap span::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  left: 0;
+  top: 0;
+}
+@media screen and (min-width: 768px) {
+  #workSub .jobLeadWrap span {
+    font-size: 1.8rem;
+  }
 }/*# sourceMappingURL=page2.css.map */

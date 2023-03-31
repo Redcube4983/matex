@@ -2,6 +2,11 @@
 
 @use '../common/css/Layout/main';
 
+
+@mixin color01 {
+    color: #e95520;
+}
+
 #workSub {
     padding: 60px 15px 0;
     @media screen and (min-width:768px){
@@ -14,5 +19,23 @@
     }
     img {
         width: 100%;
+    }
+    .jobLeadWrap {
+        span {
+            font-size: 1.6rem;
+            position: relative;
+            
+            &::before {
+                content: '';
+                position: absolute;
+                width: 30px;
+                height: 2px;
+                left: 0;
+                top: 0;
+            }
+            @media screen and (min-width:768px){
+                font-size: 1.8rem;
+                }
+        }
     }
 }
