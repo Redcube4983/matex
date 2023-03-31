@@ -37,7 +37,7 @@ $color: #e95522;
             }
             @media screen and (min-width:768px){
                 font-size: 1.8rem;
-                }
+            }
         }
         h4 {
             font-size: 2rem;
@@ -82,12 +82,16 @@ $color: #e95522;
         color: $color;
       }
     p {
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .inner2 {
         @include paddingTop30();
     }
     .img {
         @include paddingTop30();
+    }
+    
+    @media screen and (min-width:768px){
+        
     }
   }
