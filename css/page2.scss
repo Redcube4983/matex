@@ -111,6 +111,9 @@ $color: #e95522;
   #QAwrap {
     @include paddingTop30();
     text-align: justify;
+    @media screen and (min-width:920px){
+        padding-top: 60px;
+    }
     h3 {
         font-size: 1.3rem;
         color: $color;
