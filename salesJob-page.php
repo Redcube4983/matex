@@ -69,11 +69,13 @@ Template Name: salesjob
                 <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
             </div>
             <div clas s="rightWrap">
+                <div class="img">
                 <div class="img1">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg03.jpg" alt="">
                 </div>
                 <div class="img2">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg04.jpg" alt="">
+                </div>
                 </div>
             </div>
         </div>
