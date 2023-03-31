@@ -72,8 +72,11 @@ $color: #e95522;
       }
   }
 
-  #QAwrap {
+@mixin paddingTop30 {
     padding-top: 30px;
+}
+  #QAwrap {
+    @include paddingTop30();
     h3 {
         font-size: 1.3rem;
         color: $color;
@@ -82,6 +85,9 @@ $color: #e95522;
         padding-top: 10px;
     }
     .inner2 {
-        padding-top: 30px;
+        @include paddingTop30();
+    }
+    .img {
+        @include paddingTop30();
     }
   }
