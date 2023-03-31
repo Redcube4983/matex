@@ -43,7 +43,7 @@ Template Name: officejob
     </div>
     <div class="profileWrap">
         <div class="img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg01.jpg" alt="">
         </div>
         <div class="rightWrap">
             <h3>総務部</h3>
@@ -59,7 +59,7 @@ Template Name: officejob
             </div>
             <div class="rightWrap">
                 <div class="img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg02.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg02.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -71,10 +71,10 @@ Template Name: officejob
             <div class="rightWrap">
                 <div class="img">
                 <div class="img1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg03.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg03.jpg" alt="">
                 </div>
                 <div class="img2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg04.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg04.jpg" alt="">
                 </div>
                 </div>
             </div>
