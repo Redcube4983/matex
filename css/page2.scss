@@ -141,7 +141,12 @@ $color: #e95522;
                 width: 75%;
             }
             .img2 {
-                width: 49%;
+                width: 100%;
+                display: flex;
+                flex-flow: row-reverse;
+                img {
+                    width: 75%;
+                }
             }
         }
     }

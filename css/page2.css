@@ -310,7 +310,12 @@
     width: 75%;
   }
   #QAwrap .inner2 .img2 {
-    width: 49%;
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  #QAwrap .inner2 .img2 img {
+    width: 75%;
   }
 }
 @media screen and (min-width: 920px) {
