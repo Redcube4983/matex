@@ -239,11 +239,11 @@
     font-size: 1.8rem;
   }
 }
-.profileWrap .profileWrap span {
+.profileWrap span {
   font-size: 1.4rem;
 }
 @media screen and (min-width: 960px) {
-  .profileWrap .profileWrap span {
+  .profileWrap span {
     font-size: 1.6rem;
   }
 }/*# sourceMappingURL=page2.css.map */
