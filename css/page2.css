@@ -307,14 +307,14 @@
     flex-flow: column;
   }
   #QAwrap .inner2 .img1 {
-    width: 75%;
-  }
-  #QAwrap .inner2 .img2 {
     width: 100%;
     display: flex;
     flex-flow: row-reverse;
   }
-  #QAwrap .inner2 .img2 img {
+  #QAwrap .inner2 .img1 img {
+    width: 75%;
+  }
+  #QAwrap .inner2 .img2 {
     width: 75%;
   }
 }

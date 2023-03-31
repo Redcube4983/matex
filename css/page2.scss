@@ -138,15 +138,16 @@ $color: #e95522;
                 flex-flow: column;
             }
             .img1 {
-                width: 75%;
-            }
-            .img2 {
                 width: 100%;
                 display: flex;
                 flex-flow: row-reverse;
                 img {
                     width: 75%;
                 }
+            }
+            .img2 {
+                width: 75%;
+                
             }
         }
     }
