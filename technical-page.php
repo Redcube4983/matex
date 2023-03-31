@@ -26,20 +26,60 @@ Template Name: technical
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <a href="/recruit/">事業情報</a>
+            <a href="/recruit/">採用情報</a>
         </li>
         <li>
-            <span>仕事を知る</span>
+            <a href="/work/">仕事を知る</a>
+        </li>
+        <li>
+            <span>技術職</span>
         </li>
     </ul>
 </div>
-<section id="leadWrap">
-        <div class="leadTtlWrap">
-            <h2 class="jpTtl">“拠点主義”体制から<br class="sp">ジャストインタイムでデリバリー</h2>
+<section id="workSub">
+    <div class="jobLeadWrap">
+        <span>先輩社員インタビュー</span>
+        <h4>より速く精密に。技術を極める<br class="sp">コイル加工のスペシャリスト</h4>
+    </div>
+    <div class="profileWrap">
+        <div class="img">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="">
         </div>
-</section>
-<section id="workInner">
-    
+        <div class="rightWrap">
+            <h3>栃木工場　加工部</h3>
+            <h5>○○○○○<span>（2010年入社）</span></h5>
+            <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミ。</p>
+        </div>
+    </div>
+    <div id="QAwrap">
+        <div class="inner inner1">
+            <div class="leftWrap">
+                <h3>●●●●●●●●●●●●●●●●？</h3>
+                <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+            </div>
+            <div class="rightWrap">
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg02.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="inner inner2">
+            <div class="leftWrap">
+                <h3>●●●●●●●●●●●●●●●●？</h3>
+                <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+            </div>
+            <div class="rightWrap">
+                <div class="img">
+                <div class="img1">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg03.jpg" alt="">
+                </div>
+                <div class="img2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg04.jpg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 </main>
