@@ -36,14 +36,18 @@ Template Name: salesjob
         </li>
     </ul>
 </div>
-<section id="leadWrap">
-        <div class="leadTtlWrap">
-            <h2 class="jpTtl">“拠点主義”体制から<br class="sp">ジャストインタイムでデリバリー</h2>
+<section id="workSub">
+    <div class="jobLeadWrap">
+        <span>先輩社員インタビュー</span>
+        <h4>お客様にいただく「ありがとう」<br class="sp">の一言が最高のヤリガイ</h4>
+    </div>
+    <div class="profileWrap">
+        <div class="img">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="">
         </div>
+    </div>
 </section>
-<section id="workInner">
-    
-</section>
+
 
 </main>
 <?php get_footer(); ?>
