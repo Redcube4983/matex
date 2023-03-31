@@ -74,7 +74,7 @@ Template Name: recruit
                     <p>社会と鉄をつなぐ架け橋として、<br>ヤリガイのある仕事がここにあります。</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="/work/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@ Template Name: recruit
                     <p>新卒採用・キャリア採用の情報は<br>こちらからご確認ください。</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="#" class="moreButton">more</a>
+                    <a href="/requirement/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
