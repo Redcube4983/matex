@@ -26,10 +26,13 @@ Template Name: salesjob
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <a href="/recruit/">事業情報</a>
+            <a href="/recruit/">採用情報</a>
         </li>
         <li>
-            <span>仕事を知る</span>
+            <a href="/work/">仕事を知る</a>
+        </li>
+        <li>
+            <span>営業職</span>
         </li>
     </ul>
 </div>
