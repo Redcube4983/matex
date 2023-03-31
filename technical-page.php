@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: technical
+Template Name: technicalJob
 */
 ?>
 <?php get_header(); ?>
@@ -9,13 +9,13 @@ Template Name: technical
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technical-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technical-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technical-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technical-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technical-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technical-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technical-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJob-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJob-top-sp.jpg 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJob-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJob-top-pc.jpg 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJob-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJob-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJob-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Technical Job</span>
+            <span class="enTtl">technicalJob Job</span>
             <h1 class="jpTtl">技術職</h1>
         </div>
     </div>
@@ -43,7 +43,7 @@ Template Name: technical
     </div>
     <div class="profileWrap">
         <div class="img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technicalImg01.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg01.jpg" alt="">
         </div>
         <div class="rightWrap">
             <h3>栃木工場　加工部</h3>
@@ -59,7 +59,7 @@ Template Name: technical
             </div>
             <div class="rightWrap">
                 <div class="img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technicalImg02.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg02.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -71,10 +71,10 @@ Template Name: technical
             <div class="rightWrap">
                 <div class="img">
                 <div class="img1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technicalImg03.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg03.jpg" alt="">
                 </div>
                 <div class="img2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technical/technicalImg04.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg04.jpg" alt="">
                 </div>
                 </div>
             </div>
