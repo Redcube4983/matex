@@ -254,4 +254,10 @@
 #QAwrap h3 {
   font-size: 1.3rem;
   color: #e95522;
+}
+#QAwrap p {
+  padding-top: 10px;
+}
+#QAwrap .inner2 {
+  padding-top: 30px;
 }/*# sourceMappingURL=page2.css.map */
