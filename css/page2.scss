@@ -3,9 +3,8 @@
 @use '../common/css/Layout/main';
 
 
-@mixin color01 {
-    color: #e95520;
-}
+$color: #e95522;
+
 
 #workSub {
     padding: 60px 15px 0;
@@ -24,15 +23,15 @@
         span {
             font-size: 1.6rem;
             position: relative;
-            @include color01();
+            color: $color;
             &::before {
                 content: '';
                 position: absolute;
                 width: 20px;
                 height: 2px;
                 left: 0;
-                top: 0;
-                background-color: #e95520;
+                top: 20px;
+                background-color: $color;
                 padding-left: 30px;
             }
             @media screen and (min-width:768px){
