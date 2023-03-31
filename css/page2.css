@@ -250,17 +250,28 @@
   font-size: 1.8rem;
   padding-top: 10px;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   .profileWrap h3 {
     font-size: 2rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .profileWrap h3 {
+    font-size: 2.2rem;
   }
 }
 .profileWrap h5 {
   font-size: 1.6rem;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   .profileWrap h5 {
     font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .profileWrap h5 {
+    padding-top: 10px;
+    font-size: 2rem;
   }
 }
 .profileWrap span {
@@ -271,6 +282,12 @@
     font-size: 1.6rem;
   }
 }
+@media screen and (min-width: 920px) {
+  .profileWrap p {
+    padding-top: 10px;
+  }
+}
+
 #QAwrap {
   padding-top: 30px;
   text-align: justify;
@@ -287,6 +304,11 @@
 }
 #QAwrap .img {
   padding-top: 30px;
+}
+@media screen and (min-width: 920px) {
+  #QAwrap .img {
+    padding: 0;
+  }
 }
 @media screen and (min-width: 768px) {
   #QAwrap .inner2 .img {
