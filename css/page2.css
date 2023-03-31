@@ -246,4 +246,12 @@
   .profileWrap span {
     font-size: 1.6rem;
   }
+}
+
+#QAwrap {
+  padding-top: 30px;
+}
+#QAwrap h3 {
+  font-size: 1.3rem;
+  color: #e95522;
 }/*# sourceMappingURL=page2.css.map */
