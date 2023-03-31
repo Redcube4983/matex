@@ -45,6 +45,24 @@ Template Name: salesjob
         <div class="img">
             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="">
         </div>
+        <div class="rightWrap">
+            <h3>営業職</h3>
+            <h5>○○○○○<span>（2015年入社）</span></h5>
+            <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミ。</p>
+        </div>
+    </div>
+    <div id="QAwrap">
+        <div class="inner1">
+            <div class="leftWrap">
+                <h3>●●●●●●●●●●●●●●●●？</h3>
+                <p>ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー</p>
+            </div>
+            <div class="rightWrap">
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg02.jpg" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
