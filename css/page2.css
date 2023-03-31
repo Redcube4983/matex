@@ -196,6 +196,7 @@
   font-size: 1.6rem;
   position: relative;
   color: #e95522;
+  padding-left: 25px;
 }
 #workSub .jobLeadWrap span::before {
   content: "";
@@ -203,9 +204,8 @@
   width: 20px;
   height: 2px;
   left: 0;
-  top: 20px;
+  top: 8px;
   background-color: #e95522;
-  padding-left: 30px;
 }
 @media screen and (min-width: 768px) {
   #workSub .jobLeadWrap span {
