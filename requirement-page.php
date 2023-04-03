@@ -66,7 +66,7 @@ Template Name: requirement
                 </tbody>
             </table>
         </div>
-    <div id="idealProfile">
+    <div id="othersWrap">
             <div class="contentsTtl">
                 <h3>求める人物像</h3>
             </div>
@@ -86,7 +86,7 @@ Template Name: requirement
             ?>
          </ul>
         </div>
-    <div id="atmosphere">
+    <div id="othersWrap">
             <div class="contentsTtl">
                 <h3>会社の雰囲気</h3>
             </div>
