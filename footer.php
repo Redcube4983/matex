@@ -166,10 +166,10 @@ $(window).on('scroll',function(){
     winScrollTop = $(this).scrollTop();
     if (winScrollTop >= startPos) {
 		if(winScrollTop >= 700){
-        $('.site-header').addClass('hide');
+        $('#headerWrap').addClass('hide');
 		} 
         } else {
-		$('.site-header').removeClass('hide');
+		$('#headerWrap').removeClass('hide');
     }
     startPos = winScrollTop;
 });
