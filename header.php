@@ -65,7 +65,7 @@
 
 <body>
 
-<header id="headerWrap">
+<header>
     <div id="header-left">
         <div class="site-logo"><a href="<?php echo esc_url( home_url( '/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></div>
     </div>

@@ -147,7 +147,7 @@ $(document).ready(function() {
 </script>
 <script>
     $(function () {
-  const headNav = $('#headerWrap');
+  const headNav = $('header');
   $(window).scroll(function () {
     // スクロール量が200px以上かつクラスfixedが付与されていないとき
     if($(this).scrollTop() > 200 && headNav.hasClass('fixed') == false) {
