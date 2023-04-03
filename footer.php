@@ -145,5 +145,26 @@ $(document).ready(function() {
             });
           });
 </script>
+<script>
+    $(function () {
+  const headNav = $('#headerWrap');
+  $(window).scroll(function () {
+    // スクロール量が200px以上かつクラスfixedが付与されていないとき
+    if($(this).scrollTop() > 200 && headNav.hasClass('fixed') == false) {
+      //headerの高さ分上に設定（上から下りてくる動きにするため）
+      headNav.css({top: '-100px'});
+      //クラスfixedを付与
+      headNav.addClass('fixed');
+      //位置を0に設定し、上から下りてくるスピードを設定
+      headNav.animate({top: 0},1000);
+    }
+    // スクロール量が200px以下かつクラスfixedが付与されているとき
+    else if($(this).scrollTop() < 200 && headNav.hasClass('fixed') == true){
+      // クラスfixedを外す
+      headNav.removeClass('fixed');
+    }
+  });
+});
+</script>
 <?php wp_footer(); ?>
 </body>

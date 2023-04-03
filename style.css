@@ -518,8 +518,6 @@ header {
     width: calc(100% - 60px);
     height: 60px;
     padding: 0 30px;
-    backdrop-filter: saturate(180%) blur(10px);
-    background: rgba(255, 255, 255, 0.5);
   }
   #header-left {
     position: relative;
