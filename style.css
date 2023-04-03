@@ -285,7 +285,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
-  position: fixed;
+  position: absolute;
   z-index: 1000;
 }
 
@@ -683,6 +683,14 @@ header {
     display: none;
   }
 }
+.fixed {
+  transform: translateY(0%);
+  transition: all 1s;
+  animation: header_hide 1s ease-in-out forwards;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* CSS Document */
 #cta-area {
   text-align: center;
