@@ -39,16 +39,53 @@ Template Name: requirement
         </div>
         <p class="">マテックスの社訓が一番最初に掲げているのは、 「企業は何より人にある」です。「人」が育たなければ会社の成長はないと考え、私たちは何よりも「人」＝社員を大切にしています。限りない可能性を秘めた「鉄」を取り扱う私たちと一緒に、社会に貢献できるダイナミックな仕事にチャレンジしませんか！</p>
 </section>
-<section id="requirementInner">
     
+<section id="requirementInner">
+    <div id="listWrap">
+            <div class="contentsTtl">
+                <h3>応募要項</h3>
+            </div>
+            <table>
+                <tbody>
+                    <?php
+                        $free_item = SCF::get_option_meta('theme-options', 'requiremental');
+                        foreach ($free_item as $fields) { 
+
+                        if($fields['profileTtl'] !== "" and $fields['profile']!== ""){
+                        ?>
+                        <tr>
+                            <th><?php echo $fields['ttl']; ?></th>
+                            <td><?php echo $fields['about']; ?></td>
+                        </tr>
+                        <?php
+                        } 
+                        }
+                    ?>
+
+
+                </tbody>
+            </table>
+        </div>
+    <div id="idealProfile">
+            <ul>
+                <li>誠実な方</li>
+                <li>向上心 (意欲、チャレンジ精神)がある方</li>
+                <li>チームワークを大切にする方</li>
+                <li>自ら考えて行動できる方</li>
+                <li>責任感ある方</li>
+            </ul>
+        </div>
+        <div id="atmosphere">
+            <ul>
+                <li>世代の壁、職種の壁がない</li>
+                <li>意見を言い合える</li>
+                <li>社内の風通しが良い</li>
+            </ul>
+        </div>
 </section>
 
 </main>
 <?php get_footer(); ?>
-
-
-
-
 
 
 
