@@ -45,87 +45,49 @@ Template Name: profile
         </div>
     </section>
     
-    <section id="outline">
-    <div id="overview">
-        <div class="contentsTtl">
-            <h3>会社概要</h3>
-        </div>
-        <table>
-            <tbody>
-                <?php
-                    $free_item = SCF::get_option_meta('theme-options', 'companyProfile');
-                    foreach ($free_item as $fields) { 
-
-                    if($fields['profileTtl'] !== "" and $fields['profile']!== ""){
-                    ?>
-                    <tr>
-                        <th><?php echo $fields['profileTtl']; ?></th>
-                        <td><?php echo $fields['profile']; ?></td>
-                    </tr>
+    <section id="requiremental">
+        <div id="listWrap">
+            <div class="contentsTtl">
+                <h3>応募要項</h3>
+            </div>
+            <table>
+                <tbody>
                     <?php
-                    } 
-                    }
-                ?>
-                
-                
-            </tbody>
-        </table>
-        </div>
-    
-        <div id="businessItems">
-        <div class="contentsTtl">
-            <h3>営業品目</h3>
-        </div>
-        <ul>
-            <?php
-            $free_item = SCF::get_option_meta('theme-options', 'businessItems');
-            foreach ($free_item as $fields) { 
+                        $free_item = SCF::get_option_meta('theme-options', 'requiremental');
+                        foreach ($free_item as $fields) { 
 
-            if($fields['items'] !== ""){
-            ?>
+                        if($fields['profileTtl'] !== "" and $fields['profile']!== ""){
+                        ?>
+                        <tr>
+                            <th><?php echo $fields['ttl']; ?></th>
+                            <td><?php echo $fields['about']; ?></td>
+                        </tr>
+                        <?php
+                        } 
+                        }
+                    ?>
 
-            <li><?php echo $fields['items']; ?></li>
 
-            <?php
-            } 
-            }
-            ?>
-         </ul>
+                </tbody>
+            </table>
         </div>
-    
-    
-        <div id="history">
-        <div class="contentsTtl">
-            <h3>沿革</h3>
+        <div id="idealProfile">
+            <ul>
+                <li>誠実な方</li>
+                <li>向上心 (意欲、チャレンジ精神)がある方</li>
+                <li>チームワークを大切にする方</li>
+                <li>自ら考えて行動できる方</li>
+                <li>責任感ある方</li>
+            </ul>
         </div>
-        <ul>
-            <?php
-            $free_item = SCF::get_option_meta('theme-options', 'history');
-            foreach ($free_item as $fields) { 
-
-            if($fields['ad'] !== "" and $fields['month']!== "" and $fields['contents']!== ""){
-            ?>
-            <li>
-                <div class="ad-monthWrap">
-                    <span class="ad"><?php echo $fields['ad']; ?>年</span>
-                    <span class="month"><?php echo $fields['month']; ?>月</span>
-                </div>
-                <p class="contents"><?php echo $fields['contents']; ?></p>
-            </li>
-            <?php
-            } 
-            }
-            ?>
-        </ul>
-    </div>
-     <div id="organizationalChart">
-        <div class="contentsTtl">
-            <h3>組織図</h3>
+        <div id="atmosphere">
+            <ul>
+                <li>世代の壁、職種の壁がない</li>
+                <li>意見を言い合える</li>
+                <li>社内の風通しが良い</li>
+            </ul>
         </div>
-         <div class="chartImgWrap">
-             <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/profile/organizationalChart.svg" alt="組織図">
-         </div>
-         </div>
+        
     </section>
 </main>
 <?php get_footer(); ?>

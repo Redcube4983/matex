@@ -35,8 +35,9 @@ Template Name: requirement
 </div>
 <section id="leadWrap">
         <div class="leadTtlWrap">
-            <h2 class="jpTtl">“拠点主義”体制から<br class="sp">ジャストインタイムでデリバリー</h2>
+            <h2 class="jpTtl">社会に貢献できる仕事に<br class="sp">チャレンジしませんか！</h2>
         </div>
+        <p class="">マテックスの社訓が一番最初に掲げているのは、 「企業は何より人にある」です。「人」が育たなければ会社の成長はないと考え、私たちは何よりも「人」＝社員を大切にしています。限りない可能性を秘めた「鉄」を取り扱う私たちと一緒に、社会に貢献できるダイナミックな仕事にチャレンジしませんか！</p>
 </section>
 <section id="requirementInner">
     
