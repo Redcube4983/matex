@@ -26,10 +26,10 @@ Template Name: requirement
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <a href="/recruit/">事業情報</a>
+            <a href="/recruit/">採用情報</a>
         </li>
         <li>
-            <span>仕事を知る</span>
+            <span>応募要項</span>
         </li>
     </ul>
 </div>
@@ -67,21 +67,52 @@ Template Name: requirement
             </table>
         </div>
     <div id="idealProfile">
+            <div class="contentsTtl">
+                <h3>求める人物像</h3>
+            </div>
             <ul>
-                <li>誠実な方</li>
-                <li>向上心 (意欲、チャレンジ精神)がある方</li>
-                <li>チームワークを大切にする方</li>
-                <li>自ら考えて行動できる方</li>
-                <li>責任感ある方</li>
-            </ul>
+            <?php
+            $free_item = SCF::get_option_meta('theme-options', 'idealProfile');
+            foreach ($free_item as $fields) { 
+
+            if($fields['about'] !== ""){
+            ?>
+
+            <li>・<?php echo $fields['about']; ?></li>
+
+            <?php
+            } 
+            }
+            ?>
+         </ul>
         </div>
-        <div id="atmosphere">
-            <ul>
-                <li>世代の壁、職種の壁がない</li>
-                <li>意見を言い合える</li>
-                <li>社内の風通しが良い</li>
-            </ul>
+    <div id="atmosphere">
+            <div class="contentsTtl">
+                <h3>会社の雰囲気</h3>
+            </div>
+            <table>
+                <tbody>
+                    <?php
+                        $free_item = SCF::get_option_meta('theme-options', 'requirement');
+                        foreach ($free_item as $fields) { 
+
+                        if($fields['ttl'] !== "" and $fields['about']!== ""){
+                        ?>
+                        <tr>
+                            <th><?php echo $fields['ttl']; ?></th>
+                            <td><?php echo $fields['about']; ?></td>
+                        </tr>
+                        <?php
+                        } 
+                        }
+                    ?>
+
+
+                </tbody>
+            </table>
         </div>
+    
+        
 </section>
 
 </main>
