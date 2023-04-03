@@ -691,34 +691,6 @@ header {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-@keyframes header_hide {
-  0% {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
-.hide.openNav .white {
-  display: block;
-}
-
-.hide.openNav .black {
-  display: none;
-}
-
-#headerWrap .clone-site-header.isnotshow {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5882352941);
-  transform: translateY(0%);
-}
-
-#headerWrap .clone-site-header {
-  transform: translateY(-100%);
-}
-
 /* CSS Document */
 #cta-area {
   text-align: center;
