@@ -172,4 +172,100 @@
 .innerWrap1 {
   display: flex;
   justify-content: space-between;
+}
+
+#requirement {
+  padding: 60px 15px 0;
+}
+@media screen and (min-width: 768px) {
+  #requirement {
+    padding: 60px 40px 0;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  #requirement {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+.contentsTtl {
+  font-size: 2rem;
+  color: #e95520;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 768px) {
+  .contentsTtl {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .contentsTtl {
+    font-size: 2.4rem;
+  }
+}
+
+#listWrap tbody {
+  border-bottom: solid 1px #c5c5c5;
+  display: block;
+}
+#listWrap table {
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+#listWrap tr {
+  display: flex;
+  flex-flow: column;
+}
+@media screen and (min-width: 960px) {
+  #listWrap tr {
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 20px 0 20px 20px;
+    border-top: solid 1px #c5c5c5;
+  }
+}
+@media screen and (min-width: 960px) and (min-width: 960px) {
+  #listWrap tr {
+    padding: 30px 0 30px 30px;
+  }
+}
+@media screen and (min-width: 960px) {
+  #listWrap tr:nth-child(odd) {
+    background-color: #f5f5f5;
+  }
+}
+#listWrap th {
+  padding: 20px 0 20px 20px;
+  border-top: solid 1px #c5c5c5;
+  background-color: #f5f5f5;
+}
+@media screen and (min-width: 960px) {
+  #listWrap th {
+    padding: 30px 0 30px 30px;
+  }
+}
+@media screen and (min-width: 960px) {
+  #listWrap th {
+    border-top: none;
+    background-color: inherit;
+    padding: 0;
+  }
+}
+#listWrap td {
+  padding: 20px 0 20px 20px;
+  border-top: dotted 1px #b5b5b5;
+}
+@media screen and (min-width: 960px) {
+  #listWrap td {
+    padding: 30px 0 30px 30px;
+  }
+}
+@media screen and (min-width: 960px) {
+  #listWrap td {
+    padding: 0;
+    border: none;
+    width: 700px;
+  }
 }/*# sourceMappingURL=page-requirement.css.map */
