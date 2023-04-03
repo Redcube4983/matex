@@ -90,26 +90,21 @@ Template Name: requirement
             <div class="contentsTtl">
                 <h3>会社の雰囲気</h3>
             </div>
-            <table>
-                <tbody>
-                    <?php
-                        $free_item = SCF::get_option_meta('theme-options', 'requirement');
-                        foreach ($free_item as $fields) { 
+            <ul>
+            <?php
+            $free_item = SCF::get_option_meta('theme-options', 'atmosphere');
+            foreach ($free_item as $fields) { 
 
-                        if($fields['ttl'] !== "" and $fields['about']!== ""){
-                        ?>
-                        <tr>
-                            <th><?php echo $fields['ttl']; ?></th>
-                            <td><?php echo $fields['about']; ?></td>
-                        </tr>
-                        <?php
-                        } 
-                        }
-                    ?>
+            if($fields['aboutAtmosphere'] !== ""){
+            ?>
 
+            <li>・<?php echo $fields['aboutAtmosphere']; ?></li>
 
-                </tbody>
-            </table>
+            <?php
+            } 
+            }
+            ?>
+         </ul>
         </div>
     
         
