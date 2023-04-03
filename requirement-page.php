@@ -75,10 +75,10 @@ Template Name: requirement
             $free_item = SCF::get_option_meta('theme-options', 'idealProfile');
             foreach ($free_item as $fields) { 
 
-            if($fields['about'] !== ""){
+            if($fields['profile'] !== ""){
             ?>
 
-            <li>・<?php echo $fields['about']; ?></li>
+            <li>・<?php echo $fields['profile']; ?></li>
 
             <?php
             } 
