@@ -48,7 +48,7 @@ Template Name: requirement
             <table>
                 <tbody>
                     <?php
-                        $free_item = SCF::get_option_meta('theme-options', 'requiremental');
+                        $free_item = SCF::get_option_meta('theme-options', 'requirement');
                         foreach ($free_item as $fields) { 
 
                         if($fields['profileTtl'] !== "" and $fields['profile']!== ""){
