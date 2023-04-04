@@ -193,7 +193,7 @@ main {
 @media screen and (min-width: 960px) {
   #panNavi {
     position: absolute;
-    top: 65px;
+    top: 80px;
     color: #fff;
   }
 }
