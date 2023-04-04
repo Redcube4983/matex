@@ -431,14 +431,6 @@ header {
   font-size: 1.4rem;
 }
 
-.gNavColor {
-  color: #fff;
-}
-
-.gNavColor .invert {
-  color: #000;
-}
-
 #header-toggle {
   position: fixed;
   right: 0;
@@ -722,6 +714,14 @@ header {
 }
 
 #headerWrap.clone-site-header.global-nav.parent h3 a {
+  color: #000;
+}
+
+.gNavColor {
+  color: #fff;
+}
+
+.gNavColor.invert {
   color: #000;
 }
 

@@ -137,12 +137,6 @@ header {
   color: #fff;
   font-size: 1.4rem;
 }
-.gNavColor {
-    color: #fff;
-}
-.gNavColor .invert {
-    color: #000;
-}
 #header-toggle {
     position: fixed;
     right: 0;
@@ -420,3 +414,9 @@ header {
     color: #000;
 }
 
+.gNavColor {
+    color: #fff;
+}
+.gNavColor.invert {
+    color: #000;
+}
