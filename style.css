@@ -349,10 +349,6 @@ header {
   font-weight: bold;
 }
 
-.global-nav:first-child {
-  border-top: 1px solid #fff;
-}
-
 .global-nav {
   border-bottom: 1px solid #fff;
   width: 100%;
@@ -715,6 +711,7 @@ header {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5882352941);
   transform: translateY(0%);
+  color: #000;
 }
 
 .site-header.clone-site-header {
