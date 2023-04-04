@@ -387,3 +387,29 @@ header {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.8);
   }
+
+  @keyframes header_hide {
+    0% {
+    opacity:0;
+    transform: translateY(-100%);
+   }
+    100% {
+    opacity:1;
+    transform: translateY(0%);
+   }
+  }
+  
+.hide.openNav .white{
+	display: block;
+}
+.hide.openNav .black{
+	display: none;
+}
+.site-header.clone-site-header.isnotshow {
+    position: fixed;
+    background-color: #00000096;
+    transform: translateY(0%);
+}
+.site-header.clone-site-header {
+    transform: translateY(-100%);
+}
