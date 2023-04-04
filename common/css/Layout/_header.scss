@@ -77,7 +77,6 @@ header {
 .global-nav h3 a {
     padding: 20px 0 20px 20px;
     display: block;
-    color: #fff;
 }
 .global-nav.parent h3 .arrow {
   position: absolute;
@@ -119,7 +118,6 @@ header {
     padding: 20px 0 20px 20px;
     display: block;
     margin-right: 50px;
-    color: #fff;
 }
 .global-nav .child {
   display: none;
@@ -138,6 +136,12 @@ header {
   display: block;
   color: #fff;
   font-size: 1.4rem;
+}
+.gNavColor {
+    color: #fff;
+}
+.gNavColor .invert {
+    color: #000;
 }
 #header-toggle {
     position: fixed;
@@ -356,14 +360,12 @@ header {
 .global-nav h3 a {
     padding: 20px 0 20px 0px;
     display: block;
-    color: #fff;
     text-align: center;
 }
 .global-nav.parent h3 a {
     padding: 20px 30px 20px 0px;
     display: block;
     margin-right: 0px;
-    color: #fff;
     text-align: center;
 }
 .global-nav .gran-child h4 a {
@@ -417,3 +419,4 @@ header {
 #headerWrap.clone-site-header.global-nav.parent h3 a {
     color: #000;
 }
+
