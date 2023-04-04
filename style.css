@@ -557,12 +557,13 @@ header {
     width: auto;
     height: auto;
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 0;
     flex-flow: row nowrap;
     justify-content: space-between;
     min-width: 500px;
     margin-right: 50px;
+    font-weight: bold;
   }
   #header-right.open #global-nav {
     display: flex;
@@ -688,7 +689,7 @@ header {
   transition: all 1s;
   animation: header_hide 1s ease-in-out forwards;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #fff;
 }
 
 @keyframes header_hide {
