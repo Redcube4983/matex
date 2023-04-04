@@ -681,8 +681,8 @@ header {
 }
 .fixed {
   transform: translateY(0%);
-  transition: all 1s;
-  animation: header_hide 1s ease-in-out forwards;
+  transition: all 0.3s;
+  animation: header_hide 0.3s ease-in-out forwards;
   position: fixed;
   background-color: #fff;
 }
@@ -703,16 +703,6 @@ header {
 
 .hide.openNav .black {
   display: none;
-}
-
-#headerWrap.clone-site-header.isnotshow {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5882352941);
-  transform: translateY(0%);
-}
-
-#headerWrap.clone-site-header {
-  transform: translateY(-100%);
 }
 
 #headerWrap.clone-site-header.global-nav.parent h3 a {
