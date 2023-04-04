@@ -705,6 +705,16 @@ header {
   display: none;
 }
 
+#headerWrap.clone-site-header.isnotshow {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5882352941);
+  transform: translateY(0%);
+}
+
+#headerWrap.clone-site-header {
+  transform: translateY(-100%);
+}
+
 #headerWrap.clone-site-header.global-nav.parent h3 a {
   color: #000;
 }
