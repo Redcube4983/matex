@@ -405,12 +405,12 @@ header {
 .hide.openNav .black{
 	display: none;
 }
-.site-header.clone-site-header.isnotshow {
+#headerWrap.clone-site-header.isnotshow {
     position: fixed;
     background-color: #00000096;
     transform: translateY(0%);
     color: #000;
 }
-.site-header.clone-site-header {
+#headerWrap.clone-site-header {
     transform: translateY(-100%);
 }
