@@ -219,7 +219,7 @@ var startPos = 0,winScrollTop = 0;
 $(window).on('scroll',function(){
     winScrollTop = $(this).scrollTop();
     if (winScrollTop >= startPos) {
-		if(winScrollTop >= 700){
+		if(winScrollTop >= 300){
         $('#headerWrap').addClass('hide');
 		} 
         } else {
