@@ -656,12 +656,12 @@ header {
     transition: transform 0.5s;
   }
   .global-nav h3 a {
-    padding: 20px 0 20px 0px;
+    padding: 36px 0 36px 0px;
     display: block;
     text-align: center;
   }
   .global-nav.parent h3 a {
-    padding: 20px 30px 20px 0px;
+    padding: 36px 30px 36px 0px;
     display: block;
     margin-right: 0px;
     text-align: center;
