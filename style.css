@@ -408,6 +408,7 @@ header {
   padding: 20px 0 20px 20px;
   display: block;
   margin-right: 50px;
+  color: #fff;
 }
 
 .global-nav .child {
@@ -658,7 +659,6 @@ header {
     padding: 20px 0 20px 0px;
     display: block;
     text-align: center;
-    color: #000;
   }
   .global-nav.parent h3 a {
     padding: 20px 30px 20px 0px;
