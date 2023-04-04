@@ -409,8 +409,11 @@ header {
     position: fixed;
     background-color: #00000096;
     transform: translateY(0%);
-    color: #000;
 }
 #headerWrap.clone-site-header {
     transform: translateY(-100%);
+}
+
+#headerWrap.clone-site-header.global-nav.parent h3 a {
+    color: #000;
 }
