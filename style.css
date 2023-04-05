@@ -374,9 +374,11 @@ header {
   display: block;
 }
 
-.global-nav.parent h3 .arrow .arrowStyle {
-  width: 20px;
-  height: 3px;
+.global-nav.parent h3 .arrow .arrowStyle::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 20px;
   display: block;
   background-color: #fff;
   top: 50%;
@@ -385,7 +387,6 @@ header {
 }
 
 .global-nav.parent h3 .arrow .arrowStyle {
-  content: "";
   width: 20px;
   height: 3px;
   display: block;
