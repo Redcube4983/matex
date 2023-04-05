@@ -416,9 +416,13 @@ header {
     color: #000;
 }
 
-.gNavColor {
-    color: #fff;
-}
+
 .gNavColor.invert {
     color: #000;
+
 }
+.gNavColor.invert::before {
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
