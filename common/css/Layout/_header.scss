@@ -421,8 +421,8 @@ header {
     color: #000;
 
 }
-.gNavColor.invert::before {
-    border-bottom: 2px solid #fff;
-    border-left: 2px solid #fff;
+.arrow.gNavColor.invert::before {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
 }
 
