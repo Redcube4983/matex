@@ -374,7 +374,7 @@ header {
   display: block;
 }
 
-.arrowStyle::after {
+.global-nav.parent h3 .arrow .arrowStyle {
   content: "";
   position: absolute;
   width: 3px;
@@ -386,7 +386,7 @@ header {
   transform: translate(-50%, -50%);
 }
 
-.arrowStyle {
+.global-nav.parent h3 .arrow .arrowStyle {
   width: 20px;
   height: 3px;
   display: block;
@@ -398,7 +398,7 @@ header {
   transition: transform 0.5s;
 }
 
-.arrowStyle {
+.global-nav.parent h3 .arrow.open .arrowStyle {
   transform: translate(-50%, -50%) rotate(0deg);
   transition: transform 0.5s;
 }
@@ -633,7 +633,7 @@ header {
   .global-nav.parent h3 .arrow {
     right: 0px;
   }
-  .arrowStyle {
+  .global-nav.parent h3 .arrow .arrowStyle {
     width: 10px;
     height: 10px;
     display: block;
@@ -644,13 +644,10 @@ header {
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
   }
-  .arrowStyle::after {
+  .global-nav.parent h3 .arrow .arrowStyle {
     content: none;
   }
-  .arrowStyle {
-    content: none;
-  }
-  .arrowStyle {
+  .global-nav.parent h3 .arrow.open .arrowStyle {
     transform: translate(-50%, -50%) rotate(0deg);
     transition: transform 0.5s;
   }
