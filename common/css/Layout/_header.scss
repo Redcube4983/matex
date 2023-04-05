@@ -288,7 +288,7 @@ header {
     padding: 10px 10px 10px 40px;
     position: relative;
 }
-.global-nav.single:nth-last-child(3) h3 a .arrowStyle{
+.global-nav.single:nth-last-child(3) h3 a::before{
     content: "";
     width: 20px;
     height: 20px;
@@ -316,7 +316,7 @@ header {
     left: calc(50% - 5px);
     transform: translateX(-50%);
 }
-#global-nav .global-nav.parent .child .arrowStyle {
+#global-nav .global-nav.parent .child::before {
     content: "";
     background-color: #fff;
     display: block;
