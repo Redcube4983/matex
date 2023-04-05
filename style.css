@@ -374,7 +374,7 @@ header {
   display: block;
 }
 
-.global-nav.parent h3 .arrow div {
+.global-nav.parent h3 .arrow .arrowstyle {
   width: 20px;
   height: 3px;
   display: block;
@@ -384,7 +384,7 @@ header {
   transform: translate(-50%, -50%);
 }
 
-.global-nav.parent h3 .arrow div {
+.global-nav.parent h3 .arrow .arrowstyle {
   content: "";
   width: 20px;
   height: 3px;
@@ -397,7 +397,7 @@ header {
   transition: transform 0.5s;
 }
 
-.global-nav.parent h3 .arrow.open div {
+.global-nav.parent h3 .arrow.open .arrowstyle {
   transform: translate(-50%, -50%) rotate(0deg);
   transition: transform 0.5s;
 }
@@ -632,7 +632,7 @@ header {
   .global-nav.parent h3 .arrow {
     right: 0px;
   }
-  .global-nav.parent h3 .arrow div {
+  .global-nav.parent h3 .arrow .arrowstyle {
     width: 10px;
     height: 10px;
     display: block;
@@ -646,7 +646,7 @@ header {
   .global-nav.parent h3 .arrow::after {
     content: none;
   }
-  .global-nav.parent h3 .arrow.open div {
+  .global-nav.parent h3 .arrow.open .arrowstyle {
     transform: translate(-50%, -50%) rotate(0deg);
     transition: transform 0.5s;
   }
