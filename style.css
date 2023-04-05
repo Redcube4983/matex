@@ -374,8 +374,7 @@ header {
   display: block;
 }
 
-.global-nav.parent h3 .arrow::before {
-  content: "";
+.global-nav.parent h3 .arrow div {
   width: 20px;
   height: 3px;
   display: block;
@@ -383,10 +382,9 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  position: absolute;
 }
 
-.global-nav.parent h3 .arrow::after {
+.global-nav.parent h3 .arrow div {
   content: "";
   width: 20px;
   height: 3px;
@@ -399,7 +397,7 @@ header {
   transition: transform 0.5s;
 }
 
-.global-nav.parent h3 .arrow.open::after {
+.global-nav.parent h3 .arrow.open div {
   transform: translate(-50%, -50%) rotate(0deg);
   transition: transform 0.5s;
 }
@@ -648,7 +646,7 @@ header {
   .global-nav.parent h3 .arrow::after {
     content: none;
   }
-  .global-nav.parent h3 .arrow.open::before {
+  .global-nav.parent h3 .arrow.open div {
     transform: translate(-50%, -50%) rotate(0deg);
     transition: transform 0.5s;
   }
@@ -721,7 +719,7 @@ header {
   color: #000;
 }
 
-.arrow.plus::before {
+.arrow.plus div {
   border-bottom: 2px solid #000;
   border-left: 2px solid #000;
 }
