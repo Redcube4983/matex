@@ -89,17 +89,17 @@ header {
   display: block;
 }
 
-// .arrowStyle::after {
-//     content: '';
-//     position: absolute;
-//     width: 3px;
-//     height: 20px;
-//     display: block;
-//     background-color: #fff;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%,-50%);
-// }
+.arrowStyle::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    display: block;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 .arrowStyle {
     width: 20px;
@@ -345,7 +345,9 @@ header {
     left: 50%;
     transform: translate(-50%,-50%)rotate(-45deg);
 }
-
+.arrowStyle::after {
+    content: none;
+}
 .arrowStyle{
     content: none;
 }
