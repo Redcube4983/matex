@@ -244,7 +244,7 @@ $(function(){
 
 jQuery(function(){
 
-  var gNav = jQuery('.gNavColor');
+  var gNav = jQuery('.gNavColor .arrow');
   jQuery(window).scroll(function () {
     if (jQuery(this).scrollTop() > 300) { //スクロールが500pxを越えたら
       gNav.addClass('invert');

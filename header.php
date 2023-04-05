@@ -83,7 +83,7 @@
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a class="gNavColor" href="/business/">事業情報</a><div class="arrow gNavColor"></div></h3>
+            <h3><a class="gNavColor" href="/business/">事業情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="/network/">販売/納品体制</a></h4></li>
                 <li class="gran-child"><h4><a href="/production/">生産体制</a></h4></li>
@@ -91,7 +91,7 @@
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a class="gNavColor" href="/recruit/">採用情報</a><div class="arrow gNavColor"></div></h3>
+            <h3><a class="gNavColor" href="/recruit/">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="/company/">会社を知る</a></h4></li>
                 <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
