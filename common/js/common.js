@@ -255,3 +255,16 @@ jQuery(function(){
 
 });
 
+jQuery(function(){
+
+  var gNav = jQuery('.arrow');
+  jQuery(window).scroll(function () {
+    if (jQuery(this).scrollTop() > 300) { //スクロールが500pxを越えたら
+      gNav.addClass('plus');
+    } else { //スクロールが500pxを越えなければ
+      gNav.removeClass('plus');
+    }
+  });
+
+});
+
