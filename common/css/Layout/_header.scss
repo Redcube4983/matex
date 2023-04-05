@@ -332,8 +332,7 @@ header {
 .global-nav.parent h3 .arrow {
     right: 0px;
 }
-.global-nav.parent h3 .arrow::before{
-    content: "";
+.global-nav.parent h3 .arrow div{
     width: 10px;
     height: 10px;
     display: block;
@@ -343,7 +342,6 @@ header {
     top: 45%;
     left: 50%;
     transform: translate(-50%,-50%)rotate(-45deg);
-    position: absolute;
 }
 .global-nav.parent h3 .arrow::after{
     content: none;
