@@ -88,7 +88,8 @@ header {
   width: 20px;
   display: block;
 }
-.global-nav.parent h3 .arrow .arrowStyle {
+
+.arrowStyle::after {
     content: '';
     position: absolute;
     width: 3px;
@@ -99,7 +100,8 @@ header {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.global-nav.parent h3 .arrow .arrowStyle {
+
+.arrowStyle {
     width: 20px;
     height: 3px;
     display: block;
@@ -110,7 +112,8 @@ header {
     position: absolute;
     transition: transform .5s;
 }
-.global-nav.parent h3 .arrow.open .arrowStyle {
+
+.arrowStyle {
     transform: translate(-50%,-50%)rotate(0deg);
     transition: transform .5s;
 }
@@ -331,7 +334,7 @@ header {
 .global-nav.parent h3 .arrow {
     right: 0px;
 }
-.global-nav.parent h3 .arrow .arrowStyle {
+.arrowStyle {
     width: 10px;
     height: 10px;
     display: block;
@@ -342,10 +345,13 @@ header {
     left: 50%;
     transform: translate(-50%,-50%)rotate(-45deg);
 }
-.global-nav.parent h3 .arrow .arrowStyle{
+.arrowStyle::after {
     content: none;
 }
-.global-nav.parent h3 .arrow.open .arrowStyle{
+.arrowStyle{
+    content: none;
+}
+.arrowStyle{
     transform: translate(-50%,-50%)rotate(0deg);
     transition: transform .5s;
 }
