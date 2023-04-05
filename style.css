@@ -374,7 +374,7 @@ header {
   display: block;
 }
 
-.global-nav.parent h3 .arrow ::after {
+.global-nav.parent h3 .arrow .arrowStyle {
   content: "";
   position: absolute;
   width: 3px;
