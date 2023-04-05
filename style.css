@@ -723,7 +723,7 @@ header {
   color: #000;
 }
 
-.invert::before {
+.gNavColor.invert.arrow::before {
   border-bottom: 2px solid #000;
   border-left: 2px solid #000;
 }
