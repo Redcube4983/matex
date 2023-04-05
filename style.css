@@ -590,7 +590,7 @@ header {
     padding: 10px 10px 10px 40px;
     position: relative;
   }
-  .global-nav.single:nth-last-child(3) h3 a::before {
+  .global-nav.single:nth-last-child(3) h3 a .arrowStyle {
     content: "";
     width: 20px;
     height: 20px;
@@ -618,7 +618,7 @@ header {
     left: calc(50% - 5px);
     transform: translateX(-50%);
   }
-  #global-nav .global-nav.parent .child::before {
+  #global-nav .global-nav.parent .child .arrowStyle {
     content: "";
     background-color: #fff;
     display: block;
@@ -643,7 +643,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
   }
-  .global-nav.parent h3 .arrow::after {
+  .global-nav.parent h3 .arrow .arrowStyle {
     content: none;
   }
   .global-nav.parent h3 .arrow.open .arrowStyle {
