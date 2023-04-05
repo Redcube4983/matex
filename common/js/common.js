@@ -257,7 +257,7 @@ jQuery(function(){
 
 jQuery(function(){
 
-  var gNav = jQuery('.arrow');
+  var gNav = jQuery('.arrowStyle');
   jQuery(window).scroll(function () {
     if (jQuery(this).scrollTop() > 300) { //スクロールが500pxを越えたら
       gNav.addClass('plus');
