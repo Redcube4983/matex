@@ -182,7 +182,6 @@ strong {
 }
 
 input[type=submit] {
-  -webkit-appearance: none;
   border-radius: 0;
 }
 
