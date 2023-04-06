@@ -85,7 +85,7 @@
         <li class="global-nav parent">
             <h3><a class="gNavColor" href="/business/">事業情報</a><div class="arrow"><div class="arrowStyle"></div></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="/networks/">販売/納品体制</a></h4></li>
+                <li class="gran-child"><h4><a href="/network/">販売/納品体制</a></h4></li>
                 <li class="gran-child"><h4><a href="/production/">生産体制</a></h4></li>
                 <li class="gran-child"><h4><a href="/support/">技術サポート体制</a></h4></li>
             </ul>

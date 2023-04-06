@@ -54,7 +54,7 @@ Template Name: business
                     <p>お客様に密着した体制から、<br>質の高い製品・サービスをデリバリー。</p>
                 </div>
                 <div class="moreButtonWrap">
-                    <a href="/networks/" class="moreButton">more</a>
+                    <a href="/network/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
