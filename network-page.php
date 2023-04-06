@@ -52,9 +52,11 @@ Template Name: network
                 <p>ジャストインタイムの納品体制を支えているのは、マテックス専属の輸送会社、カンテツ運輸株式会社による強力な配送システムです。カンテツ運輸はもともとマテックスの輸送部門が分離独立したもので、24トントレーラーや大型トラックを多数保有し、万全な配送システムを構築しています。コイル輸送専門に長い経験をつんだ運行スタッフがマテックスの4拠点それぞれに常駐し、さまざまな状況に臨機応変に対応しながら、第二の営業マンとして誠実にお客様の元へお届けしています。</p>
             </li>
         </ul>
+<!--
         <div class="mapImg">
             <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg01.svg" alt="地図画像">
         </div>
+-->
     </div>
     </div> 
     <div class="imgWrap">
