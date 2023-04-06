@@ -81,6 +81,7 @@ Template Name: network
                 </li>
             </ul>
         </div>
+        </div>
 </section>
 
 </main>
