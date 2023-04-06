@@ -675,7 +675,7 @@ header {
     display: none;
   }
 }
-.fixed {
+.customize-support .fixed {
   transform: translateY(0%);
   transition: all 1s;
   animation: header_hide 1s ease-in-out forwards;
