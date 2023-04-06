@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: networks
+Template Name: network
 */
 ?>
 <?php get_header(); ?>
