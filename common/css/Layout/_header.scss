@@ -423,6 +423,9 @@
     background-color: #fff;
     opacity: 0;
     transform: translateY(-100%);
+    #global-nav {
+        color: 000;
+    }
 }
 
 @keyframes headerAnimation {

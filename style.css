@@ -725,6 +725,9 @@ main {
   opacity: 0;
   transform: translateY(-100%);
 }
+#headerWrap.white #global-nav {
+  color: 0;
+}
 
 @keyframes headerAnimation {
   0% {

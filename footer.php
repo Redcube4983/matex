@@ -86,6 +86,7 @@ $(function() {
 		}else {
 			$('#tagetTop').fadeOut();
 		}
+        //add Class if i beyond the height
         if ( i >= (keyvisualH / 2) ) {
 			$('header').addClass("white");
 		}else {
