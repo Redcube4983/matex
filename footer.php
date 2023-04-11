@@ -86,7 +86,7 @@ $(function() {
 		}else {
 			$('#tagetTop').fadeOut();
 		}
-        if ( i >= (keyvisualH / 2) ) {
+        if ( i >= (headH) ) {
 			$('header').addClass("white");
 		}else {
 			$('header').removeClass("white");
