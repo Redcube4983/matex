@@ -739,7 +739,11 @@ main {
     transform: translateY(0);
   }
 }
-.white.global-nav.parent h3 a {
+#headerWrap a {
+  color: #fff;
+}
+
+#headerWrap.white a {
   color: #000;
 }
 
