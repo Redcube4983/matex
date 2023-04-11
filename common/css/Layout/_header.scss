@@ -432,18 +432,3 @@ header {
     }
 }
 
-#headerWrap.hide {
-    position: fixed;
-    top: 0;
-    animation: hideAnimation 1s;
-    color: #000;
-    background-color: #fff;
-}
-@keyframes hideAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
