@@ -242,29 +242,3 @@ $(function(){
 
 
 
-jQuery(function(){
-
-  var gNav = jQuery('.gNavColor');
-  jQuery(window).scroll(function () {
-    if (jQuery(this).scrollTop() > 300) { //スクロールが500pxを越えたら
-      gNav.addClass('invert');
-    } else { //スクロールが500pxを越えなければ
-      gNav.removeClass('invert');
-    }
-  });
-
-});
-
-jQuery(function(){
-
-  var gNav = jQuery('.arrowStyle');
-  jQuery(window).scroll(function () {
-    if (jQuery(this).scrollTop() > 300) { //スクロールが500pxを越えたら
-      gNav.addClass('plus');
-    } else { //スクロールが500pxを越えなければ
-      gNav.removeClass('plus');
-    }
-  });
-
-});
-

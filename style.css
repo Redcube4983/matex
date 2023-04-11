@@ -716,15 +716,6 @@ header {
   color: #000;
 }
 
-.gNavColor.invert {
-  color: #000;
-}
-
-.global-nav.parent h3 .arrow .arrowStyle.plus {
-  border-bottom: 2px solid #000;
-  border-left: 2px solid #000;
-}
-
 /* CSS Document */
 #cta-area {
   text-align: center;
