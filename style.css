@@ -725,8 +725,9 @@ main {
   opacity: 0;
   transform: translateY(-100%);
 }
-#headerWrap.white #global-nav {
-  color: 0;
+
+#headerWrap.white.global-nav.parent h3 a {
+  color: #000;
 }
 
 @keyframes headerAnimation {

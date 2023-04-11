@@ -423,9 +423,11 @@
     background-color: #fff;
     opacity: 0;
     transform: translateY(-100%);
-    #global-nav {
-        color: 000;
-    }
+    
+}
+
+#headerWrap.white.global-nav.parent h3 a {
+    color: #000;
 }
 
 @keyframes headerAnimation {
