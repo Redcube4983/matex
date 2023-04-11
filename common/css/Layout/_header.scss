@@ -455,10 +455,10 @@
     position: fixed;
     opacity: 0;
     transform: translateY(-100%);
-    transition: opacity,transform 1s;
+    transition: opacity,transform 1s both;
 }
 #headerWrap.hide.white {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity,transform 1s;
+    transition: opacity,transform 1s both;
 }
