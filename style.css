@@ -716,6 +716,10 @@ header {
   color: #000;
 }
 
+.gNavColor.invert {
+  color: #000;
+}
+
 /* CSS Document */
 #cta-area {
   text-align: center;
