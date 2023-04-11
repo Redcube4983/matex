@@ -450,3 +450,13 @@
 #header.gran-child a {
     color: #000;
 }
+
+#headerWrap.hide {
+    position: fixed;
+    opacity: 0;
+    transform: translateY(-100%);
+}
+#headerWrap.hide.white {
+    opacity: 1;
+    transform: translateY(0);
+}

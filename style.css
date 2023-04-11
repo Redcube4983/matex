@@ -752,6 +752,17 @@ main {
   color: #000;
 }
 
+#headerWrap.hide {
+  position: fixed;
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+#headerWrap.hide.white {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* CSS Document */
 #cta-area {
   text-align: center;
