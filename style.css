@@ -740,6 +740,10 @@ main {
     transform: translateY(0);
   }
 }
+.white.global-nav.parent h3 a {
+  color: #000;
+}
+
 /* CSS Document */
 #cta-area {
   text-align: center;
