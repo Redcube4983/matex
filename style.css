@@ -723,6 +723,7 @@ main {
   background-color: #fff;
   opacity: 0;
   transform: translateY(-100%);
+  border-bottom: solid 1.5px #e5e5e5;
 }
 
 #headerWrap.white.global-nav.parent h3 a {
@@ -744,6 +745,10 @@ main {
 }
 
 #headerWrap.white a {
+  color: #000;
+}
+
+#header.gran-child a {
   color: #000;
 }
 
