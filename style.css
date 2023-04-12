@@ -717,10 +717,6 @@ main {
   color: #000;
 }
 
-#headerWrap a {
-  color: #fff;
-}
-
 #headerWrap.white a {
   color: #000;
 }
@@ -730,6 +726,9 @@ main {
 }
 
 @media screen and (min-width: 960px) {
+  #headerWrap a {
+    color: #fff;
+  }
   #headerWrap.white {
     position: fixed;
     top: 0;
