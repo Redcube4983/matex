@@ -92,11 +92,11 @@ $(function() {
 		}else {
 			$('header').removeClass("white");
 		}
-        if ( i >= (headH) ) {
-			$('header').addClass("hide");
-		}else {
-			$('header').removeClass("hide");
-		}
+//        if ( i >= (headH) ) {
+//			$('header').addClass("hide");
+//		}else {
+//			$('header').removeClass("hide");
+//		}
         if ((documentHeight - (footH + tagetTop + windowHeight)) < i) {
         $('#tagetTop').removeClass("fixed");
         }else{
