@@ -635,22 +635,19 @@ main {
     right: 0px;
   }
   .global-nav.parent h3 .arrow::after {
-    width: 10px;
-    height: 10px;
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid #0080c9;
+    border-bottom: 1px solid #0080c9;
+    left: 0;
+    top: 50%;
     display: block;
-    background-color: transparent;
-    border-bottom: 2px solid #fff;
-    border-left: 2px solid #fff;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(45deg);
   }
   .global-nav.parent h3 .arrow::after {
     content: none;
-  }
-  .global-nav.parent h3 .arrow.open::after {
-    transform: translate(-50%, -50%) rotate(0deg);
-    transition: transform 0.5s;
   }
   .global-nav h3 a {
     padding: 36px 0 36px 0px;
