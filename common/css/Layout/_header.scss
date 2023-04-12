@@ -332,7 +332,7 @@
 .global-nav.parent h3 .arrow {
     right: 0px;
 }
-.global-nav.parent h3 .arrow .arrowStyle {
+.global-nav.parent h3 .arrow::after {
     width: 10px;
     height: 10px;
     display: block;
@@ -343,10 +343,10 @@
     left: 50%;
     transform: translate(-50%,-50%)rotate(-45deg);
 }
-.global-nav.parent h3 .arrow .arrowStyle{
+.global-nav.parent h3 .arrow::after{
     content: none;
 }
-.global-nav.parent h3 .arrow.open .arrowStyle{
+.global-nav.parent h3 .arrow.open::after{
     transform: translate(-50%,-50%)rotate(0deg);
     transition: transform .5s;
 }
