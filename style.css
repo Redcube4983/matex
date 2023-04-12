@@ -730,11 +730,10 @@ main {
   #headerWrap.white {
     position: fixed;
     top: 0;
-    animation: headerAnimation 1s both;
+    animation: headerAnimation 1s ease-out forwards;
     color: #000;
     background-color: #fff;
     opacity: 0;
-    transform: translateY(-100%);
     border-bottom: solid 1.5px #e5e5e5;
   }
   #headerWrap.white .arrow::after {
@@ -748,7 +747,6 @@ main {
     right: 0;
     top: 50%;
     display: block;
-    transform: translateY(-50%) rotate(45deg);
   }
   #headerWrap.white.global-nav.parent h3 a {
     color: #000;
@@ -756,11 +754,9 @@ main {
   @keyframes headerAnimation {
     0% {
       opacity: 0;
-      transform: translateY(-100%);
     }
     100% {
       opacity: 1;
-      transform: translateY(0);
     }
   }
 }
