@@ -646,7 +646,7 @@ main {
     display: block;
     transform: translateY(-50%) rotate(45deg);
   }
-  .global-nav.parent h3 .arrow::after {
+  .global-nav.parent h3 .arrow::before {
     content: none;
   }
   .global-nav h3 a {

@@ -345,10 +345,9 @@
     transform: translateY(-50%) rotate(45deg);
 
 }
-.global-nav.parent h3 .arrow::after{
+.global-nav.parent h3 .arrow::before {
     content: none;
 }
-
 .global-nav h3 a {
     padding: 36px 0 36px 0px;
     display: block;
