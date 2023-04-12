@@ -715,6 +715,18 @@ main {
   color: #000;
 }
 
+#headerWrap a {
+  color: #fff;
+}
+
+#headerWrap.white a {
+  color: #000;
+}
+
+#header.gran-child a {
+  color: #000;
+}
+
 @media screen and (min-width: 960px) {
   #headerWrap.white {
     position: fixed;
@@ -738,15 +750,6 @@ main {
       opacity: 1;
       transform: translateY(0);
     }
-  }
-  #headerWrap a {
-    color: #fff;
-  }
-  #headerWrap.white a {
-    color: #000;
-  }
-  #header.gran-child a {
-    color: #000;
   }
   #headerWrap.hide {
     position: fixed;
