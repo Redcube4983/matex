@@ -761,12 +761,6 @@ main {
       opacity: 1;
     }
   }
-  #headerWrap.hide {
-    position: fixed;
-    opacity: 0;
-    transform: translateY(-100%);
-    transition: opacity, transform 1s;
-  }
 }
 /* CSS Document */
 #cta-area {
