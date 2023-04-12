@@ -434,7 +434,7 @@
         opacity: 0;
         transform: translateY(-100%);
         border-bottom: solid 1.5px #e5e5e5;
-        .global-nav.parent h3 .arrow::after {
+        .arrow::after {
             position: absolute;
             content: "";
             width: 9px;
