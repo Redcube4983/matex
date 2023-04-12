@@ -87,18 +87,19 @@
   width: 20px;
   display: block;
 }
-.global-nav.parent h3 .arrow .arrowStyle {
-    content: '';
-    position: absolute;
-    width: 3px;
-    height: 20px;
+.global-nav.parent h3 .arrow::before{
+    content: "";
+    width: 20px;
+    height: 3px;
     display: block;
     background-color: #fff;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    position: absolute;
 }
-.global-nav.parent h3 .arrow .arrowStyle {
+.global-nav.parent h3 .arrow::after{
+    content: "";
     width: 20px;
     height: 3px;
     display: block;
@@ -109,7 +110,7 @@
     position: absolute;
     transition: transform .5s;
 }
-.global-nav.parent h3 .arrow.open .arrowStyle {
+.global-nav.parent h3 .arrow.open.arrow.open::after{
     transform: translate(-50%,-50%)rotate(0deg);
     transition: transform .5s;
 }
@@ -117,6 +118,7 @@
     padding: 20px 0 20px 20px;
     display: block;
     margin-right: 50px;
+    color: #fff;
 }
 .global-nav .child {
   display: none;
