@@ -414,18 +414,18 @@
 #headerWrap.clone-site-header.global-nav.parent h3 a {
     color: #000;
 }
-#headerWrap.white a {
-    color: #000;
+#headerWrap a {
+    color: #fff;
 }
+
 #header.gran-child a {
     color: #000;
 }
 
 @media screen and (min-width:960px){
-    #headerWrap a {
-        color: #fff;
+    #headerWrap.white a {
+        color: #000;
     }
-
     #headerWrap.white {
         position: fixed;
         top: 0;

@@ -717,8 +717,8 @@ main {
   color: #000;
 }
 
-#headerWrap.white a {
-  color: #000;
+#headerWrap a {
+  color: #fff;
 }
 
 #header.gran-child a {
@@ -726,8 +726,8 @@ main {
 }
 
 @media screen and (min-width: 960px) {
-  #headerWrap a {
-    color: #fff;
+  #headerWrap.white a {
+    color: #000;
   }
   #headerWrap.white {
     position: fixed;
