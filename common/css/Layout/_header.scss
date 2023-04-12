@@ -434,6 +434,20 @@
         opacity: 0;
         transform: translateY(-100%);
         border-bottom: solid 1.5px #e5e5e5;
+        .global-nav.parent h3 .arrow::after {
+            position: absolute;
+            content: "";
+            width: 9px;
+            height: 9px;
+            border-right: 2px solid #000;
+            border-bottom: 2px solid #000;
+            background-color: inherit;
+            right: 0;
+            top: 50%;
+            display: block;
+            transform: translateY(-50%) rotate(45deg);
+        
+        }
     }
 
     #headerWrap.white.global-nav.parent h3 a {
@@ -449,7 +463,6 @@
             opacity: 1;
             transform: translateY(0);
         }
-
     }
     
     #headerWrap.hide {
@@ -458,10 +471,4 @@
         transform: translateY(-100%);
         transition: opacity,transform 1s;
     }
-    // #headerWrap.hide.white {
-    //     opacity: 1;
-    //     transform: translateY(0);
-    //     transition: opacity,transform 1s;
-    // }
-
 }
