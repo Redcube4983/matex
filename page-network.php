@@ -5,7 +5,7 @@ Template Name: network
 ?>
 <?php get_header(); ?>
 <main id="mainWrap">
-<div id="main-visual">
+<div id="topTtlWrap">
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
