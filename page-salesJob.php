@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: salesjob
+Template Name: salesJob
 */
 ?>
 <?php get_header(); ?>
