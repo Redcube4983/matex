@@ -23,6 +23,12 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
 <?php elseif( is_page( 'recruit' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
+<?php elseif( is_page( 'officejob' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
+<?php elseif( is_page( 'technical' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
+<?php elseif( is_page( 'salesjob' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
 <?php elseif( is_page( 'message' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
 <?php elseif( is_page( 'profile' ) ): ?>
@@ -47,13 +53,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-work.css">
 <?php elseif( is_page( 'requirement' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-requirement.css">
-<?php elseif( is_page( 'officejob' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
-<?php elseif( is_page( 'technical' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
-<?php elseif( is_page( 'salesjob' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
-
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
