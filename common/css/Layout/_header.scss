@@ -417,9 +417,7 @@
 #headerWrap a {
     color: #fff;
 }
-#headerWrap h4 a {
-    color: #000;
-  }
+
 #header.gran-child a {
     color: #000;
 }
@@ -428,6 +426,9 @@
     #headerWrap.white a {
         color: #000;
     }
+    #headerWrap h4 a {
+        color: #000;
+      }
     #headerWrap.white {
         position: fixed;
         top: 0;

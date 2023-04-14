@@ -720,16 +720,15 @@ main {
   color: #fff;
 }
 
-#headerWrap h4 a {
-  color: #000;
-}
-
 #header.gran-child a {
   color: #000;
 }
 
 @media screen and (min-width: 960px) {
   #headerWrap.white a {
+    color: #000;
+  }
+  #headerWrap h4 a {
     color: #000;
   }
   #headerWrap.white {
