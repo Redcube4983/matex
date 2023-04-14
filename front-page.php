@@ -116,7 +116,7 @@ Template Name: front-page
                         <source media="(max-width: 959px)" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-01-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-01-sp.jpg 2x">
                         <img class="link-li-bg" src="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-01.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-01.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-01.jpg 2x" alt="" width="750" height="1000">
                 </picture>
-                <a href="/network/">
+                <a href="network">
                 <h3>Network</h3>
                 <p>全国カバー、超・拠点主義。</p>
                 <h4>販売/納品体制</h4>
@@ -127,7 +127,7 @@ Template Name: front-page
                         <source media="(max-width: 959px)" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-02-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-02-sp.jpg 2x">
                         <img class="link-li-bg" src="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-02.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-02.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-02.jpg 2x" alt="" width="750" height="1000">
                 </picture>
-                <a href="/production/">
+                <a href="production">
                 <h3>Production</h3>
                 <p>コイル加工技術、極まる。</p>
                 <h4>生産体制</h4>
@@ -149,7 +149,7 @@ Template Name: front-page
                         <source media="(max-width: 959px)" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-04-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-04-sp.jpg 2x">
                         <img class="link-li-bg" src="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-04.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-04.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg-04.jpg 2x" alt="" width="750" height="1000">
                 </picture>
-                <a href="/quality/">
+                <a href="quality">
                 <h3>Quality<br class="pc">Environmental</h3>
                 <p>質を高め、環境負荷を低減。</p>
                 <h4>品質・環境への取り組み</h4>
