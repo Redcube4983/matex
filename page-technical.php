@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: technicalJob
+Template Name: technicaljob
 */
 ?>
 <?php get_header(); ?>
@@ -15,7 +15,7 @@ Template Name: technicalJob
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">technicalJob Job</span>
+            <span class="enTtl">Technical Job</span>
             <h1 class="jpTtl">技術職</h1>
         </div>
     </div>

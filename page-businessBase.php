@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: businessbase
+Template Name: businessbases
 */
 ?>
 <?php get_header(); ?>
@@ -15,7 +15,7 @@ Template Name: businessbase
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Business base</span>
+            <span class="enTtl">Business bases</span>
             <h1 class="jpTtl">事業拠点</h1>
         </div>
     </div>
