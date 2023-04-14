@@ -4,11 +4,11 @@
   width: 100%;
 }
 
-#topTtlWrap .topTtlInner {
+#main-visual .topTtlInner {
   position: relative;
 }
 @media screen and (min-width: 960px) {
-  #topTtlWrap .topTtlInner {
+  #main-visual .topTtlInner {
     padding-top: 0;
   }
 }
