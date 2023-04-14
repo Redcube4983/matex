@@ -58,7 +58,6 @@
     }
   }
 .stateImgWrap {
-    padding-top: 30px;
     img {
         width: 100%;
     }
@@ -70,19 +69,27 @@
     }
   }
 .stateImgWrap1 {
-        display: flex;
+    padding-top: 30px;
+    display: flex;
     @media screen and (min-width:960px){
         
     }
 }
 
 .stateImgWrap2 {
-        display: flex;
+    display: flex;
+    padding-top: 10px;
+    img {
+        height: 175px;
+      }
     @media screen and (min-width:960px){
-        
     }
 }
 
+.img1,
+.img3 {
+    padding-right: 10px;
+  }
 
 .textWrap {
     text-align: justify;
