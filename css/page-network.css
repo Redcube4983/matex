@@ -252,15 +252,11 @@
   justify-content: space-between;
 }
 
-@media screen and (min-width: 768px) {
-  .stateImgWrap1 {
-    display: flex;
-  }
+.stateImgWrap1 {
+  display: flex;
 }
-@media screen and (min-width: 768px) {
-  .stateImgWrap2 {
-    display: flex;
-  }
+.stateImgWrap2 {
+  display: flex;
 }
 .textWrap {
   text-align: justify;
