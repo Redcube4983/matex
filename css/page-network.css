@@ -249,15 +249,18 @@
   justify-content: space-between;
 }
 
+.stateImgWrap {
+  padding-top: 30px;
+}
 @media screen and (min-width: 960px) {
   .stateImgWrap {
     display: flex;
     justify-content: space-between;
+    padding-top: 60px;
   }
 }
 
 .stateImgWrap1 {
-  padding-top: 30px;
   display: flex;
 }
 .stateImgWrap1 .img1 {
@@ -282,11 +285,6 @@
   }
 }
 .stateImgWrap2 .img3 {
-  padding-right: 10px;
-}
-
-.img1,
-.img3 {
   padding-right: 10px;
 }
 

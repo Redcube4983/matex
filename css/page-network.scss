@@ -70,14 +70,15 @@
   }
 
 .stateImgWrap {
+    padding-top: 30px;
     @media screen and (min-width:960px){
         display: flex;
         justify-content: space-between;
+        padding-top: 60px;
     }
 }
 
 .stateImgWrap1 {
-    padding-top: 30px;
     display: flex;
     .img1 {
         padding-right: 10px;
@@ -99,12 +100,6 @@
         padding-right: 10px;
     }
 }
-
-
-.img1,
-.img3 {
-    padding-right: 10px;
-  }
 
 
 .textWrap {
