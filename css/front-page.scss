@@ -2,7 +2,6 @@
 /* CSS Document */
 
 @use '../common/css/Component/button';
-@use '../common/css/Layout/main';
 
 .mask-container {
     position: absolute;
@@ -357,6 +356,9 @@ time {
         order: 1
     }
 }
+.moreButtonWrap {
+    @include button.moreButton;
+  }
 .business-title {
     font-size: 5rem;
     font-family: 'Oswald', sans-serif;
