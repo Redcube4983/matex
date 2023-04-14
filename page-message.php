@@ -5,7 +5,7 @@ Template Name: message
 ?>
 <?php get_header(); ?>
 <main id="mainWrap">
-<div id="topTtlWrap">
+<div id="main-visual">
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
