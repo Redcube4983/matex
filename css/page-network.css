@@ -249,14 +249,42 @@
   justify-content: space-between;
 }
 
+@media screen and (min-width: 960px) {
+  .stateImgWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .stateImgWrap1 {
   padding-top: 30px;
   display: flex;
 }
+.stateImgWrap1 .img1 {
+  padding-right: 10px;
+}
+@media screen and (min-width: 960px) {
+  .stateImgWrap1 {
+    padding: 0;
+  }
+  .stateImgWrap1 .img2 {
+    padding-right: 10px;
+  }
+}
+
 .stateImgWrap2 {
   display: flex;
   padding-top: 5px;
 }
+@media screen and (min-width: 960px) {
+  .stateImgWrap2 {
+    padding: 0;
+  }
+}
+.stateImgWrap2 .img3 {
+  padding-right: 10px;
+}
+
 .img1,
 .img3 {
   padding-right: 10px;
