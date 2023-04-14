@@ -85,7 +85,9 @@ Template Name: front-page
            トップレベルのコイルセンターとして<br>
            社会と鉄鋼製品をきめ細やかなコントロールで<br>
            つなぎ続けています。</p>
-        <a href="/business/"><span>more</span></a>
+            <div class="moreButtonWrap">
+                    <a href="/business/" class="moreButton">more</a>
+            </div>
         </div>
     </div>
     <div id="recruit">
@@ -101,7 +103,9 @@ Template Name: front-page
            変化を恐れず、既成概念にとらわれず、<br>
            常に新しいことに挑戦し続けられる<br class="tab"><br class="pc">
            人材を募集しています。</p>
-        <a href="/recruit/"><span>more</span></a>
+        <div class="moreButtonWrap">
+                    <a href="/recruit/" class="moreButton">more</a>
+        </div>
         </div>
     </div>
 </section>
