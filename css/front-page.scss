@@ -316,40 +316,40 @@ time {
 }
 .business-text-area {
     padding: 0 15px;
-    a {
-        width: 180px;
-        height: 40px;
-        background-color: #999999;
-        margin: 50px 0 0;
-        padding: 0;
-        font-size: 1.4rem;
-        color: #fff;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: flex-start;
-        span {
-            display: flex;
-            height: 100%;
-            width: calc(100% - 20px);
-            padding: 0 10px;
-            flex-flow: column;
-            justify-content: center;
-            align-items: flex-start;
-            position: relative;
-            &::before{
-                position: absolute;
-                width: 8px;
-                height: 8px;
-                border-bottom: 2px solid #fff;
-                border-right: 2px solid #fff;
-                right: 10px;
-                top: 50%;
-                transform: translate(-50%,-50%)rotate(-45deg);
-                content: "";
-            }
-        }
-    }
+    // a {
+    //     width: 180px;
+    //     height: 40px;
+    //     background-color: #999999;
+    //     margin: 50px 0 0;
+    //     padding: 0;
+    //     font-size: 1.4rem;
+    //     color: #fff;
+    //     display: flex;
+    //     flex-flow: column;
+    //     justify-content: center;
+    //     align-items: flex-start;
+    //     span {
+    //         display: flex;
+    //         height: 100%;
+    //         width: calc(100% - 20px);
+    //         padding: 0 10px;
+    //         flex-flow: column;
+    //         justify-content: center;
+    //         align-items: flex-start;
+    //         position: relative;
+    //         &::before{
+    //             position: absolute;
+    //             width: 8px;
+    //             height: 8px;
+    //             border-bottom: 2px solid #fff;
+    //             border-right: 2px solid #fff;
+    //             right: 10px;
+    //             top: 50%;
+    //             transform: translate(-50%,-50%)rotate(-45deg);
+    //             content: "";
+    //         }
+    //     }
+    // }
     @media screen and (min-width:960px){
         padding: 15% 0 0 ;
         width: 35%;
