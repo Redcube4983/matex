@@ -720,6 +720,10 @@ main {
   color: #fff;
 }
 
+#headerWrap h4 a {
+  color: #000;
+}
+
 #header.gran-child a {
   color: #000;
 }
