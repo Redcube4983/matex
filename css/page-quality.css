@@ -657,7 +657,7 @@ address .fax {
   }
 }
 #qualityInner li:not(:first-child) {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 #qualityInner .olwrap ol {
   counter-reset: item;
