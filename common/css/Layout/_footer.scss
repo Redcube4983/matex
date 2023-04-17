@@ -354,7 +354,19 @@ footer .site-logo a img {
     color: #282828;
     font-size: 1.4rem;
 }
-
+.workListWrap {
+    position: relative;
+}
+.workSpan::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 address {
     background-color: #e6e6e6;
     text-align: center;

@@ -36,12 +36,18 @@
             <ul class="child">
                 <li class="gran-child"><h4><a href="/company/">会社を知る</a></h4></li>
                 <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
-                <span class="workSpan"></span>
-                <li class="gran-child"><h4><a href="/salesjob/">営業職</a></h4></li>
-                <span class="workSpan"></span>
-                <li class="gran-child"><h4><a href="/technical/">技術職</a></h4></li>
-                <span class="workSpan"></span>
-                <li class="gran-child"><h4><a href="/officejob/">業務職</a></h4></li>
+                <li class="gran-child workListWrap">
+                    <span class="workSpan"></span>
+                    <h4><a href="/salesjob/">営業職</a></h4>
+                </li>
+                <li class="gran-child workListWrap">
+                    <span class="workSpan"></span>
+                    <h4><a href="/technical/">技術職</a></h4>
+                </li>
+                <li class="gran-child workListWrap">
+                    <span class="workSpan"></span>
+                    <h4><a href="/officejob/">業務職</a></h4>
+                </li>
                 <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
                 <li class="gran-child"><h4><a href="/requirement/">募集要項</a></h4></li>
             </ul>
