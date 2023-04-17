@@ -38,15 +38,15 @@
                 <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
                 <li class="gran-child workListWrap">
                     <span class="workSpan"></span>
-                    <h4><a href="/salesjob/">営業職</a></h4>
+                    <h4 class="workListTxt"><a href="/salesjob/">営業職</a></h4>
                 </li>
                 <li class="gran-child workListWrap">
                     <span class="workSpan"></span>
-                    <h4><a href="/technical/">技術職</a></h4>
+                    <h4 class="workListTxt"><a href="/technical/">技術職</a></h4>
                 </li>
                 <li class="gran-child workListWrap">
                     <span class="workSpan"></span>
-                    <h4><a href="/officejob/">業務職</a></h4>
+                    <h4 class="workListTxt"><a href="/officejob/">業務職</a></h4>
                 </li>
                 <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
                 <li class="gran-child"><h4><a href="/requirement/">募集要項</a></h4></li>
