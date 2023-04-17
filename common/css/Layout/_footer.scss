@@ -354,19 +354,7 @@ footer .site-logo a img {
     color: #282828;
     font-size: 1.4rem;
 }
-#footer-sitemap .footer-sitemap .workWrap h4 {
-    position:relative;
-}
-#footer-sitemap .footer-sitemap .workWrap h4::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100px;
-    height: 20px;
-    background-color: #fff;
-}
+
 address {
     background-color: #e6e6e6;
     text-align: center;
