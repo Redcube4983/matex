@@ -1079,6 +1079,25 @@ address .fax {
   padding: 10px 0;
 }
 
+.workListWrap {
+  position: relative;
+}
+
+.workSpan::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 1px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.workListTxt {
+  padding-left: 20px;
+}
+
 @media screen and (min-width: 960px) {
   footer .site-logo {
     margin: 0 auto 30px;
@@ -1142,22 +1161,6 @@ address .fax {
     padding: 5px 0;
     color: #282828;
     font-size: 1.4rem;
-  }
-  .workListWrap {
-    position: relative;
-  }
-  .workSpan::after {
-    position: absolute;
-    display: block;
-    content: "";
-    width: 12px;
-    height: 1px;
-    background-color: #fff;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .workListTxt {
-    padding-left: 20px;
   }
   address {
     background-color: #e6e6e6;
