@@ -17,32 +17,35 @@
         <li class="parent">
             <h3><a href="/infomation/">企業情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="#">代表メッセージ</a></h4></li>
-                <li class="gran-child"><h4><a href="#">会社概要</a></h4></li>
-                <li class="gran-child"><h4><a href="#">事業拠点</a></h4></li>
-                <li class="gran-child"><h4><a href="#">品質・環境への取り組み</a></h4></li>
+                <li class="gran-child"><h4><a href="/message/">代表メッセージ</a></h4></li>
+                <li class="gran-child"><h4><a href="/profile/">会社概要</a></h4></li>
+                <li class="gran-child"><h4><a href="/businessbase/">事業拠点</a></h4></li>
+                <li class="gran-child"><h4><a href="/quality/">品質・環境への取り組み</a></h4></li>
             </ul>
         </li>
         <li class="parent">
-            <h3><a href="#">事業情報</a><div class="arrow"></div></h3>
+            <h3><a href="/business/">事業情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="#">販売/納品体制</a></h4></li>
-                <li class="gran-child"><h4><a href="#">生産体制</a></h4></li>
-                <li class="gran-child"><h4><a href="#">事業拠点</a></h4></li>
-                <li class="gran-child"><h4><a href="#">技術サポート体制</a></h4></li>
+                <li class="gran-child"><h4><a href="/network/">販売/納品体制</a></h4></li>
+                <li class="gran-child"><h4><a href="/production/">生産体制</a></h4></li>
+                <li class="gran-child"><h4><a href="/support/">技術サポート体制</a></h4></li>
             </ul>
         </li>
         <li class="parent">
-            <h3><a href="#">採用情報</a><div class="arrow"></div></h3>
+            <h3><a href="/recruit/">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="#">マテックスとは</a></h4></li>
-                <li class="gran-child"><h4><a href="#">社員紹介</a></h4></li>
-                <li class="gran-child"><h4><a href="#">スタッフ紹介</a></h4></li>
-                <li class="gran-child"><h4><a href="#">募集要項</a></h4></li>
+                <li class="gran-child"><h4><a href="/company/">会社を知る</a></h4></li>
+                <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
+                <ul class="workWrap">
+                    <li class="gran-child"><h4><a href="/salesjob/">営業職</a></h4></li>
+                    <li class="gran-child"><h4><a href="/technical/">技術職</a></h4></li>
+                    <li class="gran-child"><h4><a href="/officejob/">業務職</a></h4></li>
+                </ul>
+                <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
+                <li class="gran-child"><h4><a href="/requirement/">募集要項</a></h4></li>
             </ul>
         </li>
         <li class="single">
-            <h3><a href="#">お問い合わせ</a></h3>
             <h3><a href="#">個人情報保護方針</a></h3>
             <h3><a href="#">サイトのご利用について</a></h3>
         </li>
