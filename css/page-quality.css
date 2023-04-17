@@ -507,6 +507,7 @@ address .fax {
   background-color: #fff;
   top: 50%;
   transform: translateY(-50%);
+  margin-left: 30px;
 }
 
 .workListTxt {
@@ -576,6 +577,10 @@ address .fax {
     padding: 5px 0;
     color: #282828;
     font-size: 1.4rem;
+  }
+  .workSpan::after {
+    background-color: #b9b9b9;
+    margin-left: 0;
   }
   address {
     background-color: #e6e6e6;
