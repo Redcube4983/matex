@@ -21,8 +21,11 @@
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     span {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         letter-spacing: 1px;
+        @media screen and (min-width:960px){
+            font-size: 1.8rem;
+        }
       }
   }
 
