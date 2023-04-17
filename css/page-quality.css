@@ -571,6 +571,9 @@ address .fax {
     top: 50%;
     transform: translateY(-50%);
   }
+  .workListTxt {
+    padding-left: 20px;
+  }
   address {
     background-color: #e6e6e6;
     text-align: center;
