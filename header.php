@@ -11,23 +11,14 @@
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/favicon.ico">
-
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
 <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
 <?php if( is_front_page() ): ?>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-<?php elseif( is_page( 'business' ) ): ?>
+<?php if(is_page(array('business', 'about', 'recruit'))) : ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
-<?php elseif( is_page( 'aboutus' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
-<?php elseif( is_page( 'recruit' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
-<?php elseif( is_page( 'officejob' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
-<?php elseif( is_page( 'technical' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
-<?php elseif( is_page( 'salesjob' ) ): ?>
+<?php if(is_page(array('officejob', 'technical', 'salesjob'))) : ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
 <?php elseif( is_page( 'message' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
