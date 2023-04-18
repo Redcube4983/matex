@@ -52,7 +52,7 @@ Template Name: message
         <div id="motto">
             <div class="textWrap">
                 <h3>社是</h3>
-                <p>私たちは互に授け合い 人格の向上と技術の錬磨に努め 鐵を通じて社会に貢献し国家と共に繁栄を希うものである</p>
+                <p>私たちは互に援け合い 人格の向上と技術の錬磨に努め 鐵を通じて社会に貢献し国家と共に繁栄を希うものである</p>
             </div>
             <div class="textWrap">
                 <h3 class="notFirst">社訓</h3>
