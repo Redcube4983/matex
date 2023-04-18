@@ -123,6 +123,7 @@ $(function() {
     });
     
 });
+<?php if( is_front_page() ): ?>
 jQuery(function(){
    jQuery(window).scroll(function(){
       var obj_t_pos = jQuery('.business-image-area').offset().top;
@@ -161,6 +162,7 @@ $(document).ready(function() {
             });
           });
 </script>
-
+<?php else: ?>
+<?php endif; ?>
 <?php wp_footer(); ?>
 </body>
