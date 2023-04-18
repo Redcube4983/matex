@@ -59,6 +59,7 @@ Template Name: work
         <div class="rightWrap">
             <h3>技術職</h3>
             <h4>より速く精密に。技術を極める<br>コイル加工のスペシャリスト</h4>
+            <div class="buttonWrap">
                 <a href="/technical/">先輩社員の声を聴いてみよう</a>
             </div>
         </div>
