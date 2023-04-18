@@ -123,7 +123,30 @@ $(function() {
     });
     
 });
-
+jQuery(function(){
+   jQuery(window).scroll(function(){
+      var obj_t_pos = jQuery('.business-image-area').offset().top;
+      var scr_count = jQuery(document).scrollTop() + (window.innerHeight/2); // ディスプレイの半分の高さを追加
+      if(scr_count > obj_t_pos){
+         jQuery('.business-image-area').addClass('show');
+         jQuery('.business-image-area').fadeIn().addClass('animate');
+      }else{
+         
+      }
+   })
+})
+jQuery(function(){
+   jQuery(window).scroll(function(){
+      var obj_t_pos = jQuery('.recruit-image-area').offset().top;
+      var scr_count = jQuery(document).scrollTop() + (window.innerHeight/2); // ディスプレイの半分の高さを追加
+      if(scr_count > obj_t_pos){
+         jQuery('.recruit-image-area').addClass('show');
+         jQuery('.recruit-image-area').fadeIn().addClass('animate');
+      }else{
+         
+      }
+   })
+})
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/jquery.magnific-popup.min.js"></script>
 <script>
