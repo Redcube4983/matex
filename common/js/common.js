@@ -200,45 +200,6 @@ $('#local-nav a').each(function(){
 
 
 
-    $(function() {
-  var $win = $(window),
-      $cloneNav = $('#headerWrap'),
-      showClass = 'fixed';
-
-  $win.on('load scroll', function() {
-    var value = $(this).scrollTop();
-    if ( value > 700 ) {
-      $cloneNav.addClass(showClass);
-    } else {
-      $cloneNav.removeClass(showClass);
-    }
-  });
-});
-
-var startPos = 0,winScrollTop = 0;
-$(window).on('scroll',function(){
-    winScrollTop = $(this).scrollTop();
-    if (winScrollTop >= startPos) {
-		if(winScrollTop >= 300){
-        $('#headerWrap').addClass('hide');
-		} 
-        } else {
-		$('#headerWrap').removeClass('hide');
-    }
-    startPos = winScrollTop;
-});
-
-$(function(){
-    $('a[href^="#"]').click(function(){
-        var speed = 300;
-        var href= $(this).attr("href");
-        var target = $(href == "#" || href == "" ? 'html' : href);
-        var position = target.offset().top;
-        $("html, body").animate({scrollTop:position}, speed, "swing");
-        return false;
-    });
-});
-
 
 
 
