@@ -16,9 +16,9 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-<?php if(is_page(array('business', 'about', 'recruit'))) : ?>
+<?php elseif(is_page(array('business', 'about', 'recruit'))) : ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
-<?php if(is_page(array('officejob', 'technical', 'salesjob'))) : ?>
+<?php elseif(is_page(array('officejob', 'technical', 'salesjob'))) : ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
 <?php elseif( is_page( 'message' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
