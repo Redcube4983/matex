@@ -16,9 +16,17 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-<?php elseif(is_page(array('business', 'about', 'recruit'))) : ?>
+<?php elseif( is_page( 'business' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
-<?php elseif(is_page(array('officejob', 'technical', 'salesjob'))) : ?>
+<?php elseif( is_page( 'about' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
+<?php elseif( is_page( 'recruit' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
+<?php elseif( is_page( 'officejob' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
+<?php elseif( is_page( 'technical' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
+<?php elseif( is_page( 'salesjob' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
 <?php elseif( is_page( 'message' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
