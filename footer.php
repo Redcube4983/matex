@@ -148,6 +148,8 @@ jQuery(function(){
       }
    })
 })
+<?php else: ?>
+<?php endif; ?>
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/jquery.magnific-popup.min.js"></script>
 <script>
@@ -162,7 +164,5 @@ $(document).ready(function() {
             });
           });
 </script>
-<?php else: ?>
-<?php endif; ?>
 <?php wp_footer(); ?>
 </body>
