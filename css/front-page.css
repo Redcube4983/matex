@@ -368,7 +368,7 @@ body [data-page-id=top] .mask-container {
 .moreButtonWrap {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-start;
   padding-top: 50px;
 }
 .moreButtonWrap .moreButton {
