@@ -16,7 +16,7 @@ Template Name: requirement
         </div>
         <div class="ttlWrap">
             <span class="enTtl">Requirement</span>
-            <h1 class="jpTtl">仕事を知る</h1>
+            <h1 class="jpTtl">募集要項</h1>
         </div>
     </div>
 </div>
