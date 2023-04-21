@@ -539,7 +539,7 @@ main {
     height: auto;
     margin: 0;
     list-style: none;
-    top: 100%;
+    top: calc(100% - 1px);
     position: absolute;
     padding: 20px 0px;
     width: 220px;
@@ -611,6 +611,9 @@ main {
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
+  }
+  .global-nav .gran-child {
+    border-bottom: 0px dotted #fff;
   }
   .global-nav .gran-child h4 a {
     padding: 10px 30px;
