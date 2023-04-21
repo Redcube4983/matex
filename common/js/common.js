@@ -157,19 +157,17 @@ jQuery(function($){
         if($('body').hasClass('fixed')){
             $('body').removeClass('fixed').css('top',0 + 'px');
             window.scrollTo( 0 , scrollPos );//初期化
-            $('.animate').removeClass('fixed');
-            $('.animate2').removeClass('fixed');
-            $('.animate3').removeClass('fixed');
-            $('.animate4').removeClass('fixed');
-            $('.animate5').removeClass('fixed');
+            $('.animate-right').removeClass('fixed');
+            $('.animate-bottom').removeClass('fixed');
+            $('.animate-left').removeClass('fixed');
+            $('.animate-fade').removeClass('fixed');
         }else{
             scrollPos = $(window).scrollTop();//現在のスクロール位置
             $('body').addClass('fixed').css('top',-scrollPos + 'px');
-            $('.animate').addClass('fixed');
-            $('.animate2').addClass('fixed');
-            $('.animate3').addClass('fixed');
-            $('.animate4').addClass('fixed');
-            $('.animate5').addClass('fixed');
+            $('.animate-right').addClass('fixed');
+            $('.animate-bottom').addClass('fixed');
+            $('.animate-left').addClass('fixed');
+            $('.animate-fade').addClass('fixed');
         }
     });
 });

@@ -450,7 +450,6 @@ main {
     justify-content: space-between;
     min-width: 500px;
     margin-right: 50px;
-    font-weight: bold;
   }
 }
 
@@ -536,7 +535,7 @@ main {
     display: block;
     text-align: center;
   }
-  .global-nav h3.parent .child {
+  .global-nav.parent .child {
     display: none;
     height: auto;
     margin: 0;
@@ -551,7 +550,7 @@ main {
     left: calc(50% - 5px);
     transform: translateX(-50%);
   }
-  .global-nav h3.parent .child::before {
+  .global-nav.parent .child::before {
     content: "";
     background-color: #fff;
     display: block;
@@ -562,16 +561,16 @@ main {
     left: 0;
     top: 0;
   }
-  .global-nav h3.parent h3 a {
+  .global-nav.parent h3 a {
     padding: 36px 30px 36px 0px;
     display: block;
     margin-right: 0px;
     text-align: center;
   }
-  .global-nav h3.parent h3 .arrow {
+  .global-nav.parent h3 .arrow {
     right: 0px;
   }
-  .global-nav h3.parent h3 .arrow::after {
+  .global-nav.parent h3 .arrow::after {
     position: absolute;
     content: "";
     width: 9px;
@@ -584,24 +583,24 @@ main {
     display: block;
     transform: translateY(-50%) rotate(45deg);
   }
-  .global-nav h3.parent h3 .arrow::before {
+  .global-nav.parent h3 .arrow::before {
     content: none;
   }
-  .global-nav h3.single:nth-last-child(3) {
+  .global-nav.single:nth-last-child(3) {
     display: flex;
     flex-flow: column;
     justify-content: center;
   }
-  .global-nav h3.single:nth-last-child(3) h3 {
+  .global-nav.single:nth-last-child(3) h3 {
     padding: 0;
   }
-  .global-nav h3.single:nth-last-child(3) h3 a {
+  .global-nav.single:nth-last-child(3) h3 a {
     display: block;
     background-color: #e95520;
     padding: 10px 10px 10px 40px;
     position: relative;
   }
-  .global-nav h3.single:nth-last-child(3) h3 a::before {
+  .global-nav.single:nth-last-child(3) h3 a::before {
     content: "";
     width: 20px;
     height: 20px;
@@ -614,7 +613,7 @@ main {
     transform: translateY(-50%);
     position: absolute;
   }
-  .global-nav h3 .gran-child h4 a {
+  .global-nav .gran-child h4 a {
     padding: 10px 30px;
     display: block;
     color: #000;
