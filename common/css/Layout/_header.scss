@@ -81,18 +81,18 @@
         background-color: transparent;
     }
 }
-.site-logo a{
+.site-logo a {
     height: 100%;
     width: 100%;
     vertical-align: bottom;
     margin-left: 15px;
-    a img {
+    img {
         width: 120px;
         height: auto;
     }
     @media screen and (min-width:960px){
         margin-left: 0px;
-        a img {
+        img {
             width: 175px;
             height: auto;
           }
@@ -195,7 +195,7 @@
             font-size: 1.4rem;
         }
     }
-    &.parent h3{
+    &.parent h3 {
         .arrow {
         position: absolute;
         right: 20px;
@@ -204,40 +204,40 @@
         height: 20px;
         width: 20px;
         display: block;
-        a {
-            padding: 20px 0 20px 20px;
-            display: block;
-            margin-right: 50px;
-            color: #fff;
+            a {
+                padding: 20px 0 20px 20px;
+                display: block;
+                margin-right: 50px;
+                color: #fff;
+            }
+            &.open.arrow.open::after{
+                transform: translate(-50%,-50%)rotate(0deg);
+                transition: transform .5s;
+            }
+            &::before{
+                content: "";
+                width: 20px;
+                height: 3px;
+                display: block;
+                background-color: #fff;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                position: absolute;
+            }
+            &::after{
+                content: "";
+                width: 20px;
+                height: 3px;
+                display: block;
+                background-color: #fff;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%)rotate(90deg);
+                position: absolute;
+                transition: transform .5s;
+            }
         }
-        &.open.arrow.open::after{
-            transform: translate(-50%,-50%)rotate(0deg);
-            transition: transform .5s;
-        }
-        &::before{
-            content: "";
-            width: 20px;
-            height: 3px;
-            display: block;
-            background-color: #fff;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            position: absolute;
-        }
-        &::after{
-            content: "";
-            width: 20px;
-            height: 3px;
-            display: block;
-            background-color: #fff;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%)rotate(90deg);
-            position: absolute;
-            transition: transform .5s;
-        }
-    }
     }
     @media screen and (min-width:960px){
         border-bottom: 0px solid #fff;
@@ -343,9 +343,9 @@
         &.other {
             display: none;
         }
+        }
     }
 }
-
 #header-toggle {
     position: fixed;
     right: 0;
