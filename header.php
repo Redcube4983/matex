@@ -61,30 +61,30 @@
 
     <div id="header-right">
     <ul id="global-nav">
-        <li class="global-nav single"><h3><a class="gNavColor" href="#">TOP</a></h3></li>
+        <li class="global-nav single"><h3><a class="gNavColor" href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a></h3></li>
         <li class="global-nav parent">
-            <h3><a class="gNavColor" href="<?php echo get_template_directory_uri(); ?>/aboutus/">企業情報</a><div class="arrow"></div></h3>
+            <h3><a class="gNavColor" href="<?php echo esc_url( home_url( '/aboutus/') ); ?>">企業情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="<?php echo get_template_directory_uri(); ?>/message/">代表メッセージ</a></h4></li>
-                <li class="gran-child"><h4><a href="<?php echo get_template_directory_uri(); ?>/profile/">会社概要</a></h4></li>
-                <li class="gran-child"><h4><a href="/businessBase/">事業拠点</a></h4></li>
-                <li class="gran-child"><h4><a href="/quality/">品質・環境への取り組み</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/message/') ); ?>">代表メッセージ</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/profile/') ); ?>">会社概要</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/businessBase/') ); ?>">事業拠点</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/quality/') ); ?>">品質・環境への取り組み</a></h4></li>
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a class="gNavColor" href="/business/">事業情報</a><div class="arrow"></div></h3>
+            <h3><a class="gNavColor" href="<?php echo esc_url( home_url( '/business/') ); ?>">事業情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="/network/">販売/納品体制</a></h4></li>
-                <li class="gran-child"><h4><a href="/production/">生産体制</a></h4></li>
-                <li class="gran-child"><h4><a href="/support/">技術サポート体制</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/network/') ); ?>">販売/納品体制</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/production/') ); ?>">生産体制</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/support/') ); ?>">技術サポート体制</a></h4></li>
             </ul>
         </li>
         <li class="global-nav parent">
-            <h3><a class="gNavColor" href="/recruit/">採用情報</a><div class="arrow"></div></h3>
+            <h3><a class="gNavColor" href="<?php echo esc_url( home_url( '/support/') ); ?>/recruit/">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
-                <li class="gran-child"><h4><a href="/company/">会社を知る</a></h4></li>
-                <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
-                <li class="gran-child"><h4><a href="/requirement/">募集要項</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/company/') ); ?>">会社を知る</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/work/') ); ?>">仕事を知る</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/requirement/') ); ?>">募集要項</a></h4></li>
             </ul>
         </li>
 <!--
@@ -94,10 +94,10 @@
 -->
         <li class="global-nav other">
         <li class="global-nav other">
-            <h3><a href="/policy/">個人情報保護方針</a></h3>
+            <h3><a href="<?php echo esc_url( home_url( '/policy/') ); ?>">個人情報保護方針</a></h3>
         </li>
         <li class="global-nav other">
-            <h3><a href="aboutUsing">サイトのご利用について</a></h3>
+            <h3><a href="<?php echo esc_url( home_url( '/aboutusing/') ); ?>">サイトのご利用について</a></h3>
         </li>
     </ul>
     </div>
