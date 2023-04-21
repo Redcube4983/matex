@@ -88,7 +88,7 @@ Template Name: business
                         <span>Support</span>
                         <h3>技術サポート体制</h3>
                     </div>
-                    <p>Faithful Partnerをモットーに<br>vお客様の様々なニーズに対応。</p>
+                    <p>Faithful Partnerをモットーに<br>お客様の様々なニーズに対応。</p>
                 </div>
                 <div class="moreButtonWrap">
                     <a href="/support/" class="moreButton">more</a>
