@@ -15,7 +15,6 @@
 <?php if( is_front_page() ): ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <?php elseif(is_page(array('business', 'aboutus', 'recruit'))) : ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
 <?php elseif(is_page(array('officejob', 'technical', 'salesjob'))) : ?>
