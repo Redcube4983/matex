@@ -620,7 +620,7 @@ main {
     color: #000;
     font-size: 1.4rem;
   }
-  .global-nav h3.other {
+  .global-nav.other {
     display: none;
   }
 }
