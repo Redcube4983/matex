@@ -20,7 +20,7 @@
     @media screen and (min-width:960px){
         width: calc(100% - 60px);
         height: 60px;
-        padding: 15px 30px;
+        padding: 0 30px;
         position: fixed;
         background-color: transparent;
         border-bottom: solid 0px #e5e5e5;
@@ -93,7 +93,7 @@
     @media screen and (min-width:960px){
         margin-left: 0px;
         img {
-            width: 175px;
+            width: 160x;
             height: auto;
           }
     }
@@ -161,6 +161,7 @@
             justify-content: space-between;
             min-width: 500px;
             margin-right: 50px;
+            align-items: center;
         }
     }
 }
@@ -243,7 +244,7 @@
         width: auto;
         h3 {
             a {
-                padding: 36px 0 36px 0px;
+                padding: 0 30px 0 0;
                 display: block;
                 text-align: center;
             } 
@@ -277,7 +278,7 @@
             }
             h3 {
                 a {
-                    padding: 36px 30px 36px 0px;
+                    padding: 0px;
                     display: block;
                     margin-right: 0px;
                     text-align: center;
