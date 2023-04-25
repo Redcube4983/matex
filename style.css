@@ -531,7 +531,7 @@ main {
     width: auto;
   }
   .global-nav h3 a {
-    padding: 0 30px 0 0;
+    padding: 0;
     display: block;
     text-align: center;
   }
@@ -562,7 +562,7 @@ main {
     top: 0;
   }
   .global-nav.parent h3 a {
-    padding: 0px;
+    padding: 0px 30px 0px 0px;
     display: block;
     margin-right: 0px;
     text-align: center;
