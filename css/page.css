@@ -140,6 +140,7 @@ main {
 
 #panNavi a {
   position: relative;
+  color: #fff;
 }
 
 #panNavi a::after {
