@@ -140,7 +140,12 @@ main {
 
 #panNavi a {
   position: relative;
-  color: #fff;
+  color: #000;
+}
+@media screen and (min-width: 960px) {
+  #panNavi a {
+    color: #fff;
+  }
 }
 
 #panNavi a::after {
