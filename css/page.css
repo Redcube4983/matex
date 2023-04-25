@@ -214,6 +214,15 @@ main {
     background-color: #fff;
     border-bottom: solid 1px #e5e5e5;
   }
+  #panNavi.white a {
+    color: #000;
+  }
+  #panNavi.white a::after {
+    background: #000;
+  }
+  #panNavi.white .list li:not(:first-child)::before {
+    color: #000;
+  }
 }
 
 #leadWrap {
