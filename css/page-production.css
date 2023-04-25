@@ -107,6 +107,7 @@
     width: calc(100% - 60px);
     padding: 10px 30px 10px;
     background-color: transparent;
+    transition: background-color 1s ease-out;
   }
   #panNavi a {
     color: #fff;
@@ -116,6 +117,12 @@
   }
   #panNavi .list li:not(:first-child)::before {
     color: #fff;
+  }
+  #panNavi.white {
+    transition: background-color 1s ease-out;
+    color: #000;
+    background-color: #fff;
+    border-bottom: solid 1px #e5e5e5;
   }
 }
 
