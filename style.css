@@ -378,7 +378,7 @@ main {
     margin-left: 0px;
   }
   .site-logo a img {
-    width: 160x;
+    width: 150px;
     height: auto;
   }
 }
@@ -540,7 +540,7 @@ main {
     height: auto;
     margin: 0;
     list-style: none;
-    top: calc(100% - 1px);
+    top: calc(100% + 20px);
     position: absolute;
     padding: 20px 0px;
     width: 220px;

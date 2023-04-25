@@ -93,7 +93,7 @@
     @media screen and (min-width:960px){
         margin-left: 0px;
         img {
-            width: 160x;
+            width: 150px;
             height: auto;
           }
     }
@@ -255,7 +255,7 @@
                 height: auto;
                 margin: 0;
                 list-style: none;
-                top: calc(100% - 1px);
+                top: calc(100% + 20px);
                 position: absolute;
                 padding: 20px 0px;
                 width: 220px;
