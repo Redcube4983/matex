@@ -96,17 +96,13 @@ $(function() {
 		}else {
 			$('#tagetTop').fadeOut();
 		}
-        //add Class if i beyond the height
         if ( i >= (keyvisualH / 2) ) {
 			$('header').addClass("white");
+            $('#panNavi').addClass("white");
 		}else {
 			$('header').removeClass("white");
+            $('#panNavi').removeClass("white");
 		}
-//        if ( i >= (headH) ) {
-//			$('header').addClass("hide");
-//		}else {
-//			$('header').removeClass("hide");
-//		}
         if ((documentHeight - (footH + tagetTop + windowHeight)) < i) {
         $('#tagetTop').removeClass("fixed");
         }else{
