@@ -140,6 +140,7 @@ main {
 
 .topImg img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 #panNavi {
@@ -241,9 +242,10 @@ main {
 }
 #leadWrap .enTtl {
   font-size: 2rem;
-  font-weight: bold;
   color: #e95520;
   letter-spacing: 1.5px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 #leadWrap .jpTtl {
   font-size: 2rem;
