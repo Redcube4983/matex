@@ -87,10 +87,11 @@ main {
 #tagetTop {
     width: 60px;
     height: 60px;
-    background-color: #000;
+    background-color: #e95520;
     bottom: 0;
     right: 0;
     position: fixed;
+    border-radius: 100px;
     .smooth::after {
         position: absolute;
         z-index: 1;
@@ -112,4 +113,5 @@ main {
         border-width: 2px 0 0 2px;
       } 
   }
+
 
