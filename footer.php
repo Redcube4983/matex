@@ -53,8 +53,8 @@
             </ul>
         </li>
         <li class="single">
-            <h3><a href="#">個人情報保護方針</a></h3>
-            <h3><a href="#">サイトのご利用について</a></h3>
+            <h3><a href="/policy/">個人情報保護方針</a></h3>
+            <h3><a href="/aboutusing/">サイトのご利用について</a></h3>
         </li>
     </ul>
 </div>
