@@ -85,13 +85,14 @@ main {
 }
 
 #tagetTop {
-    width: 60px;
-    height: 60px;
-    background-color: #e95520;
     bottom: 0;
     right: 0;
     position: fixed;
     border-radius: 100px;
+    .sbooth {
+        padding: 30px;
+        background-color: #e95520;
+    }
     .smooth::after {
         position: absolute;
         z-index: 1;
