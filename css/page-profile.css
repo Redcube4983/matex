@@ -313,13 +313,8 @@
   }
 }
 #overview td {
-  padding: 20px 0 20px 20px;
+  padding: 20px 20px 20px;
   border-top: dotted 1px #b5b5b5;
-}
-@media screen and (min-width: 960px) {
-  #overview td {
-    padding: 30px 0 30px 30px;
-  }
 }
 @media screen and (min-width: 960px) {
   #overview td {
@@ -358,7 +353,7 @@
   display: block;
 }
 #history .contents {
-  line-height: 2;
+  line-height: 1.6;
 }
 #history ul {
   padding-top: 20px;
@@ -388,14 +383,9 @@
   }
 }
 #history p {
-  padding: 20px 0 20px 20px;
+  padding: 20px 20px 20px;
   border-top: dotted 1px #b5b5b5;
   letter-spacing: 1px;
-}
-@media screen and (min-width: 960px) {
-  #history p {
-    padding: 30px 0 30px 30px;
-  }
 }
 @media screen and (min-width: 768px) {
   #history p {
@@ -447,5 +437,8 @@
 @media screen and (min-width: 960px) {
   #organizationalChart .chartImgWrap {
     max-width: 1100px;
+  }
+  #organizationalChart .chartImgWrap img {
+    max-width: 700px;
   }
 }/*# sourceMappingURL=page-profile.css.map */

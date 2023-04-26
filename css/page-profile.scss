@@ -116,7 +116,7 @@
 
   }
   td {
-    @include p-20pxNotRight();
+    padding: 20px 20px 20px;
     @include borderDotted();
     @media screen and (min-width:960px){
       padding: 0;
@@ -147,7 +147,7 @@
 #history {
   @include p-top60px();
   .contents {
-    line-height: 2;
+    line-height: 1.6;
   }
   ul {
     @include p-top20px();
@@ -170,7 +170,7 @@
     }
   }
   p {
-    @include p-20pxNotRight();
+    padding: 20px 20px 20px;
     @include borderDotted();
     letter-spacing: 1px;
     @media screen and (min-width:768px){
@@ -208,6 +208,9 @@
     }
     @media screen and (min-width:960px){
       max-width: 1100px;
+      img {
+        max-width: 700px;
+      }
     }
   }
 }
