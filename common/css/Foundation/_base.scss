@@ -85,13 +85,13 @@ main {
 }
 
 #tagetTop {
-    bottom: 80px;
-    right: 80px;
+    bottom: 40px;
+    right: 20px;
     position: fixed;
     border-radius: 100px;
     .smooth {
         padding: 30px 35px;
-        background-color: #e95520;
+        background-color: #fff;
         border-radius: 100px;
     }
     .smooth::after {
@@ -107,13 +107,23 @@ main {
         margin: auto;
         content: "";
         transform: rotate(45deg);
-        border: 1px solid #fff;
+        border: 1px solid #e95520;
           border-top-width: 1px;
           border-right-width: 1px;
           border-bottom-width: 1px;
           border-left-width: 1px;
         border-width: 2px 0 0 2px;
       } 
+      @media screen and (min-width:768px){
+        bottom: 80px;
+        right: 80px;
+        .smooth {
+            background-color: #e95520;
+        }
+        .smooth::after {
+            border: 1px solid #fff;
+          } 
+      }
   }
 
 
