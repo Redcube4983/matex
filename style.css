@@ -316,9 +316,6 @@ main {
   #tagetTop .smooth {
     background-color: #e95520;
   }
-  #tagetTop .smooth::after {
-    border: 1px solid #fff;
-  }
 }
 
 /* CSS Document */
