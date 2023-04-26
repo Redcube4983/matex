@@ -94,8 +94,8 @@
     display: flex;
     flex-flow: column;
     @media screen and (min-width:960px){
-      flex-flow: wrap;
-      justify-content: space-between;
+      display: table;
+      width: 100%;
       @include p-20pxNotRight();
       @include borderTopStyle();
       &:nth-child(odd){
@@ -111,6 +111,7 @@
       border-top: none;
       background-color: inherit;
       padding: 0;
+      width: 200px;
     }
 
   }
@@ -120,7 +121,7 @@
     @media screen and (min-width:960px){
       padding: 0;
       border: none;
-      width: 900px;
+      width: auto;
     }
   }
 }
@@ -162,7 +163,7 @@
       border: none;
       display: flex;
       align-items: center;
-      margin-right: 50px;
+      width: 200px;
       .ad {
         padding-right: 10px;
       }
@@ -178,7 +179,7 @@
     @media screen and (min-width:960px){
       padding: 0;
       border: none;
-      width: 700px;
+      width: auto;
       margin: 0;
     }
   }

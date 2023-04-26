@@ -278,8 +278,8 @@
 }
 @media screen and (min-width: 960px) {
   #overview tr {
-    flex-flow: wrap;
-    justify-content: space-between;
+    display: table;
+    width: 100%;
     padding: 20px 0 20px 20px;
     border-top: solid 1px #c5c5c5;
   }
@@ -309,6 +309,7 @@
     border-top: none;
     background-color: inherit;
     padding: 0;
+    width: 200px;
   }
 }
 #overview td {
@@ -324,7 +325,7 @@
   #overview td {
     padding: 0;
     border: none;
-    width: 900px;
+    width: auto;
   }
 }
 
@@ -380,7 +381,7 @@
     border: none;
     display: flex;
     align-items: center;
-    margin-right: 50px;
+    width: 200px;
   }
   #history .ad-monthWrap .ad {
     padding-right: 10px;
@@ -405,7 +406,7 @@
   #history p {
     padding: 0;
     border: none;
-    width: 700px;
+    width: auto;
     margin: 0;
   }
 }
