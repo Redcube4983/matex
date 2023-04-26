@@ -283,8 +283,7 @@ main {
   border-radius: 100px;
 }
 #tagetTop .smooth {
-  width: 60px;
-  height: 60px;
+  padding: 30px;
   background-color: #e95520;
 }
 #tagetTop .smooth::after {
