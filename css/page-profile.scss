@@ -9,6 +9,7 @@
         width: 85%;
         margin: 0 auto;
         padding-top: 20px;
+        max-width: 300px;
         @media screen and (min-width:960px){
           max-width: 1100px;
             margin-right: 60px;
@@ -17,11 +18,18 @@
       @media screen and (min-width:960px){
         display: flex;
         justify-content: space-between;
+        width: 200px;
       }
 }
-
+#leadWrap {
+  @media screen and (min-width:960px){
+    p {
+      width: calc(100% - 200px);
+    }
+  }
+}
 #outline {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1;
     .contentsTtl:not(:first-child) {
       padding-top: 60px;
@@ -29,7 +37,7 @@
     padding: 60px 15px 0;
     @media screen and (min-width:768px){
       padding: 60px 40px 0;
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
     @media screen and (min-width:960px){
       max-width: 1100px;
