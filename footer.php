@@ -85,7 +85,6 @@
 <script>
 $(function() {
 	$('main').append('<div id="tagetTop"><a href="#" class="smooth"><span></span></a></div>');
-    $('#tagetTop').css('display', 'none' );
 	$(window).bind('scroll load',function(){
 		var i = $(window).scrollTop();
 		var headH = $('header').height();
