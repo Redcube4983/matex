@@ -324,7 +324,7 @@
   #overview td {
     padding: 0;
     border: none;
-    width: 700px;
+    width: 900px;
   }
 }
 
@@ -380,6 +380,7 @@
     border: none;
     display: flex;
     align-items: center;
+    margin-right: 50px;
   }
   #history .ad-monthWrap .ad {
     padding-right: 10px;
@@ -397,7 +398,7 @@
 }
 @media screen and (min-width: 768px) {
   #history p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 @media screen and (min-width: 960px) {
@@ -413,6 +414,7 @@
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
+    justify-content: flex-start;
     border-top: solid 1px #c5c5c5;
     padding: 20px 0 20px 20px;
   }

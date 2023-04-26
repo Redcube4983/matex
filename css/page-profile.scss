@@ -120,7 +120,7 @@
     @media screen and (min-width:960px){
       padding: 0;
       border: none;
-      width: 700px;
+      width: 900px;
     }
   }
 }
@@ -162,6 +162,7 @@
       border: none;
       display: flex;
       align-items: center;
+      margin-right: 50px;
       .ad {
         padding-right: 10px;
       }
@@ -172,7 +173,7 @@
     @include borderDotted();
     letter-spacing: 1px;
     @media screen and (min-width:768px){
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
     @media screen and (min-width:960px){
       padding: 0;
@@ -186,6 +187,7 @@
       display: flex;
       flex-flow: wrap;
       justify-content: space-between;
+      justify-content: flex-start;
       @include borderTopStyle();
       @include p-20pxNotRight();
       &:nth-child(odd){
