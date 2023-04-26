@@ -85,33 +85,48 @@ main {
 }
 
 #tagetTop {
-    width: 60px;
-    height: 60px;
-    background-color: #e95520;
-    bottom: 0;
-    right: 0;
+    bottom: 40px;
+    right: 20px;
     position: fixed;
     border-radius: 100px;
-    .smooth::after {
-        position: absolute;
-        z-index: 1;
-        top: 7px;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        display: block;
-        width: 12px;
-        height: 12px;
-        margin: auto;
-        content: "";
-        transform: rotate(45deg);
-        border: 1px solid #fff;
-          border-top-width: 1px;
-          border-right-width: 1px;
-          border-bottom-width: 1px;
-          border-left-width: 1px;
-        border-width: 2px 0 0 2px;
-      } 
+    .smooth {
+        padding: 30px 35px;
+        background-color: #fff;
+        border-radius: 100px;
+        border: solid 1.5px #e95520;
+        &::after {
+            position: absolute;
+            z-index: 1;
+            top: 7px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: block;
+            width: 12px;
+            height: 12px;
+            margin: auto;
+            content: "";
+            transform: rotate(45deg);
+            border: 1px solid #e95520;
+              border-top-width: 1px;
+              border-right-width: 1px;
+              border-bottom-width: 1px;
+              border-left-width: 1px;
+            border-width: 2px 0 0 2px;
+          } 
+    }
+    
+      @media screen and (min-width:768px){
+        bottom: 80px;
+        right: 80px;
+        .smooth {
+            background-color: #e95520;
+            // border: none;
+        }
+        .smooth::after {
+            // border: 1px solid #fff;
+        } 
+      }
   }
 
 
