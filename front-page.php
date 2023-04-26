@@ -109,7 +109,7 @@ Template Name: front-page
         </div>
     </div>
 </section>
-<section id="link-area"　class='animate-bottom'>
+<section id="link-area" class='animate-bottom'>
     <div class="link-image-area">
      <img class="link-bg" src="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg.jpg" alt="">
     </div>
