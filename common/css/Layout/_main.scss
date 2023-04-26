@@ -77,7 +77,7 @@
     }
     li:not(:first-child)::before{
       content: "＞";
-      color: #e95520;
+      color: #000;
       padding-left: 00px;
       left: 0;
       display: inline-block;
