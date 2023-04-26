@@ -77,7 +77,7 @@ Template Name: front-page
         <div class="business-image-area">
             <img src="<?php echo get_template_directory_uri(); ?>/images/front-page/business-image.png" alt="">
         </div>
-        <div class="business-text-area animate-left">
+        <div class="business-text-area animate-right">
         <h2 class="business-title">Business</h2>
         <p class="business-text">マテックスは、<br class="tab"><br class="pc">
            設備・技術・流通サービスの<br>
@@ -94,7 +94,7 @@ Template Name: front-page
         <div class="recruit-image-area">
             <img src="<?php echo get_template_directory_uri(); ?>/images/front-page/recruit-image.png" alt="">
         </div>
-        <div class="recruit-text-area animate-right">
+        <div class="recruit-text-area animate-left">
         <h2 class="recruit-title">Recruit</h2>
         <p class="recruit-text">時に重厚長大に、時に繊細でしなやかに。<br>
            時代やニーズに合わせて<br class="tab"><br class="pc">
@@ -109,8 +109,7 @@ Template Name: front-page
         </div>
     </div>
 </section>
-<section id="link-area">
-    <div class="link-image-area">
+    <div class="link-image-area" class='animate-bottom'>
      <img class="link-bg" src="<?php echo get_template_directory_uri(); ?>/images/front-page/link-bg.jpg" alt="">
     </div>
     <div class="link-area">
