@@ -95,10 +95,6 @@ main {
   position: fixed;
   border-radius: 100px;
 }
-#tagetTop .sbooth {
-  padding: 30px;
-  background-color: #e95520;
-}
 #tagetTop .smooth::after {
   position: absolute;
   z-index: 1;
