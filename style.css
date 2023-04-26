@@ -306,6 +306,7 @@ main {
   border-bottom-width: 1px;
   border-left-width: 1px;
   border-width: 2px 0 0 2px;
+  border: solid 1.5px #e95520;
 }
 @media screen and (min-width: 768px) {
   #tagetTop {
