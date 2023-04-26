@@ -52,7 +52,6 @@
                             </li>
                         </ul>
                 </li>
-                <li class="gran-child"><h4><a href="/work/">仕事を知る</a></h4></li>
                 <li class="gran-child"><h4><a href="/requirement/">募集要項</a></h4></li>
             </ul>
         </li>
