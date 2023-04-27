@@ -283,6 +283,7 @@ main {
   width: 40px;
   height: 40px;
   box-sizing: border-box;
+  z-index: 999;
 }
 #tagetTop a.smooth {
   width: 40px;
