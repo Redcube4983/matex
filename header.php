@@ -45,6 +45,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-requirement.css">
 <?php elseif( is_single( 'single-news' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/single-news.css">
+<?php elseif( is_post_type_archive('news') ): ?>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/archive-news.css"/>
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">

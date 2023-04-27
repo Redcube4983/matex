@@ -52,9 +52,11 @@ Template Name: front-page
         <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
           <li class="news-inner"><time class="news-time"><?php echo get_the_date('Y/m/d'); ?></time><h3 class="news-text"><a class="news-link" href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3></li> 
         <?php endwhile; ?>
+         <?php wp_reset_postdata(); ?>
         <?php else: ?>
         <!-- 投稿が無い場合の処理 -->
         <?php endif; ?>
+       
 <!--
         <li class="news-list"><time>2023/02/02</time><h3><a href="#">新組織体制について。</a></h3></li>
         <li class="news-list"><time>2023/01/16</time><h3><a href="#">●●●装置が稼働しました。</a></h3></li>
