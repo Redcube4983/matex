@@ -113,9 +113,6 @@ main {
               border-bottom-width: 1px;
               border-left-width: 1px;
             border-width: 2px 0 0 2px;
-            @media screen and (min-width:768px){
-                border: 1px solid #fff;
-            }
           } 
     }
     
@@ -124,10 +121,9 @@ main {
         right: 80px;
         .smooth {
             background-color: #e95520;
-            // border: none;
         }
         .smooth::after {
-            // border: 1px solid #fff;
+           
         } 
       }
   }

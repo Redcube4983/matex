@@ -309,11 +309,6 @@ main {
   border-width: 2px 0 0 2px;
 }
 @media screen and (min-width: 768px) {
-  #tagetTop .smooth::after {
-    border: 1px solid #fff;
-  }
-}
-@media screen and (min-width: 768px) {
   #tagetTop {
     bottom: 80px;
     right: 80px;
