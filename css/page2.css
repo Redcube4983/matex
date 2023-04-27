@@ -326,6 +326,9 @@
     padding-top: 60px;
   }
 }
+#QAwrap li {
+  padding-top: 50px;
+}
 #QAwrap h3 {
   font-size: 1.3rem;
   color: #e95522;
@@ -333,46 +336,12 @@
 #QAwrap p {
   padding-top: 5px;
 }
-#QAwrap .inner2 {
-  padding-top: 30px;
-}
 #QAwrap .img {
   padding-top: 30px;
 }
 @media screen and (min-width: 920px) {
   #QAwrap .img {
     padding: 0;
-  }
-}
-@media screen and (min-width: 768px) {
-  #QAwrap .inner2 .img {
-    display: flex;
-    justify-content: space-between;
-  }
-  #QAwrap .inner2 .img1 {
-    width: 49%;
-  }
-  #QAwrap .inner2 .img2 {
-    width: 49%;
-  }
-}
-@media screen and (min-width: 920px) {
-  #QAwrap .inner2 .img {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: column;
-  }
-  #QAwrap .inner2 .img1 {
-    width: 100%;
-    display: flex;
-    flex-flow: row-reverse;
-  }
-  #QAwrap .inner2 .img1 img {
-    width: 75%;
-  }
-  #QAwrap .inner2 .img2 {
-    width: 75%;
-    padding-top: 20px;
   }
 }
 @media screen and (min-width: 920px) {

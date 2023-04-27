@@ -114,6 +114,9 @@ $color: #e95522;
     @media screen and (min-width:920px){
         padding-top: 60px;
     }
+    li {
+        padding-top: 50px;
+      }
     h3 {
         font-size: 1.3rem;
         color: $color;
@@ -121,46 +124,10 @@ $color: #e95522;
     p {
         padding-top: 5px;
     }
-    .inner2 {
-        @include paddingTop30();
-    }
     .img {
         @include paddingTop30();
         @media screen and (min-width:920px){
             padding: 0;
-        }
-    }
-    .inner2 {
-        @media screen and (min-width:768px){
-        .img {
-            display: flex;
-            justify-content: space-between;
-        }
-        .img1 {
-            width: 49%;
-        }
-        .img2 {
-            width: 49%;
-        }
-        }
-        @media screen and (min-width:920px){
-            .img {
-                display: flex;
-                justify-content: space-between;
-                flex-flow: column;
-            }
-            .img1 {
-                width: 100%;
-                display: flex;
-                flex-flow: row-reverse;
-                img {
-                    width: 75%;
-                }
-            }
-            .img2 {
-                width: 75%;
-                padding-top: 20px;
-            }
         }
     }
     .inner {
