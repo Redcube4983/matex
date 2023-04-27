@@ -276,24 +276,24 @@ time {
   transform: translateY(-50%) rotate(-45deg);
 }
 
-#single img {
+#sinsingleNewsWrapgle img {
   width: 100%;
   padding-top: 30px;
 }
 
-#single h2 {
+#singleNewsWrap h2 {
   font-size: 1.8rem;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-#single h3 {
+#singleNewsWrap h3 {
   font-size: 1.5rem;
   font-weight: bold;
   padding-bottom: 10px;
 }
 
-#single h4 {
+#singleNewsWrap h4 {
   font-size: 1.3rem;
   font-weight: bold;
   padding-bottom: 10px;
