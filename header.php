@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
 <?php elseif(is_page(array('officejob', 'technical', 'salesjob'))) : ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page2.css">
+<?php elseif( is_page( 'news' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-news.css">
 <?php elseif( is_page( 'message' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-message.css">
 <?php elseif( is_page( 'profile' ) ): ?>
