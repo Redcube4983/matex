@@ -829,7 +829,7 @@ body [data-page-id=top] .mask-container {
 }
 #news-list .news-inner {
   border-bottom: 1px dotted #000;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   margin-bottom: 0px;
 }
 #news-list .news-inner:last-child {
