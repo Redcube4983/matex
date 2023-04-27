@@ -198,7 +198,6 @@ body [data-page-id=top] .mask-container {
   border-top: 1px solid #555;
   width: 100%;
   height: auto;
-  padding-top: 15px;
 }
 
 .news-list {
@@ -829,7 +828,7 @@ body [data-page-id=top] .mask-container {
 }
 #news-list .news-inner {
   border-bottom: 1px dotted #000;
-  padding-bottom: 15px;
+  padding-bottom: 15px 0;
   margin-bottom: 0px;
 }
 #news-list .news-inner:last-child {
