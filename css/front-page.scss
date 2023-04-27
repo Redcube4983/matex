@@ -773,7 +773,7 @@ time {
 
 #newsButtonWrap{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
     a {
         padding: 17px 70px;
         background-color: #000;
@@ -794,5 +794,10 @@ time {
             font-size: 1.7rem;
         }
       }
+      .newsButton {
+        display: flex;
+        justify-content: center;
+      }
 }
+
 

@@ -845,7 +845,7 @@ body [data-page-id=top] .mask-container {
 
 #newsButtonWrap {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 #newsButtonWrap a {
   padding: 17px 70px;
@@ -868,4 +868,8 @@ body [data-page-id=top] .mask-container {
   #newsButtonWrap a {
     font-size: 1.7rem;
   }
+}
+#newsButtonWrap .newsButton {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=front-page.css.map */
