@@ -775,13 +775,24 @@ time {
     text-align: center;
     margin-top: 70px;
     a {
-        padding: 30px 60px;
+        padding: 17px 70px;
         background-color: #000;
+        border: solid 2px #000;
+        display: block;
         border-radius: 100px;
         color: #fff;
         font-size: 1.4rem;
+        letter-spacing: 1.5px;
+        text-align: center;
+        transition: 0.2s;
+        &:hover {
+            background-color: #fff;
+            color: #e95520;
+            border: solid 2px #e95520;
+        }
         @media screen and (min-width:960px){
             font-size: 1.7rem;
         }
       }
 }
+
