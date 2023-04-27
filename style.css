@@ -321,7 +321,6 @@ main {
   #tagetTop a.smooth::after {
     width: 16px;
     height: 16px;
-    transform: rotate(45deg) translateY(-50%);
   }
 }
 @media screen and (min-width: 960px) {
@@ -339,7 +338,6 @@ main {
   #tagetTop a.smooth::after {
     width: 16px;
     height: 16px;
-    transform: rotate(45deg) translateY(-50%);
     border-top: 1px solid #fff;
     border-right: 1px solid #fff;
   }
