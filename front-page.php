@@ -40,9 +40,26 @@ Template Name: front-page
     <div class="news-area-inner">
     <h2 class="news-title">News</h2>
     <ul id="news-list">
+        <?php $args = array(
+                'post_type' => 'news',
+                'post_status' => 'publish',// 公開済の投稿を指定
+                'paged' => $paged, 
+                'posts_per_page' => 3// 投稿件数の指定
+                );
+                $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+                $the_query = new WP_Query($args);
+                if($the_query->have_posts()):?>
+        <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
+          <li class="news-inner"><time class="news-time"><?php echo get_the_date('Y/m/d'); ?></time><p class="news-text"><a class="news-link" href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></p></li> 
+        <?php endwhile; ?>
+        <?php else: ?>
+        <!-- 投稿が無い場合の処理 -->
+        <?php endif; ?>
+<!--
         <li class="news-list"><time>2023/02/02</time><h3><a href="#">新組織体制について。</a></h3></li>
         <li class="news-list"><time>2023/01/16</time><h3><a href="#">●●●装置が稼働しました。</a></h3></li>
         <li class="news-list"><time>2022/12/20</time><h3><a href="#">ウェブサイトリニューアルしました。</a></h3></li>
+-->
     </ul>
     </div>
 </section>
