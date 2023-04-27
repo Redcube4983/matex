@@ -50,7 +50,7 @@ Template Name: front-page
                 $the_query = new WP_Query($args);
                 if($the_query->have_posts()):?>
         <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
-          <li class="news-inner"><time class="news-time"><?php echo get_the_date('Y/m/d'); ?></time><p class="news-text"><a class="news-link" href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></p></li> 
+          <li class="news-inner"><time class="news-time"><?php echo get_the_date('Y/m/d'); ?></time><h3 class="news-text"><a class="news-link" href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3></li> 
         <?php endwhile; ?>
         <?php else: ?>
         <!-- 投稿が無い場合の処理 -->
