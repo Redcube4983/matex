@@ -731,3 +731,34 @@ time {
 }
 
 
+#news-list {
+    border-bottom: 0px dotted #000;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    .news-time {
+        font-size: 1.3rem;
+        color: #7b7b7b;
+        @media screen and (min-width:960px){
+            font-size: 1.6rem;
+        }
+    }
+    .news-text {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        margin-top: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #005598;
+        @media screen and (min-width:960px){
+            font-size: 1.6rem;
+        }
+      }
+      @media screen and (min-width:960px){
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: center;
+        justify-content: flex-start;
+      }
+}
+
