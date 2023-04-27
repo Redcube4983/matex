@@ -769,3 +769,19 @@ time {
     }
 }
 
+
+
+#newsButtonWrap{
+    text-align: center;
+    margin-top: 70px;
+    a {
+        padding: 30px 60px;
+        background-color: #000;
+        border-radius: 100px;
+        color: #fff;
+        font-size: 1.4rem;
+        @media screen and (min-width:960px){
+            font-size: 1.7rem;
+        }
+      }
+}
