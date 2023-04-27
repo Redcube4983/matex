@@ -274,7 +274,6 @@
 }
 @media screen and (min-width: 920px) {
   .profileWrap .rightWrap {
-    width: 57%;
     display: flex;
     flex-flow: column;
     justify-content: end;
@@ -363,6 +362,7 @@
   #QAwrap .inner {
     display: flex;
     justify-content: space-between;
+    flex-flow: column;
   }
 }
 @media screen and (min-width: 768px) {
