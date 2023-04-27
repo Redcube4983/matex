@@ -15,8 +15,8 @@ Template Name: archive-topics
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Production</span>
-            <h1 class="jpTtl">生産体制</h1>
+            <span class="enTtl">News</span>
+            <h1 class="jpTtl">お知らせ一覧</h1>
         </div>
     </div>
 </div>

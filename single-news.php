@@ -15,8 +15,8 @@ Template Name: single-news
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Production</span>
-            <h1 class="jpTtl">生産体制</h1>
+            <span class="enTtl">News</span>
+            <h1 class="jpTtl">お知らせ</h1>
         </div>
     </div>
 </div>
@@ -26,10 +26,10 @@ Template Name: single-news
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <a href="/business/">事業情報</a>
+            <a href="/news/">お知らせ一覧</a>
         </li>
         <li>
-            <span>生産体制</span>
+            <span>○○○○○○○○</span>
         </li>
     </ul>
 </div>
@@ -41,6 +41,7 @@ Template Name: single-news
         <time><?php the_date(); ?></time>
     <?php the_content(); ?>
     <?php endwhile; ?>
+    <?php wp_reset_postdata(); ?>
     <?php else: ?>
     <!-- 投稿が無い場合の処理 -->
     <?php endif; ?>
