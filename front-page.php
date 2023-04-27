@@ -56,13 +56,12 @@ Template Name: front-page
         <?php else: ?>
         <!-- 投稿が無い場合の処理 -->
         <?php endif; ?>
-       
-<!--
-        <li class="news-list"><time>2023/02/02</time><h3><a href="#">新組織体制について。</a></h3></li>
-        <li class="news-list"><time>2023/01/16</time><h3><a href="#">●●●装置が稼働しました。</a></h3></li>
-        <li class="news-list"><time>2022/12/20</time><h3><a href="#">ウェブサイトリニューアルしました。</a></h3></li>
--->
     </ul>
+    </div>
+    <div id="newsButtonWrap">
+        <div class="newsButton">
+        <a href="/news/">お知らせ一覧</a>
+        </div>
     </div>
 </section>
 <section id="movie-area" class="animate-bottom">
