@@ -735,6 +735,7 @@ time {
     border-bottom: 0px dotted #000;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    
     .news-time {
         font-size: 1.3rem;
         color: #7b7b7b;
@@ -754,11 +755,12 @@ time {
             font-size: 1.6rem;
         }
       }
-      @media screen and (min-width:960px){
-        display: flex;
-        flex-flow: row nowrap;
-        text-align: center;
-        justify-content: flex-start;
-      }
+    .news-inner {
+        @media screen and (min-width:960px){
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+          }
+    }
 }
 
