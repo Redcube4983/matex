@@ -276,12 +276,12 @@ time {
   transform: translateY(-50%) rotate(-45deg);
 }
 
-#sinsingleNewsWrapgle img {
+#singleNewsWrap img {
   width: 100%;
   padding-top: 30px;
 }
 
-#sinsingleNewsWrapgle h1 {
+#singleNewsWrap h1 {
   font-size: 20px;
   text-align: left;
   margin: 0 auto;
