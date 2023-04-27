@@ -48,7 +48,7 @@ Template Name: salesjob
         <div class="rightWrap">
             <h3>営業職</h3>
             <h5>須藤 滉平<span>（2017年入社）</span></h5>
-            <p>2017年に入社した須藤 滉平です。<br>　 栃木工場 第2営業グループに所属しています。</p>
+            <p>2017年に入社した須藤 滉平です。<br>栃木工場 第2営業グループに所属しています。</p>
         </div>
     </div>
     <div id="QAwrap">
