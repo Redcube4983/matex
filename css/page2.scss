@@ -67,9 +67,6 @@ $color: #e95522;
             justify-content: end;
         }
     }
-    .img {
-        width: 40%;
-    }
     h3 {
         font-size: 1.8rem;
         padding-top: 10px;
@@ -137,13 +134,27 @@ $color: #e95522;
         }
     }
     .leftWrap {
-        @media screen and (min-width:920px){
-            width: 40%;
+        @media screen and (min-width:768px){
+        width: 100%;
+        ul {
+            width: 60%;
+          }
         }
     }
     .rightWrap {
+        @media screen and (min-width:768px){
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            ul {
+                width: 60%;
+            }
+        }
         @media screen and (min-width:920px){
-            width: 49%;
+            
         }
     }
+    .lastWrap {
+        padding-top: 50px;
+      }
 }

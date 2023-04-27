@@ -272,9 +272,6 @@
     justify-content: end;
   }
 }
-.profileWrap .img {
-  width: 40%;
-}
 .profileWrap h3 {
   font-size: 1.8rem;
   padding-top: 10px;
@@ -350,13 +347,24 @@
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 768px) {
   #QAwrap .leftWrap {
-    width: 40%;
+    width: 100%;
+  }
+  #QAwrap .leftWrap ul {
+    width: 60%;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 768px) {
   #QAwrap .rightWrap {
-    width: 49%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
   }
+  #QAwrap .rightWrap ul {
+    width: 60%;
+  }
+}
+#QAwrap .lastWrap {
+  padding-top: 50px;
 }/*# sourceMappingURL=page2.css.map */
