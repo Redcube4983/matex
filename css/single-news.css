@@ -201,4 +201,10 @@
 .innerWrap1 {
   display: flex;
   justify-content: space-between;
+}
+
+#singleNewsWrap {
+  margin: 20px auto 0;
+  padding: 0 15px;
+  max-width: 920px;
 }/*# sourceMappingURL=single-news.css.map */
