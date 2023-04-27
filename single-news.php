@@ -29,7 +29,7 @@ Template Name: single-news
             <a href="/news/">お知らせ一覧</a>
         </li>
         <li>
-            <span>○○○○○○○○</span>
+            <?php echo get_the_title(); ?>
         </li>
     </ul>
 </div>
