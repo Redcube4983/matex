@@ -828,7 +828,7 @@ body [data-page-id=top] .mask-container {
 }
 #news-list .news-inner {
   border-bottom: 1px dotted #000;
-  padding-bottom: 15px 0;
+  padding: 15px 0;
   margin-bottom: 0px;
 }
 #news-list .news-inner:last-child {
