@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: archive-topics
+Template Name: archive-news
 */
 ?>
 <?php get_header(); ?>
