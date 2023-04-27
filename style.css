@@ -297,13 +297,13 @@ main {
   position: absolute;
   z-index: 1;
   top: 50%;
-  left: 0;
+  left: 50%;
   display: block;
   width: 12px;
   height: 12px;
   margin: 0;
   content: "";
-  transform: rotate(45deg) translateY(-50%);
+  transform: rotate(-45deg) translate(-3px, -50%);
   border-top: 1px solid #e95520;
   border-right: 1px solid #e95520;
 }
@@ -315,7 +315,26 @@ main {
     height: 60px;
   }
   #tagetTop a.smooth {
+    width: 60px;
+    height: 60px;
+  }
+  #tagetTop a.smooth::after {
+    width: 16px;
+    height: 16px;
+    transform: rotate(45deg) translateY(-50%);
+  }
+}
+@media screen and (min-width: 960px) {
+  #tagetTop {
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  #tagetTop a.smooth {
     background-color: #e95520;
+    width: 60px;
+    height: 60px;
   }
   #tagetTop a.smooth::after {
     width: 16px;
