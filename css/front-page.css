@@ -66,6 +66,7 @@ body [data-page-id=top] .mask-container {
 #main-visual {
   height: 667px;
   position: relative;
+  overflow: hidden;
 }
 #main-visual img {
   width: 100%;
