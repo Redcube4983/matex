@@ -113,7 +113,7 @@ Template Name: salesjob
     </div>
 </section>
     <div id="lastWrap">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg02.jpg" alt="">
     </div>
 
 
