@@ -340,11 +340,11 @@
     padding-top: 60px;
   }
 }
-#QAwrap li:not(:first-child) {
+#QAwrap li {
   padding-top: 50px;
 }
 @media screen and (min-width: 920px) {
-  #QAwrap li:not(:first-child) {
+  #QAwrap li {
     padding-top: 80px;
   }
 }
