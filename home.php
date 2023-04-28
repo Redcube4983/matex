@@ -43,6 +43,17 @@ Template Name: home
     <!-- 投稿が無い場合の処理 -->
     <?php endif; ?>
 </ul>
+<div class="pagination">
+	<?php
+		$big = 9999999999;
+		$arg = array(
+			'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+			'current' => max( 1, get_query_var('paged') ),
+			'total'   => $wp_query->max_num_pages
+		);
+		echo paginate_links($arg);
+		?>
+</div>
 </section>
 </main>
 <?php get_footer(); ?>
