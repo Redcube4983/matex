@@ -398,9 +398,16 @@
     width: 60%;
   }
 }
+
 #lastWrap {
   padding-top: 70px;
 }
 #lastWrap img {
   width: 100%;
+}
+@media screen and (min-width: 920px) {
+  #lastWrap {
+    padding-top: 100px;
+    min-width: 1020px;
+  }
 }/*# sourceMappingURL=page2.css.map */

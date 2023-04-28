@@ -174,9 +174,7 @@ $color: #e95522;
                 width: 60%;
             }
         }
-        @media screen and (min-width:920px){
-            
-        }
+        
     }
 }
 
@@ -184,5 +182,9 @@ $color: #e95522;
     padding-top: 70px;
     img {
         width: 100%;
+      }
+      @media screen and (min-width:920px){
+        padding-top: 100px;
+        min-width: 1020px;
       }
   }
