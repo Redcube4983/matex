@@ -109,12 +109,12 @@ Template Name: salesjob
                     </li>
                 </ul>
             </div>
-            <div class="lastWrap">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="">
-            </div>
         </div>
     </div>
 </section>
+    <div class="lastWrap">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="">
+    </div>
 
 
 </main>
