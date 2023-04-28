@@ -169,7 +169,11 @@ $color: #e95522;
             
         }
     }
-    .lastWrap {
-        padding-top: 50px;
-      }
 }
+
+#lastWrap {
+    padding-top: 100px;
+    img {
+        width: 100%;
+      }
+  }

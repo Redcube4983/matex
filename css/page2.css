@@ -383,6 +383,9 @@
     width: 60%;
   }
 }
-#QAwrap .lastWrap {
-  padding-top: 50px;
+#lastWrap {
+  padding-top: 100px;
+}
+#lastWrap img {
+  width: 100%;
 }/*# sourceMappingURL=page2.css.map */
