@@ -42,7 +42,7 @@ Template Name: business
         
         <span class="grayzone"></span>
         <div class="contents content1">
-            <div class="contentImg animate-right">
+            <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img01.jpg" alt="事業内容画像1">
             </div>
             <div class="txtWrap">
@@ -61,7 +61,7 @@ Template Name: business
     
         <span class="grayzone"></span>
         <div class="contents content2">
-            <div class="contentImg animate-left">
+            <div class="contentImg animate-right">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img02.jpg" alt="事業内容画像2">
             </div>
             <div class="txtWrap">
@@ -79,7 +79,7 @@ Template Name: business
         </div>
         <span class="grayzone"></span>
         <div class="contents content1">
-            <div class="contentImg animate-right">
+            <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img03.jpg" alt="事業内容画像3">
             </div>
             <div class="txtWrap">
