@@ -424,6 +424,15 @@ body [data-page-id=top] .mask-container {
   transform: translateY(-50%) rotate(-45deg);
   transition: border 1s;
 }
+@media screen and (min-width: 960px) {
+  .moreButtonWrap .moreButton {
+    border-radius: 30px;
+    color: #fff;
+    font-size: 2rem;
+    width: 280px;
+    height: 60px;
+  }
+}
 
 .business-title {
   font-size: 5rem;

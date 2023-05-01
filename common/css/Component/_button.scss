@@ -59,4 +59,13 @@
             transition: border 1s;
         }
     }
+    @media screen and (min-width:960px){
+        .moreButton {
+            border-radius: 30px;
+            color: #fff;
+            font-size: 2rem;
+            width: 280px;
+            height: 60px; 
+        }
+    }
 }
