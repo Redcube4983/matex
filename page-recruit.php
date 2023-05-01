@@ -43,18 +43,18 @@ Template Name: recruit
         
         <span class="grayzone"></span>
         <div class="contents content1">
-            <div class="contentImg">
+            <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.jpg" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="contentTtl">
+                    <div class="contentTtl animate-bottom">
                         <span>Company</span>
                         <h3>会社を知る</h3>
                     </div>
-                    <p>鉄の可能性、鋼材流通業界と<br>マテックスの役割をご紹介します。</p>
+                    <p class='animate-bottom'>鉄の可能性、鋼材流通業界と<br>マテックスの役割をご紹介します。</p>
                 </div>
-                <div class="moreButtonWrap">
+                <div class="moreButtonWrap animate-fade">
                     <a href="/company/" class="moreButton">more</a>
                 </div>
             </div>
@@ -62,41 +62,40 @@ Template Name: recruit
     
         <span class="grayzone"></span>
         <div class="contents content2">
-            <div class="contentImg">
+            <div class="contentImg animate-right">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg02.jpg" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="contentTtl">
+                    <div class="contentTtl animate-bottom">
                         <span>More</span>
                         <h3>仕事を知る</h3>
                     </div>
-                    <p>社会と鉄をつなぐ架け橋として、<br>ヤリガイのある仕事がここにあります。</p>
+                    <p class='animate-bottom'>社会と鉄をつなぐ架け橋として、<br>ヤリガイのある仕事がここにあります。</p>
                 </div>
-                <div class="moreButtonWrap">
+                <div class="moreButtonWrap animate-fade">
                     <a href="/work/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
         <span class="grayzone"></span>
         <div class="contents content1">
-            <div class="contentImg">
+            <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg03.jpg" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="contentTtl">
+                    <div class="contentTtl animate-bottom">
                         <span>Requirement</span>
                         <h3>募集要項</h3>
                     </div>
-                    <p>新卒採用・キャリア採用の情報は<br>こちらからご確認ください。</p>
+                    <p class='animate-bottom'>新卒採用・キャリア採用の情報は<br>こちらからご確認ください。</p>
                 </div>
-                <div class="moreButtonWrap">
+                <div class="moreButtonWrap animate-fade">
                     <a href="/requirement/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
-        
         
     </section>
     </main>
