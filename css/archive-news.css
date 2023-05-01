@@ -209,12 +209,12 @@
   max-width: 920px;
 }
 #news h2 {
-  font-size: 20px;
+  font-size: 1.8rem;
   text-align: center;
   margin: 0 auto 10px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  color: #0080c9;
+  color: #e95520;
 }
 #news ul {
   padding: 20px 15px;
@@ -227,6 +227,11 @@
   }
   #news ul {
     padding: 20px 30px;
+  }
+}
+@media screen and (min-width: 960px) {
+  #news h2 {
+    font-size: 3.2rem;
   }
 }
 @media screen and (min-width: 1280px) {
