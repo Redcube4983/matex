@@ -42,18 +42,18 @@ Template Name: business
         
         <span class="grayzone"></span>
         <div class="contents content1">
-            <div class="contentImg">
+            <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img01.jpg" alt="事業内容画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="contentTtl">
+                    <div class="contentTtl animate-bottom">
                         <span>Network</span>
                         <h3>販売/納品体制</h3>
                     </div>
-                    <p>お客様に密着した体制から、<br>質の高い製品・サービスをデリバリー。</p>
+                    <p class='animate-bottom'>お客様に密着した体制から、<br>質の高い製品・サービスをデリバリー。</p>
                 </div>
-                <div class="moreButtonWrap">
+                <div class="moreButtonWrap animate-fade">
                     <a href="/network/" class="moreButton">more</a>
                 </div>
             </div>
@@ -61,36 +61,36 @@ Template Name: business
     
         <span class="grayzone"></span>
         <div class="contents content2">
-            <div class="contentImg">
+            <div class="contentImg animate-right">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img02.jpg" alt="事業内容画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="contentTtl">
+                    <div class="contentTtl animate-bottom">
                         <span>Production</span>
                         <h3>生産体制</h3>
                     </div>
-                    <p>充実した加工設備と熟練のスタッフが<br>付加価値の高い製品をクリエイト。</p>
+                    <p class='animate-bottom'>充実した加工設備と熟練のスタッフが<br>付加価値の高い製品をクリエイト。</p>
                 </div>
-                <div class="moreButtonWrap">
+                <div class="moreButtonWrap animate-fade">
                     <a href="/production/" class="moreButton">more</a>
                 </div>
             </div>
         </div>
         <span class="grayzone"></span>
         <div class="contents content1">
-            <div class="contentImg">
+            <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img03.jpg" alt="事業内容画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
-                    <div class="contentTtl">
+                    <div class="contentTtl animate-bottom">
                         <span>Support</span>
                         <h3>技術サポート体制</h3>
                     </div>
-                    <p>Faithful Partnerをモットーに<br>お客様の様々なニーズに対応。</p>
+                    <p class='animate-bottom'>Faithful Partnerをモットーに<br>お客様の様々なニーズに対応。</p>
                 </div>
-                <div class="moreButtonWrap">
+                <div class="moreButtonWrap animate-fade">
                     <a href="/support/" class="moreButton">more</a>
                 </div>
             </div>
