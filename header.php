@@ -99,7 +99,6 @@
         </li>
 -->
         <li class="global-nav other">
-        <li class="global-nav other">
             <h3><a href="<?php echo esc_url( home_url( '/policy/') ); ?>">個人情報保護方針</a></h3>
         </li>
         <li class="global-nav other">
