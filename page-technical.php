@@ -46,7 +46,7 @@ Template Name: technicaljob
             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg01.jpg" alt="">
         </div>
         <div class="rightWrap">
-            <h3>栃木工場　中型スリッター班</h3>
+            <h3>技術職</h3>
             <h5>野村 勇太<span>（2007年入社）</span></h5>
             <p>栃木工場の中型スリッター班で、主に検査業務を<br>担当しています。</p>
         </div>

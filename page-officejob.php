@@ -32,7 +32,7 @@ Template Name: officejob
             <a href="/work/">仕事を知る</a>
         </li>
         <li>
-            <span>業務職</span>
+            <span>事務職</span>
         </li>
     </ul>
 </div>
