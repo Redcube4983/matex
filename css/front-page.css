@@ -374,12 +374,12 @@ body [data-page-id=top] .mask-container {
 .moreButtonWrap .moreButton {
   padding: 7.5px 20px;
   background-color: #000;
-  border: solid 2px #000;
+  border: solid 1px #000;
   display: block;
   border-radius: 25px;
   color: #fff;
   font-size: 2rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 5px;
   text-align: left;
   transition: background-color, border, color 1s;
   width: 240px;
@@ -394,7 +394,7 @@ body [data-page-id=top] .mask-container {
   transition: background-color, border, color 1s;
   background-color: #fff;
   color: #000;
-  border: solid 2px #000;
+  border: solid 1px #000;
 }
 .moreButtonWrap .moreButton:hover::after {
   position: absolute;
@@ -408,6 +408,7 @@ body [data-page-id=top] .mask-container {
   top: 50%;
   display: block;
   transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
 }
 .moreButtonWrap .moreButton::after {
   position: absolute;
@@ -421,6 +422,7 @@ body [data-page-id=top] .mask-container {
   top: 50%;
   display: block;
   transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
 }
 
 .business-title {
