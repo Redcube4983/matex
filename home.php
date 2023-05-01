@@ -34,23 +34,26 @@ Template Name: home
 <section id="news">
 <h2>News</h2>
 <ul>
-<?php $args = array(
-                'post_type' => 'news',
-                'post_status' => 'publish',// 公開済の投稿を指定
-                'paged' => $paged, 
-                'posts_per_page' => 3// 投稿件数の指定
-                );
-                $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-                $the_query = new WP_Query($args);
-                if($the_query->have_posts()):?>
-        <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
-          <li class="news-inner"><time class="news-time"><?php echo get_the_date('Y/m/d'); ?></time><h3 class="news-text"><a class="news-link" href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3></li> 
-        <?php endwhile; ?>
-         <?php wp_reset_postdata(); ?>
-        <?php else: ?>
-        <!-- 投稿が無い場合の処理 -->
-        <?php endif; ?>
+    <?php if (have_posts()): ?>
+    <?php while (have_posts()) : the_post(); ?>
+    <li class="news-inner"><time class="news-time"><?php echo get_the_date('Y/m/d'); ?></time><p class="news-text"><a class="news-link" href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></p></li>
+    <?php endwhile; ?>
+    <?php wp_reset_postdata(); ?>
+    <?php else: ?>
+    <!-- 投稿が無い場合の処理 -->
+    <?php endif; ?>
 </ul>
+<div class="pagination">
+	<?php
+		$big = 9999999999;
+		$arg = array(
+			'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+			'current' => max( 1, get_query_var('paged') ),
+			'total'   => $wp_query->max_num_pages
+		);
+		echo paginate_links($arg);
+		?>
+</div>
 </section>
 </main>
 <?php get_footer(); ?>

@@ -8,6 +8,26 @@
  * @param int $position メニューの位置
  */
 SCF::add_options_page( 'オプション設定', 'オプション設定', 'manage_options', 'theme-options', 'dashicons-admin-settings', 25);
+
+
+function change_posts_per_page($query) {
+    /* 管理画面,メインクエリに干渉しないために必須 */
+    if ( is_admin() || ! $query->is_main_query() ){
+            return;
+    }
+    if ( $query->is_front_page() ) {
+        return;
+    }
+    if ( $query->is_home() ) {
+        $query->set( 'posts_per_page', '12' );
+        $query->set( 'post_type', 'news');
+        return;
+    }
+    if ( $query->is_archive() ) {
+        return;
+    }
+   }
+   add_action( 'pre_get_posts', 'change_posts_per_page' );
 ?>
 
 
