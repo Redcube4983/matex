@@ -47,7 +47,7 @@ Template Name: profile
     
     <section id="outline">
     <div id="overview">
-        <div class="contentsTtl">
+        <div class="contentsTtl animate-bottom">
             <h3>会社概要</h3>
         </div>
         <table>
@@ -58,7 +58,7 @@ Template Name: profile
 
                     if($fields['profileTtl'] !== "" and $fields['profile']!== ""){
                     ?>
-                    <tr>
+                    <tr class="animate-bottom">
                         <th><?php echo $fields['profileTtl']; ?></th>
                         <td><?php echo $fields['profile']; ?></td>
                     </tr>
@@ -73,7 +73,7 @@ Template Name: profile
         </div>
     
         <div id="businessItems">
-        <div class="contentsTtl">
+        <div class="contentsTtl animate-bottom">
             <h3>営業品目</h3>
         </div>
         <ul>
@@ -84,7 +84,7 @@ Template Name: profile
             if($fields['items'] !== ""){
             ?>
 
-            <li><?php echo $fields['items']; ?></li>
+            <li class="animate-bottom"><?php echo $fields['items']; ?></li>
 
             <?php
             } 
@@ -95,7 +95,7 @@ Template Name: profile
     
     
         <div id="history">
-        <div class="contentsTtl">
+        <div class="contentsTtl animate-bottom">
             <h3>沿革</h3>
         </div>
         <ul>
@@ -105,7 +105,7 @@ Template Name: profile
 
             if($fields['ad'] !== "" and $fields['month']!== "" and $fields['contents']!== ""){
             ?>
-            <li>
+            <li class="animate-bottom">
                 <div class="ad-monthWrap">
                     <span class="ad"><?php echo $fields['ad']; ?>年</span>
                     <span class="month"><?php echo $fields['month']; ?>月</span>
@@ -119,10 +119,10 @@ Template Name: profile
         </ul>
     </div>
      <div id="organizationalChart">
-        <div class="contentsTtl">
+        <div class="contentsTtl animate-bottom">
             <h3>組織図</h3>
         </div>
-         <div class="chartImgWrap">
+         <div class="chartImgWrap animate-fade">
              <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/profile/organizationalChart.svg" alt="組織図">
          </div>
          </div>
