@@ -250,7 +250,7 @@
 }
 @media screen and (min-width: 960px) {
   .contents .txtWrap span {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 }
 .contents .txtWrap h3 {
