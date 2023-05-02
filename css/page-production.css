@@ -220,6 +220,7 @@
 }
 #productionWrap img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 @media screen and (min-width: 960px) {
@@ -232,6 +233,7 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  margin-bottom: 2%;
 }
 .innerWrap1 .innerWrap-inner:first-child {
   width: 53%;
@@ -241,15 +243,10 @@
 }
 
 .innerWrap2 {
-  padding-top: 3px;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-}
-@media screen and (min-width: 960px) {
-  .innerWrap2 {
-    padding-top: 10px;
-  }
+  margin-bottom: 2%;
 }
 .innerWrap2 .innerWrap-inner:first-child {
   width: 60%;
@@ -259,15 +256,9 @@
 }
 
 .innerWrap3 {
-  padding-top: 3px;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-}
-@media screen and (min-width: 960px) {
-  .innerWrap3 {
-    padding-top: 10px;
-  }
 }
 .innerWrap3 .innerWrap-inner {
   width: 32%;
