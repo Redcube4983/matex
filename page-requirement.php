@@ -42,7 +42,7 @@ Template Name: requirement
     
 <section id="requirementInner">
     <div id="listWrap">
-            <div class="contentsTtl">
+            <div class="contentsTtl animate-bottom">
                 <h3>応募要項</h3>
             </div>
             <table>
@@ -53,7 +53,7 @@ Template Name: requirement
 
                         if($fields['profileTtl'] !== "" and $fields['profile']!== ""){
                         ?>
-                        <tr>
+                        <tr class="animate-bottom">
                             <th><?php echo $fields['ttl']; ?></th>
                             <td><?php echo $fields['about']; ?></td>
                         </tr>
@@ -67,10 +67,10 @@ Template Name: requirement
             </table>
         </div>
     <div id="othersWrap">
-            <div class="contentsTtl">
+            <div class="contentsTtl animate-bottom">
                 <h3>求める人物像</h3>
             </div>
-            <ul>
+            <ul class="animate-bottom">
             <?php
             $free_item = SCF::get_option_meta('theme-options', 'idealProfile');
             foreach ($free_item as $fields) { 
@@ -90,7 +90,7 @@ Template Name: requirement
             <div class="contentsTtl">
                 <h3>会社の雰囲気</h3>
             </div>
-            <ul>
+            <ul class="animate-bottom">
             <?php
             $free_item = SCF::get_option_meta('theme-options', 'atmosphere');
             foreach ($free_item as $fields) { 
