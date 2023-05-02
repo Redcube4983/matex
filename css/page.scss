@@ -63,6 +63,9 @@
   }
   .contentTtl {
     padding-top: 10px;
+    @media screen and (min-width:960px){
+      padding-top: 0px;
+    }
   }
   span {
     font-size: 1.8rem;
@@ -73,17 +76,21 @@
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     display: inline-block;
+    @media screen and (min-width:960px){
+      padding-top: 20px;
+    }
   }
   h3 {
     font-size: 2rem;
     line-height: 1;
     padding-top: 5px;
-  @media screen and (min-width:768px){
-    font-size: 2.2rem;
-  }
-  @media screen and (min-width:960px){
-    font-size: 2.4rem;
-}
+    @media screen and (min-width:768px){
+      font-size: 2.2rem;
+    }
+    @media screen and (min-width:960px){
+      font-size: 2.4rem;
+      width: 30%;
+    }
   }
   p {
     @include contentsSentence();

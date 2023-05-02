@@ -233,6 +233,11 @@
 .contents .txtWrap .contentTtl {
   padding-top: 10px;
 }
+@media screen and (min-width: 960px) {
+  .contents .txtWrap .contentTtl {
+    padding-top: 0px;
+  }
+}
 .contents .txtWrap span {
   font-size: 1.8rem;
   line-height: 1.6;
@@ -242,6 +247,11 @@
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   display: inline-block;
+}
+@media screen and (min-width: 960px) {
+  .contents .txtWrap span {
+    padding-top: 20px;
+  }
 }
 .contents .txtWrap h3 {
   font-size: 2rem;
@@ -256,6 +266,7 @@
 @media screen and (min-width: 960px) {
   .contents .txtWrap h3 {
     font-size: 2.4rem;
+    width: 30%;
   }
 }
 .contents .txtWrap p {
