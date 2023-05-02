@@ -890,28 +890,69 @@ body [data-page-id=top] .mask-container {
 
 #newsButtonWrap {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 #newsButtonWrap a {
-  padding: 17px 70px;
+  padding: 7.5px 20px;
   background-color: #000;
-  border: solid 2px #000;
+  border: solid 1px #000;
   display: block;
-  border-radius: 100px;
+  border-radius: 25px;
   color: #fff;
-  font-size: 1.4rem;
-  letter-spacing: 1.5px;
+  font-size: 1.6rem;
+  letter-spacing: 5px;
   text-align: center;
-  transition: 0.2s;
+  transition: background-color, border, color 1s;
+  width: 240px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 50px;
+  position: relative;
 }
 #newsButtonWrap a:hover {
   background-color: #fff;
-  color: #e95520;
-  border: solid 2px #e95520;
+  color: #000;
+  border: solid 1px #000;
+  transition: background-color, border, color 1s;
+}
+#newsButtonWrap a:hover::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: inherit;
+  right: 20px;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
+}
+#newsButtonWrap a::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background-color: inherit;
+  right: 20px;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
 }
 @media screen and (min-width: 960px) {
   #newsButtonWrap a {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.8rem;
+    width: 280px;
+    height: 60px;
   }
 }
 #newsButtonWrap .newsButton {
