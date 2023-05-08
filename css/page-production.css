@@ -176,7 +176,6 @@
   line-height: 2;
   text-align: justify;
   padding-top: 20px;
-  padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
   #leadWrap p {
@@ -220,61 +219,47 @@
 }
 #productionWrap img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 @media screen and (min-width: 960px) {
   #imgWrap {
-    max-width: 800px;
     margin: 0 auto;
   }
 }
 
-.innerWrap1 ul {
+.innerWrap1 {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  margin-bottom: 2%;
 }
-.innerWrap1 li:first-child {
+.innerWrap1 .innerWrap-inner:first-child {
   width: 53%;
 }
-.innerWrap1 li:last-child {
+.innerWrap1 .innerWrap-inner:last-child {
   width: 45%;
 }
 
 .innerWrap2 {
-  padding-top: 3px;
-}
-@media screen and (min-width: 960px) {
-  .innerWrap2 {
-    padding-top: 10px;
-  }
-}
-.innerWrap2 ul {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  margin-bottom: 2%;
 }
-.innerWrap2 li:first-child {
+.innerWrap2 .innerWrap-inner:first-child {
   width: 60%;
 }
-.innerWrap2 li:last-child {
+.innerWrap2 .innerWrap-inner:last-child {
   width: 38%;
 }
 
 .innerWrap3 {
-  padding-top: 3px;
-}
-@media screen and (min-width: 960px) {
-  .innerWrap3 {
-    padding-top: 10px;
-  }
-}
-.innerWrap3 ul {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
 }
-.innerWrap3 li {
+.innerWrap3 .innerWrap-inner {
   width: 32%;
 }
 
@@ -299,7 +284,6 @@
 #productionChart h4 {
   font-size: 1.8rem;
   line-height: 1;
-  padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
   #productionChart h4 {
@@ -310,9 +294,6 @@
   #productionChart h4 {
     font-size: 2.2rem;
   }
-}
-#productionChart h4:not(:first-child) {
-  padding-top: 30px;
 }
 #productionChart table {
   margin-top: 30px;
@@ -397,4 +378,5 @@
   width: 100%;
   height: auto;
   overflow-x: scroll;
+  margin-bottom: 60px;
 }/*# sourceMappingURL=page-production.css.map */

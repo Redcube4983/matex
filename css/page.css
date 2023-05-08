@@ -176,7 +176,6 @@
   line-height: 2;
   text-align: justify;
   padding-top: 20px;
-  padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
   #leadWrap p {
@@ -233,14 +232,25 @@
 .contents .txtWrap .contentTtl {
   padding-top: 10px;
 }
+@media screen and (min-width: 960px) {
+  .contents .txtWrap .contentTtl {
+    padding-top: 0px;
+  }
+}
 .contents .txtWrap span {
-  font-size: 1.4rem;
-  line-height: 1;
+  font-size: 1.8rem;
+  line-height: 1.6;
   padding-top: 20px;
   color: #e95520;
-  letter-spacing: 1.5px;
+  letter-spacing: 5px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
+  display: inline-block;
+}
+@media screen and (min-width: 960px) {
+  .contents .txtWrap span {
+    padding-top: 0px;
+  }
 }
 .contents .txtWrap h3 {
   font-size: 2rem;
@@ -329,21 +339,66 @@
   padding-top: 50px;
 }
 .moreButtonWrap .moreButton {
-  padding: 17px 70px;
+  padding: 7.5px 20px;
   background-color: #000;
-  border: solid 2px #000;
+  border: solid 1px #000;
   display: block;
-  border-radius: 100px;
+  border-radius: 25px;
   color: #fff;
-  font-size: 1.4rem;
-  letter-spacing: 1.5px;
-  text-align: center;
-  transition: 0.2s;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-align: left;
+  transition: background-color, border, color 1s;
+  width: 240px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 50px;
+  position: relative;
 }
 .moreButtonWrap .moreButton:hover {
+  transition: background-color, border, color 1s;
   background-color: #fff;
-  color: #e95520;
-  border: solid 2px #e95520;
+  color: #000;
+  border: solid 1px #000;
+}
+.moreButtonWrap .moreButton:hover::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: inherit;
+  right: 20px;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
+}
+.moreButtonWrap .moreButton::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background-color: inherit;
+  right: 20px;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
+}
+@media screen and (min-width: 960px) {
+  .moreButtonWrap .moreButton {
+    border-radius: 30px;
+    color: #fff;
+    font-size: 2rem;
+    width: 280px;
+    height: 60px;
+  }
 }
 
 .grayzone {

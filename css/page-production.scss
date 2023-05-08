@@ -14,25 +14,24 @@
     }
     img {
         width: 100%;
+        vertical-align: bottom;
       }
 }
 
 #imgWrap {
     @media screen and (min-width:960px){
-        max-width: 800px;
         margin: 0 auto;
     }
   }
 .innerWrap1 {
-    ul {
         display: flex;
         flex-flow: wrap;
         justify-content: space-between;
-      }
-    li:first-child {
+        margin-bottom: 2%;
+    .innerWrap-inner:first-child {
         width: 53%;
     }
-    li:last-child {
+    .innerWrap-inner:last-child {
         width: 45%;
     }
 }
@@ -45,28 +44,23 @@
 }
 
 .innerWrap2 {
-    @include paddingTop();
-    ul {
-        display: flex;
-        flex-flow: wrap;
-        justify-content: space-between;
-      }
-    li:first-child {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    .innerWrap-inner:first-child {
         width: 60%;
     }
-    li:last-child {
+    .innerWrap-inner:last-child {
         width: 38%;
     }
 }
 
 .innerWrap3 {
-    @include paddingTop();
-    ul {
-        display: flex;
-        flex-flow: wrap;
-        justify-content: space-between;
-      }
-    li {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    .innerWrap-inner {
         width: 32%;
     }
 }
@@ -87,16 +81,12 @@
     h4 {
         font-size: 1.8rem;
         line-height: 1;
-        padding-top: 20px;
         @media screen and (min-width:768px){
             font-size: 2rem;
         }
         @media screen and (min-width:960px){
             font-size: 2.2rem;
         }
-      }
-      h4:not(:first-child) {
-        padding-top: 30px;
       }
     table {
         margin-top: 30px;
@@ -180,6 +170,7 @@
         width: 100%;
         height: auto;
         overflow-x: scroll;
+        margin-bottom: 60px;
   }
 
 

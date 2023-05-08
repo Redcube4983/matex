@@ -243,6 +243,66 @@ body [data-page-id=top] .mask-container {
   top: 0;
   left: 0;
   position: absolute;
+  z-index: 2;
+}
+.movie-buttun span {
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.movie-buttun span::before {
+  content: "";
+  width: 18vw;
+  padding-top: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: background-color 1s;
+}
+.movie-buttun span::after {
+  border-left: 5vw solid #fff;
+  border-top: 3vw solid transparent;
+  border-bottom: 3vw solid transparent;
+  height: 0;
+  width: 0;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-38%, -50%);
+  pointer-events: none;
+}
+.movie-buttun:hover span::before {
+  background-color: #e95520;
+  transition: background-color 0s;
+}
+@media screen and (min-width: 960px) {
+  .movie-buttun span::before {
+    content: "";
+    width: 14vw;
+    padding-top: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: background-color 1s;
+  }
+  .movie-buttun span::after {
+    border-left: 4.46vw solid #fff;
+    border-top: 3vw solid transparent;
+    border-bottom: 3vw solid transparent;
+    height: 0;
+    width: 0;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    pointer-events: none;
+  }
 }
 
 .movie-play {
@@ -338,6 +398,7 @@ body [data-page-id=top] .mask-container {
 
 #contents-area {
   padding: 60px 0;
+  overflow: hidden;
 }
 
 #business {
@@ -372,21 +433,66 @@ body [data-page-id=top] .mask-container {
   padding-top: 50px;
 }
 .moreButtonWrap .moreButton {
-  padding: 17px 70px;
+  padding: 7.5px 20px;
   background-color: #000;
-  border: solid 2px #000;
+  border: solid 1px #000;
   display: block;
-  border-radius: 100px;
+  border-radius: 25px;
   color: #fff;
-  font-size: 1.4rem;
-  letter-spacing: 1.5px;
-  text-align: center;
-  transition: 0.2s;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-align: left;
+  transition: background-color, border, color 1s;
+  width: 240px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 50px;
+  position: relative;
 }
 .moreButtonWrap .moreButton:hover {
+  transition: background-color, border, color 1s;
   background-color: #fff;
-  color: #e95520;
-  border: solid 2px #e95520;
+  color: #000;
+  border: solid 1px #000;
+}
+.moreButtonWrap .moreButton:hover::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: inherit;
+  right: 20px;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
+}
+.moreButtonWrap .moreButton::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background-color: inherit;
+  right: 20px;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
+}
+@media screen and (min-width: 960px) {
+  .moreButtonWrap .moreButton {
+    border-radius: 30px;
+    color: #fff;
+    font-size: 2rem;
+    width: 280px;
+    height: 60px;
+  }
 }
 
 .business-title {
@@ -738,6 +844,7 @@ body [data-page-id=top] .mask-container {
   font-size: 6vw;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
+  line-height: 1.2;
 }
 .link-area ul li a p {
   font-size: 3vw;
@@ -845,28 +952,69 @@ body [data-page-id=top] .mask-container {
 
 #newsButtonWrap {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 #newsButtonWrap a {
-  padding: 17px 70px;
+  padding: 7.5px 20px;
   background-color: #000;
-  border: solid 2px #000;
+  border: solid 1px #000;
   display: block;
-  border-radius: 100px;
+  border-radius: 25px;
   color: #fff;
-  font-size: 1.4rem;
-  letter-spacing: 1.5px;
+  font-size: 1.6rem;
+  letter-spacing: 5px;
   text-align: center;
-  transition: 0.2s;
+  transition: background-color, border, color 1s;
+  width: 240px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 50px;
+  position: relative;
 }
 #newsButtonWrap a:hover {
   background-color: #fff;
-  color: #e95520;
-  border: solid 2px #e95520;
+  color: #000;
+  border: solid 1px #000;
+  transition: background-color, border, color 1s;
+}
+#newsButtonWrap a:hover::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: inherit;
+  right: 20px;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
+}
+#newsButtonWrap a::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background-color: inherit;
+  right: 20px;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: border 1s;
 }
 @media screen and (min-width: 960px) {
   #newsButtonWrap a {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.8rem;
+    width: 280px;
+    height: 60px;
   }
 }
 #newsButtonWrap .newsButton {

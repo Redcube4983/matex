@@ -66,6 +66,9 @@ Template Name: front-page
 </section>
 <section id="movie-area" class="animate-bottom">
 <div class="movie-text-area">
+    <a class="movie-buttun popup-movie" href="#">
+    <span></span>
+    </a>
     <div class="movie-text-area-top">
         <h2 class="movie-title">社会と鉄をつなげるために。</h2>
         <h3 class="movie-sub-title">マテックス会社紹介ムービー</h3>
@@ -74,9 +77,6 @@ Template Name: front-page
         <p class="movie-text-en">The Coil Center</p>
     </div>
     <img class="movie-logo" src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex">
-    <a class="movie-buttun popup-movie" href="#">
-    <img class="movie-play" src="<?php echo get_template_directory_uri(); ?>/common/images/movie-play.svg" alt="matex">
-    </a>
 </div>
 <div class="movie-image-area">
     <div class="movie-image-inner">
