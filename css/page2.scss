@@ -171,6 +171,7 @@ $color: #e95522;
             width: 100%;
             display: flex;
             justify-content: end;
+            margin-top: 350px;
             ul {
                 width: 60%;
             }
@@ -178,6 +179,15 @@ $color: #e95522;
         
     }
 }
+
+.intoWrap {
+    @media screen and (min-width:768px){
+    position: absolute;
+    top: 2120px;
+    width: 58%;
+    right: 0;
+    }
+  }
 
 #lastWrap {
     padding-top: 70px;

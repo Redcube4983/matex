@@ -393,9 +393,19 @@
     width: 100%;
     display: flex;
     justify-content: end;
+    margin-top: 350px;
   }
   #QAwrap .rightWrap ul {
     width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intoWrap {
+    position: absolute;
+    top: 2120px;
+    width: 58%;
+    right: 0;
   }
 }
 
