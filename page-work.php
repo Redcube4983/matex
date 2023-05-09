@@ -69,7 +69,7 @@ Template Name: work
             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg03.jpg" alt="">
         </div>
         <div class="rightWrap">
-            <h3>業務職</h3>
+            <h3>事務職</h3>
             <h4>会社のあれこれをマネジメントする<br>縁の下の力持ち</h4>
             <div class="buttonWrap">
                 <a href="/officejob/">先輩社員の声を聴いてみよう</a>

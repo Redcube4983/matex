@@ -16,7 +16,7 @@ Template Name: officejob
         </div>
         <div class="ttlWrap">
             <span class="enTtl">Office Job</span>
-            <h1 class="jpTtl">営業職</h1>
+            <h1 class="jpTtl">事務職</h1>
         </div>
     </div>
 </div>
