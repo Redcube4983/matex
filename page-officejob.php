@@ -43,7 +43,7 @@ Template Name: officejob
     </div>
     <div class="profileWrap">
         <div class="img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg01.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg01.jpg" alt="事務職画像01">
         </div>
         <div class="rightWrap">
             <h3>事務職</h3>
@@ -63,14 +63,19 @@ Template Name: officejob
                         <h3>今はどのような仕事に携わっているんですか？</h3>
                         <p> 基本的には出荷業務に関するさまざまな事務を担当しています。受注されたものが、スムーズかつ的確にお客様のもとに届くよう、社内外でやり取りする書類・伝票の作成や、通達業務をするほか、電話や来客の対応まで行っています。</p>
                     </li>
-                </ul>
-            </div>
-            <div class="rightWrap">
-                <ul class="">
                     <li>
                         <h3>ご自身の強みは何だと思いますか？</h3>
                         <p>私は慎重な性格なので、入念に確認する癖がもともと身に付いていて、正確さが求められる事務処理では、その性格が強みになっていると思います。あとは、普段お客様と接することも多いのですが、お客様から『笑顔が素敵で、対応もしっかりしているね』と褒められたときは、とてもうれしかったです。ちゃんと見てくれているんだなと思うと同時に、身の引き締まる思いというか、初心に返るような感じでした。</p>
                     </li>
+                </ul>
+            </div>
+            <div class="rightWrap">
+                <div class="intoWrap">
+                    <div class="img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg03.jpg" alt="事務職画像02">
+                    </div>
+                </div>
+                <ul class="">
                     <li>
                         <h3>日々の業務をコンスタントにこなす<br>秘訣はありますか？</h3>
                         <p>やっぱり頭を使うことが多く、集中しなければならないので、意識的に気分転換するようにしています。仕事の合間に甘いものを食べてひと息つくとか、自分のペースやタイミングをつかんでいます。</p>
@@ -79,10 +84,6 @@ Template Name: officejob
                         <h3>職場の雰囲気はどうですか？</h3>
                         <p>明るく笑顔の多い職場だと思います。時には集中して目の前のタスクに取り組み、時には周りと連携して進めていきます。そんな中でも自然と会話が生まれるような和やかな雰囲気です。何かあったときも、しっかりサポートし合える企業文化があるので、安心して業務に取り組めます。尊敬できる上司や頼りになる先輩がいるのも大きいですね。先輩の姿に日々刺激を受けています。</p>
                     </li>
-                </ul>
-            </div>
-            <div class="leftWrap">
-                <ul class="">
                     <li>
                         <h3>お手本になる存在がいるんですね。<br>岡田さんの目標を教えてください。</h3>
                         <p>何事にも臨機応変に対応でき、頼りにしてもらえるような事務員になりたいと思っています。日々業務をしていると、思いもよらない事態が起こることもあります。そんな時に迅速かつ的確に判断し、対応することができるよう、知識と経験を積み重ねていきたいと思っています。</p>
@@ -97,7 +98,7 @@ Template Name: officejob
     </div>
 </section>
     <div id="lastWrap">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg02.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg02.jpg" alt="事務職画像03">
     </div>
 
 </main>

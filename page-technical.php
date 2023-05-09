@@ -43,7 +43,7 @@ Template Name: technicaljob
     </div>
     <div class="profileWrap">
         <div class="img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg01.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg01.jpg" alt="技術職画像01">
         </div>
         <div class="rightWrap">
             <h3>技術職</h3>
@@ -63,10 +63,6 @@ Template Name: technicaljob
                         <h3>マテックスに入社した理由を教えてください。</h3>
                         <p>出身が工業高校の機械科で、もともと物づくりに興味がありました。進路担当の先生の勧めもあり、当時は家から職場まで近いのも入社の理由でした。</p>
                     </li>
-                </ul>
-            </div>
-            <div class="rightWrap">
-                <ul class="">
                     <li>
                         <h3>実際に入社してみて、どうでしたか？</h3>
                         <p>真夏の暑さと、冬場の寒さにはびっくりしました。でも今は、空調服といって電動ファン付きの作業着が導入されたり、働く環境はどんどん良くなってます。安全第一を守るためには身体の健康が大切なので、休暇もしっかり取れる職場です。</p>
@@ -75,14 +71,19 @@ Template Name: technicaljob
                         <h3>ほかに、マテックスの良い点があれば<br>教えてください。</h3>
                         <p>社是に、援け合いの精神や個々の努力をうたっていますが、何かあった時は、みんなで協力し合う雰囲気が会社全体にあります。それと、成果やそこに至るまでの努力をしっかりと見てくれる人がいて、評価してくれるのもマテックスの良いところだと思います。社員一人ひとりのモチベーションにつながる仕組みが整っており、お互いを称賛しあう文化も魅力です。</p>
                     </li>
+                </ul>
+            </div>
+            <div class="rightWrap">
+                <div class="intoWrap">
+                    <div class="img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg03.jpg" alt="技術職画像02">
+                    </div>
+                </div>
+                <ul class="">
                     <li>
                         <h3>入社されて17年目ということですが、<br>印象に残っていることは何ですか？</h3>
                         <p>最近で言えば「中堅社員安全研修会」への参加です。同業者の方々との意見交換や情報共有の場でもあり、会社の枠を超えることで、視野が広がり、考え方や意識にも変化が生まれました。私たちの手で、製品の品質をつくり上げている。そう思うと、技術の向上ばかり追い求めがちですが、品質を保つために欠かせないのが安全なんです。若手を育成したり、チームを引っ張っていくために、技術だけでなく安全の観点も大切だと再認識しました。</p>
                     </li>
-                </ul>
-            </div>
-            <div class="leftWrap">
-                <ul class="">
                     <li>
                         <h3>今後の目標を教えてください。</h3>
                         <p>まずはしっかりと現状維持を続けることでしょうか。世の中は刻一刻と変わり続けていて、いつ社会が一変するか分かりません。新型コロナウイルスが流行したときのように、今ある当たり前が当たり前ではなくなってしまう時も、守るべきものをしっかりと守り続けていくことが大事だと思います。そのために、日々の努力を怠らず、安全第一でありたいと思っています。</p>
@@ -97,7 +98,7 @@ Template Name: technicaljob
     </div>
 </section>
     <div id="lastWrap">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg02.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/technicalJob/technicalJobImg02.jpg" alt="技術職画像03">
     </div>
 </main>
 <?php get_footer(); ?>
