@@ -396,7 +396,6 @@
 @media screen and (min-width: 768px) {
   #QAwrap .leftWrap {
     padding: 60px 40px 0;
-    width: 100%;
   }
   #QAwrap .leftWrap ul {
     width: 60%;
@@ -413,7 +412,6 @@
 @media screen and (min-width: 768px) {
   #QAwrap .rightWrap {
     padding: 60px 40px 0;
-    width: 100%;
     display: flex;
     justify-content: end;
   }
