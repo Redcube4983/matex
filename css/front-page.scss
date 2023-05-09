@@ -385,6 +385,11 @@ time {
     padding: 0 15px;
     @media screen and (min-width:960px){
         padding: 15% 0 0 ;
+        width: 40%;
+        order: 1
+    }
+    @media screen and (min-width:1280px){
+        padding: 15% 0 0 ;
         width: 35%;
         order: 1
     }
@@ -400,7 +405,12 @@ time {
         font-size: 8rem;
     }
 }
-
+.business-text {
+    font-size: 1.3rem;
+    @media screen and (min-width:960px){
+        font-size: 1.6rem;
+    }
+}
 .business-image-area{
     position: relative;
     img {
@@ -435,7 +445,7 @@ time {
     @media screen and (min-width:960px){
         position: relative;
         order: 2;
-        width: 65%;
+        width: 60%;
         height: auto;
         img {
             width: auto;
@@ -483,6 +493,11 @@ time {
             left: 0;
             padding: 90% 0 0;
         }
+    }
+    @media screen and (min-width:1280px){
+        position: relative;
+        order: 2;
+        width: 65%;
     }
 }
 
@@ -540,6 +555,11 @@ time {
   padding: 0 15px;
   @media screen and (min-width:960px){
         padding: 0 0 15%;
+        width: 40%;
+        order: 2
+    }
+  @media screen and (min-width:1280px){
+        padding: 0 0 15%;
         width: 35%;
         order: 2
     }
@@ -586,7 +606,7 @@ time {
     @media screen and (min-width:960px){
         position: relative;
         order: 1;
-        width: 65%;
+        width: 60%;
         height: auto;
         img {
             width: auto;
@@ -634,6 +654,12 @@ time {
             left: 0;
             padding: 90% 0 0;
         }
+    }
+    @media screen and (min-width:1280px){
+        position: relative;
+        order: 1;
+        width: 65%;
+        height: auto;
     }
 }
 @keyframes recruit-after{
@@ -709,6 +735,12 @@ time {
         li{
             position: relative;
             border-bottom: 1px solid #fff;
+            &:hover{
+                .link-li-bg {
+                    mix-blend-mode: normal;
+                    transition: mix-blend-mode 1s;
+                }
+            }
             &:first-child{
                 border-top: 1px solid #fff;
             }
@@ -796,6 +828,7 @@ time {
     height: auto;
     mix-blend-mode: multiply;
     vertical-align: bottom;
+    transition: mix-blend-mode 1s;
 }
 
 

@@ -421,6 +421,13 @@ body [data-page-id=top] .mask-container {
 @media screen and (min-width: 960px) {
   .business-text-area {
     padding: 15% 0 0;
+    width: 40%;
+    order: 1;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .business-text-area {
+    padding: 15% 0 0;
     width: 35%;
     order: 1;
   }
@@ -506,6 +513,15 @@ body [data-page-id=top] .mask-container {
   }
 }
 
+.business-text {
+  font-size: 1.3rem;
+}
+@media screen and (min-width: 960px) {
+  .business-text {
+    font-size: 1.6rem;
+  }
+}
+
 .business-image-area {
   position: relative;
 }
@@ -540,7 +556,7 @@ body [data-page-id=top] .mask-container {
   .business-image-area {
     position: relative;
     order: 2;
-    width: 65%;
+    width: 60%;
     height: auto;
   }
   .business-image-area img {
@@ -586,6 +602,13 @@ body [data-page-id=top] .mask-container {
     top: 0;
     left: 0;
     padding: 90% 0 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .business-image-area {
+    position: relative;
+    order: 2;
+    width: 65%;
   }
 }
 
@@ -646,6 +669,13 @@ body [data-page-id=top] .mask-container {
 @media screen and (min-width: 960px) {
   .recruit-text-area {
     padding: 0 0 15%;
+    width: 40%;
+    order: 2;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .recruit-text-area {
+    padding: 0 0 15%;
     width: 35%;
     order: 2;
   }
@@ -696,7 +726,7 @@ body [data-page-id=top] .mask-container {
   .recruit-image-area {
     position: relative;
     order: 1;
-    width: 65%;
+    width: 60%;
     height: auto;
   }
   .recruit-image-area img {
@@ -742,6 +772,14 @@ body [data-page-id=top] .mask-container {
     top: 0;
     left: 0;
     padding: 90% 0 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .recruit-image-area {
+    position: relative;
+    order: 1;
+    width: 65%;
+    height: auto;
   }
 }
 
@@ -823,6 +861,10 @@ body [data-page-id=top] .mask-container {
 .link-area ul li {
   position: relative;
   border-bottom: 1px solid #fff;
+}
+.link-area ul li:hover .link-li-bg {
+  mix-blend-mode: normal;
+  transition: mix-blend-mode 1s;
 }
 .link-area ul li:first-child {
   border-top: 1px solid #fff;
@@ -908,6 +950,7 @@ body [data-page-id=top] .mask-container {
   height: auto;
   mix-blend-mode: multiply;
   vertical-align: bottom;
+  transition: mix-blend-mode 1s;
 }
 
 #news-list .news-time {
