@@ -405,19 +405,6 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .intoWrap {
-    position: absolute;
-    width: 59%;
-    right: 0;
-  }
-}
-@media screen and (min-width: 920px) {
-  .intoWrap {
-    top: 1958px;
-  }
-}
-
 #lastWrap {
   padding-top: 70px;
 }

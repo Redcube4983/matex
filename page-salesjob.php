@@ -77,12 +77,12 @@ Template Name: salesjob
                     </li>
                 </ul>
             </div>
-            <div class="intoWrap">
-                <div class="img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg03.jpg" alt="営業職画像02">
-                </div>
-            </div>
             <div class="rightWrap">
+                <div class="intoWrap">
+                    <div class="img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg03.jpg" alt="営業職画像02">
+                    </div>
+                </div>
                 <ul class="">
                     <li>
                         <h3>職場の雰囲気も須藤さんにマッチしたんですね。</h3>
