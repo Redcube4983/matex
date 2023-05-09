@@ -48,7 +48,7 @@
                             </li>
                             <li class="gran-child workListWrap">
                             <span class="workSpan"></span>
-                            <h4 class="workListTxt"><a href="/officejob/">業務職</a></h4>
+                            <h4 class="workListTxt"><a href="/officejob/">事務職</a></h4>
                             </li>
                         </ul>
                 </li>
