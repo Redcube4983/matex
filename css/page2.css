@@ -202,12 +202,8 @@
   justify-content: space-between;
 }
 
-#workSub {
-  padding: 60px 15px 0;
-}
 @media screen and (min-width: 768px) {
   #workSub {
-    padding: 60px 40px 0;
     font-size: 1.4rem;
   }
 }
@@ -250,17 +246,31 @@
   }
 }
 
+.jobLeadWrap {
+  padding: 60px 15px 0;
+}
+@media screen and (min-width: 768px) {
+  .jobLeadWrap {
+    padding: 60px 40px 0;
+  }
+}
+
 .profileWrap {
   padding: 20px;
-  margin-top: 20px;
   border: solid 1px #c5c5c5;
   text-align: justify;
+  margin: 0 15px;
 }
 @media screen and (min-width: 768px) {
   .profileWrap {
     padding: 40px;
     display: flex;
     justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  .profileWrap {
+    padding: 60px 40px 0;
   }
 }
 @media screen and (min-width: 768px) {
@@ -380,16 +390,29 @@
     flex-flow: column;
   }
 }
+#QAwrap .leftWrap {
+  padding: 60px 15px 0;
+}
 @media screen and (min-width: 768px) {
   #QAwrap .leftWrap {
+    padding: 60px 40px 0;
     width: 100%;
   }
   #QAwrap .leftWrap ul {
     width: 60%;
   }
 }
+@media screen and (min-width: 920px) {
+  #QAwrap .leftWrap {
+    padding: 0 40px;
+  }
+}
+#QAwrap .rightWrap {
+  padding: 60px 15px 0;
+}
 @media screen and (min-width: 768px) {
   #QAwrap .rightWrap {
+    padding: 60px 40px 0;
     width: 100%;
     display: flex;
     justify-content: end;
