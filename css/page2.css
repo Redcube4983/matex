@@ -406,6 +406,11 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .intoWrap {
+    width: 60%;
+  }
+}
 #lastWrap {
   padding-top: 70px;
 }
