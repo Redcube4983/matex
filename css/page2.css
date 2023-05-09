@@ -259,7 +259,7 @@
   padding: 20px;
   border: solid 1px #c5c5c5;
   text-align: justify;
-  margin: 0 15px;
+  margin: 20px 15px 0;
 }
 @media screen and (min-width: 768px) {
   .profileWrap {
@@ -391,7 +391,7 @@
   }
 }
 #QAwrap .leftWrap {
-  padding: 60px 15px 0;
+  padding: 0 15px;
 }
 @media screen and (min-width: 768px) {
   #QAwrap .leftWrap {
