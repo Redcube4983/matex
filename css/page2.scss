@@ -7,7 +7,9 @@ $color: #e95522;
 
 
 #workSub {
+    padding: 60px 15px 0;
     @media screen and (min-width:768px){
+    padding: 60px 40px 0;
     font-size: 1.4rem;
     }
     @media screen and (min-width:960px){
@@ -46,23 +48,18 @@ $color: #e95522;
           }
     }
 }
-.jobLeadWrap {
-    padding: 60px 15px 0;
-    @media screen and (min-width:768px){
-    padding: 60px 40px 0;
-    }
-}
 
 .profileWrap {
     padding: 20px;
+    margin-top: 20px;
     border: solid 1px #c5c5c5;
     text-align: justify;
-    margin: 20px 15px 0;
     @media screen and (min-width:768px){
         padding: 40px;
         display: flex;
         justify-content: space-between;
     }
+
     .rightWrap {
         @media screen and (min-width:768px){
             display: flex;
@@ -162,21 +159,16 @@ $color: #e95522;
         }
     }
     .leftWrap {
-        padding: 0 15px;
         @media screen and (min-width:768px){
-            padding: 60px 40px 0;
+        width: 100%;
         ul {
             width: 60%;
           }
         }
-        @media screen and (min-width:920px){
-            padding: 0 40px;
-        }
     }
     .rightWrap {
-        padding: 60px 15px 0;
         @media screen and (min-width:768px){
-            padding: 60px 40px 0;
+            width: 100%;
             display: flex;
             justify-content: end;
             ul {
@@ -186,21 +178,6 @@ $color: #e95522;
         
     }
 }
-
-
-.intoWrap {
-    @media screen and (min-width:768px){
-    display: flex;
-    flex-flow: row-reverse;
-    }
-    .img {
-        @media screen and (min-width:768px){
-        width: 60%;
-        padding-top: 50px;
-        }
-      }
-}
-
 
 #lastWrap {
     padding-top: 70px;
