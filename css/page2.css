@@ -390,7 +390,7 @@
     width: 100%;
   }
   #QAwrap .leftWrap ul {
-    width: 60%;
+    width: 70%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -402,13 +402,13 @@
     padding-top: 70px;
   }
   #QAwrap .rightWrap ul {
-    width: 60%;
+    width: 70%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .intoWrap {
-    width: 60%;
+    width: 70%;
   }
 }
 #lastWrap {
