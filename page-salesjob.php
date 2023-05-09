@@ -43,7 +43,7 @@ Template Name: salesjob
     </div>
     <div class="profileWrap">
         <div class="img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg01.jpg" alt="営業職画像01">
         </div>
         <div class="rightWrap">
             <h3>営業職</h3>
@@ -81,6 +81,11 @@ Template Name: salesjob
                     </li>
                 </ul>
             </div>
+            <div class="intoWrap">
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg03.jpg" alt="営業職画像02">
+                </div>
+            </div>
             <div class="leftWrap">
                 <ul class="">
                     <li>
@@ -113,7 +118,7 @@ Template Name: salesjob
     </div>
 </section>
     <div id="lastWrap">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg02.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/salesJob/salesJobImg02.jpg" alt="営業職画像03">
     </div>
 
 

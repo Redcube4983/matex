@@ -270,6 +270,7 @@
   font-size: 2rem;
   color: #e95520;
   letter-spacing: 1px;
+  padding-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   #productionChart h3 {
