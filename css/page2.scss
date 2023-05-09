@@ -147,6 +147,9 @@ $color: #e95522;
     }
     .img {
         @include paddingTop30();
+        @media screen and (min-width:768px){
+            padding-top: 60px;
+        }
         @media screen and (min-width:920px){
             padding: 0;
         }
@@ -171,7 +174,7 @@ $color: #e95522;
             width: 100%;
             display: flex;
             justify-content: end;
-            margin-top: 350px;
+            margin-top: 250px;
             ul {
                 width: 60%;
             }
@@ -184,7 +187,7 @@ $color: #e95522;
     @media screen and (min-width:768px){
     position: absolute;
     top: 2120px;
-    width: 58%;
+    width: 59%;
     right: 0;
     }
   }

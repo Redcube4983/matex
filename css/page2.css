@@ -368,6 +368,11 @@
 #QAwrap .img {
   padding-top: 30px;
 }
+@media screen and (min-width: 768px) {
+  #QAwrap .img {
+    padding-top: 60px;
+  }
+}
 @media screen and (min-width: 920px) {
   #QAwrap .img {
     padding: 0;
@@ -393,7 +398,7 @@
     width: 100%;
     display: flex;
     justify-content: end;
-    margin-top: 350px;
+    margin-top: 250px;
   }
   #QAwrap .rightWrap ul {
     width: 60%;
@@ -404,7 +409,7 @@
   .intoWrap {
     position: absolute;
     top: 2120px;
-    width: 58%;
+    width: 59%;
     right: 0;
   }
 }
