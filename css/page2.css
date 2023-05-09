@@ -415,6 +415,19 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .intoWrap {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+}
+@media screen and (min-width: 768px) {
+  .intoWrap .img {
+    width: 60%;
+    padding-top: 50px;
+  }
+}
+
 #lastWrap {
   padding-top: 70px;
 }
