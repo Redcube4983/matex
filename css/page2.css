@@ -398,7 +398,8 @@
     width: 100%;
     display: flex;
     justify-content: end;
-    margin-top: 250px;
+    flex-flow: wrap;
+    padding-top: 70px;
   }
   #QAwrap .rightWrap ul {
     width: 60%;

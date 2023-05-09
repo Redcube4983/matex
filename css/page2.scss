@@ -174,7 +174,8 @@ $color: #e95522;
             width: 100%;
             display: flex;
             justify-content: end;
-            margin-top: 250px;
+            flex-flow: wrap;
+            padding-top: 70px;
             ul {
                 width: 60%;
             }
