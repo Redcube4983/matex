@@ -236,7 +236,7 @@
 #workInner h4 {
   padding-top: 15px;
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 2;
 }
 @media screen and (min-width: 960px) {
   #workInner h4 {
