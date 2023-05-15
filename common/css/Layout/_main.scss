@@ -22,6 +22,7 @@
         line-height: 1;
         font-family: "Oswald", sans-serif;
         font-weight: 400;
+        animation: enTtl 1s ease;
         @media screen and (min-width:960px){
           font-size: 8rem;
         }
@@ -29,6 +30,7 @@
     .jpTtl {
         font-size: 1.6rem;
         padding-top: 10px;
+        animation: jpTtl 1s ease .5s;
         @media screen and (min-width:768px){
           font-size: 1.8rem;
         }
@@ -38,7 +40,24 @@
         }
     }
   }
-
+@keyframes enTtl{
+  0%{
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes jpTtl{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 .topImg img {
   width: 100%;
   vertical-align: bottom;
