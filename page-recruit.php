@@ -31,10 +31,10 @@ Template Name: recruit
     </ul>
 </div>
     <section id="leadWrap">
-        <div class="leadTtlWrap">
+        <div class="leadTtlWrap animate-bottom">
             <h2 class="jpTtl">あらゆる産業を支えるダイナミックな仕事</h2>
         </div>
-        <p class="textCenter">私たちの生活を支えている「鉄」製品は、太古の昔から使われてきました。
+        <p class="textCenter animate-bottom">私たちの生活を支えている「鉄」製品は、太古の昔から使われてきました。
 時に重厚長大に、時に繊細でしなやかに、<br class="pc">時代の変化とともにへ変幻自在に形状や性質を変え存在してきました。社会に貢献し続ける「鉄」のように、既成概念にとらわれず、自由な発想を持った挑戦できる人材を求めています。</p>
     </section>
     

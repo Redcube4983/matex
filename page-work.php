@@ -34,44 +34,44 @@ Template Name: work
     </ul>
 </div>
 <section id="leadWrap">
-        <div class="leadTtlWrap">
+        <div class="leadTtlWrap animate-bottom">
             <h2 class="jpTtl">チャレンジの先にある、感動と喜びを求めて</h2>
         </div>
-        <p class="">マテックスは、鋼鈑コイル生産の黎明期からコイル関連技術に取り組み、経験を蓄積し、さまざまな合理化を重ねて成長してきました。<br class="pc">暮らしや産業に欠くことのできない「鉄」。私たちマテックスは、「鉄」を通じてあらゆる活動に創意をもって果敢にチャレンジしています。</p>
+        <p class="animate-bottom">マテックスは、鋼鈑コイル生産の黎明期からコイル関連技術に取り組み、経験を蓄積し、さまざまな合理化を重ねて成長してきました。<br class="pc">暮らしや産業に欠くことのできない「鉄」。私たちマテックスは、「鉄」を通じてあらゆる活動に創意をもって果敢にチャレンジしています。</p>
 </section>
 <section id="workInner">
     <div class="wrap wrap1">
-        <div class="img">
+        <div class="img animate-left">
             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg01.jpg" alt="">
         </div>
         <div class="rightWrap">
-            <h3>営業職</h3>
-            <h4>お客様にいただく「ありがとう」の一言が<br >最高のヤリガイ</h4>
-            <div class="buttonWrap">
+            <h3 class="animate-bottom">営業職</h3>
+            <h4 class="animate-bottom">お客様にいただく「ありがとう」の一言が<br >最高のヤリガイ</h4>
+            <div class="buttonWrap animate-fade"">
                 <a href="/salesjob/">先輩社員の声を聴いてみよう</a>
             </div>
         </div>
     </div>
     <div class="wrap wrap2">
-        <div class="img">
+        <div class="img animate-left">
             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg02.jpg" alt="">
         </div>
         <div class="rightWrap">
-            <h3>技術職</h3>
-            <h4>より速く精密に。技術を極める<br>コイル加工のスペシャリスト</h4>
-            <div class="buttonWrap">
+            <h3 class="animate-bottom">技術職</h3>
+            <h4 class="animate-bottom">より速く精密に。技術を極める<br>コイル加工のスペシャリスト</h4>
+            <div class="buttonWrap animate-fade"">
                 <a href="/technical/">先輩社員の声を聴いてみよう</a>
             </div>
         </div>
     </div>
     <div class="wrap wrap3">
-        <div class="img">
+        <div class="img animate-left">
             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg03.jpg" alt="">
         </div>
         <div class="rightWrap">
-            <h3>事務職</h3>
-            <h4>会社のあれこれをマネジメントする<br>縁の下の力持ち</h4>
-            <div class="buttonWrap">
+            <h3 class="animate-bottom">事務職</h3>
+            <h4 class="animate-bottom">会社のあれこれをマネジメントする<br>縁の下の力持ち</h4>
+            <div class="buttonWrap animate-fade">
                 <a href="/officejob/">先輩社員の声を聴いてみよう</a>
             </div>
         </div>
