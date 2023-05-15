@@ -222,17 +222,18 @@
 }
 @media screen and (min-width: 960px) {
   #networkInner .textWrap h3 {
-    font-size: 2, 2rem;
+    font-size: 2.4rem;
   }
 }
 #networkInner .textWrap p {
   padding-top: 10px;
   margin-top: 10px;
   border-top: solid 1px #c5c5c5;
+  font-size: 1.4rem;
 }
 @media screen and (min-width: 960px) {
   #networkInner .textWrap p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 #networkInner .textWrap li:not(:first-child) {
@@ -331,6 +332,6 @@
 }
 @media screen and (min-width: 1280px) {
   .textWrap ul {
-    width: 40%;
+    width: 48%;
   }
 }/*# sourceMappingURL=page-network.css.map */
