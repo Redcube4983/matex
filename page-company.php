@@ -45,26 +45,26 @@ Template Name: company
         <p>「鉄」は古来から日本刀に使われ、その実用性、加工性、芸術性の高さから海外でも高く評価されました。戦後は「産業のコメ」と呼ばれ、あらゆる分野の基礎素材として復興を助け、高度経済成長期には東京タワーや高速道路、高層ビルなどに使用され経済発展に大きく寄与しました。日本の鉄鋼製品は、加工性がよく、丈夫で経済的であり、また、鉄スクラップは不純物をとり除くことでリサイクルされ、再び別の製品に生まれ変われることができる環境に優しい素材です。マテックスが扱う「鉄」は、今もなお研究開発され、次世代の暮らしや産業に欠かせない無限の可能性を秘めたマテリアル(素材)なのです。</p>
     </div>
     <div class="imgWrap">
-        <ul class="companyImg">
-            <li>
+        <div class="companyImg">
+            <div class="companyImg-inner">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg01.jpg" alt="イメージ画像">
-            </li>
-            <li>
+            </div>
+            <div class="companyImg-inner">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg02.jpg" alt="イメージ画像">
-            </li>
-            <li>
+            </div>
+            <div class="companyImg-inner">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg03.jpg" alt="イメージ画像">
-            </li>
-            <li>
+            </div>
+            <div class="companyImg-inner">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg04.jpg" alt="イメージ画像">
-            </li>
-            <li>
+            </div>
+            <div class="companyImg-inner">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg05.jpg" alt="イメージ画像">
-            </li>
-            <li>
+            </div>
+            <div class="companyImg-inner">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg06.jpg" alt="イメージ画像">
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
     <div class="textWrap2">
         <h3>マテックスは社会と鉄の架け橋として<br class="sp">大きな役割を担っています</h3>

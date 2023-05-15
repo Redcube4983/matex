@@ -30,12 +30,6 @@
             font-size: 1.5rem;
         }
     }
-    li {
-        width: 49%;
-        @media screen and (min-width:960px){
-            width: 32%;
-        }
-    }
 }
 
 
@@ -47,13 +41,19 @@
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    padding-top: 60px;
-    img {
-        width: 100%;
-        padding-top: 10px;
-        display: block;
-        @media screen and (min-width:960px){
-            padding-top: 30px;
+    margin-top: 60px;
+    .companyImg-inner {
+        width: 49%;
+        margin-bottom: 2%;
+        img {
+            width: 100%;
+            display: block;
+
+        }
+    }
+    @media screen and (min-width:960px){
+        .companyImg-inner {
+            width: 32%;
         }
     }
   }

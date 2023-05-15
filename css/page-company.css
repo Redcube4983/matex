@@ -241,14 +241,6 @@
     font-size: 1.5rem;
   }
 }
-#companyWrap li {
-  width: 49%;
-}
-@media screen and (min-width: 960px) {
-  #companyWrap li {
-    width: 32%;
-  }
-}
 
 .textWrap,
 .textWrap2 {
@@ -259,16 +251,19 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  padding-top: 60px;
+  margin-top: 60px;
 }
-.companyImg img {
+.companyImg .companyImg-inner {
+  width: 49%;
+  margin-bottom: 2%;
+}
+.companyImg .companyImg-inner img {
   width: 100%;
-  padding-top: 10px;
   display: block;
 }
 @media screen and (min-width: 960px) {
-  .companyImg img {
-    padding-top: 30px;
+  .companyImg .companyImg-inner {
+    width: 32%;
   }
 }
 
