@@ -274,7 +274,7 @@
     width: 55%;
     display: flex;
     flex-flow: column;
-    justify-content: end;
+    justify-content: center;
   }
 }
 #workInner .wrap2,
@@ -337,4 +337,11 @@
   background-color: #fff;
   color: #000;
   border: solid 1px #000;
+}
+@media screen and (min-width: 960px) {
+  .buttonWrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }/*# sourceMappingURL=page-work.css.map */
