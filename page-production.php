@@ -34,45 +34,45 @@ Template Name: production
     </ul>
 </div>
 <section id="leadWrap">
-        <div class="leadTtlWrap">
+        <div class="leadTtlWrap animate-bottom">
             <h2 class="jpTtl">設備・技術・人が、<br class="sp">付加価値の高い製品をクリエイト</h2>
         </div>
-        <p class="">日本における鋼板コイル生産の黎明期からコイル関連技術ひとすじに取り組み、コイルの扱いについて知り尽くしていることがマテックスの大きな技術資産です。その設備体制はつねに進化し、板厚6.0mm 780MPaの高張力鋼まで加工可能な自動刃替え装置(ダミーアーバー)式スリッターライン、刃組みまでも自動化した自動刃替え装置(ロボット)式スリッターライン、超高精度のフルp-ト・シャーリングなどを含む多くの新鋭機器で構成されています。また、経験豊かな技術スタッフが、コイル加工技術のノウハウを極めている点でも他社の追随を許しません。この設備・技術・人一体の高度のハーモニーを緻密な品質管理体制がフォローし、自動車メーカー、精密機械メーカーなどを含むきわめてシビアなニーズに対応し、高い評価をいただいています。</p>
+        <p class="animate-bottom">日本における鋼板コイル生産の黎明期からコイル関連技術ひとすじに取り組み、コイルの扱いについて知り尽くしていることがマテックスの大きな技術資産です。その設備体制はつねに進化し、板厚6.0mm 780MPaの高張力鋼まで加工可能な自動刃替え装置(ダミーアーバー)式スリッターライン、刃組みまでも自動化した自動刃替え装置(ロボット)式スリッターライン、超高精度のフルp-ト・シャーリングなどを含む多くの新鋭機器で構成されています。また、経験豊かな技術スタッフが、コイル加工技術のノウハウを極めている点でも他社の追随を許しません。この設備・技術・人一体の高度のハーモニーを緻密な品質管理体制がフォローし、自動車メーカー、精密機械メーカーなどを含むきわめてシビアなニーズに対応し、高い評価をいただいています。</p>
 </section>
 <section id="productionWrap">
     <div id="imgWrap">
         <div class="innerWrap1">
-            <div class="innerWrap-inner">
+            <div class="innerWrap-inner animate-bottom">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg01.jpg" alt="生産体制イメージ画像">
             </div>
-            <div class="innerWrap-inner">
+            <div class="innerWrap-inner animate-bottom">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg02.jpg" alt="生産体制イメージ画像">
             </div>
         </div>
         <div class="innerWrap2">
-            <div class="innerWrap-inner">
+            <div class="innerWrap-inner animate-bottom">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg03.jpg" alt="生産体制イメージ画像">
             </div>
-            <div class="innerWrap-inner">
+            <div class="innerWrap-inner animate-bottom">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg04.jpg" alt="生産体制イメージ画像">
             </div>
         </div>
         <div class="innerWrap3">
-            <div class="innerWrap-inner">
+            <div class="innerWrap-inner animate-bottom">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg05.jpg" alt="生産体制イメージ画像">
             </div>
-            <div class="innerWrap-inner">
+            <div class="innerWrap-inner animate-bottom">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg06.jpg" alt="生産体制イメージ画像">
             </div>
-            <div class="innerWrap-inner">
+            <div class="innerWrap-inner animate-bottom">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg07.jpg" alt="生産体制イメージ画像">
             </div>
         </div>
     </div>
     <div id="productionChart">
-        <h3 class="">工場設備一覧</h3>
-        <h4 class="">■栃木工場</h4>
-        <div class="chartInnerWrap">
+        <h3 class="animate-bottom">工場設備一覧</h3>
+        <h4 class="animate-bottom">■栃木工場</h4>
+        <div class="chartInnerWrap animate-fade">
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
@@ -246,8 +246,8 @@ Template Name: production
             </tr>
         </table>
         </div>
-        <h4 class="">■福島工場</h4>
-        <div class="chartInnerWrap">
+        <h4 class="animate-bottom">■福島工場</h4>
+        <div class="chartInnerWrap animate-fade">
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
@@ -349,8 +349,8 @@ Template Name: production
             </tr>
         </table>
         </div>
-        <h4 class="">■群馬工場</h4>
-        <div class="chartInnerWrap">
+        <h4 class="animate-bottom">■群馬工場</h4>
+        <div class="chartInnerWrap animate-fade">
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
@@ -440,8 +440,8 @@ Template Name: production
             </tr>
         </table>
         </div>
-        <h4 class="">■埼玉工場</h4>
-        <div class="chartInnerWrap">
+        <h4 class="animate-bottom">■埼玉工場</h4>
+        <div class="chartInnerWrap animate-fade">
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>

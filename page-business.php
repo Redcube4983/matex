@@ -31,10 +31,10 @@ Template Name: business
     </ul>
 </div>
     <section id="leadWrap">
-        <div class="leadTtlWrap">
+        <div class="leadTtlWrap animate-bottom">
             <h2 class="jpTtl">お客様に身近な“鉄のスペシャリスト”として</h2>
         </div>
-        <p class="textCenter">マテックスは、お客様の身近に事業拠点を配置する「拠点主義」により、質の高いサービスをタイムリーにお届けしています。<br class="pc">各工場で培われた技術と先進の設備を駆使し、コイルのスリットや厚中板のシャーリングなど高精度な加工を実施。<br class="pc">また、鉄のスペシャリストとして、お客様の課題解決のアドバイスや最新の技術情報などを提供し、お客様をサポートしています。</p>
+        <p class="textCenter animate-bottom">マテックスは、お客様の身近に事業拠点を配置する「拠点主義」により、質の高いサービスをタイムリーにお届けしています。<br class="pc">各工場で培われた技術と先進の設備を駆使し、コイルのスリットや厚中板のシャーリングなど高精度な加工を実施。<br class="pc">また、鉄のスペシャリストとして、お客様の課題解決のアドバイスや最新の技術情報などを提供し、お客様をサポートしています。</p>
     </section>
     
     
