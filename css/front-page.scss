@@ -224,9 +224,11 @@ body [data-page-id="top"] .mask-container {
     }
  }
 #news-area {
-    padding: 65px 15px;
+    padding: 125px 15px;
+    margin-top: -60px;
     @media screen and (min-width:768px){
-        padding: 65px 30px;
+        padding: 125px 30px;
+        margin-top: -60px;
     }
 }
 .news-area-inner {

@@ -41,7 +41,7 @@ Template Name: front-page
 </div>
 </section>
 
-<section id="news-area" class="animate-bottom">
+<section id="news-area">
     <div class="news-area-inner">
     <h2 class="news-title">News</h2>
     <ul id="news-list">
