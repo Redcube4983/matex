@@ -359,9 +359,6 @@ main {
   position: absolute;
   z-index: 1000;
 }
-#headerWrap a {
-  color: #fff;
-}
 #headerWrap.white.global-nav.parent h3 a {
   color: #000;
 }
@@ -376,9 +373,6 @@ main {
     transition: background-color 1s ease-out;
     position: fixed;
     top: 0;
-  }
-  #headerWrap h4 a {
-    color: #000;
   }
   #headerWrap.white {
     position: fixed;
@@ -534,6 +528,7 @@ main {
 .global-nav h3 a {
   padding: 20px 0 20px 20px;
   display: block;
+  color: #fff;
 }
 .global-nav .child {
   display: none;
@@ -548,6 +543,15 @@ main {
   border-bottom: 0px dotted #fff;
 }
 .global-nav .gran-child h4 a {
+  padding: 10px 30px;
+  display: block;
+  color: #fff;
+  font-size: 1.4rem;
+}
+.global-nav .great-gran-child {
+  border-top: 1px dotted #fff;
+}
+.global-nav .great-gran-child h5 a {
   padding: 10px 30px;
   display: block;
   color: #fff;
@@ -605,6 +609,7 @@ main {
     padding: 0;
     display: block;
     text-align: center;
+    color: #fff;
   }
   .global-nav.parent .child {
     display: none;
@@ -687,11 +692,45 @@ main {
   .global-nav .gran-child {
     border-bottom: 0px dotted #fff;
   }
+  .global-nav .gran-child a {
+    transition: color 0.5s;
+  }
+  .global-nav .gran-child a:hover {
+    text-decoration: underline;
+    color: #e95520;
+    transition: color 0.5s;
+  }
+  .global-nav .great-gran-child {
+    border-top: 0px dotted #fff;
+    padding: 0 30px;
+  }
+  .global-nav .great-gran-child .gran-child {
+    border-bottom: 0px dotted #fff;
+  }
+  .global-nav .great-gran-child .gran-child .workSpan::after {
+    transition: background-color 0.5s;
+  }
+  .global-nav .great-gran-child .gran-child:hover .workSpan::after {
+    background-color: #e95520;
+    transition: background-color 0.5s;
+  }
+  .global-nav .great-gran-child h5 a {
+    padding: 10px 0px;
+    display: block;
+    color: #000;
+    font-size: 1.4rem;
+  }
   .global-nav .gran-child h4 a {
     padding: 10px 30px;
     display: block;
     color: #000;
     font-size: 1.4rem;
+    transition: color 0.5s;
+  }
+  .global-nav .gran-child h4 a:hover {
+    text-decoration: underline;
+    color: #e95520;
+    transition: color 0.5s;
   }
   .global-nav.other {
     display: none;
@@ -1141,8 +1180,14 @@ address .fax {
     color: #e95520;
     padding: 0px 0px 10px 0;
   }
+  #footer-sitemap .footer-sitemap .single h3 a:hover, #footer-sitemap .footer-sitemap .other h3 a:hover {
+    text-decoration: underline;
+  }
   #footer-sitemap .footer-sitemap .single h3:nth-last-child(1) a, #footer-sitemap .footer-sitemap .single h3:nth-last-child(2) a {
     color: #282828;
+  }
+  #footer-sitemap .footer-sitemap .single h3:nth-last-child(1) a:hover, #footer-sitemap .footer-sitemap .single h3:nth-last-child(2) a:hover {
+    text-decoration: underline;
   }
   #footer-sitemap .footer-sitemap .single:first-child h3 a {
     color: #e95520;
@@ -1150,6 +1195,9 @@ address .fax {
   #footer-sitemap .footer-sitemap .parent h3 a {
     color: #e95520;
     padding: 0px 0 10px 0;
+  }
+  #footer-sitemap .footer-sitemap .parent h3 a:hover {
+    text-decoration: underline;
   }
   #footer-sitemap .footer-sitemap .parent h3 .arrow {
     display: none;
@@ -1170,6 +1218,9 @@ address .fax {
     padding: 5px 0;
     color: #282828;
     font-size: 1.4rem;
+  }
+  #footer-sitemap .footer-sitemap .gran-child h4 a:hover {
+    text-decoration: underline;
   }
   .workSpan::after {
     background-color: #b9b9b9;

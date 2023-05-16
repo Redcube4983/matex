@@ -89,7 +89,22 @@
             <h3><a class="gNavColor" href="<?php echo esc_url( home_url( '/support/') ); ?>/recruit/">採用情報</a><div class="arrow"></div></h3>
             <ul class="child">
                 <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/company/') ); ?>">会社を知る</a></h4></li>
-                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/work/') ); ?>">仕事を知る</a></h4></li>
+                <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/work/') ); ?>">仕事を知る</a></h4>
+                    <ul class="great-gran-child">
+                        <li class="gran-child workListWrap">
+                        <span class="workSpan"></span>
+                        <h5 class="workListTxt"><a href="/salesjob/">営業職</a></h5>
+                        </li>
+                        <li class="gran-child workListWrap">
+                        <span class="workSpan"></span>
+                        <h5 class="workListTxt"><a href="/technical/">技術職</a></h5>
+                        </li>
+                        <li class="gran-child workListWrap">
+                        <span class="workSpan"></span>
+                        <h5 class="workListTxt"><a href="/officejob/">事務職</a></h5>
+                        </li>
+                    </ul>
+                </li>
                 <li class="gran-child"><h4><a href="<?php echo esc_url( home_url( '/requirement/') ); ?>">募集要項</a></h4></li>
             </ul>
         </li>
