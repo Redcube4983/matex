@@ -31,19 +31,19 @@ Template Name: aboutusing
     </ul>
 </div>
 <section id="leadWrap">
-        <div class="leadTtlWrap">
+        <div class="leadTtlWrap animate-bottom">
             <h2 class="jpTtl">サイトのご利用について</h2>
         </div>
-        <p class="">株式会社マテックスでは皆様に快適にウェブサイトをご利用できますよう心がけております。ウェブサイトのご利用にあたって下記の内容をご一読いただきますようお願いいたします。なお、ウェブサイトの掲載内容につきましては、予告なく変更することがございますのでご了承願います。 </p>
+        <p class="animate-bottom">株式会社マテックスでは皆様に快適にウェブサイトをご利用できますよう心がけております。ウェブサイトのご利用にあたって下記の内容をご一読いただきますようお願いいたします。なお、ウェブサイトの掲載内容につきましては、予告なく変更することがございますのでご了承願います。 </p>
 </section>
     
 <section id="aboutUsingWrap">
     <div class="environmentWrap">
         <div class="aboutWrap">
-            <h3>ご利用環境について</h3>
-            <p>当ウェブサイトは以下の環境での閲覧を推奨いたします。 </p>
+            <h3 class="animate-bottom">ご利用環境について</h3>
+            <p class="animate-bottom">当ウェブサイトは以下の環境での閲覧を推奨いたします。 </p>
         </div>
-        <div class="pcWrap">
+        <div class="pcWrap animate-fade"">
             <h4>PC</h4>
             <div class="recommendWrap">
                 <div class="osWrap">
@@ -65,7 +65,7 @@ Template Name: aboutusing
                 </div>
             </div>
         </div>
-        <div class="smartphonesWrap">
+        <div class="smartphonesWrap animate-fade">
             <h4>スマートホン</h4>
             <div class="recommendWrap">
                 <div class="osWrap">
@@ -89,16 +89,16 @@ Template Name: aboutusing
                 </div>
             </div>
         </div>
-        <div class="jsWrap aboutWrap">
+        <div class="jsWrap aboutWrap animate-bottom">
             <h3>JavaScriptについて</h3>
             <p>ウェブサイトは、JavaScriptを使用しています。JavaScriptを無効にされている場合はページが正しく表示されない場合が ございます。<br>当ウェブサイトご利用の際には、JavaScriptを有効に設定していただきますようお願いします。</p>
         </div>
-        <div class="pluginWrap aboutWrap">
+        <div class="pluginWrap aboutWrap animate-bottom">
             <h3>プラグインについて</h3>
             <p>一部のコンテンツでは、以下のプラグインが必要です。インストールされていない場合は、リンクをクリックして最新のバージョンをダウンロードしてください。</p>
             <a href="">Adobe&reg; Reader&reg;</a>
         </div>
-        <div class="policyWrap aboutWrap">
+        <div class="policyWrap aboutWrap animate-bottom">
             <h3>個人情報の取扱いについて</h3>
             <p>個人情報の取り扱いについては、<a href="/policy/">個人情報保護方針</a>のページをご覧ください。 </p>
         </div>
