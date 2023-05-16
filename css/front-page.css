@@ -18,7 +18,7 @@
 }
 @media screen and (min-width: 960px) {
   .mask-container {
-    height: 75%;
+    height: 70%;
   }
 }
 
@@ -77,13 +77,13 @@ body [data-page-id=top] .mask-container {
 }
 @media screen and (min-width: 960px) {
   #main-visual {
-    height: auto;
+    height: 100vh;
     position: relative;
   }
   #main-visual img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
     vertical-align: bottom;
     position: relative;
   }
@@ -178,6 +178,52 @@ body [data-page-id=top] .mask-container {
   content: "";
 }
 
+#scroll {
+  position: absolute;
+  bottom: 0;
+  right: -120px;
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  display: block;
+  height: 20px;
+  width: 140px;
+  z-index: 4;
+}
+#scroll a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+#scroll a::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  animation: scroll 2s ease-in-out infinite;
+}
+#scroll a span {
+  position: absolute;
+  right: 0;
+}
+
+@keyframes scroll {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
 #news-area {
   padding: 65px 15px;
 }
