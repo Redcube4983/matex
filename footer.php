@@ -37,7 +37,7 @@
                 <li class="gran-child"><h4><a href="/company/">会社を知る</a></h4></li>
                 <li class="gran-child">
                     <h4><a href="/work/">仕事を知る</a></h4>
-                        <ul>
+                        <ul class="great-gran-child">
                             <li class="gran-child workListWrap">
                             <span class="workSpan"></span>
                             <h4 class="workListTxt"><a href="/salesjob/">営業職</a></h4>

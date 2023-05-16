@@ -17,6 +17,7 @@ body {
     /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
 }
 body.fixed {
     position: fixed!important;
