@@ -494,6 +494,7 @@ main {
     height: auto;
     overflow: visible;
     right: 0;
+    padding: 0;
   }
   #header-right.open #global-nav {
     display: flex;

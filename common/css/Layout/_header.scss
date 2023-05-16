@@ -134,6 +134,7 @@
         height: auto;
         overflow: visible;
         right: 0;
+        padding: 0;
         &.open #global-nav {
             display: flex;
             z-index: 1;
