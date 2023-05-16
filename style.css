@@ -216,6 +216,7 @@ body.fixed {
   min-height: calc(var(--vh) * 100);
   min-height: -webkit-fill-available;
   height: calc(var(--vh) * 100);
+  overflow: hidden;
 }
 
 p {
@@ -457,27 +458,30 @@ main {
   top: 0;
   background-color: rgba(233, 85, 32, 0.9490196078);
   display: none;
-  height: 100vh;
+  height: calc(100vh - 100px);
   overflow-x: hidden;
   overflow-y: auto;
+  padding-bottom: 100px;
 }
 #header-right #global-nav {
   display: block;
   z-index: 1;
-  width: 100%;
+  width: calc(100% - 60px);
   height: auto;
   position: relative;
+  padding: 60px 30px 60px;
   font-size: 1.6rem;
-  padding: 100px 30px 60px;
+  box-sizing: unset;
 }
 #header-right.open #global-nav {
   display: block;
   z-index: 1;
-  width: 100%;
+  width: calc(100% - 60px);
   height: auto;
   position: relative;
   font-size: 1.6rem;
-  padding: 100px 30px 60px;
+  padding: 60px 30px 60px;
+  box-sizing: unset;
 }
 @media screen and (min-width: 960px) {
   #header-right {
@@ -490,6 +494,7 @@ main {
     height: auto;
     overflow: visible;
     right: 0;
+    padding: 0;
   }
   #header-right.open #global-nav {
     display: flex;

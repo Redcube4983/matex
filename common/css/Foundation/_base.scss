@@ -27,6 +27,7 @@ body.fixed {
     min-height: calc( var(--vh) * 100 );
     min-height: -webkit-fill-available;
     height: calc( var(--vh) * 100 );
+    overflow: hidden;
 }
 p{
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
