@@ -96,12 +96,15 @@ body [data-page-id="top"] .mask-container {
         font-family: 'Oswald', sans-serif;
         font-weight: 400;
         filter: drop-shadow(0px 0px 10px #000);
+        transition: main-en 2s ease both ;
+        display: block;
     }
     .main-ja {
         font-size: 1.4rem;
         color: #fff;
         margin-bottom: 20px;
         filter: drop-shadow(0px 0px 5px #000);
+        transition: main-ja 2s ease both 1s;
     }
     @media screen and (min-width:960px){
         .main-en {
@@ -118,7 +121,24 @@ body [data-page-id="top"] .mask-container {
         }
     }
 }
-
+@keyframes main-en {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@keyframes main-ja {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 #main-text-area .main-text-link a {
     width: 160px;
     height: 40px;
