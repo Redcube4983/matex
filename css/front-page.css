@@ -104,7 +104,7 @@ body [data-page-id=top] .mask-container {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   filter: drop-shadow(0px 0px 10px #000);
-  animation: main-en 2s ease both;
+  animation: main-en 2s ease both 1s;
   display: block;
 }
 #main-text-area .main-ja {
@@ -112,7 +112,7 @@ body [data-page-id=top] .mask-container {
   color: #fff;
   margin-bottom: 20px;
   filter: drop-shadow(0px 0px 5px #000);
-  animation: main-ja 2s ease both 1s;
+  animation: main-ja 2s ease both 2s;
 }
 @media screen and (min-width: 960px) {
   #main-text-area .main-en {
