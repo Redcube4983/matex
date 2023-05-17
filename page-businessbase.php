@@ -52,6 +52,7 @@ Template Name: businessbases
             <div class="mapWrap">
                 <div class="map animate-fade">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.47385284496806!2d139.78796581393553!3d35.711911301894986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ebddfa8e865%3A0x2faa124694bc69ea!2z44ix44Oe44OG44OD44Kv44K5!5e0!3m2!1sja!2sjp!4v1684292355623!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
                 </div>
                 <div class="addressWrap animate-bottom">
                     <h3>本社</h3>
