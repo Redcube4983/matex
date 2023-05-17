@@ -51,7 +51,7 @@ Template Name: businessbases
             </div>
             <div class="mapWrap">
                 <div class="map animate-fade">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.58176607823!2d139.78592561568001!3d35.71190833589544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ebddfb1f479%3A0x91b13bf4ca75affb!2z44CSMTExLTAwMzYg5p2x5Lqs6YO95Y-w5p2x5Yy65p2-44GM6LC377yR5LiB55uu77yR77yQ4oiS77yS!5e0!3m2!1sja!2sjp!4v1678866915844!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.47385284496806!2d139.78796581393553!3d35.711911301894986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ebddfa8e865%3A0x2faa124694bc69ea!2z44ix44Oe44OG44OD44Kv44K5!5e0!3m2!1sja!2sjp!4v1684292355623!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="addressWrap animate-bottom">
                     <h3>本社</h3>
@@ -130,7 +130,7 @@ Template Name: businessbases
             </div>
             <div class="mapWrap">
                 <div class="map animate-fade">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.983242001022!2d139.43864921568274!3d35.87392752698627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018d96499cd35cf%3A0x25f68500d9f061a5!2z44CSMzUwLTEzMzEg5Z-8546J55yM54ut5bGx5biC5paw54ut5bGx77yR5LiB55uu77yR77yR4oiS77yW!5e0!3m2!1sja!2sjp!4v1678868643815!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.9834196919096!2d139.4382629768173!3d35.873923172525885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018d9649832c85b%3A0xa1385396b00d17c0!2z77yI5qCq77yJ44Oe44OG44OD44Kv44K5!5e0!3m2!1sja!2sjp!4v1684292293356!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="addressWrap animate-bottom">
                     <h3>埼玉工場／営業所</h3>
