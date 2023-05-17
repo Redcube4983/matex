@@ -198,7 +198,7 @@ Template Name: production
             </tr>
             <tr class="">
                 <td class="table4">自動シャーリング</td>
-                <td class="table4">0.4～3.5</td>
+                <td class="table4">0.4～3.2</td>
                 <td class="table4">100～620</td>
                 <td class="table4">板長さ<br>500〜1,250</td>
                 <td class="table4">ー</td>
@@ -404,7 +404,7 @@ Template Name: production
             </tr>
             <tr class="">
                 <td class="table4">自動シャーリング</td>
-                <td class="table4">0.4～2.3</td>
+                <td class="table4">0.4～3.5</td>
                 <td class="table4">200〜1,300</td>
                 <td class="table4">板長さ<br>500〜2,500</td>
                 <td class="table4">ー</td>

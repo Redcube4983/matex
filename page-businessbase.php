@@ -74,7 +74,7 @@ Template Name: businessbases
                 </div>
                 <div class="addressWrap animate-bottom">
                     <h3>栃木工場／営業所</h3>
-                    <h4>〒327-0816<br>栃木県佐野市栄町佐野工業団地14街区1画地</h4>
+                    <h4>〒327-0816<br>栃木県佐野市栄町１４−１</h4>
                     <span class="number">Tel. 0283-23-0808　<br class="pc">Fax. 0283-24-1145</span>
                     <span class="property">敷地 14,500㎡<br>事務所 1,372 ㎡<br>工場 6,474㎡</span>
                 </div>
