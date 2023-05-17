@@ -26,17 +26,22 @@ Template Name: front-page
 </div>
 
     <picture class="">
-			<source media="(max-width: 959px)" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/slider01-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/slider01-sp.jpg 2x">
+			<source media="(max-width: 787px)" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/slider01-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/slider01-sp.jpg 2x">
 			<img class="main-bg" src="<?php echo get_template_directory_uri(); ?>/images/front-page/slider01.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/front-page/slider01.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/front-page/slider01.jpg 2x" alt="" width="750" height="1000">
 	</picture>
 <div id="main-text-area">
     <p class="main-en">For Material Bridge</p>
     <h2 class="main-ja">社会と鉄をつなぐ、架け橋でありたい。</h2>
-    <div class="main-text-link"><a href=""><span>About us</span></a></div>
+    <div class="main-text-link"><a href="/aboutus/"><span>About us</span></a></div>
+</div>
+<div id="scroll">
+    <a href="#news-area" class="smooth">
+    <span>scroll</span>
+    </a>
 </div>
 </section>
 
-<section id="news-area" class="animate-bottom">
+<section id="news-area">
     <div class="news-area-inner">
     <h2 class="news-title">News</h2>
     <ul id="news-list">
@@ -66,7 +71,7 @@ Template Name: front-page
 </section>
 <section id="movie-area" class="animate-bottom">
 <div class="movie-text-area">
-    <a class="movie-buttun popup-movie" href="https://www.youtube.com/watch?v=4UhP4MeIdJ">
+    <a class="movie-buttun popup-movie" href="https://www.youtube.com/watch?v=4UhP4MeIdJc">
     <span></span>
     </a>
     <div class="movie-text-area-top">
