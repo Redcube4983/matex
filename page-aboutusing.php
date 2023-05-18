@@ -49,8 +49,8 @@ Template Name: aboutusing
                 <div class="osWrap">
                     <h4 class="bs">●推奨OS</h4>
                     <ul>
-                        <li>Windows10</li>
-                        <li>MacOS X</li>
+                        <li>Windows10 / Windows11</li>
+                        <li>MacOS X / MacOS 11/ MacOS 12</li>
                     </ul>
                 </div>
                 <div class="browserWrap">
@@ -71,8 +71,8 @@ Template Name: aboutusing
                 <div class="osWrap">
                     <h4 class="bs">●推奨OS</h4>
                     <ul>
-                        <li>iOS12</li>
-                        <li>Android7.0 以上</li>
+                        <li>iOS16 以上</li>
+                        <li>Android13 以上</li>
                     </ul>
                 </div>
                 <div class="browserWrap">
