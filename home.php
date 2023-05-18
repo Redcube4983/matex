@@ -9,9 +9,9 @@ Template Name: home
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/news/news-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/news/news-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/news/news-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/news/news-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/news/news-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/news/news-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/news/news-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/news/news-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/news/news-top-sp.jpg 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/news/news-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/news/news-top-pc.jpg 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/news/news-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/news/news-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/news/news-top-pc.jpg 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
