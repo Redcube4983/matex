@@ -16,7 +16,7 @@ Template Name: single-news
         </div>
         <div class="ttlWrap">
             <span class="enTtl">News</span>
-            <h1 class="jpTtl">お知らせ</h1>
+            <div class="jpTtl">お知らせ</div>
         </div>
     </div>
 </div>

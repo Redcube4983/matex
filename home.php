@@ -16,7 +16,7 @@ Template Name: home
         </div>
         <div class="ttlWrap">
             <span class="enTtl">News</span>
-            <h1 class="jpTtl">お知らせ一覧</h1>
+            <div class="jpTtl">お知らせ一覧</div>
         </div>
     </div>
 </div>
