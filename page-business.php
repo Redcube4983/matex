@@ -36,11 +36,7 @@ Template Name: business
         </div>
         <p class="textCenter animate-bottom">マテックスは、お客様の身近に事業拠点を配置する「拠点主義」により、質の高いサービスをタイムリーにお届けしています。<br class="pc">各工場で培われた技術と先進の設備を駆使し、コイルのスリットや厚中板のシャーリングなど高精度な加工を実施。<br class="pc">また、鉄のスペシャリストとして、お客様の課題解決のアドバイスや最新の技術情報などを提供し、お客様をサポートしています。</p>
     </section>
-    
-    
     <section class="businessInner">
-        
-        <span class="grayzone"></span>
         <div class="contents content1">
             <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img01.jpg" alt="事業内容画像1">
@@ -58,8 +54,6 @@ Template Name: business
                 </div>
             </div>
         </div>
-    
-        <span class="grayzone"></span>
         <div class="contents content2">
             <div class="contentImg animate-right">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img02.jpg" alt="事業内容画像2">
@@ -77,7 +71,6 @@ Template Name: business
                 </div>
             </div>
         </div>
-        <span class="grayzone"></span>
         <div class="contents content1">
             <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img03.jpg" alt="事業内容画像3">
@@ -95,9 +88,6 @@ Template Name: business
                 </div>
             </div>
         </div>
-        
-        
-      
     </section>
     </main>
 <?php get_footer(); ?>
