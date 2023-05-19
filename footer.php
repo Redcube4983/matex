@@ -8,7 +8,7 @@
     </div>
 
 </section>
-<div class="site-logo"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></div>
+<div class="site-logo"><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></div>
 
 
 <div id="footer-sitemap">
