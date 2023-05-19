@@ -41,7 +41,10 @@
   margin: 30px 0;
 }
 
-.aboutInner {
+.aboutInner,
+.recruitInner,
+.businessInner
+ {
   background-color: #f1f1f1;
 }
 .contents {
@@ -60,6 +63,7 @@
   }
   img {
     width: 100%;
+    vertical-align: bottom;
   }
 }
 .contents .txtWrap {
