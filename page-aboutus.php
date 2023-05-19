@@ -42,8 +42,7 @@ Template Name: aboutus
     
     
     <section class="aboutInner">
-        
-        <span class="grayzone"></span>
+
         <div class="contents content1">
             <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-pc.jpg" alt="企業情報画像1">
@@ -54,7 +53,6 @@ Template Name: aboutus
                         <span>Top message</span>
                         <h3>代表メッセージ</h3>
                     </div>
-<!--                    <p class='animate-bottom'>ダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミー</p>-->
                 </div>
                 <div class="moreButtonWrap animate-fade">
                     <a href="/message/" class="moreButton">more</a>
@@ -62,7 +60,6 @@ Template Name: aboutus
             </div>
         </div>
     
-        <span class="grayzone"></span>
         <div class="contents content2">
             <div class="contentImg animate-right">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-pc.jpg" alt="企業情報画像2">
@@ -73,7 +70,6 @@ Template Name: aboutus
                         <span>Company profile</span>
                         <h3>会社概要</h3>
                     </div>
-<!--                    <p class='animate-bottom'>ダミーダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミーダミーダミーダミー-->
                     </p>
                 </div>
                 <div class="moreButtonWrap animate-fade">
@@ -81,7 +77,7 @@ Template Name: aboutus
                 </div>
             </div>
         </div>
-        <span class="grayzone"></span>
+   
         <div class="contents content1">
             <div class="contentImg animate-left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-pc.jpg" alt="企業情報画像3">
@@ -92,7 +88,6 @@ Template Name: aboutus
                         <span>Business base</span>
                         <h3>事業拠点</h3>
                     </div>
-<!--                    <p class='animate-bottom'>ダミーダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミーダミー</p>-->
                 </div>
                 <div class="moreButtonWrap animate-fade">
                     <a href="/businessBase/" class="moreButton">more</a>
@@ -100,7 +95,6 @@ Template Name: aboutus
             </div>
         </div>
         
-        <span class="grayzone"></span>
         <div class="contents content2">
             <div class="contentImg animate-right">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-pc.jpg" alt="企業情報画像4">
@@ -111,7 +105,6 @@ Template Name: aboutus
                         <span>Quality/Environmental</span>
                         <h3>品質・環境への取り組み</h3>
                     </div>
-<!--                    <p class='animate-bottom'>ダミーダミーダミーダミーダミーダミーダミー<br>ダミーダミーダミーダミーダミーダミー</p>-->
                 </div>
                 <div class="moreButtonWrap animate-fade">
                     <a href="/quality/" class="moreButton">more</a>
