@@ -89,7 +89,7 @@
   width: 100%;
   height: 1px;
   background: #000;
-  transform: scale(0, 1);
+  transform: scale(1, 1);
   transform-origin: left top;
   transition: 0.2s;
   bottom: -3px;
@@ -99,9 +99,14 @@
 }
 #panNavi .list {
   display: flex;
-  flex-flow: wrap;
+  flex-flow: row nowrap;
   font-size: 1.2rem;
   line-height: 1;
+  width: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  word-break: break-all;
+  padding-bottom: 10px;
 }
 #panNavi .list li:not(:first-child) {
   position: relative;
@@ -137,6 +142,10 @@
   }
   #panNavi a::after {
     background: #fff;
+  }
+  #panNavi .list {
+    padding-bottom: 0px;
+    overflow-x: visible;
   }
   #panNavi .list li:not(:first-child)::before {
     color: #fff;

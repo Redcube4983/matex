@@ -77,7 +77,7 @@
       width: 100%;
       height: 1px;
       background: #000;
-      transform: scale(0, 1);
+      transform: scale(1, 1);
       transform-origin: left top;
       transition: .2s;
       bottom: -3px;
@@ -88,9 +88,14 @@
   }
   .list {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row nowrap;
     font-size: 1.2rem;
     line-height: 1;
+    width: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    word-break: break-all;
+    padding-bottom: 10px;
     li:not(:first-child){
       position: relative;
       padding: 0 0 0 20px;
@@ -124,6 +129,8 @@
       }
     }
     .list {
+      padding-bottom: 0px;
+      overflow-x: visible;
       li:not(:first-child)::before{
       color: #fff;
       }
