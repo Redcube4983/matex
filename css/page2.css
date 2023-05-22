@@ -144,6 +144,9 @@
   #panNavi a::after {
     background: #fff;
   }
+  #panNavi .list {
+    padding-bottom: 0px;
+  }
   #panNavi .list li:not(:first-child)::before {
     color: #fff;
   }

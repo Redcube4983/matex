@@ -130,6 +130,7 @@
       }
     }
     .list {
+      padding-bottom: 0px;
       li:not(:first-child)::before{
       color: #fff;
       }
