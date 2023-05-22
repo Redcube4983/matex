@@ -45,6 +45,18 @@ Template Name: single-news
     <?php else: ?>
     <!-- 投稿が無い場合の処理 -->
     <?php endif; ?>
+    <div id="next-prev-navi">
+        <div class="prev">
+            <?php if (get_previous_post()):?>
+            <?php previous_post_link('&laquo; %link', '前のお知らせへ'); ?>
+            <?php endif; ?>
+        </div>
+        <div class="next">
+            <?php if (get_next_post()):?>
+            <?php next_post_link('%link &raquo;', '次のお知らせへ'); ?>
+            <?php endif; ?>
+        </div>
+    </div>
 </div>
 
 </main>
