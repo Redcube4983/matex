@@ -259,6 +259,9 @@ body [data-page-id="top"] .mask-container {
     border-top: 1px solid #555;
     width: 100%;
     height: auto;
+    @media screen and (min-width:960px){
+        width: calc(100% - 9rem);
+    }
 }
 .news-list {
     display: flex;
@@ -272,12 +275,18 @@ body [data-page-id="top"] .mask-container {
     }
     @media screen and (min-width:768px){
         flex-flow: row nowrap;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+    }
+    @media screen and (min-width:960px){
+        margin-right: 2.1rem;
     }
 }
 time {
     @media screen and (min-width:768px){
-        margin-right: 1.6rem;
+        margin-right: 1.8rem;
+    }
+    @media screen and (min-width:960px){
+        margin-right: 2.1rem;
     }
 }
 #movie-area {
