@@ -215,7 +215,7 @@
 }
 @media screen and (min-width: 960px) {
   #leadWrap p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     max-width: 1100px;
   }
 }
@@ -273,7 +273,7 @@
 }
 @media screen and (min-width: 960px) {
   #motto h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 #motto .notFirst {
@@ -281,11 +281,11 @@
 }
 #motto p {
   font-size: 1.3rem;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 @media screen and (min-width: 960px) {
   #motto p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 #motto ul {
@@ -295,7 +295,7 @@
 }
 @media screen and (min-width: 960px) {
   #motto ul {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 }
 @media screen and (min-width: 768px) {
