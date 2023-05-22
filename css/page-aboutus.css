@@ -99,9 +99,15 @@
 }
 #panNavi .list {
   display: flex;
-  flex-flow: wrap;
+  flex-flow: row nowrap;
   font-size: 1.2rem;
   line-height: 1;
+  width: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  word-break: break-all;
+  padding-bottom: 10px;
 }
 #panNavi .list li:not(:first-child) {
   position: relative;
