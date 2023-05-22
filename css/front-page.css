@@ -303,18 +303,18 @@ body [data-page-id=top] .mask-container {
 @media screen and (min-width: 768px) {
   .news-list {
     flex-flow: row nowrap;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .news-list .news-time {
-    margin-right: 1.8rem;
+    margin-right: 1.6rem;
   }
 }
 @media screen and (min-width: 960px) {
   .news-list {
-    margin-right: 2.1rem;
+    margin-right: 1.8rem;
   }
   .news-list .news-time {
-    margin-right: 2.1rem;
+    margin-right: 1.8rem;
   }
 }
 
