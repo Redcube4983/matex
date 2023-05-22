@@ -164,5 +164,13 @@ $(document).ready(function() {
             });
           });
 </script>
+<script>
+$(document).ready(function() {
+    var list = $('.list').innerWidth();
+    var panNavi = $('#panNavi').innerWidth();
+    var scrollLeft = list - panNavi;
+    $('.list').scrollLeft(list - scrollLeft);
+});
+</script>
 <?php wp_footer(); ?>
 </body>
