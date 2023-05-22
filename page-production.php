@@ -215,7 +215,7 @@ Template Name: production
                 <td class="table4">板長さ<br>3,000max</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
-                <td class="table4">剪断長さ<br>50～1,000㎜</td>
+                <td class="table4">剪断長さ<br>5～1,000㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">3</td>
