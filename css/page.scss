@@ -46,13 +46,25 @@
 .businessInner
  {
   background-color: #f1f1f1;
+  padding: 60px 0;
+  margin: 30px 0;
+  @media screen and (min-width:960px){
+    padding: 120px 0;
+    margin: 50px 0;
+  }
 }
 .contents {
   background-color: #fff;
-  padding: 80px 0;
-  margin: 80px 0;
+  padding: 60px 0;
+  margin: 0 0 60px ;
+  &:last-child{
+    margin: 0;
+  }
   @media screen and (min-width:960px){
-    margin: 100px 0;
+    margin: 0 0 100px;
+    &:last-child{
+      margin: 0;
+    }
   }
 }
 
