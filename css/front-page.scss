@@ -273,12 +273,22 @@ body [data-page-id="top"] .mask-container {
     &:last-child {
         border-bottom: 1px solid #555;
     }
+    .news-time {
+        font-size: 1.4rem;
+        color: #7b7b7b;
+    }
     @media screen and (min-width:768px){
         flex-flow: row nowrap;
         font-size: 1.8rem;
+        .news-time {
+            margin-right: 1.8rem;   
+        }
     }
     @media screen and (min-width:960px){
         margin-right: 2.1rem;
+        .news-time {
+            margin-right: 2.1rem;   
+        }
     }
 }
 time {
@@ -287,6 +297,47 @@ time {
     }
     @media screen and (min-width:960px){
         margin-right: 2.1rem;
+    }
+}
+#news-list {
+    .news-time {
+        font-size: 1.3rem;
+        color: #7b7b7b;
+        @media screen and (min-width:768px){
+            font-size: 1.8rem;
+        }
+        @media screen and (min-width:960px){
+            font-size: 2.1rem;
+        }
+    }
+    .news-text {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        margin-top: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #005598;
+        @media screen and (min-width:768px){
+            font-size: 1.8rem;
+        }
+        @media screen and (min-width:960px){
+            font-size: 2.1rem;
+            margin: 0;
+        }
+      }
+    .news-inner {
+    border-bottom: 1px dotted #000;
+    padding: 15px 0;
+    margin-bottom: 0px;
+    &:last-child {
+        border-bottom: 1px solid #000;
+    }
+        @media screen and (min-width:960px){
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+          }
     }
 }
 #movie-area {
@@ -912,43 +963,6 @@ time {
     mix-blend-mode: multiply;
     vertical-align: bottom;
     transition: mix-blend-mode 1s;
-}
-
-
-#news-list {
-    .news-time {
-        font-size: 1.3rem;
-        color: #7b7b7b;
-        @media screen and (min-width:960px){
-            font-size: 1.6rem;
-        }
-    }
-    .news-text {
-        font-size: 1.4rem;
-        line-height: 1.6;
-        margin-top: 5px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        color: #005598;
-        @media screen and (min-width:960px){
-            font-size: 1.6rem;
-            margin: 0;
-        }
-      }
-    .news-inner {
-    border-bottom: 1px dotted #000;
-    padding: 15px 0;
-    margin-bottom: 0px;
-    &:last-child {
-        border-bottom: 1px solid #000;
-    }
-        @media screen and (min-width:960px){
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: flex-start;
-          }
-    }
 }
 #newsButtonWrap{
     text-align: center;
