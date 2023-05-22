@@ -103,7 +103,7 @@
   font-size: 1.2rem;
   line-height: 1;
   width: auto;
-  overflow-y: hidden;
+  overflow-x: auto;
   white-space: nowrap;
   word-break: break-all;
   padding-bottom: 10px;
