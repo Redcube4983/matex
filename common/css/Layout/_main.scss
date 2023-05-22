@@ -130,6 +130,7 @@
     }
     .list {
       padding-bottom: 0px;
+      overflow-x: visible;
       li:not(:first-child)::before{
       color: #fff;
       }

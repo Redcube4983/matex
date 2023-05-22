@@ -145,6 +145,7 @@
   }
   #panNavi .list {
     padding-bottom: 0px;
+    overflow-x: visible;
   }
   #panNavi .list li:not(:first-child)::before {
     color: #fff;
