@@ -41,7 +41,7 @@ Template Name: support
         <div class="logoWrap animate-fade">
             <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg01.svg" alt="サポート体制ロゴ画像">
         </div>
-        <p class="animate-bottom">マテックスのモットーにFaithful　Partner (フェイスフル パートナー※) があります。<br>社員やその家族、取引先やユーザーなどマテックスを取り巻く全ての人が仲間であると考え、<br class="pc">「信頼し、信頼され、いかなる時も誠実に」をモットーとしています。<br>マテックスはこれからも「Faithful　Partner」をモットーに鉄鋼業の裾野を支え、持続可能なより良い社会へ貢献してまいります。<br><br><span>※Faithful：信頼できる、誠実な／Partner：相手、仲間、共同者</span></p>
+        <p class="animate-bottom">マテックスのモットーにFaithful　Partner (フェイスフル パートナー※) があります。<br>社員やその家族、取引先やユーザーなどマテックスを取り巻く全ての人が仲間であると考え、「信頼し、信頼され、いかなる時も誠実に」をモットーとしています。<br>マテックスはこれからも「Faithful　Partner」をモットーに鉄鋼業の裾野を支え、持続可能なより良い社会へ貢献してまいります。<br><br><span>※Faithful：信頼できる、誠実な／Partner：相手、仲間、共同者</span></p>
         </div>
 </section>
 <section id="supportWrap">
