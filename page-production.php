@@ -480,19 +480,19 @@ Template Name: production
                 <td class="table4">自動シャーリングNo.1<br>No.2</td>
                 <td class="table4">0.4～3.2</td>
                 <td class="table4">300〜1,300</td>
-                <td class="table4">板長さ<br>3,000max</td>
+                <td class="table4">板長さ<br>500〜1,450</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
                 <td class="table4">剪断長さ<br>55～1,230㎜<br>剪断長さ<br>35～1,230㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
-                <td class="table4 tableLast">3</td>
+                <td class="table4 tableLast">2</td>
             </tr>
             <tr class="">
                 <td class="table4">スケヤーシャーリング</td>
                 <td class="table4">0.4～4.5</td>
                 <td class="table4">1,900max</td>
-                <td class="table4">板長さ<br>500〜1,450</td>
+                <td class="table4">板長さ<br>3,000max</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
                 <td class="table4">剪断長さ<br>20～700㎜</td>
