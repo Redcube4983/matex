@@ -273,7 +273,7 @@
 }
 @media screen and (min-width: 960px) {
   #motto h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 #motto .notFirst {
@@ -281,7 +281,7 @@
 }
 #motto p {
   font-size: 1.3rem;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 @media screen and (min-width: 960px) {
   #motto p {
