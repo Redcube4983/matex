@@ -109,15 +109,15 @@ Template Name: production
                 <td class="table4">508・610</td>
                 <td class="table4">1,800</td>
                 <td class="table4">15</td>
-                <td class="table4">剪断長さ<br>300～3,100㎜</td>
+                <td class="table4">剪断長さ<br>300～3,500㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">5</td>
             </tr>
             <tr class="">
-                <td class="table4">小型レベラー<br>0.6×650</td>
+                <td class="table4">小型レベラー<br>1.6×600</td>
                 <td class="table4">0.4～1.6</td>
-                <td class="table4">100～650</td>
+                <td class="table4">100～600</td>
                 <td class="table4">508</td>
                 <td class="table4">1,600</td>
                 <td class="table4">6</td>
@@ -147,7 +147,7 @@ Template Name: production
                 <td class="table4">大型スリッターNo.2<br>3.2×1,350</td>
                 <td class="table4">0.3～3.2</td>
                 <td class="table4">300～1,350</td>
-                <td class="table4">508・610</td>
+                <td class="table4">508・610・762</td>
                 <td class="table4">1,800</td>
                 <td class="table4">15</td>
                 <td class="table4-2">
@@ -174,9 +174,9 @@ Template Name: production
             </tr>
             <tr class="">
                 <td class="table4">自動シャーリング</td>
-                <td class="table4">0.4～3.5</td>
-                <td class="table4">200～1,300</td>
-                <td class="table4">板長さ<br>500〜2,500</td>
+                <td class="table4">0.4～3.2</td>
+                <td class="table4">300～1,300</td>
+                <td class="table4">板長さ<br>435〜2,450</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
                 <td class="table4">剪断長さ<br>35～1,300㎜</td>
@@ -191,7 +191,7 @@ Template Name: production
                 <td class="table4">板長さ<br>500〜2,500</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
-                <td class="table4">剪断長さ<br>55～1,300㎜</td>
+                <td class="table4">剪断長さ<br>25～1,300㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">3</td>
@@ -307,8 +307,8 @@ Template Name: production
                         <li>製品幅<br>400mm max</li>
                     </ul>
                 </td>
-                <td class="table4">508<br>300</td>
-                <td class="table4">1,800</td>
+                <td class="table4">300<br>508</td>
+                <td class="table4">1,100</td>
                 <td class="table4 tableLast">4</td>
             </tr>
             <tr class="">
@@ -417,7 +417,7 @@ Template Name: production
             <tr class="">
                 <td class="table4">スケヤーシャーリング</td>
                 <td class="table4">0.4～6.0</td>
-                <td class="table4">2,500max</td>
+                <td class="table4">2,000max</td>
                 <td class="table4">板長さ<br>2,500max</td>
                 <td class="table4">ー</td>
                 <td class="table4">2</td>
@@ -492,7 +492,7 @@ Template Name: production
                 <td class="table4">スケヤーシャーリング</td>
                 <td class="table4">0.4～4.5</td>
                 <td class="table4">1,900max</td>
-                <td class="table4">板長さ<br>3,000max</td>
+                <td class="table4">板長さ<br>500〜1,450</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
                 <td class="table4">剪断長さ<br>20～700㎜</td>
