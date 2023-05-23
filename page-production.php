@@ -480,7 +480,7 @@ Template Name: production
                 <td class="table4">自動シャーリングNo.1<br>No.2</td>
                 <td class="table4">0.4～3.2</td>
                 <td class="table4">300〜1,300</td>
-                <td class="table4">板長さ<br>500〜1,450</td>
+                <td class="table4">板長さ<br>500〜2,450</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
                 <td class="table4">剪断長さ<br>55～1,230㎜<br>剪断長さ<br>35～1,230㎜</td>
