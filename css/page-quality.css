@@ -606,10 +606,10 @@ address .fax {
   #footer-sitemap .footer-sitemap .single h3 a:hover, #footer-sitemap .footer-sitemap .other h3 a:hover {
     text-decoration: underline;
   }
-  #footer-sitemap .footer-sitemap .single h3:nth-last-child(1) a, #footer-sitemap .footer-sitemap .single h3:nth-last-child(2) a {
+  #footer-sitemap .footer-sitemap .single h3:nth-last-child(1) a, #footer-sitemap .footer-sitemap .single h3:nth-last-child(2) a, #footer-sitemap .footer-sitemap .single h3:first-child a {
     color: #282828;
   }
-  #footer-sitemap .footer-sitemap .single h3:nth-last-child(1) a:hover, #footer-sitemap .footer-sitemap .single h3:nth-last-child(2) a:hover {
+  #footer-sitemap .footer-sitemap .single h3:nth-last-child(1) a:hover, #footer-sitemap .footer-sitemap .single h3:nth-last-child(2) a:hover, #footer-sitemap .footer-sitemap .single h3:first-child a:hover {
     text-decoration: underline;
   }
   #footer-sitemap .footer-sitemap .single:first-child h3 a {
