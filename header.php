@@ -112,7 +112,9 @@
         <li class="global-nav single">
             <h3><a href="#">お問い合わせ</a></h3>
         </li>
--->
+-->     <li class="global-nav">
+            <h3><a href="<?php echo esc_url( home_url( '/news/') ); ?>">お知らせ一覧</a></h3>
+        </li>
         <li class="global-nav other">
             <h3><a href="<?php echo esc_url( home_url( '/policy/') ); ?>">個人情報保護方針</a></h3>
         </li>
