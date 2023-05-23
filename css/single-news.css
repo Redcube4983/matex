@@ -374,4 +374,13 @@ time {
   #next-prev-navi {
     font-size: 1.8rem;
   }
+}
+
+#singleNewsWrap p {
+  font-size: 1.3rem;
+}
+@media screen and (min-width: 960px) {
+  #singleNewsWrap p {
+    font-size: 1.8rem;
+  }
 }/*# sourceMappingURL=single-news.css.map */
