@@ -76,8 +76,8 @@ Template Name: production
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
-                <th class="table2" colspan="5">母材使用</th>
-                <th class="table2 tableLast" colspan="4">製品使用</th>
+                <th class="table2" colspan="5">母材仕様</th>
+                <th class="table2 tableLast" colspan="4">製品仕様</th>
             </tr>
             <tr class="table34wrap">
                 <th class="table3">板厚（㎜）</th>
@@ -87,7 +87,7 @@ Template Name: production
                 <th class="table3">積載重量（㌧max）</th>
                 <th class="table3-2"></th>
                 <th class="table3">内径（㎜ max）</th>
-                <th class="table3">外形（㎜ max）</th>
+                <th class="table3">外径（㎜ max）</th>
                 <th class="table3 tableLast">製品重量（㌧）</th>
             </tr>
             <tr class="">
@@ -135,7 +135,7 @@ Template Name: production
                 <td class="table4">15</td>
                 <td class="table4-2">
                     <ul>
-                        <li>条約<br>19条max</li>
+                        <li>条数<br>19条max</li>
                         <li>製品幅<br>1,330mm max</li>
                     </ul>
                 </td>
@@ -152,7 +152,7 @@ Template Name: production
                 <td class="table4">15</td>
                 <td class="table4-2">
                     <ul>
-                        <li>条約<br>20条max</li>
+                        <li>条数<br>20条max</li>
                         <li>製品幅<br>1,330mm max</li>
                     </ul>
                 </td>
@@ -167,7 +167,7 @@ Template Name: production
                 <td class="table4">508</td>
                 <td class="table4">1,350</td>
                 <td class="table4">3.5</td>
-                <td class="table4">条約<br>15条max</td>
+                <td class="table4">条数<br>15条max</td>
                 <td class="table4">300<br>508</td>
                 <td class="table4">1,100</td>
                 <td class="table4 tableLast">2</td>
@@ -191,7 +191,7 @@ Template Name: production
                 <td class="table4">板長さ<br>500〜2,500</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
-                <td class="table4">剪断長さ<br>25～1,300㎜</td>
+                <td class="table4">剪断長さ<br>35～1,300㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">3</td>
@@ -251,8 +251,8 @@ Template Name: production
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
-                <th class="table2" colspan="5">母材使用</th>
-                <th class="table2 tableLast" colspan="4">製品使用</th>
+                <th class="table2" colspan="5">母材仕様</th>
+                <th class="table2 tableLast" colspan="4">製品仕様</th>
             </tr>
             <tr class="table34wrap">
                 <th class="table3">板厚（㎜）</th>
@@ -262,7 +262,7 @@ Template Name: production
                 <th class="table3">積載重量（㌧max）</th>
                 <th class="table3-2"></th>
                 <th class="table3">内径（㎜ max）</th>
-                <th class="table3">外形（㎜ max）</th>
+                <th class="table3">外径（㎜ max）</th>
                 <th class="table3 tableLast">製品重量（㌧）</th>
             </tr>
             <tr class="">
@@ -286,7 +286,7 @@ Template Name: production
                 <td class="table4">20</td>
                 <td class="table4">
                     <ul>
-                        <li>条件<br>25条max</li>
+                        <li>条数<br>25条max</li>
                         <li>製品幅<br>1,350mm max</li>
                     </ul>
             </td>
@@ -303,7 +303,7 @@ Template Name: production
                 <td class="table4">4</td>
                 <td class="table4-2">
                     <ul>
-                        <li>条件<br>13条max</li>
+                        <li>条数<br>13条max</li>
                         <li>製品幅<br>400mm max</li>
                     </ul>
                 </td>
@@ -313,7 +313,7 @@ Template Name: production
             </tr>
             <tr class="">
                 <td class="table4">自動シャーリング</td>
-                <td class="table4">0.4×3.5</td>
+                <td class="table4">0.4～3.5</td>
                 <td class="table4">200～1,300</td>
                 <td class="table4">板長さ<br>500〜2,500</td>
                 <td class="table4">ー</td>
@@ -354,8 +354,8 @@ Template Name: production
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
-                <th class="table2" colspan="5">母材使用</th>
-                <th class="table2 tableLast" colspan="4">製品使用</th>
+                <th class="table2" colspan="5">母材仕様</th>
+                <th class="table2 tableLast" colspan="4">製品仕様</th>
             </tr>
             <tr class="table34wrap">
                 <th class="table3">板厚（㎜）</th>
@@ -365,7 +365,7 @@ Template Name: production
                 <th class="table3">積載重量（㌧max）</th>
                 <th class="table3-2"></th>
                 <th class="table3">内径（㎜ max）</th>
-                <th class="table3">外形（㎜ max）</th>
+                <th class="table3">外径（㎜ max）</th>
                 <th class="table3 tableLast">製品重量（㌧）</th>
             </tr>
             <tr class="">
@@ -377,7 +377,7 @@ Template Name: production
                 <td class="table4">15</td>
                 <td class="table4-2">
                     <ul>
-                        <li>条約<br>10条max</li>
+                        <li>条数<br>20条max</li>
                         <li>製品幅<br>1,300mm max</li>
                     </ul>
                 </td>
@@ -389,12 +389,12 @@ Template Name: production
                 <td class="table4">小型スリッター<br>2.3×500</td>
                 <td class="table4">0.4～2.3</td>
                 <td class="table4">495max</td>
-                <td class="table4">508・610</td>
+                <td class="table4">508</td>
                 <td class="table4">1,200</td>
                 <td class="table4">3.5</td>
                 <td class="table4-2">
                     <ul>
-                        <li>条件<br>10条max</li>
+                        <li>条数<br>10条max</li>
                         <li>製品幅<br>495mm max</li>
                     </ul>
                 </td>
@@ -445,8 +445,8 @@ Template Name: production
         <table>
             <tr>
                 <th class="table1"  rowspan="2">設備名</th>
-                <th class="table2" colspan="5">母材使用</th>
-                <th class="table2 tableLast" colspan="4">製品使用</th>
+                <th class="table2" colspan="5">母材仕様</th>
+                <th class="table2 tableLast" colspan="4">製品仕様</th>
             </tr>
             <tr class="table34wrap">
                 <th class="table3">板厚（㎜）</th>
@@ -456,7 +456,7 @@ Template Name: production
                 <th class="table3">積載重量（㌧max）</th>
                 <th class="table3-2"></th>
                 <th class="table3">内径（㎜ max）</th>
-                <th class="table3">外形（㎜ max）</th>
+                <th class="table3">外径（㎜ max）</th>
                 <th class="table3 tableLast">製品重量（㌧）</th>
             </tr>
             <tr class="">
@@ -468,7 +468,7 @@ Template Name: production
                 <td class="table4">2.5</td>
                 <td class="table4-2">
                     <ul>
-                        <li>条件<br>15条max</li>
+                        <li>条数<br>15条max</li>
                         <li>製品幅<br>495mm max</li>
                     </ul>
             </td>
@@ -477,13 +477,13 @@ Template Name: production
                 <td class="table4 tableLast">2</td>
             </tr>
             <tr class="">
-                <td class="table4">自動シャーリングNo.1<br>No.2</td>
+                <td class="table4">自動シャーリング</td>
                 <td class="table4">0.4～3.2</td>
-                <td class="table4">300〜1,300</td>
+                <td class="table4">220〜1,300</td>
                 <td class="table4">板長さ<br>500〜2,450</td>
                 <td class="table4">ー</td>
                 <td class="table4">3</td>
-                <td class="table4">剪断長さ<br>55～1,230㎜<br>剪断長さ<br>35～1,230㎜</td>
+                <td class="table4">剪断長さ<br>35～1,230㎜</td>
                 <td class="table4">ー</td>
                 <td class="table4">ー</td>
                 <td class="table4 tableLast">2</td>
