@@ -11,6 +11,11 @@
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/favicon.ico">
+<!--リダイレクト（10秒後のトップへ戻る）-->
+<?php if( is_404() ): ?>
+<meta http-equiv="refresh" content="10 ; URL=/">
+<?php endif; ?>
+<!---->
 <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
 <?php if( is_front_page() ): ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
@@ -48,7 +53,10 @@
 <?php elseif( is_single() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/single-news.css">
 <?php elseif( is_post_type_archive('news') ): ?>
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/archive-news.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/archive-news.css"/>
+<?php elseif( is_404() ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/404.css"/>
 <?php else: ?>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
