@@ -70,7 +70,11 @@
 
 <header id="headerWrap">
     <div id="header-left">
-        <div class="site-logo"><a href="<?php echo esc_url( home_url( '/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></div>
+        <?php if( is_front_page() ): ?>
+            <h1 class="site-logo"><a href="<?php echo esc_url( home_url( '/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></h1>
+        <?php else: ?>
+            <div class="site-logo"><a href="<?php echo esc_url( home_url( '/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></div>
+        <?php endif; ?>
     </div>
 
     <div id="header-right">
