@@ -70,6 +70,42 @@ function my_php_Include($params = array()) {
     return ob_get_clean();
 }
 add_shortcode('php', 'my_php_Include');
+
+/* 編集者の監理画面を変更 */
+function remove_menus () {
+	global $menu;
+	global $current_user;
+	get_currentuserinfo();
+	if($current_user -> ID != "1") {
+        remove_menu_page( 'cptui_main_menu' ); 
+        remove_menu_page( 'aioseo' ); 
+        remove_menu_page( 'edit.php?post_type=smart-custom-fields' ); 
+        remove_menu_page( 'ai1wm_export' );
+		$restricted = array(
+            __('投稿'),
+            __('コメント'),
+ 			__('お問い合わせ'),
+			__('外観'),
+			__('プラグイン'),
+			__('ユーザー'),
+			__('ツール'),
+			__('設定'),
+            __('All in One SEO'),
+            __('Smart Custom Fields'),
+            __('カスタムフィールド'),
+            __('CPT UI')
+		);
+		end ($menu);
+		while (prev($menu)){
+			$value = explode(' ',$menu[key($menu)][0]);
+			if(in_array($value[0] != NULL?$value[0]:"" , $restricted)){
+				unset($menu[key($menu)]);
+			}
+		}
+	remove_submenu_page('index.php','update-core.php'); //更新非表示
+	}
+}
+add_action('admin_menu', 'remove_menus');
 ?>
 
 
