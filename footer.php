@@ -122,7 +122,9 @@ $(function() {
     });
     
 });
+</script>
 <?php if( is_front_page() ): ?>
+<script>
 jQuery(function(){
    jQuery(window).scroll(function(){
       var obj_t_pos = jQuery('.business-image-area').offset().top;
@@ -147,8 +149,6 @@ jQuery(function(){
       }
    })
 })
-<?php else: ?>
-<?php endif; ?>
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/jquery.magnific-popup.min.js"></script>
 <script>
@@ -163,6 +163,7 @@ $(document).ready(function() {
             });
           });
 </script>
+<?php else: ?>
 <script>
 $(document).ready(function() {
     var list = $('.list').innerWidth();
@@ -171,6 +172,7 @@ $(document).ready(function() {
     $('.list').scrollLeft(list - scrollLeft);
 });
 </script>
+<?php endif; ?>
 <?php wp_footer(); ?>
 </body>
 </html>

@@ -31,8 +31,28 @@
             color: #000;
             background-color: #fff;
             border-bottom: solid 1px #e5e5e5;
-            a {
-                color: #000;
+            .global-nav.parent h3{
+                a {
+                    color: #000;
+                }
+            }
+            .global-nav.single h3{
+                a {
+                    color: #000;
+                }
+            }
+            .global-nav h3{
+                a {
+                    color: #000;
+                }
+            }
+            .global-nav .gran-child h4{
+                a {
+                    color: #000;
+                    &:hover{
+                        color: #e95520;
+                    }
+                }
             }
             .arrow::after {
                 position: absolute;
@@ -267,7 +287,7 @@
                 height: auto;
                 margin: 0;
                 list-style: none;
-                top: 100%;
+                top: calc(100% - 2px);
                 position: absolute;
                 padding: 20px 0px;
                 width: 220px;

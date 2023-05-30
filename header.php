@@ -65,12 +65,24 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <?php wp_head(); ?>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z57K9JHKBZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-Z57K9JHKBZ');
+</script>
 <body>
 
 <header id="headerWrap">
     <div id="header-left">
-        <div class="site-logo"><a href="<?php echo esc_url( home_url( '/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></div>
+        <?php if( is_front_page() ): ?>
+            <h1 class="site-logo"><a href="<?php echo esc_url( home_url( '/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></h1>
+        <?php else: ?>
+            <div class="site-logo"><a href="<?php echo esc_url( home_url( '/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/common/images/matex-logo.svg" alt="matex"></a></div>
+        <?php endif; ?>
     </div>
 
     <div id="header-right">
