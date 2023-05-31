@@ -7,7 +7,6 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="format-detection" content="telephone=no,address=no,email=no">
-<meta name="robots" content="noindex,nofollow" >
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/favicon.ico">
