@@ -107,9 +107,9 @@ Template Name: requirement
          </ul>
         </div>
 </section>
-<!-- <section id="cta-area">
+<section id="cta-area">
     <div class="button"><a href=""><span>エントリーはこちら</span></a></div>
-</section> -->
+</section>
 
 </main>
 <?php get_footer(); ?>
