@@ -108,7 +108,7 @@ Template Name: requirement
         </div>
 </section>
 <section id="cta-area">
-    <div class="button"><a href=""><span>エントリーはこちら</span></a></div>
+    <div class="button"><a href="https://job.career-tasu.jp/2024/corp/00032474/"><span>エントリーはこちら</span></a></div>
 </section>
 
 </main>
