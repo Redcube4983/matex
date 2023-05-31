@@ -149,23 +149,20 @@
 	  };
   
 	  setBgImgSize();
-	  $(window).on("resize", () => {
-		setBgImgSize();
-	  });
-  
-	  $(function() {
-	  $(".loading").fadeOut(300, function() {
-	  $(this).remove();
-	  $("#mask image").css({opacity: 1, transform: "scale(1)"});
-	  setBgImgSize();
-	  $(".mainvisual").addClass("loaded");
-	  setTimeout(function() {
-	  moveSVG();
-	  },800);
-	  });
-	  });
+	$(window).on("resize", setBgImgSize);
+
+	$(window).on("load", function() {
+		$(".loading").fadeOut(300, function() {
+			$(this).remove();
+			$("#mask image").css({opacity: 1, transform: "scale(1)"});
+			setBgImgSize();
+			$(".mainvisual").addClass("loaded");
+			setTimeout(function() {
+				moveSVG();
+			},800);
+		});
+	});
   
   }
   
   }());
-  

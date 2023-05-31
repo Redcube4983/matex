@@ -148,6 +148,8 @@ body [data-page-id="top"] .mask-container {
     font-weight: bold;
     color: #000;
     display: block;
+    transform: translateZ(0);
+    will-change: filter;
     span{
         position: relative;
         width: 100%;

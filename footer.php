@@ -79,7 +79,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/scrollreveal.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/ofi.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/common.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/top.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/top.js?1"></script>
 
 <script>
 $(function() {
