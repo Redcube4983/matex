@@ -21,7 +21,7 @@ Template Name: front-page
 	"  fill="#fff"></path>
             </mask>
         </defs>
-        <image href="<?php echo get_template_directory_uri(); ?>/images/front-page/mask-bg.jpg" width="1440" height="710" mask="url(#svgPath)" x="-50%" y="-10%" style="opacity: 1; transform: scale(1) translate(0%,-0%);" ></image>
+        <image href="<?php echo get_template_directory_uri(); ?>/images/front-page/mask-bg.jpg" width="1440" height="710" mask="url(#svgPath)" x="-50%" y="-10%" style="opacity: 1; transform: scale(1) translate(0%,0%);"></image>
     </svg>
 </div>
 
