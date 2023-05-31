@@ -98,4 +98,8 @@ function remove_menus () {
 	}
 }
 add_action('admin_menu', 'remove_menus');
+add_action( 'wp_enqueue_scripts', 'remove_my_global_styles' );
+function remove_my_global_styles() {
+	wp_dequeue_style( 'global-styles' );
+}
 ?>
