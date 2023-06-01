@@ -75,12 +75,12 @@
 <div id="copyright"><p class="copyright">© <?php echo date_i18n('Y'); ?> MATEX Co., Ltd. All rights reserved.</p></div>
 </footer>
 
-
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/scrollreveal.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/ofi.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/common/js/common.js"></script>
+<?php if( is_front_page() ): ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/top.js"></script>
-
+<?php endif; ?>
 <script>
 $(function() {
 	$('main').append('<div id="tagetTop"><a href="#" class="smooth"><span></span></a></div>');
