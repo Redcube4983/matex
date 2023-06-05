@@ -75,11 +75,11 @@
 <div id="copyright"><p class="copyright">© <?php echo date_i18n('Y'); ?> MATEX Co., Ltd. All rights reserved.</p></div>
 </footer>
 
-<script src="<?php echo get_template_directory_uri(); ?>/common/js/scrollreveal.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/common/js/ofi.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/common/js/common.js"></script>
+<script defer src="<?php echo get_template_directory_uri(); ?>/common/js/scrollreveal.min.js"></script>
+<script defer src="<?php echo get_template_directory_uri(); ?>/common/js/ofi.min.js"></script>
+<script defer src="<?php echo get_template_directory_uri(); ?>/common/js/common.js"></script>
 <?php if( is_front_page() ): ?>
-<script src="<?php echo get_template_directory_uri(); ?>/js/top.js"></script>
+<script defer src="<?php echo get_template_directory_uri(); ?>/js/top.js"></script>
 <?php endif; ?>
 <script>
 $(function() {
@@ -150,7 +150,7 @@ jQuery(function(){
    })
 })
 </script>
-<script src="<?php echo get_template_directory_uri(); ?>/common/js/jquery.magnific-popup.min.js"></script>
+<script defer src="<?php echo get_template_directory_uri(); ?>/common/js/jquery.magnific-popup.min.js"></script>
 <script>
 $(document).ready(function() {
             $('.popup-movie').magnificPopup({

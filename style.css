@@ -593,7 +593,7 @@ main {
   margin-right: 50px;
   color: #fff;
 }
-.global-nav.parent h3 .arrow.open.arrow.open::after {
+.global-nav.parent h3 .arrow.open::after {
   transform: translate(-50%, -50%) rotate(0deg);
   transition: transform 0.5s;
 }
@@ -667,6 +667,9 @@ main {
   }
   .global-nav.parent h3 .arrow {
     right: 0px;
+  }
+  .global-nav.parent h3 .arrow.open::after {
+    transform: translateY(-50%) rotate(45deg);
   }
   .global-nav.parent h3 .arrow::after {
     position: absolute;

@@ -239,7 +239,7 @@
                 margin-right: 50px;
                 color: #fff;
             }
-            &.open.arrow.open::after{
+            &.open::after{
                 transform: translate(-50%,-50%)rotate(0deg);
                 transition: transform .5s;
             }
@@ -317,6 +317,9 @@
                 }
                 .arrow {
                     right: 0px;
+                    &.open::after{
+                        transform: translateY(-50%) rotate(45deg);
+                    }
                     &::after {
                         position: absolute;
                         content: "";
