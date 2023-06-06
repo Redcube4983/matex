@@ -4,8 +4,7 @@
 <title>株式会社マテックス</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="description" content="株式会社マテックスは関東・東北を中心に展開するコイルセンターとして、業界トップレベルの製品・サービスの提供を通じてお客様のモノづくりを支えています。">
 <meta name="format-detection" content="telephone=no,address=no,email=no">
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/apple-touch-icon.png">
