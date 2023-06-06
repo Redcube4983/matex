@@ -61,7 +61,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<?php wp_head(); ?>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z57K9JHKBZ"></script>
@@ -72,6 +71,7 @@
 
   gtag('config', 'G-Z57K9JHKBZ');
 </script>
+<?php wp_head(); ?>
 <body>
 
 <header id="headerWrap">
