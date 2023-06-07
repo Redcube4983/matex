@@ -9,9 +9,9 @@ Template Name: production
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-sp.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-sp.webp 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-sp.webp" srcset="<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/production/production-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -43,29 +43,29 @@ Template Name: production
     <div id="imgWrap">
         <div class="innerWrap1">
             <div class="innerWrap-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg01.jpg" alt="生産体制イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg01.webp" alt="生産体制イメージ画像">
             </div>
             <div class="innerWrap-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg02.jpg" alt="生産体制イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg02.webp" alt="生産体制イメージ画像">
             </div>
         </div>
         <div class="innerWrap2">
             <div class="innerWrap-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg03.jpg" alt="生産体制イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg03.webp" alt="生産体制イメージ画像">
             </div>
             <div class="innerWrap-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg04.jpg" alt="生産体制イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg04.webp" alt="生産体制イメージ画像">
             </div>
         </div>
         <div class="innerWrap3">
             <div class="innerWrap-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg05.jpg" alt="生産体制イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg05.webp" alt="生産体制イメージ画像">
             </div>
             <div class="innerWrap-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg06.jpg" alt="生産体制イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg06.webp" alt="生産体制イメージ画像">
             </div>
             <div class="innerWrap-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg07.jpg" alt="生産体制イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/production/productionImg07.webp" alt="生産体制イメージ画像">
             </div>
         </div>
     </div>
