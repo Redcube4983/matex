@@ -10,8 +10,8 @@ Template Name: recruit
         <div class="topImg">
             <picture class="">
                     <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-sp.jp" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/recruit-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -40,7 +40,7 @@ Template Name: recruit
     <section class="recruitInner">
         <div class="contents content1">
             <div class="contentImg animate-left">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.jpg" alt="企業情報画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.webp" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -57,7 +57,7 @@ Template Name: recruit
         </div>
         <div class="contents content2">
             <div class="contentImg animate-right">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg02.jpg" alt="企業情報画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg02.webp" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -74,7 +74,7 @@ Template Name: recruit
         </div>
         <div class="contents content1">
             <div class="contentImg animate-left">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg03.jpg" alt="企業情報画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg03.webp" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
