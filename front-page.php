@@ -98,7 +98,7 @@ Template Name: front-page
 <section id="contents-area">
     <div id="business">
         <div class="business-image-area">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/front-page/business-image.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/front-page/business-image.webp" alt="">
         </div>
         <div class="business-text-area animate-right">
         <h2 class="business-title">Business</h2>
@@ -115,7 +115,7 @@ Template Name: front-page
     </div>
     <div id="recruit">
         <div class="recruit-image-area">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/front-page/recruit-image.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/front-page/recruit-image.webp" alt="">
         </div>
         <div class="recruit-text-area animate-left">
         <h2 class="recruit-title">Recruit</h2>
