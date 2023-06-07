@@ -9,9 +9,9 @@ Template Name: work
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-sp.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-sp.webp 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-sp.webp" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/work-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -42,7 +42,7 @@ Template Name: work
 <section id="workInner">
     <div class="wrap wrap1">
         <div class="img animate-left">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg01.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg01.webp" alt="">
         </div>
         <div class="rightWrap">
             <h3 class="animate-bottom">営業職</h3>
@@ -54,7 +54,7 @@ Template Name: work
     </div>
     <div class="wrap wrap2">
         <div class="img animate-left">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg02.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg02.webp" alt="">
         </div>
         <div class="rightWrap">
             <h3 class="animate-bottom">技術職</h3>
@@ -66,7 +66,7 @@ Template Name: work
     </div>
     <div class="wrap wrap3">
         <div class="img animate-left">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg03.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/workImg03.webp" alt="">
         </div>
         <div class="rightWrap">
             <h3 class="animate-bottom">事務職</h3>

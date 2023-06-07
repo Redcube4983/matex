@@ -9,9 +9,9 @@ Template Name: company
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-sp.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-sp.webp 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-sp.webp" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/company/company-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -47,22 +47,22 @@ Template Name: company
     <div class="imgWrap">
         <div class="companyImg">
             <div class="companyImg-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg01.jpg" alt="イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg01.webp" alt="イメージ画像">
             </div>
             <div class="companyImg-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg02.jpg" alt="イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg02.webp" alt="イメージ画像">
             </div>
             <div class="companyImg-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg03.jpg" alt="イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg03.webp" alt="イメージ画像">
             </div>
             <div class="companyImg-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg04.jpg" alt="イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg04.webp" alt="イメージ画像">
             </div>
             <div class="companyImg-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg05.jpg" alt="イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg05.webp" alt="イメージ画像">
             </div>
             <div class="companyImg-inner animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg06.jpg" alt="イメージ画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/company/companyImg06.webp" alt="イメージ画像">
             </div>
         </div>
     </div>
