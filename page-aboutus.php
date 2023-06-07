@@ -10,8 +10,8 @@ Template Name: aboutus
         <div class="topImg">
             <picture class="">
                     <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jp" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -42,7 +42,7 @@ Template Name: aboutus
     <section class="aboutInner">
         <div class="contents content1">
             <div class="contentImg animate-left">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-pc.jpg" alt="企業情報画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img01-pc.webp" alt="企業情報画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -58,7 +58,7 @@ Template Name: aboutus
         </div>
         <div class="contents content2">
             <div class="contentImg animate-right">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-pc.jpg" alt="企業情報画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img02-pc.webp" alt="企業情報画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -75,7 +75,7 @@ Template Name: aboutus
         </div>
         <div class="contents content1">
             <div class="contentImg animate-left">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-pc.jpg" alt="企業情報画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img03-pc.webp" alt="企業情報画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -91,7 +91,7 @@ Template Name: aboutus
         </div>
         <div class="contents content2">
             <div class="contentImg animate-right">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-pc.jpg" alt="企業情報画像4">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-img04-pc.webp" alt="企業情報画像4">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
