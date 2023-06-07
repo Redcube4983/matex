@@ -9,7 +9,7 @@ Template Name: aboutus
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jpg 2x">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.webp 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.webp 2x">
                     <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.webp 2x">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-sp.jp" srcset="<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/aboutus/about-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
