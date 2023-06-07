@@ -9,9 +9,9 @@ Template Name: officejob
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-sp.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-sp.webp 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-sp.webp" srcset="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJob-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -43,7 +43,7 @@ Template Name: officejob
     </div>
     <div class="profileWrap animate-fade">
         <div class="img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg01.jpg" alt="事務職画像01">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg01.webp" alt="事務職画像01">
         </div>
         <div class="rightWrap">
             <h3>事務職</h3>
@@ -72,7 +72,7 @@ Template Name: officejob
             <div class="rightWrap">
                 <div class="intoWrap">
                     <div class="img animate-fade">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg03.jpg" alt="事務職画像02">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg03.webp" alt="事務職画像02">
                     </div>
                 </div>
                 <ul class="">
@@ -98,7 +98,7 @@ Template Name: officejob
     </div>
 </section>
     <div id="lastWrap" class="animate-fade">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg02.jpg" alt="事務職画像03">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/work/officeJob/officeJobImg02.webp" alt="事務職画像03">
     </div>
 
 </main>
