@@ -9,9 +9,9 @@ Template Name: network
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.webp 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-sp.webp" srcset="<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/network/network-top-pc.webp 2x" alt="トップ背景画像">
             </picture>
         </div>
         <div class="ttlWrap">
@@ -64,18 +64,18 @@ Template Name: network
         <div class="stateImgWrap">
         <div class="stateImgWrap1">
             <div class="img1 animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg03.jpg" alt="様子画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg03.webp" alt="様子画像">
             </div>
             <div class="img2 animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg04.jpg" alt="様子画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg04.webp" alt="様子画像">
             </div>
         </div>
         <div class="stateImgWrap2">
             <div class="img3 animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg05.jpg" alt="様子画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg05.webp" alt="様子画像">
             </div>
             <div class="img4 animate-bottom">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg06.jpg" alt="様子画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/network/networkImg06.webp" alt="様子画像">
             </div>
         </div>
         </div>
