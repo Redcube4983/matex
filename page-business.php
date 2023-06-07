@@ -10,8 +10,8 @@ Template Name: business
         <div class="topImg">
             <picture class="">
                     <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/business-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/business-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/business-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -39,7 +39,7 @@ Template Name: business
     <section class="businessInner">
         <div class="contents content1">
             <div class="contentImg animate-left">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img01.jpg" alt="事業内容画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img01.webp" alt="事業内容画像1">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -56,7 +56,7 @@ Template Name: business
         </div>
         <div class="contents content2">
             <div class="contentImg animate-right">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img02.jpg" alt="事業内容画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img02.webp" alt="事業内容画像2">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
@@ -73,7 +73,7 @@ Template Name: business
         </div>
         <div class="contents content1">
             <div class="contentImg animate-left">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img03.jpg" alt="事業内容画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/business/business-img03.webp" alt="事業内容画像3">
             </div>
             <div class="txtWrap">
                 <div class="txtInner">
