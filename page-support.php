@@ -9,9 +9,9 @@ Template Name: support
     <div class="topTtlInner">
         <div class="topImg">
             <picture class="">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-sp.jpg 2x">
-                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-pc.jpg 2x">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-sp.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-pc.jpg 2x" alt="トップ背景画像">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-sp.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-sp.webp 2x">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-pc.webp 2x">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-sp.webp" srcset="<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-pc.webp 1x,<?php echo get_template_directory_uri(); ?>/images/business/support/support-top-pc.webp 2x" alt="トップ背景画像">
                 </picture>
         </div>
         <div class="ttlWrap">
@@ -48,7 +48,7 @@ Template Name: support
      <h3 class="animate-bottom">お客様のお役に立てるよう活動しています。</h3>
     <div class="innerWrap">
         <div class="img animate-bottom">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg02.jpg" alt="技術サポート体制画像">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg02.webp" alt="技術サポート体制画像">
         </div>
         <div class="textWrap">
             <h4 class="animate-bottom">技術顧問によるソリューション提案</h4>
@@ -57,7 +57,7 @@ Template Name: support
     </div>
     <div class="innerWrap">
         <div class="img animate-bottom">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg03.jpg" alt="技術サポート体制画像">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/business/support/supportImg03.webp" alt="技術サポート体制画像">
         </div>
         <div class="textWrap">
             <h4 class="animate-bottom">プレス技術講習会</h4>
