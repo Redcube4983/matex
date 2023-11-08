@@ -4,6 +4,7 @@ Template Name: recruit
 */
 ?>
 <?php get_header(); ?>
+
 <main id="mainWrap">
 <div id="main-visual">
     <div class="topTtlInner">
