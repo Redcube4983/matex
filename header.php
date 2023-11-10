@@ -46,6 +46,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-aboutUsing.css">
 <?php elseif( is_page( 'work' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-work.css">
+<?php elseif( is_page( 'recruit' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-recruit.css">
 <?php elseif( is_page( 'requirement' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-requirement.css">
 <?php elseif( is_single() ): ?>
