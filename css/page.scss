@@ -122,41 +122,6 @@
   
 }
 .content1 {
-  // .movie-buttun span {
-  //   position: absolute;
-  //   pointer-events: none;
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-  // }
-  // .movie-buttun span::before {
-  //   content: "";
-  //   width: 14vw;
-  //   padding-top: 100%;
-  //   display: block;
-  //   background-color: rgba(0, 0, 0, 0.45);
-  //   border-radius: 50%;
-  //   pointer-events: none;
-  //   transition: background-color 1s;
-  // }
-  // .movie-buttun span::after {
-  //   border-left: 4.46vw solid #fff;
-  //   border-top: 3vw solid transparent;
-  //   border-bottom: 3vw solid transparent;
-  //   height: 0;
-  //   width: 0;
-  //   content: "";
-  //   position: absolute;
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translate(-45%, -50%);
-  //   pointer-events: none;
-  // }
-  // .movie-buttun:hover span::before {
-  //   background-color: #e95520;
-  //   transition: background-color 0s;
-  // }
-  
   @media screen and (min-width:960px){
   display: flex;
   flex-flow: wrap;
