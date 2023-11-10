@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: recruit
+Template Name:recruit
 */
 ?>
 <?php get_header(); ?>
