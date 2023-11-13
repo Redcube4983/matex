@@ -16,8 +16,8 @@ Template Name:application
                 </picture>
         </div>
         <div class="ttlWrap">
-            <span class="enTtl">Recruit</span>
-            <h1 class="jpTtl">採用情報</h1>
+            <span class="enTtl">Apply for an interview</span>
+            <h1 class="jpTtl">面接のお申し込み</h1>
         </div>
     </div>
 </div>
@@ -27,18 +27,27 @@ Template Name:application
             <a href="<?php echo esc_url( home_url( '/') ); ?>">TOP</a>
         </li>
         <li>
-            <span>採用情報</span>
+            <span>面接のお申し込み</span>
         </li>
     </ul>
 </div>
     <section id="leadWrap">
         <div class="leadTtlWrap animate-bottom">
-            <h2 class="jpTtl">あらゆる産業を支えるダイナミックな仕事</h2>
+            <h2 class="jpTtl">面接のお申し込み</h2>
         </div>
-        <p class="textCenter animate-bottom">私たちの生活を支えている「鉄」製品は、太古の昔から使われてきました。
-時に重厚長大に、時に繊細でしなやかに、<br class="pc">時代の変化とともにへ変幻自在に形状や性質を変え存在してきました。社会に貢献し続ける「鉄」のように、既成概念にとらわれず、自由な発想を持った挑戦できる人材を求めています。</p>
+        <p class="textCenter animate-bottom">フォームに必要な情報をご入力ください。採用担当よりご連絡いたします。</p>
     </section>
-    
+
+    <section id="application_form_wrap">
+        <?php if (have_posts()): ?>
+        <?php while (have_posts()) : the_post(); ?>
+        <?php the_content(); ?>
+        <?php endwhile; ?>
+        <?php else: ?>
+        <!-- 投稿が無い場合の処理 -->
+        <?php endif; ?> 
+    </section>
+      
     </main>
 <?php get_footer(); ?>
 
