@@ -136,7 +136,7 @@ Template Name:recruit
                     面接は対面またはオンラインで。下記の面接お申込みフォームからお気軽にお申込みください。</p>
                 </div>
                 <div class="form_link_button_wrap">
-                    <a href="form_link_button">面接のお申込みはこちら</a>
+                    <a href="/application/">面接のお申込みはこちら</a>
                 </div>
             </div>
 

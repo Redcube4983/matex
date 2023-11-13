@@ -50,6 +50,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-recruit.css">
 <?php elseif( is_page( 'requirement' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-requirement.css">
+<?php elseif( is_page( 'application' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-application.css">
 <?php elseif( is_single() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/single-news.css">
 <?php elseif( is_post_type_archive('news') ): ?>

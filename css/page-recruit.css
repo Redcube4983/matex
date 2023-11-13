@@ -561,6 +561,11 @@
   color: #e95520;
   padding-right: 10px;
 }
+@media screen and (min-width: 768px) {
+  #faq-content p span {
+    font-size: 30px;
+  }
+}
 #faq-content .text-box {
   width: 60%;
   margin-right: 40%;
@@ -593,6 +598,11 @@
   padding: 30px;
   color: #3D424B;
 }
+@media screen and (min-width: 768px) {
+  #faq-content nav p {
+    font-size: 18px;
+  }
+}
 #faq-content .nav-open {
   font-size: 14px;
   text-align: left;
@@ -602,6 +612,11 @@
   display: flex;
   flex-flow: row;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  #faq-content .nav-open {
+    font-size: 18px;
+  }
 }
 #faq-content .nav-open::before {
   position: absolute;
@@ -633,6 +648,13 @@
   font-weight: bold;
   color: #e95520;
 }
+@media screen and (min-width: 768px) {
+  #faq-content .comment_wrap p {
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 0;
+  }
+}
 #faq-content .form_link_button_wrap {
   display: flex;
   justify-content: center;
@@ -648,6 +670,14 @@
   color: #fff;
   font-size: 16px;
   transition: 0.2s;
+}
+@media screen and (min-width: 768px) {
+  #faq-content .form_link_button_wrap a {
+    height: 80px;
+    width: 350px;
+    color: #fff;
+    font-size: 20px;
+  }
 }
 #faq-content .form_link_button_wrap a:hover {
   border: solid 1px #e95520;
