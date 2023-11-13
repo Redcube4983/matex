@@ -51,7 +51,13 @@
 <?php elseif( is_page( 'requirement' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-requirement.css">
 <?php elseif( is_page( 'application' ) ): ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-application.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/application.css">
+<?php elseif( is_page( 'conform' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/application-confirm.css">
+<?php elseif( is_page( 'completed' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/application-completed.css">
+<?php elseif( is_page( 'error' ) ): ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/application-error.css">
 <?php elseif( is_single() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/single-news.css">
 <?php elseif( is_post_type_archive('news') ): ?>
