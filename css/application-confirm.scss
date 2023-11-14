@@ -17,3 +17,7 @@
   #application_form_wrap {
     @include paddingSide();
   }
+
+  #error {
+    display: none;
+  }

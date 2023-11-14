@@ -244,4 +244,12 @@
     padding: 60px 30px;
     max-width: 1100px;
   }
+}
+
+#error {
+  display: none;
+}
+
+#application_form_wrap .mail {
+  width: 100%;
 }/*# sourceMappingURL=application.css.map */

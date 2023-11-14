@@ -17,3 +17,13 @@
   #application_form_wrap {
     @include paddingSide();
   }
+
+  #error {
+    display: none;
+  }
+
+  #application_form_wrap {
+    .mail {
+      width: 100%;
+    }
+  }
