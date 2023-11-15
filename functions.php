@@ -102,4 +102,21 @@ add_action( 'wp_enqueue_scripts', 'remove_my_global_styles' );
 function remove_my_global_styles() {
 	wp_dequeue_style( 'global-styles' );
 }
+
+//js, css 出力場所を指定
+function add_custom_scripts()
+{
+    //予約フォームのみ、mailform.jsを出力する
+    if (is_page('application')) {
+        wp_enqueue_script(
+            'form_script',
+            get_template_directory_uri() . '/js/mailform.js',
+            array('jquery'),
+            NULL,
+            true //bodyの終了タグ前に読込
+        );
+    }
+}
+add_action('wp_enqueue_scripts', 'add_custom_scripts');
+
 ?>
