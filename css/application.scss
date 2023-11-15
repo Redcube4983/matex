@@ -25,5 +25,44 @@
   #application_form_wrap {
     .white_box {
       width: 100%;
+      margin-top: 10px;
+      font-size: 16px;
+      padding: 5px;
+      color: #999;
+      position: relative;
+      &::before {
+        position: absolute;
+        top: 50%;
+        right: 1.5rem;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        padding: 0;
+        content: "";
+        pointer-events: none;
+        border-left: .375rem solid transparent;
+        border-right: .375rem solid transparent;
+        border-top: .55rem solid #fff;
+      }
+    }
+    .required {
+      font-size: 10px;
+      margin-left: 5px;
+      color: #f00;
+    }
+    tr {
+      display: flex;
+      flex-flow: column;
+      margin-top: 20px;
+    }
+    td {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 13px;
+    }
+    label {
+      display: flex;
+      flex-flow: wrap-reverse;
     }
   }
