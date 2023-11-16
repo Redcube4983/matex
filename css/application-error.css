@@ -233,6 +233,15 @@
   justify-content: space-between;
 }
 
+.application_lead {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .application_lead {
+    font-size: 20px;
+  }
+}
+
 #application_form_wrap {
   width: calc(100% - 30px);
   padding: 30px 15px;

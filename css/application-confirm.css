@@ -233,6 +233,15 @@
   justify-content: space-between;
 }
 
+.application_lead {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .application_lead {
+    font-size: 20px;
+  }
+}
+
 #application_form_wrap {
   width: calc(100% - 30px);
   padding: 30px 15px;
@@ -268,10 +277,7 @@
   }
 }
 #application_form_wrap .required {
-  font-size: 10px;
-  margin-left: 5px;
-  color: #f00;
-  font-weight: bold;
+  display: none;
 }
 #application_form_wrap .option_box {
   padding: 5px;
@@ -293,7 +299,12 @@
   margin-top: 30px;
 }
 #application_form_wrap td {
-  font-size: 20px;
+  font-size: 18px;
+  margin: 10px;
+}
+#application_form_wrap th {
+  background-color: #e9e9e9;
+  padding: 10px;
 }
 #application_form_wrap h3 {
   font-size: 13px;
@@ -331,18 +342,7 @@
   margin-top: 10px;
 }
 #application_form_wrap .acknowledgment-check-wrap {
-  padding: 30px;
-  border: solid 1px #ffce3a;
-  border-radius: 5px;
-  font-size: 13px;
-  margin-top: 20px;
-}
-@media screen and (min-width: 768px) {
-  #application_form_wrap .acknowledgment-check-wrap {
-    font-size: 18px;
-    padding: 50px;
-    margin-top: 50px;
-  }
+  display: none;
 }
 #application_form_wrap .privacy-link-label {
   font-size: 13px;
@@ -366,18 +366,19 @@
 }
 #application_form_wrap #confirm_button_wrap {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 20px;
 }
 @media screen and (min-width: 768px) {
   #application_form_wrap #confirm_button_wrap {
     margin-top: 50px;
+    justify-content: space-evenly;
   }
 }
 #application_form_wrap #confirm_button_wrap .confirm_button {
   display: flex;
   height: 65px;
-  width: 250px;
+  width: 160px;
   justify-content: center;
   align-items: center;
   background-color: #e95520;
@@ -397,4 +398,13 @@
   border: solid 1px #e95520;
   background-color: #fff;
   color: #e95520;
+}
+#application_form_wrap #confirm_button_wrap .buck-button {
+  background-color: #bbb;
+  border: solid 1px #bbb;
+}
+#application_form_wrap #confirm_button_wrap .buck-button:hover {
+  border: solid 1px #bbb;
+  background-color: #fff;
+  color: #bbb;
 }/*# sourceMappingURL=application-confirm.css.map */

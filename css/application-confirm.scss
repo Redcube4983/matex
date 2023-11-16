@@ -13,6 +13,14 @@
         max-width: 960px;
     }  
   }
+  
+  .application_lead {
+    font-size: 16px;
+    @media screen and (min-width:768px){
+      font-size: 20px;
+    }
+  }
+  
 
   #application_form_wrap {
     @include paddingSide();
@@ -39,10 +47,7 @@
       }
     }
     .required {
-      font-size: 10px;
-      margin-left: 5px;
-      color: #f00;
-      font-weight: bold;
+      display: none;
     }
     .option_box {
       padding: 5px;
@@ -62,7 +67,12 @@
       margin-top: 30px;
     }
     td {
-      font-size: 20px;
+      font-size: 18px;
+      margin: 10px;
+    }
+    th {
+      background-color: #e9e9e9;
+      padding: 10px;
     }
     h3 {
       font-size: 13px;
@@ -94,16 +104,7 @@
       margin-top: 10px;
     }
     .acknowledgment-check-wrap {
-      padding: 30px;
-      border: solid 1px #ffce3a;
-      border-radius: 5px;
-      font-size: 13px;
-      margin-top: 20px;
-      @media screen and (min-width:768px){
-        font-size: 18px;
-        padding: 50px;
-        margin-top: 50px;
-      }
+      display: none;
     }
     .privacy-link-label {
       font-size: 13px;
@@ -123,15 +124,16 @@
     }
     #confirm_button_wrap {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       margin-top: 20px;
       @media screen and (min-width:768px){
         margin-top: 50px;
+        justify-content: space-evenly;
       }
       .confirm_button {
         display: flex;
         height: 65px;
-        width: 250px;
+        width: 160px;
         justify-content: center;
         align-items: center;
         background-color: #e95520;
@@ -150,8 +152,14 @@
           color: #e95520;
         }
       }
+      .buck-button {
+        background-color: #bbb;
+        border: solid 1px #bbb;
+        &:hover {
+          border: solid 1px #bbb;
+          background-color: #fff;
+          color: #bbb;
+        }
+      }
     }
   }
-
-
-  

@@ -52,7 +52,7 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-requirement.css">
 <?php elseif( is_page( 'application' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/application.css">
-<?php elseif( is_page( 'conform' ) ): ?>
+<?php elseif( is_page( 'confirm' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/application-confirm.css">
 <?php elseif( is_page( 'completed' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/application-completed.css">

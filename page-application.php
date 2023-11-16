@@ -35,7 +35,6 @@ Template Name:application
         <div class="leadTtlWrap animate-bottom">
             <h2 class="jpTtl">面接のお申し込み</h2>
         </div>
-        <p class="textCenter animate-bottom">フォームに必要な情報をご入力ください。採用担当よりご連絡いたします。</p>
     </section>
 
     <section id="application_form_wrap">

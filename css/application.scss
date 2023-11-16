@@ -22,6 +22,13 @@
     display: none;
   }
 
+  .application_lead {
+    font-size: 16px;
+    @media screen and (min-width:768px){
+      font-size: 20px;
+    }
+  }
+
   #application_form_wrap {
     .white_box {
       width: 100%;
