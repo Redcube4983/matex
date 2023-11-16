@@ -15,10 +15,10 @@
   line-height: 1;
   padding-top: 5px;
   @media screen and (min-width:768px){
-    font-size: 2.2rem;
+    font-size: 22px;
   }
   @media screen and (min-width:960px){
-    font-size: 2.4rem;
+    font-size: 24px;
   }
 }
 @mixin contentsSentence {
@@ -27,7 +27,7 @@
   text-align: justify;
   padding-top: 20px;
   @media screen and (min-width:768px){
-    font-size: 1.4rem;
+    font-size: 14px;
   }
   @media screen and (min-width:920px){
     font-size: 18px;

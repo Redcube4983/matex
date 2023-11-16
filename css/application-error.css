@@ -242,10 +242,159 @@
   #application_form_wrap {
     width: calc(100% - 60px);
     padding: 60px 30px;
-    max-width: 1100px;
+    max-width: 960px;
   }
 }
 
 #error {
   display: block;
+}
+
+#application_form_wrap .white_box {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 5px;
+  color: #999;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap .white_box {
+    font-size: 20px;
+  }
+}
+#application_form_wrap .required {
+  font-size: 10px;
+  margin-left: 5px;
+  color: #f00;
+  font-weight: bold;
+}
+#application_form_wrap .option_box {
+  padding: 5px;
+  color: #999;
+  font-size: 16px;
+  margin-top: 10px;
+  background-color: #F2F2F2;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap .option_box {
+    font-size: 20px;
+  }
+}
+#application_form_wrap tr {
+  display: flex;
+  flex-flow: column;
+  margin-top: 30px;
+}
+#application_form_wrap td {
+  font-size: 20px;
+}
+#application_form_wrap h3 {
+  font-size: 13px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap h3 {
+    font-size: 18px;
+  }
+}
+#application_form_wrap h4 {
+  font-size: 13px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap h4 {
+    font-size: 18px;
+  }
+}
+#application_form_wrap label {
+  display: flex;
+  flex-flow: wrap-reverse;
+}
+#application_form_wrap .mwform-radio-field-text {
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap .mwform-radio-field-text {
+    font-size: 18px;
+  }
+}
+#application_form_wrap .radio-box {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 10px;
+}
+#application_form_wrap .acknowledgment-check-wrap {
+  padding: 30px;
+  border: solid 1px #ffce3a;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap .acknowledgment-check-wrap {
+    font-size: 18px;
+    padding: 50px;
+    margin-top: 50px;
+  }
+}
+#application_form_wrap .privacy-link-label {
+  font-size: 13px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap .privacy-link-label {
+    font-size: 18px;
+  }
+}
+#application_form_wrap .mwform-checkbox-field.horizontal-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap .mwform-checkbox-field.horizontal-item {
+    margin-top: 20px;
+  }
+}
+#application_form_wrap #confirm_button_wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap #confirm_button_wrap {
+    margin-top: 50px;
+  }
+}
+#application_form_wrap #confirm_button_wrap .confirm_button {
+  display: flex;
+  height: 65px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e95520;
+  border: solid 1px #e95520;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.2s;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap #confirm_button_wrap .confirm_button {
+    height: 80px;
+    width: 350px;
+    font-size: 20px;
+  }
+}
+#application_form_wrap #confirm_button_wrap .confirm_button:hover {
+  border: solid 1px #e95520;
+  background-color: #fff;
+  color: #e95520;
 }/*# sourceMappingURL=application-error.css.map */
