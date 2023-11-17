@@ -163,6 +163,20 @@ $(document).ready(function() {
             });
           });
 </script>
+<?php elseif( is_page('recruit') ): ?>
+<script defer src="<?php echo get_template_directory_uri(); ?>/common/js/jquery.magnific-popup.min.js"></script>
+<script>
+$(document).ready(function() {
+            $('.popup-movie').magnificPopup({
+              disableOn: null,
+              type: 'iframe',
+              mainClass: 'mfp-fade',
+              removalDelay: 200,
+              preloader: false,
+              fixedContentPos: false
+            });
+          });
+</script>
 <?php else: ?>
 <script>
 $(document).ready(function() {

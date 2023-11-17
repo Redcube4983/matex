@@ -407,4 +407,15 @@
   border: solid 1px #e95520;
   background-color: #fff;
   color: #e95520;
+}
+#application_form_wrap .comment {
+  font-size: 12px;
+  font-weight: inherit;
+  margin-left: 5px;
+  color: #888;
+}
+@media screen and (min-width: 768px) {
+  #application_form_wrap .comment {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=application.css.map */

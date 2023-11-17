@@ -159,6 +159,15 @@
         }
       }
     }
+    .comment {
+      font-size: 12px;
+      font-weight: inherit;
+      margin-left: 5px;
+      color: #888;
+      @media screen and (min-width:768px){
+        font-size: 16px;
+      }
+    }
   }
 
 
