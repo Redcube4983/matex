@@ -47,7 +47,7 @@ Template Name:recruit
                     <h4>マテックス会社紹介CM</h4>
                     <div class="photo_youtube_wrap">
                         <div class="photo_youtube">
-                            <a href="https://www.youtube.com/watch?v=iQ-eA3SbigM" class="movie-button popup-movie">
+                            <a class="movie-button popup-movie" href="https://www.youtube.com/watch?v=iQ-eA3SbigM">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.webp" alt="企業情報画像1">
                                 <span></span>
                             </a>
@@ -112,24 +112,22 @@ Template Name:recruit
                 <div class="faq_wrap">
                     <h4>よくあるご質問</h4>
                     <p class="faq-content-text">当社の採用情報に関して<br class="sp">お寄せいただくご質問にお答えします。</p>
-                    <p class="nav-open"><span>Q.</span>選考のスケジュールについて教えてください。</p>
+                    <p class="nav-open"><span>Q.</span>コイルセンターって何？</p>
                     <nav>
-                        <p>書類選考、適性検査（ＣＡＢ）、1次面接（グループ面接）、最終面接（役員面接）がございます。
-                        エントリーいただいてから約１か月で採用の可否をご連絡いたします。</p>
+                        <p>製造業を支える大切な役目を担う施設です！<br>
+                        鉄は様々な用途に使われます。しかし、素材(鉄鋼)メーカーが作った材料そのままでは、量やサイズが大きすぎて取り扱いができない、という問題があります。そこで、自動車部品や電化製品など様々な製品を作りやすいように材料を再加工して配達するのがコイルセンターです。</p>
                     </nav>
-                    <p class="nav-open"><span>Q.</span>入社までにやっておくべきことはありますか。</p>
+                    <p class="nav-open"><span>Q.</span>マテックスの立ち位置は？</p>
                     <nav>
-                        <p>入社後の研修制度を整えているので、特にプログラミング等の勉強をしておく必要はありません。
-                    アルバイトや旅行など学生のうちにしかできないことにたくさんチャレンジしたり、色んな経験をして、様々な人と関わりコミュニケーション能力を身につけておくと社会人になって役に立ちます。</p>
+                        <p>日本一のコイルセンターです！<br>1937年の創業以来、業績が赤字だったのはリーマンショックの一度だけ。関東と東北、甲信越を営業エリアに生産と販売サービスを一体化した販売力、独自にプレス技術講習会を開催する技術力、いずれも他社と比べて負けない自信があります！</p>
                     </nav>
-                    <p class="nav-open"><span>Q.</span>Q’sfixで活躍する人に共通することはなんでしょうか。</p>
+                    <p class="nav-open"><span>Q.</span>どこにあるの？</p>
                     <nav>
-                        <p>コミュニケーション能力の高い人が活躍します。ただ単に話すのが上手というわけではなく、分からないことがあれば積極的に質問したり、お客様やチームメイトの話を素直に聴いたりすることが、周囲から信頼してもらうための基本だと考えています。</p>
+                        <p>工場/営業所は、栃木県佐野市、福島県大玉村、群馬県高崎市、埼玉県狭山市に、本社は東京都台東区にあります。人材は拠点に近い地域の出身者を主に採用しています。地元の先輩がきっといるはずです。</p>
                     </nav>
-                    <p class="nav-open"><span>Q.</span>評価制度は具体的にどのようなものがありますか。</p>
+                    <p class="nav-open"><span>Q.</span>IT業界などに比べて、鉄鋼業界って地味じゃない？</p>
                     <nav>
-                        <p>一般社員は、上期（4月～9月）と下期（10月～3月）の年2回評価を行います。
-                    評価項目は社員の等級によって異なりますが、10～15個の評価項目に対して自己評価を行い、上長評価や役員評価を受けて最終決定します。</p>
+                        <p>たしかに地味です・・・でも、無くてはならない仕事です！<br>鉄鋼業界はけっして華やかではありませんが、安定して長く働けるところが魅力です。マテックは法律が定める就労規則に基づき、全ての社員が活き活きと働ける職場環境を整えています。土日はもちろん休み(年間休日120日以上)。仕事もプライベートも充実した社会人ライフが過ごせると思います。</p>
                     </nav>
                 </div>
                 <div class="comment_wrap">
@@ -157,3 +155,16 @@ Template Name:recruit
     </main>
 <?php get_footer(); ?>
 
+<script defer src="<?php echo get_template_directory_uri(); ?>/common/js/jquery.magnific-popup.min.js"></script>
+<script>
+$(document).ready(function() {
+            $('.popup-movie').magnificPopup({
+              disableOn: null,
+              type: 'iframe',
+              mainClass: 'mfp-fade',
+              removalDelay: 200,
+              preloader: false,
+              fixedContentPos: false
+            });
+          });
+</script>

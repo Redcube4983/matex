@@ -48,6 +48,7 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-work.css">
 <?php elseif( is_page( 'recruit' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-recruit.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/common/css/magnific-popup.css">
 <?php elseif( is_page( 'requirement' ) ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page-requirement.css">
 <?php elseif( is_page( 'application' ) ): ?>
