@@ -46,7 +46,7 @@ Template Name:recruit
                 <div class="txt_movie">
                     <div class="photo_youtube_wrap">
                         <div class="photo_youtube">
-                            <a href="https://www.youtube.com/watch?v=iQ-eA3SbigM" class="movie-buttun popup-movie">
+                            <a href="https://www.youtube.com/watch?v=iQ-eA3SbigM" class="movie-button popup-movie">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.webp" alt="企業情報画像1">
                                 <span></span>
                             </a>

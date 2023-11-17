@@ -71,7 +71,7 @@ Template Name: front-page
 </section>
 <section id="movie-area" class="animate-bottom">
 <div class="movie-text-area">
-    <a class="movie-buttun popup-movie" href="https://www.youtube.com/watch?v=iQ-eA3SbigM">
+    <a class="movie-button popup-movie" href="https://www.youtube.com/watch?v=iQ-eA3SbigM">
         <span></span>
     </a>
     <div class="movie-text-area-top">
