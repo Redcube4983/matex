@@ -157,7 +157,7 @@ $(document).ready(function() {
               disableOn: null,
               type: 'iframe',
               mainClass: 'mfp-fade',
-              removalDelay: 160,
+              removalDelay: 500,
               preloader: false,
               fixedContentPos: false
             });
