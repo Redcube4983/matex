@@ -252,6 +252,7 @@
 
 .application_lead {
   font-size: 16px;
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .application_lead {
