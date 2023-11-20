@@ -546,8 +546,15 @@
   left: 0%;
 }
 #faq-content h4 {
-  font-size: 27px;
+  font-size: 23px;
   text-align: center;
+  font-weight: bold;
+  color: #e95520;
+}
+@media screen and (min-width: 768px) {
+  #faq-content h4 {
+    font-size: 30px;
+  }
 }
 #faq-content h5 {
   font-size: 20px;
@@ -563,8 +570,13 @@
   text-align: center;
 }
 #faq-content p {
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
+}
+@media screen and (min-width: 768px) {
+  #faq-content p {
+    font-size: 21px;
+  }
 }
 #faq-content p span {
   font-size: 20px;
@@ -601,7 +613,7 @@
   right: -400px;
 }
 #faq-content nav {
-  display: none;
+  display: block;
   background: #FFF3EF;
 }
 #faq-content nav p {
@@ -624,6 +636,7 @@
   display: flex;
   flex-flow: row;
   align-items: center;
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   #faq-content .nav-open {

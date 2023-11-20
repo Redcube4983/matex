@@ -111,7 +111,6 @@ Template Name:recruit
             <div id="faq-content">
                 <div class="faq_wrap">
                     <h4>よくあるご質問</h4>
-                    <p class="faq-content-text">当社の採用情報に関して<br class="sp">お寄せいただくご質問にお答えします。</p>
                     <p class="nav-open"><span>Q.</span>コイルセンターって何？</p>
                     <nav>
                         <p>製造業を支える大切な役目を担う施設です！<br>
