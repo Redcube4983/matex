@@ -47,7 +47,7 @@ Template Name:recruit
                     <h4>マテックス会社紹介CM</h4>
                     <div class="photo_youtube_wrap">
                         <div class="photo_youtube">
-                            <a class="movie-button popup-movie" href="https://www.youtube.com/watch?v=iQ-eA3SbigM">
+                            <a class="movie-button popup-movie" href="https://www.youtube.com/watch?v=mYyes2RKVSI">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruitImg01.webp" alt="企業情報画像1">
                                 <span></span>
                             </a>

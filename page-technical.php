@@ -47,8 +47,9 @@ Template Name: technicaljob
         </div>
         <div class="rightWrap">
             <h3>技術職</h3>
-            <h5>野村 勇太<span>（2007年入社）</span></h5>
-            <p>栃木工場の中型スリッター班で、主に検査業務を<br>担当しています。</p>
+<!--            <h5>野村 勇太<span>（2007年入社）</span></h5>-->
+            <p>2007年入<br>
+栃木工場の中型スリッター班で、主に検査業務を<br>担当しています。</p>
         </div>
     </div>
     <div id="QAwrap">
